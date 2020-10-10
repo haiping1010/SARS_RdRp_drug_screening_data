@@ -1,0 +1,67 @@
+Bemegrid
+ OpenBabel02212023462D
+
+ 11 11  0  0  0  0  0  0  0  0999 V2000
+    1.4289    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1434   -0.4125    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -0.4125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7145   -0.4125    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    1.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3272    1.9659    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1018    1.9659    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6646    2.6656    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  8  1  0  0  0  0
+  2  3  2  0  0  0  0
+  2  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  2  0  0  0  0
+  5  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  1  0  0  0  0
+  8 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+M  END
+>  <CdId>
+1592
+
+>  <Mol Weight>
+155.1943
+
+>  <Formula>
+C8H13NO2
+
+>  <ID>
+T1396
+
+>  <Name>
+Bemegrid
+
+>  <Synonyms>
+3-Ethyl-3-methylglutarimide;Agipnon
+
+>  <CAS>
+64-65-3
+
+>  <Approved status>
+Other countries
+
+>  <Disease>
+Nervous system
+
+>  <Indication>
+Central Nervous System?Stimulant
+
+>  <Pathways>
+Membrane transporter/Ion channel; Neuroscience
+
+>  <Target>
+GABA Receptor antagonist
+
+>  <Receptor>
+GABAR
+
+$$$$

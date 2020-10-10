@@ -1,0 +1,54 @@
+Hydroxyurea
+ OpenBabel02212023462D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+    2.0625   -0.7145    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2375   -0.7145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250   -1.4289    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  2  0  0  0  0
+  2  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+M  END
+>  <CdId>
+380
+
+>  <Mol Weight>
+76.0547
+
+>  <Formula>
+CH4N2O2
+
+>  <ID>
+T0676
+
+>  <Name>
+Hydroxyurea
+
+>  <Synonyms>
+nci-c04831;nsc32065
+
+>  <CAS>
+127-07-1
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Cancer
+
+>  <Indication>
+Cancer; Sickle Cell Anaemia
+
+>  <Pathways>
+DNA Damage/DNA Repair
+
+>  <Target>
+DNA/RNA Synthesis inhibitor
+
+>  <Receptor>
+ribonucleoside diphosphate reductase
+
+$$$$

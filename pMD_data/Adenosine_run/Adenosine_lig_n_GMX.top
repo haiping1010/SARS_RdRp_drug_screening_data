@@ -1,0 +1,15 @@
+; Adenosine_lig_n_GMX.top created by acpype (Rev: 0) on Tue Mar 24 17:06:51 2020
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+; Include Adenosine_lig_n_GMX.itp topology
+#include "Adenosine_lig_n_GMX.itp"
+
+[ system ]
+ Adenosine_lig_n
+
+[ molecules ]
+; Compound        nmols
+ Adenosine_lig_n  1     

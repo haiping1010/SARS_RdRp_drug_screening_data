@@ -1,0 +1,59 @@
+Methimazole
+ OpenBabel02212023462D
+
+  7  7  0  0  0  0  0  0  0  0999 V2000
+    0.5678    1.9393    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5678    1.1143    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2352    0.6294    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9803   -0.1553    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1553   -0.1553    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0997    0.6294    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8843    0.8843    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  2  0  0  0  0
+M  END
+>  <CdId>
+472
+
+>  <Mol Weight>
+114.169
+
+>  <Formula>
+C4H6N2S
+
+>  <ID>
+T0840
+
+>  <Name>
+Methimazole
+
+>  <Synonyms>
+Tapazole;Thiamazole
+
+>  <CAS>
+60-56-0
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Endocrine system
+
+>  <Indication>
+Hyperthyroidism
+
+>  <Pathways>
+Endocrinology/Hormones
+
+>  <Target>
+Thyroid hormone receptor(THR) inhibitor
+
+>  <Receptor>
+Thyroid peripheral conversion
+
+$$$$

@@ -1,0 +1,73 @@
+Pamidronate disodium salt
+ OpenBabel02212023462D
+
+ 15 12  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 Na  0  3  0  0  0 15  0  0  0  0  0  0
+    1.0018    0.0000    0.0000 Na  0  3  0  0  0 15  0  0  0  0  0  0
+   -0.8514   -1.6500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2681   -2.2334    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4816   -3.0303    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1018   -3.6136    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    0.6851   -4.1970    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4816   -4.1970    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0
+   -1.0650   -3.6136    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1018   -4.7803    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+   -1.0650   -4.7803    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6851   -3.0303    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0
+    1.2685   -3.6136    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1018   -2.4469    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+    1.2685   -2.4469    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  6  8  1  0  0  0  0
+  6 12  1  0  0  0  0
+  8  9  1  0  0  0  0
+  8 10  1  0  0  0  0
+  8 11  2  0  0  0  0
+ 12 13  1  0  0  0  0
+ 12 14  1  0  0  0  0
+ 12 15  2  0  0  0  0
+M  CHG  4   1   1   2   1  10  -1  14  -1
+M  END
+>  <CdId>
+770
+
+>  <Mol Weight>
+279.0331
+
+>  <Formula>
+C3H9NNa2O7P2
+
+>  <ID>
+T1337
+
+>  <Name>
+Pamidronate disodium salt
+
+>  <Synonyms>
+CGP 23339A
+
+>  <CAS>
+57248-88-1
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Cancer
+
+>  <Indication>
+Cancer Metastases; Malignant Hypercalcaemia; Osteitis Deformans; Osteogenesis Imperfecta; Osteoporosis; Postmenopausal Osteoporosis
+
+>  <Pathways>
+Microbiology&Virology; Others
+
+>  <Target>
+HBV; Others
+
+>  <Receptor>
+HAP; FPPS
+
+$$$$

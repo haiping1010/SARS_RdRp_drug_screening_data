@@ -1,0 +1,3 @@
+Warning.  No element entries in file.  Attempting to extract
+from the atom names.  Not always reliable...
+xxxx_poc.pdb    69.3478   75.5030   89.3413

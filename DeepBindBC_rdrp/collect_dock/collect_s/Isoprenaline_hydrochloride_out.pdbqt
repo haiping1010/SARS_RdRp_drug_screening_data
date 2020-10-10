@@ -1,0 +1,260 @@
+MODEL 1
+REMARK VINA RESULT:      -1.1      0.000      0.000
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      67.206  88.740  77.744  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -1.1     16.649     16.649
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      79.243  78.208  82.364  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -0.9     29.525     29.525
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      56.591  63.066  87.736  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -0.9     38.735     38.735
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      73.499  58.604 101.251  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -0.9     19.389     19.389
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      57.094  74.249  85.723  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -0.9     21.711     21.711
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      64.886  68.386  84.931  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -0.8     23.262     23.262
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      79.951  91.738  96.971  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -0.8     25.212     25.212
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      78.276  67.757  86.276  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -0.8     33.223     33.223
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      52.813  60.488  87.664  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 10
+REMARK VINA RESULT:      -0.8     30.018     30.018
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      54.568  62.875  86.248  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 11
+REMARK VINA RESULT:      -0.8     16.922     16.922
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      65.377  74.928  87.346  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 12
+REMARK VINA RESULT:      -0.7     21.350     21.350
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      63.925  72.078  90.683  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 13
+REMARK VINA RESULT:      -0.7     27.915     27.915
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      80.405  64.169  76.605  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 14
+REMARK VINA RESULT:      -0.7     23.188     23.188
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      75.723  69.128  86.716  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 15
+REMARK VINA RESULT:      -0.7     26.917     26.917
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      77.348  65.966  87.890  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 16
+REMARK VINA RESULT:      -0.7     35.306     35.306
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      51.890  68.541 102.318  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 17
+REMARK VINA RESULT:      -0.6     12.694     12.694
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      56.275  90.933  83.813  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 18
+REMARK VINA RESULT:      -0.6     30.596     30.596
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      74.777  71.270 101.693  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 19
+REMARK VINA RESULT:      -0.6     30.100     30.100
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      83.825  63.905  81.349  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL
+MODEL 20
+REMARK VINA RESULT:      -0.6     22.514     22.514
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_5 
+REMARK    2  A    between atoms: N_5  and  C_6 
+REMARK    3  A    between atoms: C_6  and  C_7 
+REMARK    4  A    between atoms: C_7  and  C_9 
+ROOT
+ATOM      1 CL   UNL d   1      60.668  73.329  92.798  0.00  0.00     0.000 Cl
+ENDROOT
+TORSDOF 4
+ENDMDL

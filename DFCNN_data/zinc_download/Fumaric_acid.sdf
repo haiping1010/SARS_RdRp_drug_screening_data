@@ -1,0 +1,51 @@
+Fumaric acid
+ OpenBabel02212023462D
+
+  8  7  0  0  0  0  0  0  0  0999 V2000
+    0.8250    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4125   -0.7145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2375   -0.7145    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -1.4289    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2375    0.7145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    1.4289    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0625    0.7145    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  6  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  2  0  0  0  0
+  3  5  1  0  0  0  0
+  6  7  2  0  0  0  0
+  6  8  1  0  0  0  0
+M  END
+>  <CdId>
+2104
+
+>  <Formula>
+C4H4O4
+
+>  <ID>
+T3763
+
+>  <Name>
+Fumaric acid
+
+>  <Synonyms>
+2-Butenedioic acid; Trans-Butenedioic acid; Allomaleic acid; Donitic acid; Lichenic acid; Fumarate
+
+>  <CAS>
+110-17-8
+
+>  <MolWt>
+116.1
+
+>  <Pathways>
+Metabolic Enzyme/Protease
+
+>  <Target>
+Endogenous Metabolite
+
+>  <Receptor>
+Endogenous Metabolite
+
+$$$$

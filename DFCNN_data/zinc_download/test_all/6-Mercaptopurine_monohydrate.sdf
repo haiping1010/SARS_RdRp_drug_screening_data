@@ -1,0 +1,64 @@
+6-Mercaptopurine monohydrate
+ OpenBabel02212023462D
+
+ 11 11  0  0  0  0  0  0  0  0999 V2000
+   -1.4858   -0.1650    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0009   -0.8324    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2163   -0.5775    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2163    0.2475    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.0009    0.5024    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4982    0.6600    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4982    1.4850    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2127    0.2475    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2127   -0.5775    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4982   -0.9900    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4520    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  5  2  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  2  0  0  0  0
+  3 10  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+  6  7  2  0  0  0  0
+  6  8  1  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  2  0  0  0  0
+M  END
+>  <CdId>
+1026
+
+>  <Mol Weight>
+170.192
+
+>  <Formula>
+C5H6N4OS
+
+>  <ID>
+T2201
+
+>  <Name>
+6-Mercaptopurine monohydrate
+
+>  <CAS>
+6112-76-1
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Cancer
+
+>  <Indication>
+Acute Lymphoblastic Leukaemia
+
+>  <Pathways>
+DNA Damage/DNA Repair; Others
+
+>  <Target>
+DNA/RNA Synthesis inhibitor; Others inhibitor
+
+>  <Receptor>
+DNA synthesis; PRPP Amidotransferase
+
+$$$$

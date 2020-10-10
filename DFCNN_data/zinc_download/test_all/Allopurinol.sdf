@@ -1,0 +1,66 @@
+Allopurinol
+ OpenBabel02212023462D
+
+ 10 11  0  0  0  0  0  0  0  0999 V2000
+    3.2789    2.0625    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2789    1.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9934    0.8250    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9934    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2789   -0.4125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5645    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7798   -0.2549    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2949    0.4125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.7798    1.0799    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5645    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  2  3  1  0  0  0  0
+  2 10  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  2  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  6 10  2  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  2  0  0  0  0
+  9 10  1  0  0  0  0
+M  END
+>  <CdId>
+392
+
+>  <Mol Weight>
+136.1115
+
+>  <Formula>
+C5H4N4O
+
+>  <ID>
+T0692
+
+>  <Name>
+Allopurinol
+
+>  <Synonyms>
+Zyloprim;Zyloric;Lopurin
+
+>  <CAS>
+315-30-0
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Nervous system
+
+>  <Indication>
+Excess Uric Acid In The Blood; Gout
+
+>  <Pathways>
+Immunology/Inflammation
+
+>  <Target>
+ROS inhibitor
+
+>  <Receptor>
+XO
+
+$$$$

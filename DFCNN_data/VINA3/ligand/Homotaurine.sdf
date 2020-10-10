@@ -1,0 +1,51 @@
+Homotaurine
+ OpenBabel02212023462D
+
+  8  7  0  0  0  0  0  0  0  0999 V2000
+   -0.1914   -0.7145    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5230   -1.1270    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2375   -0.7145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9520   -1.1270    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6664   -0.7145    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3809   -0.3020    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0789   -1.4289    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2539    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  2  0  0  0  0
+  5  7  2  0  0  0  0
+  5  8  1  0  0  0  0
+M  END
+>  <CdId>
+4643
+
+>  <Formula>
+C3H9NO3S
+
+>  <ID>
+T0883
+
+>  <Name>
+Homotaurine
+
+>  <Synonyms>
+3-Amino-1-propanesulfonic acid; Tramiprosate; Alzhemed
+
+>  <CAS>
+3687-18-1
+
+>  <MolWt>
+139.17
+
+>  <Pathways>
+Membrane transporter/Ion channel; Neuroscience
+
+>  <Target>
+Beta Amyloid inhibitor; GABA Receptor agonist
+
+>  <Receptor>
+A¦Â; GABA
+
+$$$$

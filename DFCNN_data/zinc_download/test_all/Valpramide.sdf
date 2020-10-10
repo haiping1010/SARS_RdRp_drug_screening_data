@@ -1,0 +1,64 @@
+Valpramide
+ OpenBabel02212023462D
+
+ 10  9  0  0  0  0  0  0  0  0999 V2000
+    1.7605    1.8414    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4750    1.4289    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1895    1.8414    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9039    1.4289    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6184    1.8414    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3329    1.4289    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0474    1.8414    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9039    0.6039    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6184    0.1914    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.1895    0.1914    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  8  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  8  9  2  0  0  0  0
+  8 10  1  0  0  0  0
+M  END
+>  <CdId>
+1457
+
+>  <Mol Weight>
+143.2267
+
+>  <Formula>
+C8H17NO
+
+>  <ID>
+T0355
+
+>  <Name>
+Valpramide
+
+>  <Synonyms>
+Depamide;Dipropylacetamide;2-propylpentanamide
+
+>  <CAS>
+2430-27-5
+
+>  <Approved status>
+Other countries
+
+>  <Disease>
+Nervous system
+
+>  <Indication>
+Epilepsy
+
+>  <Pathways>
+Others
+
+>  <Target>
+Others
+
+>  <Receptor>
+2-epoxide hydrolase; Limonene-1
+
+$$$$

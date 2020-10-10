@@ -1,0 +1,65 @@
+Ethosuximide
+ OpenBabel02212023462D
+
+ 10 10  0  0  0  0  0  0  0  0999 V2000
+    1.9268    1.5559    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1198    1.7274    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5678    1.1143    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    0.0157    1.7274    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2352    0.6294    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9803   -0.1553    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4652   -0.8227    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1553   -0.1553    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0997    0.6294    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8843    0.8843    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  3  5  1  0  0  0  0
+  3  9  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  2  0  0  0  0
+  6  8  1  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  2  0  0  0  0
+M  END
+>  <CdId>
+411
+
+>  <Mol Weight>
+141.1677
+
+>  <Formula>
+C7H11NO2
+
+>  <ID>
+T0728
+
+>  <Name>
+Ethosuximide
+
+>  <Synonyms>
+Zarontin
+
+>  <CAS>
+77-67-8
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Nervous system
+
+>  <Indication>
+Absence Epilepsy
+
+>  <Pathways>
+Membrane transporter/Ion channel
+
+>  <Target>
+Calcium Channel inhibitor
+
+>  <Receptor>
+Calcium Channel
+
+$$$$

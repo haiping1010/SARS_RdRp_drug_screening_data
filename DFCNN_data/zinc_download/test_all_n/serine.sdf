@@ -1,0 +1,52 @@
+serine
+ OpenBabel02212023462D
+
+  7  6  0  0  0  0  0  0  0  0999 V2000
+    0.8250    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2375   -0.7145    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    2.0625   -0.7145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4750   -1.4289    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4750   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250   -1.4289    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  7  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  4  2  0  0  0  0
+  3  5  1  0  0  0  0
+M  END
+>  <CdId>
+2006
+
+>  <Mol Weight>
+105.0926
+
+>  <Formula>
+C3H7NO3
+
+>  <ID>
+T2O2730
+
+>  <Name>
+serine
+
+>  <Synonyms>
+(-)-Serine;L-Serine;(S)-Serine
+
+>  <CAS>
+56-45-1
+
+>  <Approved status>
+PMDA
+
+>  <Pathways>
+Metabolic Enzyme/Protease
+
+>  <Target>
+Endogenous Metabolite
+
+>  <Receptor>
+Endogenous Metabolite
+
+$$$$

@@ -1,0 +1,71 @@
+Tolazoline hydrochloride
+ OpenBabel02212023462D
+
+ 13 13  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    2.7889    0.2237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7889   -0.6013    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4563   -1.0863    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2014   -1.8709    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3764   -1.8709    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1214   -1.0863    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5033    0.6362    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5033    1.4612    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2178    1.8737    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9323    1.4612    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9323    0.6362    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2178    0.2237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  2  8  1  0  0  0  0
+  3  4  2  0  0  0  0
+  3  7  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  8  9  2  0  0  0  0
+  8 13  1  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  2  0  0  0  0
+ 11 12  1  0  0  0  0
+ 12 13  2  0  0  0  0
+M  END
+>  <CdId>
+970
+
+>  <Mol Weight>
+196.677
+
+>  <Formula>
+C10H13ClN2
+
+>  <ID>
+T1680
+
+>  <Name>
+Tolazoline hydrochloride
+
+>  <Synonyms>
+Imidaline hydrochloride;Benzidazol hydrochloride
+
+>  <CAS>
+59-97-2
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Cardiovascular system
+
+>  <Indication>
+Spasms Of Peripheral Blood Vessels; Peripheral Vasoconstriction
+
+>  <Pathways>
+GPCR/G Protein
+
+>  <Target>
+Adrenergic Receptor antagonist
+
+>  <Receptor>
+¦Á-adrenergic receptor
+
+$$$$

@@ -1,0 +1,71 @@
+Sodium 4-aminosalicylate dihydrate
+ OpenBabel02212023462D
+
+ 14 11  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2393    0.0000    0.0000 Na  0  3  0  0  0 15  0  0  0  0  0  0
+   -0.1299   -1.6500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1299   -2.4750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5846   -2.8875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5846   -3.7125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990   -4.1250    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1299   -4.1250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8444   -3.7125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8444   -2.8875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1299   -4.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5846   -5.3625    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8444   -5.3625    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+    3.5383   -3.7500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  2  0  0  0  0
+  4 10  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  6  8  2  0  0  0  0
+  8  9  1  0  0  0  0
+  8 11  1  0  0  0  0
+  9 10  2  0  0  0  0
+ 11 12  2  0  0  0  0
+ 11 13  1  0  0  0  0
+M  CHG  2   2   1  13  -1
+M  END
+>  <CdId>
+90
+
+>  <Mol Weight>
+211.1478
+
+>  <Formula>
+C7H10NNaO5
+
+>  <ID>
+T0020
+
+>  <Name>
+Sodium 4-aminosalicylate dihydrate
+
+>  <Synonyms>
+4-Amino-salicylic acid sodium salt
+
+>  <CAS>
+6018-19-5
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Respiratory system
+
+>  <Indication>
+Extrapulmonary Tubereulosis
+
+>  <Pathways>
+NF-¦ªb; oxidation-reduction
+
+>  <Target>
+Free radical scavengers inhibitor; NF-¦ÊB inhibitor
+
+>  <Receptor>
+Free radical scavengers; NF-¦ÊB
+
+$$$$

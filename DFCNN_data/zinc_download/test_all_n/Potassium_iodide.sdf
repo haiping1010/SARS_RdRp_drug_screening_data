@@ -1,0 +1,45 @@
+Potassium iodide
+ OpenBabel02212023462D
+
+  2  0  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 K   0  3  0  0  0 15  0  0  0  0  0  0
+    0.8839    0.0000    0.0000 I   0  5  0  0  0  0  0  0  0  0  0  0
+M  CHG  2   1   1   2  -1
+M  END
+>  <CdId>
+276
+
+>  <Mol Weight>
+166.0028
+
+>  <Formula>
+IK
+
+>  <ID>
+T0357
+
+>  <Name>
+Potassium iodide
+
+>  <CAS>
+7681-11-0
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Endocrine system
+
+>  <Indication>
+Thyroid Blockade; ?Thyroid Storm
+
+>  <Pathways>
+Proteases/Proteasome
+
+>  <Target>
+Tyrosinase
+
+>  <Receptor>
+Tyrosinase
+
+$$$$

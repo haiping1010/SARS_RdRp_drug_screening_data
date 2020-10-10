@@ -1,0 +1,520 @@
+MODEL 1
+REMARK VINA RESULT:      -4.4      0.000      0.000
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      57.611  72.343  82.163  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      58.113  72.245  83.500  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      56.197  72.379  82.016  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      54.779  72.445  81.848  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      54.087  71.544  81.399  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      54.133  73.652  82.235  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      58.535  72.407  80.942  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      58.245  71.625  79.991  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      59.488  73.236  81.019  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -4.2      2.693      3.026
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      58.813  72.586  81.115  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      58.102  72.059  79.990  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      58.204  72.413  82.389  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      57.623  72.226  83.681  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      56.593  71.608  83.900  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      58.302  72.805  84.790  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      60.160  73.302  80.973  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      60.983  72.771  80.172  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      60.303  74.346  81.673  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -4.2     23.080     23.903
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      65.872  90.594  93.962  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      66.261  89.218  93.889  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      64.723  90.970  93.214  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      63.588  91.365  92.440  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      63.553  91.395  91.219  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      62.418  91.751  93.151  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      66.644  91.621  94.797  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      66.474  91.551  96.049  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      67.366  92.428  94.143  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -4.1     11.055     11.455
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      64.882  75.027  89.775  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      66.000  75.502  90.533  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      64.123  73.973  90.353  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      63.385  72.890  90.924  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      62.198  72.927  91.207  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      64.094  71.683  91.179  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      64.509  75.614  88.409  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      63.636  76.530  88.424  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      65.114  75.117  87.416  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -4.1     30.591     31.538
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      82.856  81.909  96.256  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      82.548  81.559  94.902  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      81.757  82.258  97.087  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      80.674  82.630  97.943  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      79.938  83.587  97.762  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      80.442  81.819  99.089  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      84.290  81.913  96.796  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      84.894  80.802  96.763  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      84.714  83.028  97.218  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -4.1     32.034     33.293
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      84.431  81.139  96.025  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      83.877  80.944  94.719  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      85.413  80.201  96.446  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      86.403  79.275  96.900  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      86.796  79.184  98.053  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      86.967  78.399  95.932  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      83.999  82.294  96.935  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      84.925  83.063  97.325  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      82.763  82.353  97.197  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -4.1     29.936     31.180
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      80.851  81.981  96.813  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      80.005  81.360  95.839  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      82.249  81.942  96.559  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      83.661  81.907  96.339  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      84.212  81.289  95.441  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      84.478  82.650  97.235  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      80.294  82.658  98.070  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      80.350  81.975  99.134  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      79.838  83.827  97.907  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -4.0     20.645     21.473
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      64.497  89.978  92.324  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      65.563  89.262  92.956  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      63.714  89.254  91.383  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      62.898  88.544  90.449  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      63.323  87.861  89.530  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      61.488  88.647  90.606  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      64.200  91.450  92.633  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      65.069  92.052  93.329  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      63.119  91.903  92.158  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -4.0     31.649     32.904
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      72.688  89.829 103.531  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      71.896  89.257 104.578  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      73.850  90.544 103.931  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      75.038  91.242 104.311  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      75.148  91.942 105.305  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      76.173  91.105 103.464  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      72.316  89.687 102.051  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      71.136  90.025 101.745  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      73.231  89.248 101.295  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 10
+REMARK VINA RESULT:      -4.0     19.413     20.264
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      75.414  70.809  89.518  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      76.398  71.772  89.911  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      75.758  69.955  88.435  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      76.081  69.115  87.324  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      76.590  68.008  87.412  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      75.785  69.612  86.024  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      74.056  70.691  90.218  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      73.375  69.664  89.928  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      73.764  71.633  91.011  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 11
+REMARK VINA RESULT:      -3.9     19.365     20.328
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      76.518  69.572  88.464  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      77.788  69.747  89.101  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      75.369  69.901  89.234  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      74.227  70.213  90.035  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      73.085  69.857  89.791  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      74.445  70.998  91.202  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      76.385  69.055  87.027  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      75.332  69.397  86.414  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      77.344  68.343  86.610  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 12
+REMARK VINA RESULT:      -3.8     22.484     23.514
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      64.942  90.037  92.727  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      65.195  88.688  92.321  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      65.673  90.512  93.850  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      66.434  90.964  94.973  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      67.132  91.965  94.984  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      66.367  90.184  96.160  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      63.937  90.937  91.999  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      63.402  90.441  90.965  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      63.752  92.079  92.512  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 13
+REMARK VINA RESULT:      -3.7     24.106     24.896
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      67.594  71.760 103.683  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      66.170  71.816 103.553  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      68.259  70.729 102.963  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      68.948  69.687 102.269  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      70.061  69.794 101.778  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      68.282  68.437 102.144  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      68.379  72.753 104.548  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      67.746  73.788 104.909  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      69.574  72.428 104.808  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 14
+REMARK VINA RESULT:      -3.7     28.642     29.404
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      79.232  82.267  97.839  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      78.334  83.337  97.525  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      78.672  81.141  98.503  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      78.138  80.009  99.192  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      78.567  78.869  99.099  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      77.025  80.234 100.049  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      80.723  82.317  97.486  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      81.018  81.991  96.299  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      81.496  82.678  98.420  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 15
+REMARK VINA RESULT:      -3.7     20.454     21.341
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      64.775  88.589  91.872  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      65.853  88.007  92.611  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      64.442  89.936  92.186  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      64.142  91.295  92.512  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      63.180  91.917  92.090  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      65.034  91.964  93.395  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      64.007  87.815  90.795  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      63.323  88.518  89.995  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      64.141  86.558  90.823  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 16
+REMARK VINA RESULT:      -3.6     20.743     22.015
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      77.343  68.273  87.161  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      78.306  67.765  86.232  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      77.547  67.947  88.530  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      77.720  67.602  89.907  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      77.366  68.293  90.849  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      78.354  66.361  90.191  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      76.148  69.125  86.720  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      76.187  69.554  85.530  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      75.252  69.308  87.595  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 17
+REMARK VINA RESULT:      -3.6     29.782     30.278
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      81.935  81.212  96.071  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      82.592  82.087  95.148  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      81.140  81.829  97.075  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      80.312  82.450  98.062  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      79.631  83.446  97.876  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      80.286  81.856  99.355  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      82.070  79.687  95.995  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      82.983  79.180  96.710  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      81.254  79.102  95.225  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 18
+REMARK VINA RESULT:      -3.5     22.925     23.789
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      64.733  90.513  95.180  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      63.648  90.159  96.043  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      64.418  90.701  93.806  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      64.085  90.858  92.425  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      64.514  90.158  91.520  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      63.187  91.908  92.088  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      66.167  90.685  95.693  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      66.510  91.868  95.984  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      66.853  89.625  95.771  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 19
+REMARK VINA RESULT:      -3.4     27.779     29.423
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      78.646  80.796  97.411  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      78.081  80.432  96.147  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      79.857  81.539  97.376  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      81.083  82.276  97.375  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      81.629  82.723  98.371  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      81.705  82.500  96.115  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      77.991  80.412  98.743  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      78.489  80.948  99.775  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      77.023  79.601  98.664  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL
+MODEL 20
+REMARK VINA RESULT:      -3.3     20.644     21.538
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CB_1  and  CA_2 
+REMARK    2  A    between atoms: CB_1  and  CG_7 
+REMARK    3  A    between atoms: CA_2  and  C_3 
+ROOT
+ATOM      1  CA  ASN d   1      63.725  90.637  91.981  0.00  0.00     0.447 C 
+ATOM      2  N   ASN d   1      63.865  91.791  91.145  0.00  0.00     0.642 N 
+ENDROOT
+BRANCH   1   3
+ATOM      3  CB  ASN d   1      63.860  89.372  91.346  0.00  0.00    -0.023 C 
+BRANCH   3   4
+ATOM      4  CG  ASN d   1      64.031  88.106  90.704  0.00  0.00     0.300 C 
+ATOM      5  OD1 ASN d   1      64.893  87.290  90.990  0.00  0.00    -0.263 OA
+ATOM      6  ND2 ASN d   1      63.126  87.780  89.656  0.00  0.00    -0.050 NA
+ENDBRANCH   3   4
+ENDBRANCH   1   3
+BRANCH   1   7
+ATOM      7  C   ASN d   1      63.445  90.742  93.484  0.00  0.00     0.236 C 
+ATOM      8  O   ASN d   1      62.617  89.905  93.949  0.00  0.00    -0.645 OA
+ATOM      9  OXT ASN d   1      64.072  91.654  94.096  0.00  0.00    -0.645 OA
+ENDBRANCH   1   7
+TORSDOF 3
+ENDMDL

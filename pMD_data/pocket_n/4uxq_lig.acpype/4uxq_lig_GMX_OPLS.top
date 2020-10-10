@@ -1,0 +1,14 @@
+; 4uxq_lig_GMX_OPLS.top created by acpype (Rev: 0) on Wed Jan  8 16:28:51 2020
+
+; Include forcefield parameters
+#include "ffoplsaa.itp"
+
+; Include 4uxq_lig_GMX.itp topology
+#include "4uxq_lig_GMX.itp"
+
+[ system ]
+ 4uxq_lig
+
+[ molecules ]
+; Compound        nmols
+ 4uxq_lig         1     

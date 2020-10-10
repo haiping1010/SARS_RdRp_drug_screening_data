@@ -1,0 +1,15 @@
+; Nitisinone_lig_n_GMX.top created by acpype (Rev: 0) on Wed Mar 11 04:22:48 2020
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+; Include Nitisinone_lig_n_GMX.itp topology
+#include "Nitisinone_lig_n_GMX.itp"
+
+[ system ]
+ Nitisinone_lig_n
+
+[ molecules ]
+; Compound        nmols
+ Nitisinone_lig_n 1     

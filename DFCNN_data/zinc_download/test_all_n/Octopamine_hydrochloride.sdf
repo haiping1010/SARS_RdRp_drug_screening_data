@@ -1,0 +1,68 @@
+Octopamine hydrochloride
+ OpenBabel02212023462D
+
+ 12 11  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    2.2393    2.2500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2393    1.4250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9538    1.0125    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    3.6682    1.4250    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9538    0.1875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6682   -0.2250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6682   -1.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9538   -1.4625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9538   -2.2875    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2393   -1.0500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2393   -0.2250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+  6  7  2  0  0  0  0
+  6 12  1  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  2  0  0  0  0
+  9 10  1  0  0  0  0
+  9 11  1  0  0  0  0
+ 11 12  2  0  0  0  0
+M  END
+>  <CdId>
+1482
+
+>  <Mol Weight>
+189.639
+
+>  <Formula>
+C8H12ClNO2
+
+>  <ID>
+T0469
+
+>  <Name>
+Octopamine hydrochloride
+
+>  <Synonyms>
+(¡À)-p-Octopamine hydrochlorid
+
+>  <CAS>
+770-05-8
+
+>  <Approved status>
+Other countries
+
+>  <Disease>
+Cardiovascular system
+
+>  <Indication>
+Hyperlipidemia
+
+>  <Pathways>
+GPCR/G Protein; Neuroscience
+
+>  <Target>
+Dopamine Receptor antagonist
+
+>  <Receptor>
+Dopamine
+
+$$$$

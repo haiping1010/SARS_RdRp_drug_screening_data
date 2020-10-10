@@ -1,0 +1,67 @@
+Acetaminophen
+ OpenBabel02212023462D
+
+ 11 11  0  0  0  0  0  0  0  0999 V2000
+    0.0000    3.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    2.4750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7145    2.0625    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    2.0625    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    1.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -1.2375    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  2  0  0  0  0
+  2  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  2  0  0  0  0
+  5 11  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  2  0  0  0  0
+  8  9  1  0  0  0  0
+  8 10  1  0  0  0  0
+ 10 11  2  0  0  0  0
+M  END
+>  <CdId>
+108
+
+>  <Mol Weight>
+151.1626
+
+>  <Formula>
+C8H9NO2
+
+>  <ID>
+T0065
+
+>  <Name>
+Acetaminophen
+
+>  <Synonyms>
+Paracetamol;4'-Hydroxyacetanilide;4-Acetamidophenol
+
+>  <CAS>
+103-90-2
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Nervous system
+
+>  <Indication>
+Pain
+
+>  <Pathways>
+Immunology/Inflammation; Neuroscience
+
+>  <Target>
+COX inhibitor
+
+>  <Receptor>
+COX-1; COX-2
+
+$$$$

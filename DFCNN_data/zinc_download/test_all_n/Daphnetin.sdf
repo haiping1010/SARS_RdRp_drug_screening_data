@@ -1,0 +1,72 @@
+Daphnetin
+ OpenBabel02212023462D
+
+ 13 14  0  0  0  0  0  0  0  0999 V2000
+    0.0000   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7145   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7145   -1.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -1.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -1.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1434   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1434   -1.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8579   -1.6500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -1.6500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -2.4750    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4289   -1.6500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  6  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  2  0  0  0  0
+  3 13  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4 12  1  0  0  0  0
+  5  6  2  0  0  0  0
+  5 11  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  2  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  2  0  0  0  0
+  9 11  1  0  0  0  0
+M  END
+>  <CdId>
+1677
+
+>  <Mol Weight>
+178.1415
+
+>  <Formula>
+C9H6O4
+
+>  <ID>
+T2851
+
+>  <Name>
+Daphnetin
+
+>  <Synonyms>
+Daphnetol
+
+>  <CAS>
+486-35-1
+
+>  <Approved status>
+Other countries
+
+>  <Disease>
+Cardiovascular system
+
+>  <Indication>
+Thromboangiitis Obliterans
+
+>  <Pathways>
+Angiogenesis; Cytoskeletal Signaling; GPCR/G Protein; JAK/STAT signaling; Tyrosine Kinase/Adaptors
+
+>  <Target>
+EGFR inhibitor; PKA inhibitor; PKC inhibitor
+
+>  <Receptor>
+EGFR; PKA; PKC
+
+$$$$

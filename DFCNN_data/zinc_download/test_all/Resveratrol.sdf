@@ -1,0 +1,80 @@
+Resveratrol
+ OpenBabel02212023462D
+
+ 17 18  0  0  0  0  0  0  0  0999 V2000
+    1.4289   -1.6500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -2.4750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1434   -2.8875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1434   -3.7125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -4.1250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -4.9500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1434   -5.3625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1434   -6.1875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8579   -6.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8579   -7.4250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5724   -7.8375    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1434   -7.8375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -7.4250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -7.8375    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -6.6000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -3.7125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -2.8875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  2  0  0  0  0
+  2 17  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  2  0  0  0  0
+  5  6  1  0  0  0  0
+  5 16  1  0  0  0  0
+  6  7  2  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  2  0  0  0  0
+  8 15  1  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 10 12  2  0  0  0  0
+ 12 13  1  0  0  0  0
+ 13 14  1  0  0  0  0
+ 13 15  2  0  0  0  0
+ 16 17  2  0  0  0  0
+M  END
+>  <CdId>
+29
+
+>  <Mol Weight>
+228.2433
+
+>  <Formula>
+C14H12O3
+
+>  <ID>
+T1558
+
+>  <Name>
+Resveratrol
+
+>  <Synonyms>
+trans-Resveratrol
+
+>  <CAS>
+501-36-0
+
+>  <Approved status>
+EMA
+
+>  <Disease>
+Cancer
+
+>  <Indication>
+Cancer metastases; Colorectal cancer; MELAS syndrome; Multiple myeloma; Multiple sclerosis; Optic neuritis; Type 2 diabetes mellitus
+
+>  <Pathways>
+Chromatin/Epigenetic; Immunology/Inflammation; DNA Damage/DNA Repair; Metabolism; NF-¦ªb; Neuroscience
+
+>  <Target>
+COX; DNA/RNA Synthesis; I¦ÊB/IKK; Lipoxygenase; NADPH; Sirtuin
+
+>  <Receptor>
+COX-1; COX-2; DNA polymerase ¦Á; IKK¦Â; LOX; Quinone reductase 2; SIRT1; SIRT2
+
+$$$$

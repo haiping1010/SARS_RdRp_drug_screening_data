@@ -1,0 +1,39 @@
+#fr=open('summary_all.txt','r')
+
+#arr=fr.readlines()
+
+#name
+#for name in arr:
+import pandas as pd
+import numpy as np
+aa=pd.read_csv('summary_all.txt',header=None)
+
+namelist=aa.ix[:,0].values
+basename=list(set([x.split('out_')[0] for x in namelist]))
+
+values=[0,]*len(basename)
+y_pred=aa.ix[:,1].values
+y_vina=aa.ix[:,2].values
+
+conf_name=[]*len(basename)
+
+results=dict(zip(basename,values))
+vinas=dict(zip(basename,values))
+conf=dict(zip(basename,conf_name))
+
+
+for i in range(len(namelist)):
+    base=namelist[i].split("out_")[0]
+    if y_pred[i] > results[base]:
+        results[base] = y_pred[i]
+        vinas[base]=y_vina[i]
+        conf[base]=namelist[i]
+
+for i,value1 in  results.items():
+    for j,value2 in vinas.items():
+        for n, value3 in conf.items():   
+           if i==j and i==n:
+                print i, value1, value2, value3
+
+
+

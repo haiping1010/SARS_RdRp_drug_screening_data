@@ -1,0 +1,3456 @@
+log started: Sat Mar  7 13:29:45 2020
+
+Log file: ./leap.log
+>> #
+>> # ----- leaprc for loading the ff99SB (Hornak & Simmerling) force field
+>> # -----  this file is updated for PDB format 3
+>> #
+>> #	load atom type hybridizations
+>> #
+>> addAtomTypes {
+>> 	{ "H"   "H" "sp3" }
+>> 	{ "HO"  "H" "sp3" }
+>> 	{ "HS"  "H" "sp3" }
+>> 	{ "H1"  "H" "sp3" }
+>> 	{ "H2"  "H" "sp3" }
+>> 	{ "H3"  "H" "sp3" }
+>> 	{ "H4"  "H" "sp3" }
+>> 	{ "H5"  "H" "sp3" }
+>> 	{ "HW"  "H" "sp3" }
+>> 	{ "HC"  "H" "sp3" }
+>> 	{ "HA"  "H" "sp3" }
+>> 	{ "HP"  "H" "sp3" }
+>> 	{ "OH"  "O" "sp3" }
+>> 	{ "OS"  "O" "sp3" }
+>> 	{ "O"   "O" "sp2" }
+>> 	{ "O2"  "O" "sp2" }
+>> 	{ "OW"  "O" "sp3" }
+>> 	{ "CT"  "C" "sp3" }
+>> 	{ "CH"  "C" "sp3" }
+>> 	{ "C2"  "C" "sp3" }
+>> 	{ "C3"  "C" "sp3" }
+>> 	{ "C"   "C" "sp2" }
+>> 	{ "C*"  "C" "sp2" }
+>> 	{ "CA"  "C" "sp2" }
+>> 	{ "CB"  "C" "sp2" }
+>> 	{ "CC"  "C" "sp2" }
+>> 	{ "CN"  "C" "sp2" }
+>> 	{ "CM"  "C" "sp2" }
+>> 	{ "CK"  "C" "sp2" }
+>> 	{ "CQ"  "C" "sp2" }
+>> 	{ "CD"  "C" "sp2" }
+>> 	{ "CE"  "C" "sp2" }
+>> 	{ "CF"  "C" "sp2" }
+>> 	{ "CP"  "C" "sp2" }
+>> 	{ "CI"  "C" "sp2" }
+>> 	{ "CJ"  "C" "sp2" }
+>> 	{ "CW"  "C" "sp2" }
+>> 	{ "CV"  "C" "sp2" }
+>> 	{ "CR"  "C" "sp2" }
+>> 	{ "CA"  "C" "sp2" }
+>> 	{ "CY"  "C" "sp2" }
+>> 	{ "C0"  "Ca" "sp2" }
+>> 	{ "MG"  "Mg" "sp3" }
+>> 	{ "N"   "N" "sp2" }
+>> 	{ "NA"  "N" "sp2" }
+>> 	{ "N2"  "N" "sp2" }
+>> 	{ "N*"  "N" "sp2" }
+>> 	{ "NP"  "N" "sp2" }
+>> 	{ "NQ"  "N" "sp2" }
+>> 	{ "NB"  "N" "sp2" }
+>> 	{ "NC"  "N" "sp2" }
+>> 	{ "NT"  "N" "sp3" }
+>> 	{ "N3"  "N" "sp3" }
+>> 	{ "S"   "S" "sp3" }
+>> 	{ "SH"  "S" "sp3" }
+>> 	{ "P"   "P" "sp3" }
+>> 	{ "LP"  ""  "sp3" }
+>> 	{ "F"   "F" "sp3" }
+>> 	{ "CL"  "Cl" "sp3" }
+>> 	{ "BR"  "Br" "sp3" }
+>> 	{ "I"   "I"  "sp3" }
+>> 	{ "FE"  "Fe" "sp3" }
+>> 	{ "EP"  ""  "sp3" }
+>> # glycam
+>> 	{ "OG"  "O" "sp3" }
+>> 	{ "OL"  "O" "sp3" }
+>> 	{ "AC"  "C" "sp3" }
+>> 	{ "EC"  "C" "sp3" }
+>> }
+>> #
+>> #	Load the main parameter set.
+>> #
+>> parm99 = loadamberparams parm99.dat
+Loading parameters: /home/zhanghaiping/program/amber16/dat/leap/parm/parm99.dat
+Reading title:
+PARM99 for DNA,RNA,AA, organic molecules, TIP3P wat. Polariz.& LP incl.02/04/99
+(UNKNOWN ATOM TYPE: HZ)
+(UNKNOWN ATOM TYPE: IM)
+(UNKNOWN ATOM TYPE: Li)
+(UNKNOWN ATOM TYPE: IP)
+(UNKNOWN ATOM TYPE: K)
+(UNKNOWN ATOM TYPE: Rb)
+(UNKNOWN ATOM TYPE: Cs)
+(UNKNOWN ATOM TYPE: Zn)
+(UNKNOWN ATOM TYPE: IB)
+(UNKNOWN ATOM TYPE: LP)
+>> frcmod99SB = loadamberparams frcmod.ff99SB
+Loading parameters: /home/zhanghaiping/program/amber16/dat/leap/parm/frcmod.ff99SB
+Reading force field modification type file (frcmod)
+Reading title:
+Modification/update of parm99.dat (Hornak & Simmerling)
+>> #
+>> #	Load DNA/RNA libraries
+>> #
+>> loadOff all_nucleic94.lib
+Loading library: /home/zhanghaiping/program/amber16/dat/leap/lib/all_nucleic94.lib
+Loading: DA
+Loading: DA3
+Loading: DA5
+Loading: DAN
+Loading: DC
+Loading: DC3
+Loading: DC5
+Loading: DCN
+Loading: DG
+Loading: DG3
+Loading: DG5
+Loading: DGN
+Loading: DT
+Loading: DT3
+Loading: DT5
+Loading: DTN
+Loading: RA
+Loading: RA3
+Loading: RA5
+Loading: RAN
+Loading: RC
+Loading: RC3
+Loading: RC5
+Loading: RCN
+Loading: RG
+Loading: RG3
+Loading: RG5
+Loading: RGN
+Loading: RU
+Loading: RU3
+Loading: RU5
+Loading: RUN
+>> #
+>> #	Load main chain and terminating 
+>> #	amino acid libraries (i.e. ff94 libs)
+>> #
+>> loadOff all_amino94.lib
+Loading library: /home/zhanghaiping/program/amber16/dat/leap/lib/all_amino94.lib
+Loading: ALA
+Loading: ARG
+Loading: ASH
+Loading: ASN
+Loading: ASP
+Loading: CYM
+Loading: CYS
+Loading: CYX
+Loading: GLH
+Loading: GLN
+Loading: GLU
+Loading: GLY
+Loading: HID
+Loading: HIE
+Loading: HIP
+Loading: ILE
+Loading: LEU
+Loading: LYN
+Loading: LYS
+Loading: MET
+Loading: PHE
+Loading: PRO
+Loading: SER
+Loading: THR
+Loading: TRP
+Loading: TYR
+Loading: VAL
+>> loadOff all_aminoct94.lib
+Loading library: /home/zhanghaiping/program/amber16/dat/leap/lib/all_aminoct94.lib
+Loading: CALA
+Loading: CARG
+Loading: CASN
+Loading: CASP
+Loading: CCYS
+Loading: CCYX
+Loading: CGLN
+Loading: CGLU
+Loading: CGLY
+Loading: CHID
+Loading: CHIE
+Loading: CHIP
+Loading: CILE
+Loading: CLEU
+Loading: CLYS
+Loading: CMET
+Loading: CPHE
+Loading: CPRO
+Loading: CSER
+Loading: CTHR
+Loading: CTRP
+Loading: CTYR
+Loading: CVAL
+Loading: NHE
+Loading: NME
+>> loadOff all_aminont94.lib
+Loading library: /home/zhanghaiping/program/amber16/dat/leap/lib/all_aminont94.lib
+Loading: ACE
+Loading: NALA
+Loading: NARG
+Loading: NASN
+Loading: NASP
+Loading: NCYS
+Loading: NCYX
+Loading: NGLN
+Loading: NGLU
+Loading: NGLY
+Loading: NHID
+Loading: NHIE
+Loading: NHIP
+Loading: NILE
+Loading: NLEU
+Loading: NLYS
+Loading: NMET
+Loading: NPHE
+Loading: NPRO
+Loading: NSER
+Loading: NTHR
+Loading: NTRP
+Loading: NTYR
+Loading: NVAL
+>> #
+>> #       Load water and ions
+>> # 
+>> loadOff ions94.lib
+Loading library: /home/zhanghaiping/program/amber16/dat/leap/lib/ions94.lib
+Loading: CIO
+Loading: Cl-
+Loading: Cs+
+Loading: IB
+Loading: K+
+Loading: Li+
+Loading: MG2
+Loading: Na+
+Loading: Rb+
+>> loadOff solvents.lib
+Loading library: /home/zhanghaiping/program/amber16/dat/leap/lib/solvents.lib
+Loading: CHCL3BOX
+Loading: DC4
+Loading: FB3
+Loading: FB3BOX
+Loading: FB4
+Loading: FB4BOX
+Loading: MEOHBOX
+Loading: NMABOX
+Loading: OPC
+Loading: OPCBOX
+Loading: PL3
+Loading: POL3BOX
+Loading: QSPCFWBOX
+Loading: SPC
+Loading: SPCBOX
+Loading: SPCFWBOX
+Loading: SPF
+Loading: SPG
+Loading: T4E
+Loading: TIP3PBOX
+Loading: TIP3PFBOX
+Loading: TIP4PBOX
+Loading: TIP4PEWBOX
+Loading: TIP5PBOX
+Loading: TP3
+Loading: TP4
+Loading: TP5
+Loading: TPF
+>> HOH = TP3
+>> WAT = TP3
+>> 
+>> #
+>> #	Define the PDB name map for the amino acids and DNA.
+>> #
+>> addPdbResMap {
+>>   { 0 "ALA" "NALA" } { 1 "ALA" "CALA" }
+>>   { 0 "ARG" "NARG" } { 1 "ARG" "CARG" }
+>>   { 0 "ASN" "NASN" } { 1 "ASN" "CASN" }
+>>   { 0 "ASP" "NASP" } { 1 "ASP" "CASP" }
+>>   { 0 "CYS" "NCYS" } { 1 "CYS" "CCYS" }
+>>   { 0 "CYX" "NCYX" } { 1 "CYX" "CCYX" }
+>>   { 0 "GLN" "NGLN" } { 1 "GLN" "CGLN" }
+>>   { 0 "GLU" "NGLU" } { 1 "GLU" "CGLU" }
+>>   { 0 "GLY" "NGLY" } { 1 "GLY" "CGLY" }
+>>   { 0 "HID" "NHID" } { 1 "HID" "CHID" }
+>>   { 0 "HIE" "NHIE" } { 1 "HIE" "CHIE" }
+>>   { 0 "HIP" "NHIP" } { 1 "HIP" "CHIP" }
+>>   { 0 "ILE" "NILE" } { 1 "ILE" "CILE" }
+>>   { 0 "LEU" "NLEU" } { 1 "LEU" "CLEU" }
+>>   { 0 "LYS" "NLYS" } { 1 "LYS" "CLYS" }
+>>   { 0 "MET" "NMET" } { 1 "MET" "CMET" }
+>>   { 0 "PHE" "NPHE" } { 1 "PHE" "CPHE" }
+>>   { 0 "PRO" "NPRO" } { 1 "PRO" "CPRO" }
+>>   { 0 "SER" "NSER" } { 1 "SER" "CSER" }
+>>   { 0 "THR" "NTHR" } { 1 "THR" "CTHR" }
+>>   { 0 "TRP" "NTRP" } { 1 "TRP" "CTRP" }
+>>   { 0 "TYR" "NTYR" } { 1 "TYR" "CTYR" }
+>>   { 0 "VAL" "NVAL" } { 1 "VAL" "CVAL" }
+>>   { 0 "HIS" "NHIS" } { 1 "HIS" "CHIS" }
+>>   { 0 "GUA" "DG5"  } { 1 "GUA" "DG3"  } { "GUA" "DG" }
+>>   { 0 "ADE" "DA5"  } { 1 "ADE" "DA3"  } { "ADE" "DA" }
+>>   { 0 "CYT" "DC5"  } { 1 "CYT" "DC3"  } { "CYT" "DC" }
+>>   { 0 "THY" "DT5"  } { 1 "THY" "DT3"  } { "THY" "DT" }
+>>   { 0 "G" "RG5"  } { 1 "G" "RG3"  } { "G" "RG" } { "GN" "RGN" }
+>>   { 0 "A" "RA5"  } { 1 "A" "RA3"  } { "A" "RA" } { "AN" "RAN" }
+>>   { 0 "C" "RC5"  } { 1 "C" "RC3"  } { "C" "RC" } { "CN" "RCN" }
+>>   { 0 "U" "RU5"  } { 1 "U" "RU3"  } { "U" "RU" } { "UN" "RUN" }
+>>   { 0 "DG" "DG5"  } { 1 "DG" "DG3"  }  
+>>   { 0 "DA" "DA5"  } { 1 "DA" "DA3"  }  
+>>   { 0 "DC" "DC5"  } { 1 "DC" "DC3"  }  
+>>   { 0 "DT" "DT5"  } { 1 "DT" "DT3"  }
+>> 
+>> }
+>> 
+>> addPdbAtomMap {
+>>   { "O5*" "O5'" }
+>>   { "C5*" "C5'" }
+>>   { "C4*" "C4'" }
+>>   { "O4*" "O4'" }
+>>   { "C3*" "C3'" }
+>>   { "O3*" "O3'" }
+>>   { "C2*" "C2'" }
+>>   { "C1*" "C1'" }
+>>   { "C5M" "C7"  }
+>>   { "O2*" "O2'" }
+>>   { "H1*" "H1'" }
+>>   { "H2*1" "H2'1" }
+>>   { "H2*2" "H2'2" }
+>>   { "H2'"  "H2'1" }
+>>   { "H2''" "H2'2" }
+>>   { "H3*" "H3'" }
+>>   { "H4*" "H4'" }
+>>   { "H5*1" "H5'1" }
+>>   { "H5*2" "H5'2" }
+>>   { "H5'"  "H5'1" }
+>>   { "H5''" "H5'2" }
+>>   { "HO2'" "HO'2" }
+>>   { "HO5'" "H5T" }
+>>   { "HO3'" "H3T" }
+>>   { "O1'" "O4'" }
+>>   { "OA"  "O1P" }
+>>   { "OB"  "O2P" }
+>>   { "OP1" "O1P" }
+>>   { "OP2" "O2P" }
+>> }
+>> 
+>> 
+>> #
+>> # assumed that most often proteins use HIE
+>> #
+>> NHIS = NHIE
+>> HIS = HIE
+>> CHIS = CHIE
+> 
+> #source /home/zhp/tleap/leaprc.GLYCAM_06j-1
+> set default PBRadii mbondi3
+Using ArgH and AspGluO modified Bondi2 radii
+> #3dipepide=sequence{ACE VAL NME}
+> 
+> 
+> protein = loadpdb  receptor.pdb
+Loading PDB file: ./receptor.pdb
+Enter zPdbReadScan from call depth  0.
+Exit  zPdbReadScan from call depth  0.
+Matching PDB residue names to LEaP variables.
+Mapped residue SER, term: Terminal/beginning, seq. number: 0 to: NSER.
+(Residue 1: ALA, Nonterminal, was not found in name map.)
+(Residue 2: ASP, Nonterminal, was not found in name map.)
+(Residue 3: ALA, Nonterminal, was not found in name map.)
+(Residue 4: GLN, Nonterminal, was not found in name map.)
+(Residue 5: SER, Nonterminal, was not found in name map.)
+(Residue 6: PHE, Nonterminal, was not found in name map.)
+(Residue 7: LEU, Nonterminal, was not found in name map.)
+(Residue 8: ASN, Nonterminal, was not found in name map.)
+(Residue 9: ARG, Nonterminal, was not found in name map.)
+(Residue 10: VAL, Nonterminal, was not found in name map.)
+(Residue 11: CYS, Nonterminal, was not found in name map.)
+(Residue 12: GLY, Nonterminal, was not found in name map.)
+(Residue 13: VAL, Nonterminal, was not found in name map.)
+(Residue 14: SER, Nonterminal, was not found in name map.)
+(Residue 15: ALA, Nonterminal, was not found in name map.)
+(Residue 16: ALA, Nonterminal, was not found in name map.)
+(Residue 17: ARG, Nonterminal, was not found in name map.)
+(Residue 18: LEU, Nonterminal, was not found in name map.)
+(Residue 19: THR, Nonterminal, was not found in name map.)
+(Residue 20: PRO, Nonterminal, was not found in name map.)
+(Residue 21: CYS, Nonterminal, was not found in name map.)
+(Residue 22: GLY, Nonterminal, was not found in name map.)
+(Residue 23: THR, Nonterminal, was not found in name map.)
+(Residue 24: GLY, Nonterminal, was not found in name map.)
+(Residue 25: THR, Nonterminal, was not found in name map.)
+(Residue 26: SER, Nonterminal, was not found in name map.)
+(Residue 27: THR, Nonterminal, was not found in name map.)
+(Residue 28: ASP, Nonterminal, was not found in name map.)
+(Residue 29: VAL, Nonterminal, was not found in name map.)
+(Residue 30: VAL, Nonterminal, was not found in name map.)
+(Residue 31: TYR, Nonterminal, was not found in name map.)
+(Residue 32: ARG, Nonterminal, was not found in name map.)
+(Residue 33: ALA, Nonterminal, was not found in name map.)
+(Residue 34: PHE, Nonterminal, was not found in name map.)
+(Residue 35: ASP, Nonterminal, was not found in name map.)
+(Residue 36: ILE, Nonterminal, was not found in name map.)
+(Residue 37: TYR, Nonterminal, was not found in name map.)
+(Residue 38: ASN, Nonterminal, was not found in name map.)
+(Residue 39: ASP, Nonterminal, was not found in name map.)
+(Residue 40: LYS, Nonterminal, was not found in name map.)
+(Residue 41: VAL, Nonterminal, was not found in name map.)
+(Residue 42: ALA, Nonterminal, was not found in name map.)
+(Residue 43: GLY, Nonterminal, was not found in name map.)
+(Residue 44: PHE, Nonterminal, was not found in name map.)
+(Residue 45: ALA, Nonterminal, was not found in name map.)
+(Residue 46: LYS, Nonterminal, was not found in name map.)
+(Residue 47: PHE, Nonterminal, was not found in name map.)
+(Residue 48: LEU, Nonterminal, was not found in name map.)
+(Residue 49: LYS, Nonterminal, was not found in name map.)
+(Residue 50: THR, Nonterminal, was not found in name map.)
+(Residue 51: ASN, Nonterminal, was not found in name map.)
+(Residue 52: CYS, Nonterminal, was not found in name map.)
+(Residue 53: CYS, Nonterminal, was not found in name map.)
+(Residue 54: ARG, Nonterminal, was not found in name map.)
+(Residue 55: PHE, Nonterminal, was not found in name map.)
+(Residue 56: GLN, Nonterminal, was not found in name map.)
+(Residue 57: GLU, Nonterminal, was not found in name map.)
+(Residue 58: LYS, Nonterminal, was not found in name map.)
+(Residue 59: ASP, Nonterminal, was not found in name map.)
+(Residue 60: GLU, Nonterminal, was not found in name map.)
+(Residue 61: ASP, Nonterminal, was not found in name map.)
+(Residue 62: ASP, Nonterminal, was not found in name map.)
+(Residue 63: ASN, Nonterminal, was not found in name map.)
+(Residue 64: LEU, Nonterminal, was not found in name map.)
+(Residue 65: ILE, Nonterminal, was not found in name map.)
+(Residue 66: ASP, Nonterminal, was not found in name map.)
+(Residue 67: SER, Nonterminal, was not found in name map.)
+(Residue 68: TYR, Nonterminal, was not found in name map.)
+(Residue 69: PHE, Nonterminal, was not found in name map.)
+(Residue 70: VAL, Nonterminal, was not found in name map.)
+(Residue 71: VAL, Nonterminal, was not found in name map.)
+(Residue 72: LYS, Nonterminal, was not found in name map.)
+(Residue 73: ARG, Nonterminal, was not found in name map.)
+(Residue 74: HIS, Nonterminal, was not found in name map.)
+(Residue 75: THR, Nonterminal, was not found in name map.)
+(Residue 76: PHE, Nonterminal, was not found in name map.)
+(Residue 77: SER, Nonterminal, was not found in name map.)
+(Residue 78: ASN, Nonterminal, was not found in name map.)
+(Residue 79: TYR, Nonterminal, was not found in name map.)
+(Residue 80: GLN, Nonterminal, was not found in name map.)
+(Residue 81: HIS, Nonterminal, was not found in name map.)
+(Residue 82: GLU, Nonterminal, was not found in name map.)
+(Residue 83: GLU, Nonterminal, was not found in name map.)
+(Residue 84: THR, Nonterminal, was not found in name map.)
+(Residue 85: ILE, Nonterminal, was not found in name map.)
+(Residue 86: TYR, Nonterminal, was not found in name map.)
+(Residue 87: ASN, Nonterminal, was not found in name map.)
+(Residue 88: LEU, Nonterminal, was not found in name map.)
+(Residue 89: LEU, Nonterminal, was not found in name map.)
+(Residue 90: LYS, Nonterminal, was not found in name map.)
+(Residue 91: ASP, Nonterminal, was not found in name map.)
+(Residue 92: CYS, Nonterminal, was not found in name map.)
+(Residue 93: PRO, Nonterminal, was not found in name map.)
+(Residue 94: ALA, Nonterminal, was not found in name map.)
+(Residue 95: VAL, Nonterminal, was not found in name map.)
+(Residue 96: ALA, Nonterminal, was not found in name map.)
+(Residue 97: LYS, Nonterminal, was not found in name map.)
+(Residue 98: HIS, Nonterminal, was not found in name map.)
+(Residue 99: ASP, Nonterminal, was not found in name map.)
+(Residue 100: PHE, Nonterminal, was not found in name map.)
+(Residue 101: PHE, Nonterminal, was not found in name map.)
+(Residue 102: LYS, Nonterminal, was not found in name map.)
+(Residue 103: PHE, Nonterminal, was not found in name map.)
+(Residue 104: ARG, Nonterminal, was not found in name map.)
+(Residue 105: ILE, Nonterminal, was not found in name map.)
+(Residue 106: ASP, Nonterminal, was not found in name map.)
+(Residue 107: GLY, Nonterminal, was not found in name map.)
+(Residue 108: ASP, Nonterminal, was not found in name map.)
+(Residue 109: MET, Nonterminal, was not found in name map.)
+(Residue 110: VAL, Nonterminal, was not found in name map.)
+(Residue 111: PRO, Nonterminal, was not found in name map.)
+(Residue 112: HIS, Nonterminal, was not found in name map.)
+(Residue 113: ILE, Nonterminal, was not found in name map.)
+(Residue 114: SER, Nonterminal, was not found in name map.)
+(Residue 115: ARG, Nonterminal, was not found in name map.)
+(Residue 116: GLN, Nonterminal, was not found in name map.)
+(Residue 117: ARG, Nonterminal, was not found in name map.)
+(Residue 118: LEU, Nonterminal, was not found in name map.)
+(Residue 119: THR, Nonterminal, was not found in name map.)
+(Residue 120: LYS, Nonterminal, was not found in name map.)
+(Residue 121: TYR, Nonterminal, was not found in name map.)
+(Residue 122: THR, Nonterminal, was not found in name map.)
+(Residue 123: MET, Nonterminal, was not found in name map.)
+(Residue 124: ALA, Nonterminal, was not found in name map.)
+(Residue 125: ASP, Nonterminal, was not found in name map.)
+(Residue 126: LEU, Nonterminal, was not found in name map.)
+(Residue 127: VAL, Nonterminal, was not found in name map.)
+(Residue 128: TYR, Nonterminal, was not found in name map.)
+(Residue 129: ALA, Nonterminal, was not found in name map.)
+(Residue 130: LEU, Nonterminal, was not found in name map.)
+(Residue 131: ARG, Nonterminal, was not found in name map.)
+(Residue 132: HIS, Nonterminal, was not found in name map.)
+(Residue 133: PHE, Nonterminal, was not found in name map.)
+(Residue 134: ASP, Nonterminal, was not found in name map.)
+(Residue 135: GLU, Nonterminal, was not found in name map.)
+(Residue 136: GLY, Nonterminal, was not found in name map.)
+(Residue 137: ASN, Nonterminal, was not found in name map.)
+(Residue 138: CYS, Nonterminal, was not found in name map.)
+(Residue 139: ASP, Nonterminal, was not found in name map.)
+(Residue 140: THR, Nonterminal, was not found in name map.)
+(Residue 141: LEU, Nonterminal, was not found in name map.)
+(Residue 142: LYS, Nonterminal, was not found in name map.)
+(Residue 143: GLU, Nonterminal, was not found in name map.)
+(Residue 144: ILE, Nonterminal, was not found in name map.)
+(Residue 145: LEU, Nonterminal, was not found in name map.)
+(Residue 146: VAL, Nonterminal, was not found in name map.)
+(Residue 147: THR, Nonterminal, was not found in name map.)
+(Residue 148: TYR, Nonterminal, was not found in name map.)
+(Residue 149: ASN, Nonterminal, was not found in name map.)
+(Residue 150: CYS, Nonterminal, was not found in name map.)
+(Residue 151: CYS, Nonterminal, was not found in name map.)
+(Residue 152: ASP, Nonterminal, was not found in name map.)
+(Residue 153: ASP, Nonterminal, was not found in name map.)
+(Residue 154: ASP, Nonterminal, was not found in name map.)
+(Residue 155: TYR, Nonterminal, was not found in name map.)
+(Residue 156: PHE, Nonterminal, was not found in name map.)
+(Residue 157: ASN, Nonterminal, was not found in name map.)
+(Residue 158: LYS, Nonterminal, was not found in name map.)
+(Residue 159: LYS, Nonterminal, was not found in name map.)
+(Residue 160: ASP, Nonterminal, was not found in name map.)
+(Residue 161: TRP, Nonterminal, was not found in name map.)
+(Residue 162: TYR, Nonterminal, was not found in name map.)
+(Residue 163: ASP, Nonterminal, was not found in name map.)
+(Residue 164: PHE, Nonterminal, was not found in name map.)
+(Residue 165: VAL, Nonterminal, was not found in name map.)
+(Residue 166: GLU, Nonterminal, was not found in name map.)
+(Residue 167: ASN, Nonterminal, was not found in name map.)
+(Residue 168: PRO, Nonterminal, was not found in name map.)
+(Residue 169: ASP, Nonterminal, was not found in name map.)
+(Residue 170: ILE, Nonterminal, was not found in name map.)
+(Residue 171: LEU, Nonterminal, was not found in name map.)
+(Residue 172: ARG, Nonterminal, was not found in name map.)
+(Residue 173: VAL, Nonterminal, was not found in name map.)
+(Residue 174: TYR, Nonterminal, was not found in name map.)
+(Residue 175: ALA, Nonterminal, was not found in name map.)
+(Residue 176: ASN, Nonterminal, was not found in name map.)
+(Residue 177: LEU, Nonterminal, was not found in name map.)
+(Residue 178: GLY, Nonterminal, was not found in name map.)
+(Residue 179: GLU, Nonterminal, was not found in name map.)
+(Residue 180: ARG, Nonterminal, was not found in name map.)
+(Residue 181: VAL, Nonterminal, was not found in name map.)
+(Residue 182: ARG, Nonterminal, was not found in name map.)
+(Residue 183: GLN, Nonterminal, was not found in name map.)
+(Residue 184: ALA, Nonterminal, was not found in name map.)
+(Residue 185: LEU, Nonterminal, was not found in name map.)
+(Residue 186: LEU, Nonterminal, was not found in name map.)
+(Residue 187: LYS, Nonterminal, was not found in name map.)
+(Residue 188: THR, Nonterminal, was not found in name map.)
+(Residue 189: VAL, Nonterminal, was not found in name map.)
+(Residue 190: GLN, Nonterminal, was not found in name map.)
+(Residue 191: PHE, Nonterminal, was not found in name map.)
+(Residue 192: CYS, Nonterminal, was not found in name map.)
+(Residue 193: ASP, Nonterminal, was not found in name map.)
+(Residue 194: ALA, Nonterminal, was not found in name map.)
+(Residue 195: MET, Nonterminal, was not found in name map.)
+(Residue 196: ARG, Nonterminal, was not found in name map.)
+(Residue 197: ASN, Nonterminal, was not found in name map.)
+(Residue 198: ALA, Nonterminal, was not found in name map.)
+(Residue 199: GLY, Nonterminal, was not found in name map.)
+(Residue 200: ILE, Nonterminal, was not found in name map.)
+(Residue 201: VAL, Nonterminal, was not found in name map.)
+(Residue 202: GLY, Nonterminal, was not found in name map.)
+(Residue 203: VAL, Nonterminal, was not found in name map.)
+(Residue 204: LEU, Nonterminal, was not found in name map.)
+(Residue 205: THR, Nonterminal, was not found in name map.)
+(Residue 206: LEU, Nonterminal, was not found in name map.)
+(Residue 207: ASP, Nonterminal, was not found in name map.)
+(Residue 208: ASN, Nonterminal, was not found in name map.)
+(Residue 209: GLN, Nonterminal, was not found in name map.)
+(Residue 210: ASP, Nonterminal, was not found in name map.)
+(Residue 211: LEU, Nonterminal, was not found in name map.)
+(Residue 212: ASN, Nonterminal, was not found in name map.)
+(Residue 213: GLY, Nonterminal, was not found in name map.)
+(Residue 214: ASN, Nonterminal, was not found in name map.)
+(Residue 215: TRP, Nonterminal, was not found in name map.)
+(Residue 216: TYR, Nonterminal, was not found in name map.)
+(Residue 217: ASP, Nonterminal, was not found in name map.)
+(Residue 218: PHE, Nonterminal, was not found in name map.)
+(Residue 219: GLY, Nonterminal, was not found in name map.)
+(Residue 220: ASP, Nonterminal, was not found in name map.)
+(Residue 221: PHE, Nonterminal, was not found in name map.)
+(Residue 222: ILE, Nonterminal, was not found in name map.)
+(Residue 223: GLN, Nonterminal, was not found in name map.)
+(Residue 224: THR, Nonterminal, was not found in name map.)
+(Residue 225: THR, Nonterminal, was not found in name map.)
+(Residue 226: PRO, Nonterminal, was not found in name map.)
+(Residue 227: GLY, Nonterminal, was not found in name map.)
+(Residue 228: SER, Nonterminal, was not found in name map.)
+(Residue 229: GLY, Nonterminal, was not found in name map.)
+(Residue 230: VAL, Nonterminal, was not found in name map.)
+(Residue 231: PRO, Nonterminal, was not found in name map.)
+(Residue 232: VAL, Nonterminal, was not found in name map.)
+(Residue 233: VAL, Nonterminal, was not found in name map.)
+(Residue 234: ASP, Nonterminal, was not found in name map.)
+(Residue 235: SER, Nonterminal, was not found in name map.)
+(Residue 236: TYR, Nonterminal, was not found in name map.)
+(Residue 237: TYR, Nonterminal, was not found in name map.)
+(Residue 238: SER, Nonterminal, was not found in name map.)
+(Residue 239: LEU, Nonterminal, was not found in name map.)
+(Residue 240: LEU, Nonterminal, was not found in name map.)
+(Residue 241: MET, Nonterminal, was not found in name map.)
+(Residue 242: PRO, Nonterminal, was not found in name map.)
+(Residue 243: ILE, Nonterminal, was not found in name map.)
+(Residue 244: LEU, Nonterminal, was not found in name map.)
+(Residue 245: THR, Nonterminal, was not found in name map.)
+(Residue 246: LEU, Nonterminal, was not found in name map.)
+(Residue 247: THR, Nonterminal, was not found in name map.)
+(Residue 248: ARG, Nonterminal, was not found in name map.)
+(Residue 249: ALA, Nonterminal, was not found in name map.)
+(Residue 250: LEU, Nonterminal, was not found in name map.)
+(Residue 251: THR, Nonterminal, was not found in name map.)
+(Residue 252: ALA, Nonterminal, was not found in name map.)
+(Residue 253: GLU, Nonterminal, was not found in name map.)
+(Residue 254: SER, Nonterminal, was not found in name map.)
+(Residue 255: HIS, Nonterminal, was not found in name map.)
+(Residue 256: VAL, Nonterminal, was not found in name map.)
+(Residue 257: ASP, Nonterminal, was not found in name map.)
+(Residue 258: THR, Nonterminal, was not found in name map.)
+(Residue 259: ASP, Nonterminal, was not found in name map.)
+(Residue 260: LEU, Nonterminal, was not found in name map.)
+(Residue 261: THR, Nonterminal, was not found in name map.)
+(Residue 262: LYS, Nonterminal, was not found in name map.)
+(Residue 263: PRO, Nonterminal, was not found in name map.)
+(Residue 264: TYR, Nonterminal, was not found in name map.)
+(Residue 265: ILE, Nonterminal, was not found in name map.)
+(Residue 266: LYS, Nonterminal, was not found in name map.)
+(Residue 267: TRP, Nonterminal, was not found in name map.)
+(Residue 268: ASP, Nonterminal, was not found in name map.)
+(Residue 269: LEU, Nonterminal, was not found in name map.)
+(Residue 270: LEU, Nonterminal, was not found in name map.)
+(Residue 271: LYS, Nonterminal, was not found in name map.)
+(Residue 272: TYR, Nonterminal, was not found in name map.)
+(Residue 273: ASP, Nonterminal, was not found in name map.)
+(Residue 274: PHE, Nonterminal, was not found in name map.)
+(Residue 275: THR, Nonterminal, was not found in name map.)
+(Residue 276: GLU, Nonterminal, was not found in name map.)
+(Residue 277: GLU, Nonterminal, was not found in name map.)
+(Residue 278: ARG, Nonterminal, was not found in name map.)
+(Residue 279: LEU, Nonterminal, was not found in name map.)
+(Residue 280: LYS, Nonterminal, was not found in name map.)
+(Residue 281: LEU, Nonterminal, was not found in name map.)
+(Residue 282: PHE, Nonterminal, was not found in name map.)
+(Residue 283: ASP, Nonterminal, was not found in name map.)
+(Residue 284: ARG, Nonterminal, was not found in name map.)
+(Residue 285: TYR, Nonterminal, was not found in name map.)
+(Residue 286: PHE, Nonterminal, was not found in name map.)
+(Residue 287: LYS, Nonterminal, was not found in name map.)
+(Residue 288: TYR, Nonterminal, was not found in name map.)
+(Residue 289: TRP, Nonterminal, was not found in name map.)
+(Residue 290: ASP, Nonterminal, was not found in name map.)
+(Residue 291: GLN, Nonterminal, was not found in name map.)
+(Residue 292: THR, Nonterminal, was not found in name map.)
+(Residue 293: TYR, Nonterminal, was not found in name map.)
+(Residue 294: HIS, Nonterminal, was not found in name map.)
+(Residue 295: PRO, Nonterminal, was not found in name map.)
+(Residue 296: ASN, Nonterminal, was not found in name map.)
+(Residue 297: CYS, Nonterminal, was not found in name map.)
+(Residue 298: VAL, Nonterminal, was not found in name map.)
+(Residue 299: ASN, Nonterminal, was not found in name map.)
+(Residue 300: CYS, Nonterminal, was not found in name map.)
+(Residue 301: LEU, Nonterminal, was not found in name map.)
+(Residue 302: ASP, Nonterminal, was not found in name map.)
+(Residue 303: ASP, Nonterminal, was not found in name map.)
+(Residue 304: ARG, Nonterminal, was not found in name map.)
+(Residue 305: CYS, Nonterminal, was not found in name map.)
+(Residue 306: ILE, Nonterminal, was not found in name map.)
+(Residue 307: LEU, Nonterminal, was not found in name map.)
+(Residue 308: HIS, Nonterminal, was not found in name map.)
+(Residue 309: CYS, Nonterminal, was not found in name map.)
+(Residue 310: ALA, Nonterminal, was not found in name map.)
+(Residue 311: ASN, Nonterminal, was not found in name map.)
+(Residue 312: PHE, Nonterminal, was not found in name map.)
+(Residue 313: ASN, Nonterminal, was not found in name map.)
+(Residue 314: VAL, Nonterminal, was not found in name map.)
+(Residue 315: LEU, Nonterminal, was not found in name map.)
+(Residue 316: PHE, Nonterminal, was not found in name map.)
+(Residue 317: SER, Nonterminal, was not found in name map.)
+(Residue 318: THR, Nonterminal, was not found in name map.)
+(Residue 319: VAL, Nonterminal, was not found in name map.)
+(Residue 320: PHE, Nonterminal, was not found in name map.)
+(Residue 321: PRO, Nonterminal, was not found in name map.)
+(Residue 322: PRO, Nonterminal, was not found in name map.)
+(Residue 323: THR, Nonterminal, was not found in name map.)
+(Residue 324: SER, Nonterminal, was not found in name map.)
+(Residue 325: PHE, Nonterminal, was not found in name map.)
+(Residue 326: GLY, Nonterminal, was not found in name map.)
+(Residue 327: PRO, Nonterminal, was not found in name map.)
+(Residue 328: LEU, Nonterminal, was not found in name map.)
+(Residue 329: VAL, Nonterminal, was not found in name map.)
+(Residue 330: ARG, Nonterminal, was not found in name map.)
+(Residue 331: LYS, Nonterminal, was not found in name map.)
+(Residue 332: ILE, Nonterminal, was not found in name map.)
+(Residue 333: PHE, Nonterminal, was not found in name map.)
+(Residue 334: VAL, Nonterminal, was not found in name map.)
+(Residue 335: ASP, Nonterminal, was not found in name map.)
+(Residue 336: GLY, Nonterminal, was not found in name map.)
+(Residue 337: VAL, Nonterminal, was not found in name map.)
+(Residue 338: PRO, Nonterminal, was not found in name map.)
+(Residue 339: PHE, Nonterminal, was not found in name map.)
+(Residue 340: VAL, Nonterminal, was not found in name map.)
+(Residue 341: VAL, Nonterminal, was not found in name map.)
+(Residue 342: SER, Nonterminal, was not found in name map.)
+(Residue 343: THR, Nonterminal, was not found in name map.)
+(Residue 344: GLY, Nonterminal, was not found in name map.)
+(Residue 345: TYR, Nonterminal, was not found in name map.)
+(Residue 346: HIS, Nonterminal, was not found in name map.)
+(Residue 347: PHE, Nonterminal, was not found in name map.)
+(Residue 348: ARG, Nonterminal, was not found in name map.)
+(Residue 349: GLU, Nonterminal, was not found in name map.)
+(Residue 350: LEU, Nonterminal, was not found in name map.)
+(Residue 351: GLY, Nonterminal, was not found in name map.)
+(Residue 352: VAL, Nonterminal, was not found in name map.)
+(Residue 353: VAL, Nonterminal, was not found in name map.)
+(Residue 354: HIS, Nonterminal, was not found in name map.)
+(Residue 355: ASN, Nonterminal, was not found in name map.)
+(Residue 356: GLN, Nonterminal, was not found in name map.)
+(Residue 357: ASP, Nonterminal, was not found in name map.)
+(Residue 358: VAL, Nonterminal, was not found in name map.)
+(Residue 359: ASN, Nonterminal, was not found in name map.)
+(Residue 360: LEU, Nonterminal, was not found in name map.)
+(Residue 361: HIS, Nonterminal, was not found in name map.)
+(Residue 362: SER, Nonterminal, was not found in name map.)
+(Residue 363: SER, Nonterminal, was not found in name map.)
+(Residue 364: ARG, Nonterminal, was not found in name map.)
+(Residue 365: LEU, Nonterminal, was not found in name map.)
+(Residue 366: SER, Nonterminal, was not found in name map.)
+(Residue 367: PHE, Nonterminal, was not found in name map.)
+(Residue 368: LYS, Nonterminal, was not found in name map.)
+(Residue 369: GLU, Nonterminal, was not found in name map.)
+(Residue 370: LEU, Nonterminal, was not found in name map.)
+(Residue 371: LEU, Nonterminal, was not found in name map.)
+(Residue 372: VAL, Nonterminal, was not found in name map.)
+(Residue 373: TYR, Nonterminal, was not found in name map.)
+(Residue 374: ALA, Nonterminal, was not found in name map.)
+(Residue 375: ALA, Nonterminal, was not found in name map.)
+(Residue 376: ASP, Nonterminal, was not found in name map.)
+(Residue 377: PRO, Nonterminal, was not found in name map.)
+(Residue 378: ALA, Nonterminal, was not found in name map.)
+(Residue 379: MET, Nonterminal, was not found in name map.)
+(Residue 380: HIS, Nonterminal, was not found in name map.)
+(Residue 381: ALA, Nonterminal, was not found in name map.)
+(Residue 382: ALA, Nonterminal, was not found in name map.)
+(Residue 383: SER, Nonterminal, was not found in name map.)
+(Residue 384: GLY, Nonterminal, was not found in name map.)
+(Residue 385: ASN, Nonterminal, was not found in name map.)
+(Residue 386: LEU, Nonterminal, was not found in name map.)
+(Residue 387: LEU, Nonterminal, was not found in name map.)
+(Residue 388: LEU, Nonterminal, was not found in name map.)
+(Residue 389: ASP, Nonterminal, was not found in name map.)
+(Residue 390: LYS, Nonterminal, was not found in name map.)
+(Residue 391: ARG, Nonterminal, was not found in name map.)
+(Residue 392: THR, Nonterminal, was not found in name map.)
+(Residue 393: THR, Nonterminal, was not found in name map.)
+(Residue 394: CYS, Nonterminal, was not found in name map.)
+(Residue 395: PHE, Nonterminal, was not found in name map.)
+(Residue 396: SER, Nonterminal, was not found in name map.)
+(Residue 397: VAL, Nonterminal, was not found in name map.)
+(Residue 398: ALA, Nonterminal, was not found in name map.)
+(Residue 399: ALA, Nonterminal, was not found in name map.)
+(Residue 400: LEU, Nonterminal, was not found in name map.)
+(Residue 401: THR, Nonterminal, was not found in name map.)
+(Residue 402: ASN, Nonterminal, was not found in name map.)
+(Residue 403: ASN, Nonterminal, was not found in name map.)
+(Residue 404: VAL, Nonterminal, was not found in name map.)
+(Residue 405: ALA, Nonterminal, was not found in name map.)
+(Residue 406: PHE, Nonterminal, was not found in name map.)
+(Residue 407: GLN, Nonterminal, was not found in name map.)
+(Residue 408: THR, Nonterminal, was not found in name map.)
+(Residue 409: VAL, Nonterminal, was not found in name map.)
+(Residue 410: LYS, Nonterminal, was not found in name map.)
+(Residue 411: PRO, Nonterminal, was not found in name map.)
+(Residue 412: GLY, Nonterminal, was not found in name map.)
+(Residue 413: ASN, Nonterminal, was not found in name map.)
+(Residue 414: PHE, Nonterminal, was not found in name map.)
+(Residue 415: ASN, Nonterminal, was not found in name map.)
+(Residue 416: LYS, Nonterminal, was not found in name map.)
+(Residue 417: ASP, Nonterminal, was not found in name map.)
+(Residue 418: PHE, Nonterminal, was not found in name map.)
+(Residue 419: TYR, Nonterminal, was not found in name map.)
+(Residue 420: ASP, Nonterminal, was not found in name map.)
+(Residue 421: PHE, Nonterminal, was not found in name map.)
+(Residue 422: ALA, Nonterminal, was not found in name map.)
+(Residue 423: VAL, Nonterminal, was not found in name map.)
+(Residue 424: SER, Nonterminal, was not found in name map.)
+(Residue 425: LYS, Nonterminal, was not found in name map.)
+(Residue 426: GLY, Nonterminal, was not found in name map.)
+(Residue 427: PHE, Nonterminal, was not found in name map.)
+(Residue 428: PHE, Nonterminal, was not found in name map.)
+(Residue 429: LYS, Nonterminal, was not found in name map.)
+(Residue 430: GLU, Nonterminal, was not found in name map.)
+(Residue 431: GLY, Nonterminal, was not found in name map.)
+(Residue 432: SER, Nonterminal, was not found in name map.)
+(Residue 433: SER, Nonterminal, was not found in name map.)
+(Residue 434: VAL, Nonterminal, was not found in name map.)
+(Residue 435: GLU, Nonterminal, was not found in name map.)
+(Residue 436: LEU, Nonterminal, was not found in name map.)
+(Residue 437: LYS, Nonterminal, was not found in name map.)
+(Residue 438: HIS, Nonterminal, was not found in name map.)
+(Residue 439: PHE, Nonterminal, was not found in name map.)
+(Residue 440: PHE, Nonterminal, was not found in name map.)
+(Residue 441: PHE, Nonterminal, was not found in name map.)
+(Residue 442: ALA, Nonterminal, was not found in name map.)
+(Residue 443: GLN, Nonterminal, was not found in name map.)
+(Residue 444: ASP, Nonterminal, was not found in name map.)
+(Residue 445: GLY, Nonterminal, was not found in name map.)
+(Residue 446: ASN, Nonterminal, was not found in name map.)
+(Residue 447: ALA, Nonterminal, was not found in name map.)
+(Residue 448: ALA, Nonterminal, was not found in name map.)
+(Residue 449: ILE, Nonterminal, was not found in name map.)
+(Residue 450: SER, Nonterminal, was not found in name map.)
+(Residue 451: ASP, Nonterminal, was not found in name map.)
+(Residue 452: TYR, Nonterminal, was not found in name map.)
+(Residue 453: ASP, Nonterminal, was not found in name map.)
+(Residue 454: TYR, Nonterminal, was not found in name map.)
+(Residue 455: TYR, Nonterminal, was not found in name map.)
+(Residue 456: ARG, Nonterminal, was not found in name map.)
+(Residue 457: TYR, Nonterminal, was not found in name map.)
+(Residue 458: ASN, Nonterminal, was not found in name map.)
+(Residue 459: LEU, Nonterminal, was not found in name map.)
+(Residue 460: PRO, Nonterminal, was not found in name map.)
+(Residue 461: THR, Nonterminal, was not found in name map.)
+(Residue 462: MET, Nonterminal, was not found in name map.)
+(Residue 463: CYS, Nonterminal, was not found in name map.)
+(Residue 464: ASP, Nonterminal, was not found in name map.)
+(Residue 465: ILE, Nonterminal, was not found in name map.)
+(Residue 466: ARG, Nonterminal, was not found in name map.)
+(Residue 467: GLN, Nonterminal, was not found in name map.)
+(Residue 468: LEU, Nonterminal, was not found in name map.)
+(Residue 469: LEU, Nonterminal, was not found in name map.)
+(Residue 470: PHE, Nonterminal, was not found in name map.)
+(Residue 471: VAL, Nonterminal, was not found in name map.)
+(Residue 472: VAL, Nonterminal, was not found in name map.)
+(Residue 473: GLU, Nonterminal, was not found in name map.)
+(Residue 474: VAL, Nonterminal, was not found in name map.)
+(Residue 475: VAL, Nonterminal, was not found in name map.)
+(Residue 476: ASP, Nonterminal, was not found in name map.)
+(Residue 477: LYS, Nonterminal, was not found in name map.)
+(Residue 478: TYR, Nonterminal, was not found in name map.)
+(Residue 479: PHE, Nonterminal, was not found in name map.)
+(Residue 480: ASP, Nonterminal, was not found in name map.)
+(Residue 481: CYS, Nonterminal, was not found in name map.)
+(Residue 482: TYR, Nonterminal, was not found in name map.)
+(Residue 483: ASP, Nonterminal, was not found in name map.)
+(Residue 484: GLY, Nonterminal, was not found in name map.)
+(Residue 485: GLY, Nonterminal, was not found in name map.)
+(Residue 486: CYS, Nonterminal, was not found in name map.)
+(Residue 487: ILE, Nonterminal, was not found in name map.)
+(Residue 488: ASN, Nonterminal, was not found in name map.)
+(Residue 489: ALA, Nonterminal, was not found in name map.)
+(Residue 490: ASN, Nonterminal, was not found in name map.)
+(Residue 491: GLN, Nonterminal, was not found in name map.)
+(Residue 492: VAL, Nonterminal, was not found in name map.)
+(Residue 493: ILE, Nonterminal, was not found in name map.)
+(Residue 494: VAL, Nonterminal, was not found in name map.)
+(Residue 495: ASN, Nonterminal, was not found in name map.)
+(Residue 496: ASN, Nonterminal, was not found in name map.)
+(Residue 497: LEU, Nonterminal, was not found in name map.)
+(Residue 498: ASP, Nonterminal, was not found in name map.)
+(Residue 499: LYS, Nonterminal, was not found in name map.)
+(Residue 500: SER, Nonterminal, was not found in name map.)
+(Residue 501: ALA, Nonterminal, was not found in name map.)
+(Residue 502: GLY, Nonterminal, was not found in name map.)
+(Residue 503: PHE, Nonterminal, was not found in name map.)
+(Residue 504: PRO, Nonterminal, was not found in name map.)
+(Residue 505: PHE, Nonterminal, was not found in name map.)
+(Residue 506: ASN, Nonterminal, was not found in name map.)
+(Residue 507: LYS, Nonterminal, was not found in name map.)
+(Residue 508: TRP, Nonterminal, was not found in name map.)
+(Residue 509: GLY, Nonterminal, was not found in name map.)
+(Residue 510: LYS, Nonterminal, was not found in name map.)
+(Residue 511: ALA, Nonterminal, was not found in name map.)
+(Residue 512: ARG, Nonterminal, was not found in name map.)
+(Residue 513: LEU, Nonterminal, was not found in name map.)
+(Residue 514: TYR, Nonterminal, was not found in name map.)
+(Residue 515: TYR, Nonterminal, was not found in name map.)
+(Residue 516: ASP, Nonterminal, was not found in name map.)
+(Residue 517: SER, Nonterminal, was not found in name map.)
+(Residue 518: MET, Nonterminal, was not found in name map.)
+(Residue 519: SER, Nonterminal, was not found in name map.)
+(Residue 520: TYR, Nonterminal, was not found in name map.)
+(Residue 521: GLU, Nonterminal, was not found in name map.)
+(Residue 522: ASP, Nonterminal, was not found in name map.)
+(Residue 523: GLN, Nonterminal, was not found in name map.)
+(Residue 524: ASP, Nonterminal, was not found in name map.)
+(Residue 525: ALA, Nonterminal, was not found in name map.)
+(Residue 526: LEU, Nonterminal, was not found in name map.)
+(Residue 527: PHE, Nonterminal, was not found in name map.)
+(Residue 528: ALA, Nonterminal, was not found in name map.)
+(Residue 529: TYR, Nonterminal, was not found in name map.)
+(Residue 530: THR, Nonterminal, was not found in name map.)
+(Residue 531: LYS, Nonterminal, was not found in name map.)
+(Residue 532: ARG, Nonterminal, was not found in name map.)
+(Residue 533: ASN, Nonterminal, was not found in name map.)
+(Residue 534: VAL, Nonterminal, was not found in name map.)
+(Residue 535: ILE, Nonterminal, was not found in name map.)
+(Residue 536: PRO, Nonterminal, was not found in name map.)
+(Residue 537: THR, Nonterminal, was not found in name map.)
+(Residue 538: ILE, Nonterminal, was not found in name map.)
+(Residue 539: THR, Nonterminal, was not found in name map.)
+(Residue 540: GLN, Nonterminal, was not found in name map.)
+(Residue 541: MET, Nonterminal, was not found in name map.)
+(Residue 542: ASN, Nonterminal, was not found in name map.)
+(Residue 543: LEU, Nonterminal, was not found in name map.)
+(Residue 544: LYS, Nonterminal, was not found in name map.)
+(Residue 545: TYR, Nonterminal, was not found in name map.)
+(Residue 546: ALA, Nonterminal, was not found in name map.)
+(Residue 547: ILE, Nonterminal, was not found in name map.)
+(Residue 548: SER, Nonterminal, was not found in name map.)
+(Residue 549: ALA, Nonterminal, was not found in name map.)
+(Residue 550: LYS, Nonterminal, was not found in name map.)
+(Residue 551: ASN, Nonterminal, was not found in name map.)
+(Residue 552: ARG, Nonterminal, was not found in name map.)
+(Residue 553: ALA, Nonterminal, was not found in name map.)
+(Residue 554: ARG, Nonterminal, was not found in name map.)
+(Residue 555: THR, Nonterminal, was not found in name map.)
+(Residue 556: VAL, Nonterminal, was not found in name map.)
+(Residue 557: ALA, Nonterminal, was not found in name map.)
+(Residue 558: GLY, Nonterminal, was not found in name map.)
+(Residue 559: VAL, Nonterminal, was not found in name map.)
+(Residue 560: SER, Nonterminal, was not found in name map.)
+(Residue 561: ILE, Nonterminal, was not found in name map.)
+(Residue 562: CYS, Nonterminal, was not found in name map.)
+(Residue 563: SER, Nonterminal, was not found in name map.)
+(Residue 564: THR, Nonterminal, was not found in name map.)
+(Residue 565: MET, Nonterminal, was not found in name map.)
+(Residue 566: THR, Nonterminal, was not found in name map.)
+(Residue 567: ASN, Nonterminal, was not found in name map.)
+(Residue 568: ARG, Nonterminal, was not found in name map.)
+(Residue 569: GLN, Nonterminal, was not found in name map.)
+(Residue 570: PHE, Nonterminal, was not found in name map.)
+(Residue 571: HIS, Nonterminal, was not found in name map.)
+(Residue 572: GLN, Nonterminal, was not found in name map.)
+(Residue 573: LYS, Nonterminal, was not found in name map.)
+(Residue 574: LEU, Nonterminal, was not found in name map.)
+(Residue 575: LEU, Nonterminal, was not found in name map.)
+(Residue 576: LYS, Nonterminal, was not found in name map.)
+(Residue 577: SER, Nonterminal, was not found in name map.)
+(Residue 578: ILE, Nonterminal, was not found in name map.)
+(Residue 579: ALA, Nonterminal, was not found in name map.)
+(Residue 580: ALA, Nonterminal, was not found in name map.)
+(Residue 581: THR, Nonterminal, was not found in name map.)
+(Residue 582: ARG, Nonterminal, was not found in name map.)
+(Residue 583: GLY, Nonterminal, was not found in name map.)
+(Residue 584: ALA, Nonterminal, was not found in name map.)
+(Residue 585: THR, Nonterminal, was not found in name map.)
+(Residue 586: VAL, Nonterminal, was not found in name map.)
+(Residue 587: VAL, Nonterminal, was not found in name map.)
+(Residue 588: ILE, Nonterminal, was not found in name map.)
+(Residue 589: GLY, Nonterminal, was not found in name map.)
+(Residue 590: THR, Nonterminal, was not found in name map.)
+(Residue 591: SER, Nonterminal, was not found in name map.)
+(Residue 592: LYS, Nonterminal, was not found in name map.)
+(Residue 593: PHE, Nonterminal, was not found in name map.)
+(Residue 594: TYR, Nonterminal, was not found in name map.)
+(Residue 595: GLY, Nonterminal, was not found in name map.)
+(Residue 596: GLY, Nonterminal, was not found in name map.)
+(Residue 597: TRP, Nonterminal, was not found in name map.)
+(Residue 598: HIS, Nonterminal, was not found in name map.)
+(Residue 599: ASN, Nonterminal, was not found in name map.)
+(Residue 600: MET, Nonterminal, was not found in name map.)
+(Residue 601: LEU, Nonterminal, was not found in name map.)
+(Residue 602: LYS, Nonterminal, was not found in name map.)
+(Residue 603: THR, Nonterminal, was not found in name map.)
+(Residue 604: VAL, Nonterminal, was not found in name map.)
+(Residue 605: TYR, Nonterminal, was not found in name map.)
+(Residue 606: SER, Nonterminal, was not found in name map.)
+(Residue 607: ASP, Nonterminal, was not found in name map.)
+(Residue 608: VAL, Nonterminal, was not found in name map.)
+(Residue 609: GLU, Nonterminal, was not found in name map.)
+(Residue 610: ASN, Nonterminal, was not found in name map.)
+(Residue 611: PRO, Nonterminal, was not found in name map.)
+(Residue 612: HIS, Nonterminal, was not found in name map.)
+(Residue 613: LEU, Nonterminal, was not found in name map.)
+(Residue 614: MET, Nonterminal, was not found in name map.)
+(Residue 615: GLY, Nonterminal, was not found in name map.)
+(Residue 616: TRP, Nonterminal, was not found in name map.)
+(Residue 617: ASP, Nonterminal, was not found in name map.)
+(Residue 618: TYR, Nonterminal, was not found in name map.)
+(Residue 619: PRO, Nonterminal, was not found in name map.)
+(Residue 620: LYS, Nonterminal, was not found in name map.)
+(Residue 621: CYS, Nonterminal, was not found in name map.)
+(Residue 622: ASP, Nonterminal, was not found in name map.)
+(Residue 623: ARG, Nonterminal, was not found in name map.)
+(Residue 624: ALA, Nonterminal, was not found in name map.)
+(Residue 625: MET, Nonterminal, was not found in name map.)
+(Residue 626: PRO, Nonterminal, was not found in name map.)
+(Residue 627: ASN, Nonterminal, was not found in name map.)
+(Residue 628: MET, Nonterminal, was not found in name map.)
+(Residue 629: LEU, Nonterminal, was not found in name map.)
+(Residue 630: ARG, Nonterminal, was not found in name map.)
+(Residue 631: ILE, Nonterminal, was not found in name map.)
+(Residue 632: MET, Nonterminal, was not found in name map.)
+(Residue 633: ALA, Nonterminal, was not found in name map.)
+(Residue 634: SER, Nonterminal, was not found in name map.)
+(Residue 635: LEU, Nonterminal, was not found in name map.)
+(Residue 636: VAL, Nonterminal, was not found in name map.)
+(Residue 637: LEU, Nonterminal, was not found in name map.)
+(Residue 638: ALA, Nonterminal, was not found in name map.)
+(Residue 639: ARG, Nonterminal, was not found in name map.)
+(Residue 640: LYS, Nonterminal, was not found in name map.)
+(Residue 641: HIS, Nonterminal, was not found in name map.)
+(Residue 642: THR, Nonterminal, was not found in name map.)
+(Residue 643: THR, Nonterminal, was not found in name map.)
+(Residue 644: CYS, Nonterminal, was not found in name map.)
+(Residue 645: CYS, Nonterminal, was not found in name map.)
+(Residue 646: SER, Nonterminal, was not found in name map.)
+(Residue 647: LEU, Nonterminal, was not found in name map.)
+(Residue 648: SER, Nonterminal, was not found in name map.)
+(Residue 649: HIS, Nonterminal, was not found in name map.)
+(Residue 650: ARG, Nonterminal, was not found in name map.)
+(Residue 651: PHE, Nonterminal, was not found in name map.)
+(Residue 652: TYR, Nonterminal, was not found in name map.)
+(Residue 653: ARG, Nonterminal, was not found in name map.)
+(Residue 654: LEU, Nonterminal, was not found in name map.)
+(Residue 655: ALA, Nonterminal, was not found in name map.)
+(Residue 656: ASN, Nonterminal, was not found in name map.)
+(Residue 657: GLU, Nonterminal, was not found in name map.)
+(Residue 658: CYS, Nonterminal, was not found in name map.)
+(Residue 659: ALA, Nonterminal, was not found in name map.)
+(Residue 660: GLN, Nonterminal, was not found in name map.)
+(Residue 661: VAL, Nonterminal, was not found in name map.)
+(Residue 662: LEU, Nonterminal, was not found in name map.)
+(Residue 663: SER, Nonterminal, was not found in name map.)
+(Residue 664: GLU, Nonterminal, was not found in name map.)
+(Residue 665: MET, Nonterminal, was not found in name map.)
+(Residue 666: VAL, Nonterminal, was not found in name map.)
+(Residue 667: MET, Nonterminal, was not found in name map.)
+(Residue 668: CYS, Nonterminal, was not found in name map.)
+(Residue 669: GLY, Nonterminal, was not found in name map.)
+(Residue 670: GLY, Nonterminal, was not found in name map.)
+(Residue 671: SER, Nonterminal, was not found in name map.)
+(Residue 672: LEU, Nonterminal, was not found in name map.)
+(Residue 673: TYR, Nonterminal, was not found in name map.)
+(Residue 674: VAL, Nonterminal, was not found in name map.)
+(Residue 675: LYS, Nonterminal, was not found in name map.)
+(Residue 676: PRO, Nonterminal, was not found in name map.)
+(Residue 677: GLY, Nonterminal, was not found in name map.)
+(Residue 678: GLY, Nonterminal, was not found in name map.)
+(Residue 679: THR, Nonterminal, was not found in name map.)
+(Residue 680: SER, Nonterminal, was not found in name map.)
+(Residue 681: SER, Nonterminal, was not found in name map.)
+(Residue 682: GLY, Nonterminal, was not found in name map.)
+(Residue 683: ASP, Nonterminal, was not found in name map.)
+(Residue 684: ALA, Nonterminal, was not found in name map.)
+(Residue 685: THR, Nonterminal, was not found in name map.)
+(Residue 686: THR, Nonterminal, was not found in name map.)
+(Residue 687: ALA, Nonterminal, was not found in name map.)
+(Residue 688: TYR, Nonterminal, was not found in name map.)
+(Residue 689: ALA, Nonterminal, was not found in name map.)
+(Residue 690: ASN, Nonterminal, was not found in name map.)
+(Residue 691: SER, Nonterminal, was not found in name map.)
+(Residue 692: VAL, Nonterminal, was not found in name map.)
+(Residue 693: PHE, Nonterminal, was not found in name map.)
+(Residue 694: ASN, Nonterminal, was not found in name map.)
+(Residue 695: ILE, Nonterminal, was not found in name map.)
+(Residue 696: CYS, Nonterminal, was not found in name map.)
+(Residue 697: GLN, Nonterminal, was not found in name map.)
+(Residue 698: ALA, Nonterminal, was not found in name map.)
+(Residue 699: VAL, Nonterminal, was not found in name map.)
+(Residue 700: THR, Nonterminal, was not found in name map.)
+(Residue 701: ALA, Nonterminal, was not found in name map.)
+(Residue 702: ASN, Nonterminal, was not found in name map.)
+(Residue 703: VAL, Nonterminal, was not found in name map.)
+(Residue 704: ASN, Nonterminal, was not found in name map.)
+(Residue 705: ALA, Nonterminal, was not found in name map.)
+(Residue 706: LEU, Nonterminal, was not found in name map.)
+(Residue 707: LEU, Nonterminal, was not found in name map.)
+(Residue 708: SER, Nonterminal, was not found in name map.)
+(Residue 709: THR, Nonterminal, was not found in name map.)
+(Residue 710: ASP, Nonterminal, was not found in name map.)
+(Residue 711: GLY, Nonterminal, was not found in name map.)
+(Residue 712: ASN, Nonterminal, was not found in name map.)
+(Residue 713: LYS, Nonterminal, was not found in name map.)
+(Residue 714: ILE, Nonterminal, was not found in name map.)
+(Residue 715: ALA, Nonterminal, was not found in name map.)
+(Residue 716: ASP, Nonterminal, was not found in name map.)
+(Residue 717: LYS, Nonterminal, was not found in name map.)
+(Residue 718: TYR, Nonterminal, was not found in name map.)
+(Residue 719: VAL, Nonterminal, was not found in name map.)
+(Residue 720: ARG, Nonterminal, was not found in name map.)
+(Residue 721: ASN, Nonterminal, was not found in name map.)
+(Residue 722: LEU, Nonterminal, was not found in name map.)
+(Residue 723: GLN, Nonterminal, was not found in name map.)
+(Residue 724: HIS, Nonterminal, was not found in name map.)
+(Residue 725: ARG, Nonterminal, was not found in name map.)
+(Residue 726: LEU, Nonterminal, was not found in name map.)
+(Residue 727: TYR, Nonterminal, was not found in name map.)
+(Residue 728: GLU, Nonterminal, was not found in name map.)
+(Residue 729: CYS, Nonterminal, was not found in name map.)
+(Residue 730: LEU, Nonterminal, was not found in name map.)
+(Residue 731: TYR, Nonterminal, was not found in name map.)
+(Residue 732: ARG, Nonterminal, was not found in name map.)
+(Residue 733: ASN, Nonterminal, was not found in name map.)
+(Residue 734: ARG, Nonterminal, was not found in name map.)
+(Residue 735: ASP, Nonterminal, was not found in name map.)
+(Residue 736: VAL, Nonterminal, was not found in name map.)
+(Residue 737: ASP, Nonterminal, was not found in name map.)
+(Residue 738: THR, Nonterminal, was not found in name map.)
+(Residue 739: ASP, Nonterminal, was not found in name map.)
+(Residue 740: PHE, Nonterminal, was not found in name map.)
+(Residue 741: VAL, Nonterminal, was not found in name map.)
+(Residue 742: ASN, Nonterminal, was not found in name map.)
+(Residue 743: GLU, Nonterminal, was not found in name map.)
+(Residue 744: PHE, Nonterminal, was not found in name map.)
+(Residue 745: TYR, Nonterminal, was not found in name map.)
+(Residue 746: ALA, Nonterminal, was not found in name map.)
+(Residue 747: TYR, Nonterminal, was not found in name map.)
+(Residue 748: LEU, Nonterminal, was not found in name map.)
+(Residue 749: ARG, Nonterminal, was not found in name map.)
+(Residue 750: LYS, Nonterminal, was not found in name map.)
+(Residue 751: HIS, Nonterminal, was not found in name map.)
+(Residue 752: PHE, Nonterminal, was not found in name map.)
+(Residue 753: SER, Nonterminal, was not found in name map.)
+(Residue 754: MET, Nonterminal, was not found in name map.)
+(Residue 755: MET, Nonterminal, was not found in name map.)
+(Residue 756: ILE, Nonterminal, was not found in name map.)
+(Residue 757: LEU, Nonterminal, was not found in name map.)
+(Residue 758: SER, Nonterminal, was not found in name map.)
+(Residue 759: ASP, Nonterminal, was not found in name map.)
+(Residue 760: ASP, Nonterminal, was not found in name map.)
+(Residue 761: ALA, Nonterminal, was not found in name map.)
+(Residue 762: VAL, Nonterminal, was not found in name map.)
+(Residue 763: VAL, Nonterminal, was not found in name map.)
+(Residue 764: CYS, Nonterminal, was not found in name map.)
+(Residue 765: PHE, Nonterminal, was not found in name map.)
+(Residue 766: ASN, Nonterminal, was not found in name map.)
+(Residue 767: SER, Nonterminal, was not found in name map.)
+(Residue 768: THR, Nonterminal, was not found in name map.)
+(Residue 769: TYR, Nonterminal, was not found in name map.)
+(Residue 770: ALA, Nonterminal, was not found in name map.)
+(Residue 771: SER, Nonterminal, was not found in name map.)
+(Residue 772: GLN, Nonterminal, was not found in name map.)
+(Residue 773: GLY, Nonterminal, was not found in name map.)
+(Residue 774: LEU, Nonterminal, was not found in name map.)
+(Residue 775: VAL, Nonterminal, was not found in name map.)
+(Residue 776: ALA, Nonterminal, was not found in name map.)
+(Residue 777: SER, Nonterminal, was not found in name map.)
+(Residue 778: ILE, Nonterminal, was not found in name map.)
+(Residue 779: LYS, Nonterminal, was not found in name map.)
+(Residue 780: ASN, Nonterminal, was not found in name map.)
+(Residue 781: PHE, Nonterminal, was not found in name map.)
+(Residue 782: LYS, Nonterminal, was not found in name map.)
+(Residue 783: SER, Nonterminal, was not found in name map.)
+(Residue 784: VAL, Nonterminal, was not found in name map.)
+(Residue 785: LEU, Nonterminal, was not found in name map.)
+(Residue 786: TYR, Nonterminal, was not found in name map.)
+(Residue 787: TYR, Nonterminal, was not found in name map.)
+(Residue 788: GLN, Nonterminal, was not found in name map.)
+(Residue 789: ASN, Nonterminal, was not found in name map.)
+(Residue 790: ASN, Nonterminal, was not found in name map.)
+(Residue 791: VAL, Nonterminal, was not found in name map.)
+(Residue 792: PHE, Nonterminal, was not found in name map.)
+(Residue 793: MET, Nonterminal, was not found in name map.)
+(Residue 794: SER, Nonterminal, was not found in name map.)
+(Residue 795: GLU, Nonterminal, was not found in name map.)
+(Residue 796: ALA, Nonterminal, was not found in name map.)
+(Residue 797: LYS, Nonterminal, was not found in name map.)
+(Residue 798: CYS, Nonterminal, was not found in name map.)
+(Residue 799: TRP, Nonterminal, was not found in name map.)
+(Residue 800: THR, Nonterminal, was not found in name map.)
+(Residue 801: GLU, Nonterminal, was not found in name map.)
+(Residue 802: THR, Nonterminal, was not found in name map.)
+(Residue 803: ASP, Nonterminal, was not found in name map.)
+(Residue 804: LEU, Nonterminal, was not found in name map.)
+(Residue 805: THR, Nonterminal, was not found in name map.)
+(Residue 806: LYS, Nonterminal, was not found in name map.)
+(Residue 807: GLY, Nonterminal, was not found in name map.)
+(Residue 808: PRO, Nonterminal, was not found in name map.)
+(Residue 809: HIS, Nonterminal, was not found in name map.)
+(Residue 810: GLU, Nonterminal, was not found in name map.)
+(Residue 811: PHE, Nonterminal, was not found in name map.)
+(Residue 812: CYS, Nonterminal, was not found in name map.)
+(Residue 813: SER, Nonterminal, was not found in name map.)
+(Residue 814: GLN, Nonterminal, was not found in name map.)
+(Residue 815: HIS, Nonterminal, was not found in name map.)
+(Residue 816: THR, Nonterminal, was not found in name map.)
+(Residue 817: MET, Nonterminal, was not found in name map.)
+(Residue 818: LEU, Nonterminal, was not found in name map.)
+(Residue 819: VAL, Nonterminal, was not found in name map.)
+(Residue 820: LYS, Nonterminal, was not found in name map.)
+(Residue 821: GLN, Nonterminal, was not found in name map.)
+(Residue 822: GLY, Nonterminal, was not found in name map.)
+(Residue 823: ASP, Nonterminal, was not found in name map.)
+(Residue 824: ASP, Nonterminal, was not found in name map.)
+(Residue 825: TYR, Nonterminal, was not found in name map.)
+(Residue 826: VAL, Nonterminal, was not found in name map.)
+(Residue 827: TYR, Nonterminal, was not found in name map.)
+(Residue 828: LEU, Nonterminal, was not found in name map.)
+(Residue 829: PRO, Nonterminal, was not found in name map.)
+(Residue 830: TYR, Nonterminal, was not found in name map.)
+(Residue 831: PRO, Nonterminal, was not found in name map.)
+(Residue 832: ASP, Nonterminal, was not found in name map.)
+(Residue 833: PRO, Nonterminal, was not found in name map.)
+(Residue 834: SER, Nonterminal, was not found in name map.)
+(Residue 835: ARG, Nonterminal, was not found in name map.)
+(Residue 836: ILE, Nonterminal, was not found in name map.)
+(Residue 837: LEU, Nonterminal, was not found in name map.)
+(Residue 838: GLY, Nonterminal, was not found in name map.)
+(Residue 839: ALA, Nonterminal, was not found in name map.)
+(Residue 840: GLY, Nonterminal, was not found in name map.)
+(Residue 841: CYS, Nonterminal, was not found in name map.)
+(Residue 842: PHE, Nonterminal, was not found in name map.)
+(Residue 843: VAL, Nonterminal, was not found in name map.)
+(Residue 844: ASP, Nonterminal, was not found in name map.)
+(Residue 845: ASP, Nonterminal, was not found in name map.)
+(Residue 846: ILE, Nonterminal, was not found in name map.)
+(Residue 847: VAL, Nonterminal, was not found in name map.)
+(Residue 848: LYS, Nonterminal, was not found in name map.)
+(Residue 849: THR, Nonterminal, was not found in name map.)
+(Residue 850: ASP, Nonterminal, was not found in name map.)
+(Residue 851: GLY, Nonterminal, was not found in name map.)
+(Residue 852: THR, Nonterminal, was not found in name map.)
+(Residue 853: LEU, Nonterminal, was not found in name map.)
+(Residue 854: MET, Nonterminal, was not found in name map.)
+(Residue 855: ILE, Nonterminal, was not found in name map.)
+(Residue 856: GLU, Nonterminal, was not found in name map.)
+(Residue 857: ARG, Nonterminal, was not found in name map.)
+(Residue 858: PHE, Nonterminal, was not found in name map.)
+(Residue 859: VAL, Nonterminal, was not found in name map.)
+(Residue 860: SER, Nonterminal, was not found in name map.)
+(Residue 861: LEU, Nonterminal, was not found in name map.)
+(Residue 862: ALA, Nonterminal, was not found in name map.)
+(Residue 863: ILE, Nonterminal, was not found in name map.)
+(Residue 864: ASP, Nonterminal, was not found in name map.)
+(Residue 865: ALA, Nonterminal, was not found in name map.)
+(Residue 866: TYR, Nonterminal, was not found in name map.)
+(Residue 867: PRO, Nonterminal, was not found in name map.)
+(Residue 868: LEU, Nonterminal, was not found in name map.)
+(Residue 869: THR, Nonterminal, was not found in name map.)
+(Residue 870: LYS, Nonterminal, was not found in name map.)
+(Residue 871: HIS, Nonterminal, was not found in name map.)
+(Residue 872: PRO, Nonterminal, was not found in name map.)
+(Residue 873: ASN, Nonterminal, was not found in name map.)
+(Residue 874: GLN, Nonterminal, was not found in name map.)
+(Residue 875: GLU, Nonterminal, was not found in name map.)
+(Residue 876: TYR, Nonterminal, was not found in name map.)
+(Residue 877: ALA, Nonterminal, was not found in name map.)
+(Residue 878: ASP, Nonterminal, was not found in name map.)
+(Residue 879: VAL, Nonterminal, was not found in name map.)
+(Residue 880: PHE, Nonterminal, was not found in name map.)
+(Residue 881: HIS, Nonterminal, was not found in name map.)
+(Residue 882: LEU, Nonterminal, was not found in name map.)
+(Residue 883: TYR, Nonterminal, was not found in name map.)
+(Residue 884: LEU, Nonterminal, was not found in name map.)
+(Residue 885: GLN, Nonterminal, was not found in name map.)
+(Residue 886: TYR, Nonterminal, was not found in name map.)
+(Residue 887: ILE, Nonterminal, was not found in name map.)
+(Residue 888: ARG, Nonterminal, was not found in name map.)
+(Residue 889: LYS, Nonterminal, was not found in name map.)
+(Residue 890: LEU, Nonterminal, was not found in name map.)
+(Residue 891: HIS, Nonterminal, was not found in name map.)
+(Residue 892: ASP, Nonterminal, was not found in name map.)
+(Residue 893: GLU, Nonterminal, was not found in name map.)
+(Residue 894: LEU, Nonterminal, was not found in name map.)
+(Residue 895: THR, Nonterminal, was not found in name map.)
+(Residue 896: GLY, Nonterminal, was not found in name map.)
+(Residue 897: HIS, Nonterminal, was not found in name map.)
+(Residue 898: MET, Nonterminal, was not found in name map.)
+(Residue 899: LEU, Nonterminal, was not found in name map.)
+(Residue 900: ASP, Nonterminal, was not found in name map.)
+(Residue 901: MET, Nonterminal, was not found in name map.)
+(Residue 902: TYR, Nonterminal, was not found in name map.)
+(Residue 903: SER, Nonterminal, was not found in name map.)
+(Residue 904: VAL, Nonterminal, was not found in name map.)
+(Residue 905: MET, Nonterminal, was not found in name map.)
+(Residue 906: LEU, Nonterminal, was not found in name map.)
+(Residue 907: THR, Nonterminal, was not found in name map.)
+(Residue 908: ASN, Nonterminal, was not found in name map.)
+(Residue 909: ASP, Nonterminal, was not found in name map.)
+(Residue 910: ASN, Nonterminal, was not found in name map.)
+(Residue 911: THR, Nonterminal, was not found in name map.)
+(Residue 912: SER, Nonterminal, was not found in name map.)
+(Residue 913: ARG, Nonterminal, was not found in name map.)
+(Residue 914: TYR, Nonterminal, was not found in name map.)
+(Residue 915: TRP, Nonterminal, was not found in name map.)
+(Residue 916: GLU, Nonterminal, was not found in name map.)
+(Residue 917: PRO, Nonterminal, was not found in name map.)
+(Residue 918: GLU, Nonterminal, was not found in name map.)
+(Residue 919: PHE, Nonterminal, was not found in name map.)
+(Residue 920: TYR, Nonterminal, was not found in name map.)
+(Residue 921: GLU, Nonterminal, was not found in name map.)
+(Residue 922: ALA, Nonterminal, was not found in name map.)
+(Residue 923: MET, Nonterminal, was not found in name map.)
+(Residue 924: TYR, Nonterminal, was not found in name map.)
+(Residue 925: THR, Nonterminal, was not found in name map.)
+(Residue 926: PRO, Nonterminal, was not found in name map.)
+(Residue 927: HIS, Nonterminal, was not found in name map.)
+(Residue 928: THR, Nonterminal, was not found in name map.)
+(Residue 929: VAL, Nonterminal, was not found in name map.)
+(Residue 930: LEU, Nonterminal, was not found in name map.)
+Mapped residue GLN, term: Terminal/last, seq. number: 931 to: CGLN.
+Created a new atom named: HB1 within residue: .R<NSER 1>
+Joining NSER - ALA
+Joining ALA - ASP
+Created a new atom named: HB1 within residue: .R<ASP 3>
+Joining ASP - ALA
+Joining ALA - GLN
+Created a new atom named: HB1 within residue: .R<GLN 5>
+Created a new atom named: HG1 within residue: .R<GLN 5>
+Joining GLN - SER
+Created a new atom named: HB1 within residue: .R<SER 6>
+Joining SER - PHE
+Created a new atom named: HB1 within residue: .R<PHE 7>
+Joining PHE - LEU
+Created a new atom named: HB1 within residue: .R<LEU 8>
+Joining LEU - ASN
+Created a new atom named: HB1 within residue: .R<ASN 9>
+Joining ASN - ARG
+Created a new atom named: HB1 within residue: .R<ARG 10>
+Created a new atom named: HG1 within residue: .R<ARG 10>
+Created a new atom named: HD1 within residue: .R<ARG 10>
+Joining ARG - VAL
+Joining VAL - CYS
+Created a new atom named: HB1 within residue: .R<CYS 12>
+Joining CYS - GLY
+Created a new atom named: HA1 within residue: .R<GLY 13>
+Joining GLY - VAL
+Joining VAL - SER
+Created a new atom named: HB1 within residue: .R<SER 15>
+Joining SER - ALA
+Joining ALA - ALA
+Joining ALA - ARG
+Created a new atom named: HB1 within residue: .R<ARG 18>
+Created a new atom named: HG1 within residue: .R<ARG 18>
+Created a new atom named: HD1 within residue: .R<ARG 18>
+Joining ARG - LEU
+Created a new atom named: HB1 within residue: .R<LEU 19>
+Joining LEU - THR
+Joining THR - PRO
+Created a new atom named: HD1 within residue: .R<PRO 21>
+Created a new atom named: HG1 within residue: .R<PRO 21>
+Created a new atom named: HB1 within residue: .R<PRO 21>
+Joining PRO - CYS
+Created a new atom named: HB1 within residue: .R<CYS 22>
+Joining CYS - GLY
+Created a new atom named: HA1 within residue: .R<GLY 23>
+Joining GLY - THR
+Joining THR - GLY
+Created a new atom named: HA1 within residue: .R<GLY 25>
+Joining GLY - THR
+Joining THR - SER
+Created a new atom named: HB1 within residue: .R<SER 27>
+Joining SER - THR
+Joining THR - ASP
+Created a new atom named: HB1 within residue: .R<ASP 29>
+Joining ASP - VAL
+Joining VAL - VAL
+Joining VAL - TYR
+Created a new atom named: HB1 within residue: .R<TYR 32>
+Joining TYR - ARG
+Created a new atom named: HB1 within residue: .R<ARG 33>
+Created a new atom named: HG1 within residue: .R<ARG 33>
+Created a new atom named: HD1 within residue: .R<ARG 33>
+Joining ARG - ALA
+Joining ALA - PHE
+Created a new atom named: HB1 within residue: .R<PHE 35>
+Joining PHE - ASP
+Created a new atom named: HB1 within residue: .R<ASP 36>
+Joining ASP - ILE
+Created a new atom named: HG11 within residue: .R<ILE 37>
+Created a new atom named: HD1 within residue: .R<ILE 37>
+Created a new atom named: HD2 within residue: .R<ILE 37>
+Created a new atom named: HD3 within residue: .R<ILE 37>
+Joining ILE - TYR
+Created a new atom named: HB1 within residue: .R<TYR 38>
+Joining TYR - ASN
+Created a new atom named: HB1 within residue: .R<ASN 39>
+Joining ASN - ASP
+Created a new atom named: HB1 within residue: .R<ASP 40>
+Joining ASP - LYS
+Created a new atom named: HB1 within residue: .R<LYS 41>
+Created a new atom named: HG1 within residue: .R<LYS 41>
+Created a new atom named: HD1 within residue: .R<LYS 41>
+Created a new atom named: HE1 within residue: .R<LYS 41>
+Joining LYS - VAL
+Joining VAL - ALA
+Joining ALA - GLY
+Created a new atom named: HA1 within residue: .R<GLY 44>
+Joining GLY - PHE
+Created a new atom named: HB1 within residue: .R<PHE 45>
+Joining PHE - ALA
+Joining ALA - LYS
+Created a new atom named: HB1 within residue: .R<LYS 47>
+Created a new atom named: HG1 within residue: .R<LYS 47>
+Created a new atom named: HD1 within residue: .R<LYS 47>
+Created a new atom named: HE1 within residue: .R<LYS 47>
+Joining LYS - PHE
+Created a new atom named: HB1 within residue: .R<PHE 48>
+Joining PHE - LEU
+Created a new atom named: HB1 within residue: .R<LEU 49>
+Joining LEU - LYS
+Created a new atom named: HB1 within residue: .R<LYS 50>
+Created a new atom named: HG1 within residue: .R<LYS 50>
+Created a new atom named: HD1 within residue: .R<LYS 50>
+Created a new atom named: HE1 within residue: .R<LYS 50>
+Joining LYS - THR
+Joining THR - ASN
+Created a new atom named: HB1 within residue: .R<ASN 52>
+Joining ASN - CYS
+Created a new atom named: HB1 within residue: .R<CYS 53>
+Joining CYS - CYS
+Created a new atom named: HB1 within residue: .R<CYS 54>
+Joining CYS - ARG
+Created a new atom named: HB1 within residue: .R<ARG 55>
+Created a new atom named: HG1 within residue: .R<ARG 55>
+Created a new atom named: HD1 within residue: .R<ARG 55>
+Joining ARG - PHE
+Created a new atom named: HB1 within residue: .R<PHE 56>
+Joining PHE - GLN
+Created a new atom named: HB1 within residue: .R<GLN 57>
+Created a new atom named: HG1 within residue: .R<GLN 57>
+Joining GLN - GLU
+Created a new atom named: HB1 within residue: .R<GLU 58>
+Created a new atom named: HG1 within residue: .R<GLU 58>
+Joining GLU - LYS
+Created a new atom named: HB1 within residue: .R<LYS 59>
+Created a new atom named: HG1 within residue: .R<LYS 59>
+Created a new atom named: HD1 within residue: .R<LYS 59>
+Created a new atom named: HE1 within residue: .R<LYS 59>
+Joining LYS - ASP
+Created a new atom named: HB1 within residue: .R<ASP 60>
+Joining ASP - GLU
+Created a new atom named: HB1 within residue: .R<GLU 61>
+Created a new atom named: HG1 within residue: .R<GLU 61>
+Joining GLU - ASP
+Created a new atom named: HB1 within residue: .R<ASP 62>
+Joining ASP - ASP
+Created a new atom named: HB1 within residue: .R<ASP 63>
+Joining ASP - ASN
+Created a new atom named: HB1 within residue: .R<ASN 64>
+Joining ASN - LEU
+Created a new atom named: HB1 within residue: .R<LEU 65>
+Joining LEU - ILE
+Created a new atom named: HG11 within residue: .R<ILE 66>
+Created a new atom named: HD1 within residue: .R<ILE 66>
+Created a new atom named: HD2 within residue: .R<ILE 66>
+Created a new atom named: HD3 within residue: .R<ILE 66>
+Joining ILE - ASP
+Created a new atom named: HB1 within residue: .R<ASP 67>
+Joining ASP - SER
+Created a new atom named: HB1 within residue: .R<SER 68>
+Joining SER - TYR
+Created a new atom named: HB1 within residue: .R<TYR 69>
+Joining TYR - PHE
+Created a new atom named: HB1 within residue: .R<PHE 70>
+Joining PHE - VAL
+Joining VAL - VAL
+Joining VAL - LYS
+Created a new atom named: HB1 within residue: .R<LYS 73>
+Created a new atom named: HG1 within residue: .R<LYS 73>
+Created a new atom named: HD1 within residue: .R<LYS 73>
+Created a new atom named: HE1 within residue: .R<LYS 73>
+Joining LYS - ARG
+Created a new atom named: HB1 within residue: .R<ARG 74>
+Created a new atom named: HG1 within residue: .R<ARG 74>
+Created a new atom named: HD1 within residue: .R<ARG 74>
+Joining ARG - HIE
+Created a new atom named: HB1 within residue: .R<HIE 75>
+Joining HIE - THR
+Joining THR - PHE
+Created a new atom named: HB1 within residue: .R<PHE 77>
+Joining PHE - SER
+Created a new atom named: HB1 within residue: .R<SER 78>
+Joining SER - ASN
+Created a new atom named: HB1 within residue: .R<ASN 79>
+Joining ASN - TYR
+Created a new atom named: HB1 within residue: .R<TYR 80>
+Joining TYR - GLN
+Created a new atom named: HB1 within residue: .R<GLN 81>
+Created a new atom named: HG1 within residue: .R<GLN 81>
+Joining GLN - HIE
+Created a new atom named: HB1 within residue: .R<HIE 82>
+Joining HIE - GLU
+Created a new atom named: HB1 within residue: .R<GLU 83>
+Created a new atom named: HG1 within residue: .R<GLU 83>
+Joining GLU - GLU
+Created a new atom named: HB1 within residue: .R<GLU 84>
+Created a new atom named: HG1 within residue: .R<GLU 84>
+Joining GLU - THR
+Joining THR - ILE
+Created a new atom named: HG11 within residue: .R<ILE 86>
+Created a new atom named: HD1 within residue: .R<ILE 86>
+Created a new atom named: HD2 within residue: .R<ILE 86>
+Created a new atom named: HD3 within residue: .R<ILE 86>
+Joining ILE - TYR
+Created a new atom named: HB1 within residue: .R<TYR 87>
+Joining TYR - ASN
+Created a new atom named: HB1 within residue: .R<ASN 88>
+Joining ASN - LEU
+Created a new atom named: HB1 within residue: .R<LEU 89>
+Joining LEU - LEU
+Created a new atom named: HB1 within residue: .R<LEU 90>
+Joining LEU - LYS
+Created a new atom named: HB1 within residue: .R<LYS 91>
+Created a new atom named: HG1 within residue: .R<LYS 91>
+Created a new atom named: HD1 within residue: .R<LYS 91>
+Created a new atom named: HE1 within residue: .R<LYS 91>
+Joining LYS - ASP
+Created a new atom named: HB1 within residue: .R<ASP 92>
+Joining ASP - CYS
+Created a new atom named: HB1 within residue: .R<CYS 93>
+Joining CYS - PRO
+Created a new atom named: HD1 within residue: .R<PRO 94>
+Created a new atom named: HG1 within residue: .R<PRO 94>
+Created a new atom named: HB1 within residue: .R<PRO 94>
+Joining PRO - ALA
+Joining ALA - VAL
+Joining VAL - ALA
+Joining ALA - LYS
+Created a new atom named: HB1 within residue: .R<LYS 98>
+Created a new atom named: HG1 within residue: .R<LYS 98>
+Created a new atom named: HD1 within residue: .R<LYS 98>
+Created a new atom named: HE1 within residue: .R<LYS 98>
+Joining LYS - HIE
+Created a new atom named: HB1 within residue: .R<HIE 99>
+Joining HIE - ASP
+Created a new atom named: HB1 within residue: .R<ASP 100>
+Joining ASP - PHE
+Created a new atom named: HB1 within residue: .R<PHE 101>
+Joining PHE - PHE
+Created a new atom named: HB1 within residue: .R<PHE 102>
+Joining PHE - LYS
+Created a new atom named: HB1 within residue: .R<LYS 103>
+Created a new atom named: HG1 within residue: .R<LYS 103>
+Created a new atom named: HD1 within residue: .R<LYS 103>
+Created a new atom named: HE1 within residue: .R<LYS 103>
+Joining LYS - PHE
+Created a new atom named: HB1 within residue: .R<PHE 104>
+Joining PHE - ARG
+Created a new atom named: HB1 within residue: .R<ARG 105>
+Created a new atom named: HG1 within residue: .R<ARG 105>
+Created a new atom named: HD1 within residue: .R<ARG 105>
+Joining ARG - ILE
+Created a new atom named: HG11 within residue: .R<ILE 106>
+Created a new atom named: HD1 within residue: .R<ILE 106>
+Created a new atom named: HD2 within residue: .R<ILE 106>
+Created a new atom named: HD3 within residue: .R<ILE 106>
+Joining ILE - ASP
+Created a new atom named: HB1 within residue: .R<ASP 107>
+Joining ASP - GLY
+Created a new atom named: HA1 within residue: .R<GLY 108>
+Joining GLY - ASP
+Created a new atom named: HB1 within residue: .R<ASP 109>
+Joining ASP - MET
+Created a new atom named: HB1 within residue: .R<MET 110>
+Created a new atom named: HG1 within residue: .R<MET 110>
+Joining MET - VAL
+Joining VAL - PRO
+Created a new atom named: HD1 within residue: .R<PRO 112>
+Created a new atom named: HG1 within residue: .R<PRO 112>
+Created a new atom named: HB1 within residue: .R<PRO 112>
+Joining PRO - HIE
+Created a new atom named: HB1 within residue: .R<HIE 113>
+Joining HIE - ILE
+Created a new atom named: HG11 within residue: .R<ILE 114>
+Created a new atom named: HD1 within residue: .R<ILE 114>
+Created a new atom named: HD2 within residue: .R<ILE 114>
+Created a new atom named: HD3 within residue: .R<ILE 114>
+Joining ILE - SER
+Created a new atom named: HB1 within residue: .R<SER 115>
+Joining SER - ARG
+Created a new atom named: HB1 within residue: .R<ARG 116>
+Created a new atom named: HG1 within residue: .R<ARG 116>
+Created a new atom named: HD1 within residue: .R<ARG 116>
+Joining ARG - GLN
+Created a new atom named: HB1 within residue: .R<GLN 117>
+Created a new atom named: HG1 within residue: .R<GLN 117>
+Joining GLN - ARG
+Created a new atom named: HB1 within residue: .R<ARG 118>
+Created a new atom named: HG1 within residue: .R<ARG 118>
+Created a new atom named: HD1 within residue: .R<ARG 118>
+Joining ARG - LEU
+Created a new atom named: HB1 within residue: .R<LEU 119>
+Joining LEU - THR
+Joining THR - LYS
+Created a new atom named: HB1 within residue: .R<LYS 121>
+Created a new atom named: HG1 within residue: .R<LYS 121>
+Created a new atom named: HD1 within residue: .R<LYS 121>
+Created a new atom named: HE1 within residue: .R<LYS 121>
+Joining LYS - TYR
+Created a new atom named: HB1 within residue: .R<TYR 122>
+Joining TYR - THR
+Joining THR - MET
+Created a new atom named: HB1 within residue: .R<MET 124>
+Created a new atom named: HG1 within residue: .R<MET 124>
+Joining MET - ALA
+Joining ALA - ASP
+Created a new atom named: HB1 within residue: .R<ASP 126>
+Joining ASP - LEU
+Created a new atom named: HB1 within residue: .R<LEU 127>
+Joining LEU - VAL
+Joining VAL - TYR
+Created a new atom named: HB1 within residue: .R<TYR 129>
+Joining TYR - ALA
+Joining ALA - LEU
+Created a new atom named: HB1 within residue: .R<LEU 131>
+Joining LEU - ARG
+Created a new atom named: HB1 within residue: .R<ARG 132>
+Created a new atom named: HG1 within residue: .R<ARG 132>
+Created a new atom named: HD1 within residue: .R<ARG 132>
+Joining ARG - HIE
+Created a new atom named: HB1 within residue: .R<HIE 133>
+Joining HIE - PHE
+Created a new atom named: HB1 within residue: .R<PHE 134>
+Joining PHE - ASP
+Created a new atom named: HB1 within residue: .R<ASP 135>
+Joining ASP - GLU
+Created a new atom named: HB1 within residue: .R<GLU 136>
+Created a new atom named: HG1 within residue: .R<GLU 136>
+Joining GLU - GLY
+Created a new atom named: HA1 within residue: .R<GLY 137>
+Joining GLY - ASN
+Created a new atom named: HB1 within residue: .R<ASN 138>
+Joining ASN - CYS
+Created a new atom named: HB1 within residue: .R<CYS 139>
+Joining CYS - ASP
+Created a new atom named: HB1 within residue: .R<ASP 140>
+Joining ASP - THR
+Joining THR - LEU
+Created a new atom named: HB1 within residue: .R<LEU 142>
+Joining LEU - LYS
+Created a new atom named: HB1 within residue: .R<LYS 143>
+Created a new atom named: HG1 within residue: .R<LYS 143>
+Created a new atom named: HD1 within residue: .R<LYS 143>
+Created a new atom named: HE1 within residue: .R<LYS 143>
+Joining LYS - GLU
+Created a new atom named: HB1 within residue: .R<GLU 144>
+Created a new atom named: HG1 within residue: .R<GLU 144>
+Joining GLU - ILE
+Created a new atom named: HG11 within residue: .R<ILE 145>
+Created a new atom named: HD1 within residue: .R<ILE 145>
+Created a new atom named: HD2 within residue: .R<ILE 145>
+Created a new atom named: HD3 within residue: .R<ILE 145>
+Joining ILE - LEU
+Created a new atom named: HB1 within residue: .R<LEU 146>
+Joining LEU - VAL
+Joining VAL - THR
+Joining THR - TYR
+Created a new atom named: HB1 within residue: .R<TYR 149>
+Joining TYR - ASN
+Created a new atom named: HB1 within residue: .R<ASN 150>
+Joining ASN - CYS
+Created a new atom named: HB1 within residue: .R<CYS 151>
+Joining CYS - CYS
+Created a new atom named: HB1 within residue: .R<CYS 152>
+Joining CYS - ASP
+Created a new atom named: HB1 within residue: .R<ASP 153>
+Joining ASP - ASP
+Created a new atom named: HB1 within residue: .R<ASP 154>
+Joining ASP - ASP
+Created a new atom named: HB1 within residue: .R<ASP 155>
+Joining ASP - TYR
+Created a new atom named: HB1 within residue: .R<TYR 156>
+Joining TYR - PHE
+Created a new atom named: HB1 within residue: .R<PHE 157>
+Joining PHE - ASN
+Created a new atom named: HB1 within residue: .R<ASN 158>
+Joining ASN - LYS
+Created a new atom named: HB1 within residue: .R<LYS 159>
+Created a new atom named: HG1 within residue: .R<LYS 159>
+Created a new atom named: HD1 within residue: .R<LYS 159>
+Created a new atom named: HE1 within residue: .R<LYS 159>
+Joining LYS - LYS
+Created a new atom named: HB1 within residue: .R<LYS 160>
+Created a new atom named: HG1 within residue: .R<LYS 160>
+Created a new atom named: HD1 within residue: .R<LYS 160>
+Created a new atom named: HE1 within residue: .R<LYS 160>
+Joining LYS - ASP
+Created a new atom named: HB1 within residue: .R<ASP 161>
+Joining ASP - TRP
+Created a new atom named: HB1 within residue: .R<TRP 162>
+Joining TRP - TYR
+Created a new atom named: HB1 within residue: .R<TYR 163>
+Joining TYR - ASP
+Created a new atom named: HB1 within residue: .R<ASP 164>
+Joining ASP - PHE
+Created a new atom named: HB1 within residue: .R<PHE 165>
+Joining PHE - VAL
+Joining VAL - GLU
+Created a new atom named: HB1 within residue: .R<GLU 167>
+Created a new atom named: HG1 within residue: .R<GLU 167>
+Joining GLU - ASN
+Created a new atom named: HB1 within residue: .R<ASN 168>
+Joining ASN - PRO
+Created a new atom named: HD1 within residue: .R<PRO 169>
+Created a new atom named: HG1 within residue: .R<PRO 169>
+Created a new atom named: HB1 within residue: .R<PRO 169>
+Joining PRO - ASP
+Created a new atom named: HB1 within residue: .R<ASP 170>
+Joining ASP - ILE
+Created a new atom named: HG11 within residue: .R<ILE 171>
+Created a new atom named: HD1 within residue: .R<ILE 171>
+Created a new atom named: HD2 within residue: .R<ILE 171>
+Created a new atom named: HD3 within residue: .R<ILE 171>
+Joining ILE - LEU
+Created a new atom named: HB1 within residue: .R<LEU 172>
+Joining LEU - ARG
+Created a new atom named: HB1 within residue: .R<ARG 173>
+Created a new atom named: HG1 within residue: .R<ARG 173>
+Created a new atom named: HD1 within residue: .R<ARG 173>
+Joining ARG - VAL
+Joining VAL - TYR
+Created a new atom named: HB1 within residue: .R<TYR 175>
+Joining TYR - ALA
+Joining ALA - ASN
+Created a new atom named: HB1 within residue: .R<ASN 177>
+Joining ASN - LEU
+Created a new atom named: HB1 within residue: .R<LEU 178>
+Joining LEU - GLY
+Created a new atom named: HA1 within residue: .R<GLY 179>
+Joining GLY - GLU
+Created a new atom named: HB1 within residue: .R<GLU 180>
+Created a new atom named: HG1 within residue: .R<GLU 180>
+Joining GLU - ARG
+Created a new atom named: HB1 within residue: .R<ARG 181>
+Created a new atom named: HG1 within residue: .R<ARG 181>
+Created a new atom named: HD1 within residue: .R<ARG 181>
+Joining ARG - VAL
+Joining VAL - ARG
+Created a new atom named: HB1 within residue: .R<ARG 183>
+Created a new atom named: HG1 within residue: .R<ARG 183>
+Created a new atom named: HD1 within residue: .R<ARG 183>
+Joining ARG - GLN
+Created a new atom named: HB1 within residue: .R<GLN 184>
+Created a new atom named: HG1 within residue: .R<GLN 184>
+Joining GLN - ALA
+Joining ALA - LEU
+Created a new atom named: HB1 within residue: .R<LEU 186>
+Joining LEU - LEU
+Created a new atom named: HB1 within residue: .R<LEU 187>
+Joining LEU - LYS
+Created a new atom named: HB1 within residue: .R<LYS 188>
+Created a new atom named: HG1 within residue: .R<LYS 188>
+Created a new atom named: HD1 within residue: .R<LYS 188>
+Created a new atom named: HE1 within residue: .R<LYS 188>
+Joining LYS - THR
+Joining THR - VAL
+Joining VAL - GLN
+Created a new atom named: HB1 within residue: .R<GLN 191>
+Created a new atom named: HG1 within residue: .R<GLN 191>
+Joining GLN - PHE
+Created a new atom named: HB1 within residue: .R<PHE 192>
+Joining PHE - CYS
+Created a new atom named: HB1 within residue: .R<CYS 193>
+Joining CYS - ASP
+Created a new atom named: HB1 within residue: .R<ASP 194>
+Joining ASP - ALA
+Joining ALA - MET
+Created a new atom named: HB1 within residue: .R<MET 196>
+Created a new atom named: HG1 within residue: .R<MET 196>
+Joining MET - ARG
+Created a new atom named: HB1 within residue: .R<ARG 197>
+Created a new atom named: HG1 within residue: .R<ARG 197>
+Created a new atom named: HD1 within residue: .R<ARG 197>
+Joining ARG - ASN
+Created a new atom named: HB1 within residue: .R<ASN 198>
+Joining ASN - ALA
+Joining ALA - GLY
+Created a new atom named: HA1 within residue: .R<GLY 200>
+Joining GLY - ILE
+Created a new atom named: HG11 within residue: .R<ILE 201>
+Created a new atom named: HD1 within residue: .R<ILE 201>
+Created a new atom named: HD2 within residue: .R<ILE 201>
+Created a new atom named: HD3 within residue: .R<ILE 201>
+Joining ILE - VAL
+Joining VAL - GLY
+Created a new atom named: HA1 within residue: .R<GLY 203>
+Joining GLY - VAL
+Joining VAL - LEU
+Created a new atom named: HB1 within residue: .R<LEU 205>
+Joining LEU - THR
+Joining THR - LEU
+Created a new atom named: HB1 within residue: .R<LEU 207>
+Joining LEU - ASP
+Created a new atom named: HB1 within residue: .R<ASP 208>
+Joining ASP - ASN
+Created a new atom named: HB1 within residue: .R<ASN 209>
+Joining ASN - GLN
+Created a new atom named: HB1 within residue: .R<GLN 210>
+Created a new atom named: HG1 within residue: .R<GLN 210>
+Joining GLN - ASP
+Created a new atom named: HB1 within residue: .R<ASP 211>
+Joining ASP - LEU
+Created a new atom named: HB1 within residue: .R<LEU 212>
+Joining LEU - ASN
+Created a new atom named: HB1 within residue: .R<ASN 213>
+Joining ASN - GLY
+Created a new atom named: HA1 within residue: .R<GLY 214>
+Joining GLY - ASN
+Created a new atom named: HB1 within residue: .R<ASN 215>
+Joining ASN - TRP
+Created a new atom named: HB1 within residue: .R<TRP 216>
+Joining TRP - TYR
+Created a new atom named: HB1 within residue: .R<TYR 217>
+Joining TYR - ASP
+Created a new atom named: HB1 within residue: .R<ASP 218>
+Joining ASP - PHE
+Created a new atom named: HB1 within residue: .R<PHE 219>
+Joining PHE - GLY
+Created a new atom named: HA1 within residue: .R<GLY 220>
+Joining GLY - ASP
+Created a new atom named: HB1 within residue: .R<ASP 221>
+Joining ASP - PHE
+Created a new atom named: HB1 within residue: .R<PHE 222>
+Joining PHE - ILE
+Created a new atom named: HG11 within residue: .R<ILE 223>
+Created a new atom named: HD1 within residue: .R<ILE 223>
+Created a new atom named: HD2 within residue: .R<ILE 223>
+Created a new atom named: HD3 within residue: .R<ILE 223>
+Joining ILE - GLN
+Created a new atom named: HB1 within residue: .R<GLN 224>
+Created a new atom named: HG1 within residue: .R<GLN 224>
+Joining GLN - THR
+Joining THR - THR
+Joining THR - PRO
+Created a new atom named: HD1 within residue: .R<PRO 227>
+Created a new atom named: HG1 within residue: .R<PRO 227>
+Created a new atom named: HB1 within residue: .R<PRO 227>
+Joining PRO - GLY
+Created a new atom named: HA1 within residue: .R<GLY 228>
+Joining GLY - SER
+Created a new atom named: HB1 within residue: .R<SER 229>
+Joining SER - GLY
+Created a new atom named: HA1 within residue: .R<GLY 230>
+Joining GLY - VAL
+Joining VAL - PRO
+Created a new atom named: HD1 within residue: .R<PRO 232>
+Created a new atom named: HG1 within residue: .R<PRO 232>
+Created a new atom named: HB1 within residue: .R<PRO 232>
+Joining PRO - VAL
+Joining VAL - VAL
+Joining VAL - ASP
+Created a new atom named: HB1 within residue: .R<ASP 235>
+Joining ASP - SER
+Created a new atom named: HB1 within residue: .R<SER 236>
+Joining SER - TYR
+Created a new atom named: HB1 within residue: .R<TYR 237>
+Joining TYR - TYR
+Created a new atom named: HB1 within residue: .R<TYR 238>
+Joining TYR - SER
+Created a new atom named: HB1 within residue: .R<SER 239>
+Joining SER - LEU
+Created a new atom named: HB1 within residue: .R<LEU 240>
+Joining LEU - LEU
+Created a new atom named: HB1 within residue: .R<LEU 241>
+Joining LEU - MET
+Created a new atom named: HB1 within residue: .R<MET 242>
+Created a new atom named: HG1 within residue: .R<MET 242>
+Joining MET - PRO
+Created a new atom named: HD1 within residue: .R<PRO 243>
+Created a new atom named: HG1 within residue: .R<PRO 243>
+Created a new atom named: HB1 within residue: .R<PRO 243>
+Joining PRO - ILE
+Created a new atom named: HG11 within residue: .R<ILE 244>
+Created a new atom named: HD1 within residue: .R<ILE 244>
+Created a new atom named: HD2 within residue: .R<ILE 244>
+Created a new atom named: HD3 within residue: .R<ILE 244>
+Joining ILE - LEU
+Created a new atom named: HB1 within residue: .R<LEU 245>
+Joining LEU - THR
+Joining THR - LEU
+Created a new atom named: HB1 within residue: .R<LEU 247>
+Joining LEU - THR
+Joining THR - ARG
+Created a new atom named: HB1 within residue: .R<ARG 249>
+Created a new atom named: HG1 within residue: .R<ARG 249>
+Created a new atom named: HD1 within residue: .R<ARG 249>
+Joining ARG - ALA
+Joining ALA - LEU
+Created a new atom named: HB1 within residue: .R<LEU 251>
+Joining LEU - THR
+Joining THR - ALA
+Joining ALA - GLU
+Created a new atom named: HB1 within residue: .R<GLU 254>
+Created a new atom named: HG1 within residue: .R<GLU 254>
+Joining GLU - SER
+Created a new atom named: HB1 within residue: .R<SER 255>
+Joining SER - HIE
+Created a new atom named: HB1 within residue: .R<HIE 256>
+Joining HIE - VAL
+Joining VAL - ASP
+Created a new atom named: HB1 within residue: .R<ASP 258>
+Joining ASP - THR
+Joining THR - ASP
+Created a new atom named: HB1 within residue: .R<ASP 260>
+Joining ASP - LEU
+Created a new atom named: HB1 within residue: .R<LEU 261>
+Joining LEU - THR
+Joining THR - LYS
+Created a new atom named: HB1 within residue: .R<LYS 263>
+Created a new atom named: HG1 within residue: .R<LYS 263>
+Created a new atom named: HD1 within residue: .R<LYS 263>
+Created a new atom named: HE1 within residue: .R<LYS 263>
+Joining LYS - PRO
+Created a new atom named: HD1 within residue: .R<PRO 264>
+Created a new atom named: HG1 within residue: .R<PRO 264>
+Created a new atom named: HB1 within residue: .R<PRO 264>
+Joining PRO - TYR
+Created a new atom named: HB1 within residue: .R<TYR 265>
+Joining TYR - ILE
+Created a new atom named: HG11 within residue: .R<ILE 266>
+Created a new atom named: HD1 within residue: .R<ILE 266>
+Created a new atom named: HD2 within residue: .R<ILE 266>
+Created a new atom named: HD3 within residue: .R<ILE 266>
+Joining ILE - LYS
+Created a new atom named: HB1 within residue: .R<LYS 267>
+Created a new atom named: HG1 within residue: .R<LYS 267>
+Created a new atom named: HD1 within residue: .R<LYS 267>
+Created a new atom named: HE1 within residue: .R<LYS 267>
+Joining LYS - TRP
+Created a new atom named: HB1 within residue: .R<TRP 268>
+Joining TRP - ASP
+Created a new atom named: HB1 within residue: .R<ASP 269>
+Joining ASP - LEU
+Created a new atom named: HB1 within residue: .R<LEU 270>
+Joining LEU - LEU
+Created a new atom named: HB1 within residue: .R<LEU 271>
+Joining LEU - LYS
+Created a new atom named: HB1 within residue: .R<LYS 272>
+Created a new atom named: HG1 within residue: .R<LYS 272>
+Created a new atom named: HD1 within residue: .R<LYS 272>
+Created a new atom named: HE1 within residue: .R<LYS 272>
+Joining LYS - TYR
+Created a new atom named: HB1 within residue: .R<TYR 273>
+Joining TYR - ASP
+Created a new atom named: HB1 within residue: .R<ASP 274>
+Joining ASP - PHE
+Created a new atom named: HB1 within residue: .R<PHE 275>
+Joining PHE - THR
+Joining THR - GLU
+Created a new atom named: HB1 within residue: .R<GLU 277>
+Created a new atom named: HG1 within residue: .R<GLU 277>
+Joining GLU - GLU
+Created a new atom named: HB1 within residue: .R<GLU 278>
+Created a new atom named: HG1 within residue: .R<GLU 278>
+Joining GLU - ARG
+Created a new atom named: HB1 within residue: .R<ARG 279>
+Created a new atom named: HG1 within residue: .R<ARG 279>
+Created a new atom named: HD1 within residue: .R<ARG 279>
+Joining ARG - LEU
+Created a new atom named: HB1 within residue: .R<LEU 280>
+Joining LEU - LYS
+Created a new atom named: HB1 within residue: .R<LYS 281>
+Created a new atom named: HG1 within residue: .R<LYS 281>
+Created a new atom named: HD1 within residue: .R<LYS 281>
+Created a new atom named: HE1 within residue: .R<LYS 281>
+Joining LYS - LEU
+Created a new atom named: HB1 within residue: .R<LEU 282>
+Joining LEU - PHE
+Created a new atom named: HB1 within residue: .R<PHE 283>
+Joining PHE - ASP
+Created a new atom named: HB1 within residue: .R<ASP 284>
+Joining ASP - ARG
+Created a new atom named: HB1 within residue: .R<ARG 285>
+Created a new atom named: HG1 within residue: .R<ARG 285>
+Created a new atom named: HD1 within residue: .R<ARG 285>
+Joining ARG - TYR
+Created a new atom named: HB1 within residue: .R<TYR 286>
+Joining TYR - PHE
+Created a new atom named: HB1 within residue: .R<PHE 287>
+Joining PHE - LYS
+Created a new atom named: HB1 within residue: .R<LYS 288>
+Created a new atom named: HG1 within residue: .R<LYS 288>
+Created a new atom named: HD1 within residue: .R<LYS 288>
+Created a new atom named: HE1 within residue: .R<LYS 288>
+Joining LYS - TYR
+Created a new atom named: HB1 within residue: .R<TYR 289>
+Joining TYR - TRP
+Created a new atom named: HB1 within residue: .R<TRP 290>
+Joining TRP - ASP
+Created a new atom named: HB1 within residue: .R<ASP 291>
+Joining ASP - GLN
+Created a new atom named: HB1 within residue: .R<GLN 292>
+Created a new atom named: HG1 within residue: .R<GLN 292>
+Joining GLN - THR
+Joining THR - TYR
+Created a new atom named: HB1 within residue: .R<TYR 294>
+Joining TYR - HIE
+Created a new atom named: HB1 within residue: .R<HIE 295>
+Joining HIE - PRO
+Created a new atom named: HD1 within residue: .R<PRO 296>
+Created a new atom named: HG1 within residue: .R<PRO 296>
+Created a new atom named: HB1 within residue: .R<PRO 296>
+Joining PRO - ASN
+Created a new atom named: HB1 within residue: .R<ASN 297>
+Joining ASN - CYS
+Created a new atom named: HB1 within residue: .R<CYS 298>
+Joining CYS - VAL
+Joining VAL - ASN
+Created a new atom named: HB1 within residue: .R<ASN 300>
+Joining ASN - CYS
+Created a new atom named: HB1 within residue: .R<CYS 301>
+Joining CYS - LEU
+Created a new atom named: HB1 within residue: .R<LEU 302>
+Joining LEU - ASP
+Created a new atom named: HB1 within residue: .R<ASP 303>
+Joining ASP - ASP
+Created a new atom named: HB1 within residue: .R<ASP 304>
+Joining ASP - ARG
+Created a new atom named: HB1 within residue: .R<ARG 305>
+Created a new atom named: HG1 within residue: .R<ARG 305>
+Created a new atom named: HD1 within residue: .R<ARG 305>
+Joining ARG - CYS
+Created a new atom named: HB1 within residue: .R<CYS 306>
+Joining CYS - ILE
+Created a new atom named: HG11 within residue: .R<ILE 307>
+Created a new atom named: HD1 within residue: .R<ILE 307>
+Created a new atom named: HD2 within residue: .R<ILE 307>
+Created a new atom named: HD3 within residue: .R<ILE 307>
+Joining ILE - LEU
+Created a new atom named: HB1 within residue: .R<LEU 308>
+Joining LEU - HIE
+Created a new atom named: HB1 within residue: .R<HIE 309>
+Joining HIE - CYS
+Created a new atom named: HB1 within residue: .R<CYS 310>
+Joining CYS - ALA
+Joining ALA - ASN
+Created a new atom named: HB1 within residue: .R<ASN 312>
+Joining ASN - PHE
+Created a new atom named: HB1 within residue: .R<PHE 313>
+Joining PHE - ASN
+Created a new atom named: HB1 within residue: .R<ASN 314>
+Joining ASN - VAL
+Joining VAL - LEU
+Created a new atom named: HB1 within residue: .R<LEU 316>
+Joining LEU - PHE
+Created a new atom named: HB1 within residue: .R<PHE 317>
+Joining PHE - SER
+Created a new atom named: HB1 within residue: .R<SER 318>
+Joining SER - THR
+Joining THR - VAL
+Joining VAL - PHE
+Created a new atom named: HB1 within residue: .R<PHE 321>
+Joining PHE - PRO
+Created a new atom named: HD1 within residue: .R<PRO 322>
+Created a new atom named: HG1 within residue: .R<PRO 322>
+Created a new atom named: HB1 within residue: .R<PRO 322>
+Joining PRO - PRO
+Created a new atom named: HD1 within residue: .R<PRO 323>
+Created a new atom named: HG1 within residue: .R<PRO 323>
+Created a new atom named: HB1 within residue: .R<PRO 323>
+Joining PRO - THR
+Joining THR - SER
+Created a new atom named: HB1 within residue: .R<SER 325>
+Joining SER - PHE
+Created a new atom named: HB1 within residue: .R<PHE 326>
+Joining PHE - GLY
+Created a new atom named: HA1 within residue: .R<GLY 327>
+Joining GLY - PRO
+Created a new atom named: HD1 within residue: .R<PRO 328>
+Created a new atom named: HG1 within residue: .R<PRO 328>
+Created a new atom named: HB1 within residue: .R<PRO 328>
+Joining PRO - LEU
+Created a new atom named: HB1 within residue: .R<LEU 329>
+Joining LEU - VAL
+Joining VAL - ARG
+Created a new atom named: HB1 within residue: .R<ARG 331>
+Created a new atom named: HG1 within residue: .R<ARG 331>
+Created a new atom named: HD1 within residue: .R<ARG 331>
+Joining ARG - LYS
+Created a new atom named: HB1 within residue: .R<LYS 332>
+Created a new atom named: HG1 within residue: .R<LYS 332>
+Created a new atom named: HD1 within residue: .R<LYS 332>
+Created a new atom named: HE1 within residue: .R<LYS 332>
+Joining LYS - ILE
+Created a new atom named: HG11 within residue: .R<ILE 333>
+Created a new atom named: HD1 within residue: .R<ILE 333>
+Created a new atom named: HD2 within residue: .R<ILE 333>
+Created a new atom named: HD3 within residue: .R<ILE 333>
+Joining ILE - PHE
+Created a new atom named: HB1 within residue: .R<PHE 334>
+Joining PHE - VAL
+Joining VAL - ASP
+Created a new atom named: HB1 within residue: .R<ASP 336>
+Joining ASP - GLY
+Created a new atom named: HA1 within residue: .R<GLY 337>
+Joining GLY - VAL
+Joining VAL - PRO
+Created a new atom named: HD1 within residue: .R<PRO 339>
+Created a new atom named: HG1 within residue: .R<PRO 339>
+Created a new atom named: HB1 within residue: .R<PRO 339>
+Joining PRO - PHE
+Created a new atom named: HB1 within residue: .R<PHE 340>
+Joining PHE - VAL
+Joining VAL - VAL
+Joining VAL - SER
+Created a new atom named: HB1 within residue: .R<SER 343>
+Joining SER - THR
+Joining THR - GLY
+Created a new atom named: HA1 within residue: .R<GLY 345>
+Joining GLY - TYR
+Created a new atom named: HB1 within residue: .R<TYR 346>
+Joining TYR - HIE
+Joining HIE - PHE
+Created a new atom named: HB1 within residue: .R<PHE 348>
+Joining PHE - ARG
+Created a new atom named: HB1 within residue: .R<ARG 349>
+Created a new atom named: HG1 within residue: .R<ARG 349>
+Created a new atom named: HD1 within residue: .R<ARG 349>
+Joining ARG - GLU
+Created a new atom named: HB1 within residue: .R<GLU 350>
+Created a new atom named: HG1 within residue: .R<GLU 350>
+Joining GLU - LEU
+Created a new atom named: HB1 within residue: .R<LEU 351>
+Joining LEU - GLY
+Created a new atom named: HA1 within residue: .R<GLY 352>
+Joining GLY - VAL
+Joining VAL - VAL
+Joining VAL - HIE
+Created a new atom named: HB1 within residue: .R<HIE 355>
+Joining HIE - ASN
+Created a new atom named: HB1 within residue: .R<ASN 356>
+Joining ASN - GLN
+Created a new atom named: HB1 within residue: .R<GLN 357>
+Created a new atom named: HG1 within residue: .R<GLN 357>
+Joining GLN - ASP
+Created a new atom named: HB1 within residue: .R<ASP 358>
+Joining ASP - VAL
+Joining VAL - ASN
+Created a new atom named: HB1 within residue: .R<ASN 360>
+Joining ASN - LEU
+Created a new atom named: HB1 within residue: .R<LEU 361>
+Joining LEU - HIE
+Created a new atom named: HB1 within residue: .R<HIE 362>
+Joining HIE - SER
+Created a new atom named: HB1 within residue: .R<SER 363>
+Joining SER - SER
+Created a new atom named: HB1 within residue: .R<SER 364>
+Joining SER - ARG
+Created a new atom named: HB1 within residue: .R<ARG 365>
+Created a new atom named: HG1 within residue: .R<ARG 365>
+Created a new atom named: HD1 within residue: .R<ARG 365>
+Joining ARG - LEU
+Created a new atom named: HB1 within residue: .R<LEU 366>
+Joining LEU - SER
+Created a new atom named: HB1 within residue: .R<SER 367>
+Joining SER - PHE
+Created a new atom named: HB1 within residue: .R<PHE 368>
+Joining PHE - LYS
+Created a new atom named: HB1 within residue: .R<LYS 369>
+Created a new atom named: HG1 within residue: .R<LYS 369>
+Created a new atom named: HD1 within residue: .R<LYS 369>
+Created a new atom named: HE1 within residue: .R<LYS 369>
+Joining LYS - GLU
+Created a new atom named: HB1 within residue: .R<GLU 370>
+Created a new atom named: HG1 within residue: .R<GLU 370>
+Joining GLU - LEU
+Created a new atom named: HB1 within residue: .R<LEU 371>
+Joining LEU - LEU
+Created a new atom named: HB1 within residue: .R<LEU 372>
+Joining LEU - VAL
+Joining VAL - TYR
+Created a new atom named: HB1 within residue: .R<TYR 374>
+Joining TYR - ALA
+Joining ALA - ALA
+Joining ALA - ASP
+Created a new atom named: HB1 within residue: .R<ASP 377>
+Joining ASP - PRO
+Created a new atom named: HD1 within residue: .R<PRO 378>
+Created a new atom named: HG1 within residue: .R<PRO 378>
+Created a new atom named: HB1 within residue: .R<PRO 378>
+Joining PRO - ALA
+Joining ALA - MET
+Created a new atom named: HB1 within residue: .R<MET 380>
+Created a new atom named: HG1 within residue: .R<MET 380>
+Joining MET - HIE
+Created a new atom named: HB1 within residue: .R<HIE 381>
+Joining HIE - ALA
+Joining ALA - ALA
+Joining ALA - SER
+Created a new atom named: HB1 within residue: .R<SER 384>
+Joining SER - GLY
+Created a new atom named: HA1 within residue: .R<GLY 385>
+Joining GLY - ASN
+Created a new atom named: HB1 within residue: .R<ASN 386>
+Joining ASN - LEU
+Created a new atom named: HB1 within residue: .R<LEU 387>
+Joining LEU - LEU
+Created a new atom named: HB1 within residue: .R<LEU 388>
+Joining LEU - LEU
+Created a new atom named: HB1 within residue: .R<LEU 389>
+Joining LEU - ASP
+Created a new atom named: HB1 within residue: .R<ASP 390>
+Joining ASP - LYS
+Created a new atom named: HB1 within residue: .R<LYS 391>
+Created a new atom named: HG1 within residue: .R<LYS 391>
+Created a new atom named: HD1 within residue: .R<LYS 391>
+Created a new atom named: HE1 within residue: .R<LYS 391>
+Joining LYS - ARG
+Created a new atom named: HB1 within residue: .R<ARG 392>
+Created a new atom named: HG1 within residue: .R<ARG 392>
+Created a new atom named: HD1 within residue: .R<ARG 392>
+Joining ARG - THR
+Joining THR - THR
+Joining THR - CYS
+Created a new atom named: HB1 within residue: .R<CYS 395>
+Joining CYS - PHE
+Created a new atom named: HB1 within residue: .R<PHE 396>
+Joining PHE - SER
+Created a new atom named: HB1 within residue: .R<SER 397>
+Joining SER - VAL
+Joining VAL - ALA
+Joining ALA - ALA
+Joining ALA - LEU
+Created a new atom named: HB1 within residue: .R<LEU 401>
+Joining LEU - THR
+Joining THR - ASN
+Created a new atom named: HB1 within residue: .R<ASN 403>
+Joining ASN - ASN
+Created a new atom named: HB1 within residue: .R<ASN 404>
+Joining ASN - VAL
+Joining VAL - ALA
+Joining ALA - PHE
+Created a new atom named: HB1 within residue: .R<PHE 407>
+Joining PHE - GLN
+Created a new atom named: HB1 within residue: .R<GLN 408>
+Created a new atom named: HG1 within residue: .R<GLN 408>
+Joining GLN - THR
+Joining THR - VAL
+Joining VAL - LYS
+Created a new atom named: HB1 within residue: .R<LYS 411>
+Created a new atom named: HG1 within residue: .R<LYS 411>
+Created a new atom named: HD1 within residue: .R<LYS 411>
+Created a new atom named: HE1 within residue: .R<LYS 411>
+Joining LYS - PRO
+Created a new atom named: HD1 within residue: .R<PRO 412>
+Created a new atom named: HG1 within residue: .R<PRO 412>
+Created a new atom named: HB1 within residue: .R<PRO 412>
+Joining PRO - GLY
+Created a new atom named: HA1 within residue: .R<GLY 413>
+Joining GLY - ASN
+Created a new atom named: HB1 within residue: .R<ASN 414>
+Joining ASN - PHE
+Created a new atom named: HB1 within residue: .R<PHE 415>
+Joining PHE - ASN
+Created a new atom named: HB1 within residue: .R<ASN 416>
+Joining ASN - LYS
+Created a new atom named: HB1 within residue: .R<LYS 417>
+Created a new atom named: HG1 within residue: .R<LYS 417>
+Created a new atom named: HD1 within residue: .R<LYS 417>
+Created a new atom named: HE1 within residue: .R<LYS 417>
+Joining LYS - ASP
+Created a new atom named: HB1 within residue: .R<ASP 418>
+Joining ASP - PHE
+Created a new atom named: HB1 within residue: .R<PHE 419>
+Joining PHE - TYR
+Created a new atom named: HB1 within residue: .R<TYR 420>
+Joining TYR - ASP
+Created a new atom named: HB1 within residue: .R<ASP 421>
+Joining ASP - PHE
+Created a new atom named: HB1 within residue: .R<PHE 422>
+Joining PHE - ALA
+Joining ALA - VAL
+Joining VAL - SER
+Created a new atom named: HB1 within residue: .R<SER 425>
+Joining SER - LYS
+Created a new atom named: HB1 within residue: .R<LYS 426>
+Created a new atom named: HG1 within residue: .R<LYS 426>
+Created a new atom named: HD1 within residue: .R<LYS 426>
+Created a new atom named: HE1 within residue: .R<LYS 426>
+Joining LYS - GLY
+Created a new atom named: HA1 within residue: .R<GLY 427>
+Joining GLY - PHE
+Created a new atom named: HB1 within residue: .R<PHE 428>
+Joining PHE - PHE
+Created a new atom named: HB1 within residue: .R<PHE 429>
+Joining PHE - LYS
+Created a new atom named: HB1 within residue: .R<LYS 430>
+Created a new atom named: HG1 within residue: .R<LYS 430>
+Created a new atom named: HD1 within residue: .R<LYS 430>
+Created a new atom named: HE1 within residue: .R<LYS 430>
+Joining LYS - GLU
+Created a new atom named: HB1 within residue: .R<GLU 431>
+Created a new atom named: HG1 within residue: .R<GLU 431>
+Joining GLU - GLY
+Created a new atom named: HA1 within residue: .R<GLY 432>
+Joining GLY - SER
+Created a new atom named: HB1 within residue: .R<SER 433>
+Joining SER - SER
+Created a new atom named: HB1 within residue: .R<SER 434>
+Joining SER - VAL
+Joining VAL - GLU
+Created a new atom named: HB1 within residue: .R<GLU 436>
+Created a new atom named: HG1 within residue: .R<GLU 436>
+Joining GLU - LEU
+Created a new atom named: HB1 within residue: .R<LEU 437>
+Joining LEU - LYS
+Created a new atom named: HB1 within residue: .R<LYS 438>
+Created a new atom named: HG1 within residue: .R<LYS 438>
+Created a new atom named: HD1 within residue: .R<LYS 438>
+Created a new atom named: HE1 within residue: .R<LYS 438>
+Joining LYS - HIE
+Created a new atom named: HB1 within residue: .R<HIE 439>
+Joining HIE - PHE
+Created a new atom named: HB1 within residue: .R<PHE 440>
+Joining PHE - PHE
+Created a new atom named: HB1 within residue: .R<PHE 441>
+Joining PHE - PHE
+Created a new atom named: HB1 within residue: .R<PHE 442>
+Joining PHE - ALA
+Joining ALA - GLN
+Created a new atom named: HB1 within residue: .R<GLN 444>
+Created a new atom named: HG1 within residue: .R<GLN 444>
+Joining GLN - ASP
+Created a new atom named: HB1 within residue: .R<ASP 445>
+Joining ASP - GLY
+Created a new atom named: HA1 within residue: .R<GLY 446>
+Joining GLY - ASN
+Created a new atom named: HB1 within residue: .R<ASN 447>
+Joining ASN - ALA
+Joining ALA - ALA
+Joining ALA - ILE
+Created a new atom named: HG11 within residue: .R<ILE 450>
+Created a new atom named: HD1 within residue: .R<ILE 450>
+Created a new atom named: HD2 within residue: .R<ILE 450>
+Created a new atom named: HD3 within residue: .R<ILE 450>
+Joining ILE - SER
+Created a new atom named: HB1 within residue: .R<SER 451>
+Joining SER - ASP
+Created a new atom named: HB1 within residue: .R<ASP 452>
+Joining ASP - TYR
+Created a new atom named: HB1 within residue: .R<TYR 453>
+Joining TYR - ASP
+Created a new atom named: HB1 within residue: .R<ASP 454>
+Joining ASP - TYR
+Created a new atom named: HB1 within residue: .R<TYR 455>
+Joining TYR - TYR
+Created a new atom named: HB1 within residue: .R<TYR 456>
+Joining TYR - ARG
+Created a new atom named: HB1 within residue: .R<ARG 457>
+Created a new atom named: HG1 within residue: .R<ARG 457>
+Created a new atom named: HD1 within residue: .R<ARG 457>
+Joining ARG - TYR
+Created a new atom named: HB1 within residue: .R<TYR 458>
+Joining TYR - ASN
+Created a new atom named: HB1 within residue: .R<ASN 459>
+Joining ASN - LEU
+Created a new atom named: HB1 within residue: .R<LEU 460>
+Joining LEU - PRO
+Created a new atom named: HD1 within residue: .R<PRO 461>
+Created a new atom named: HG1 within residue: .R<PRO 461>
+Created a new atom named: HB1 within residue: .R<PRO 461>
+Joining PRO - THR
+Joining THR - MET
+Created a new atom named: HB1 within residue: .R<MET 463>
+Created a new atom named: HG1 within residue: .R<MET 463>
+Joining MET - CYS
+Created a new atom named: HB1 within residue: .R<CYS 464>
+Joining CYS - ASP
+Created a new atom named: HB1 within residue: .R<ASP 465>
+Joining ASP - ILE
+Created a new atom named: HG11 within residue: .R<ILE 466>
+Created a new atom named: HD1 within residue: .R<ILE 466>
+Created a new atom named: HD2 within residue: .R<ILE 466>
+Created a new atom named: HD3 within residue: .R<ILE 466>
+Joining ILE - ARG
+Created a new atom named: HB1 within residue: .R<ARG 467>
+Created a new atom named: HG1 within residue: .R<ARG 467>
+Created a new atom named: HD1 within residue: .R<ARG 467>
+Joining ARG - GLN
+Created a new atom named: HB1 within residue: .R<GLN 468>
+Created a new atom named: HG1 within residue: .R<GLN 468>
+Joining GLN - LEU
+Created a new atom named: HB1 within residue: .R<LEU 469>
+Joining LEU - LEU
+Created a new atom named: HB1 within residue: .R<LEU 470>
+Joining LEU - PHE
+Created a new atom named: HB1 within residue: .R<PHE 471>
+Joining PHE - VAL
+Joining VAL - VAL
+Joining VAL - GLU
+Created a new atom named: HB1 within residue: .R<GLU 474>
+Created a new atom named: HG1 within residue: .R<GLU 474>
+Joining GLU - VAL
+Joining VAL - VAL
+Joining VAL - ASP
+Created a new atom named: HB1 within residue: .R<ASP 477>
+Joining ASP - LYS
+Created a new atom named: HB1 within residue: .R<LYS 478>
+Created a new atom named: HG1 within residue: .R<LYS 478>
+Created a new atom named: HD1 within residue: .R<LYS 478>
+Created a new atom named: HE1 within residue: .R<LYS 478>
+Joining LYS - TYR
+Created a new atom named: HB1 within residue: .R<TYR 479>
+Joining TYR - PHE
+Created a new atom named: HB1 within residue: .R<PHE 480>
+Joining PHE - ASP
+Created a new atom named: HB1 within residue: .R<ASP 481>
+Joining ASP - CYS
+Created a new atom named: HB1 within residue: .R<CYS 482>
+Joining CYS - TYR
+Created a new atom named: HB1 within residue: .R<TYR 483>
+Joining TYR - ASP
+Created a new atom named: HB1 within residue: .R<ASP 484>
+Joining ASP - GLY
+Created a new atom named: HA1 within residue: .R<GLY 485>
+Joining GLY - GLY
+Created a new atom named: HA1 within residue: .R<GLY 486>
+Joining GLY - CYS
+Created a new atom named: HB1 within residue: .R<CYS 487>
+Joining CYS - ILE
+Created a new atom named: HG11 within residue: .R<ILE 488>
+Created a new atom named: HD1 within residue: .R<ILE 488>
+Created a new atom named: HD2 within residue: .R<ILE 488>
+Created a new atom named: HD3 within residue: .R<ILE 488>
+Joining ILE - ASN
+Created a new atom named: HB1 within residue: .R<ASN 489>
+Joining ASN - ALA
+Joining ALA - ASN
+Created a new atom named: HB1 within residue: .R<ASN 491>
+Joining ASN - GLN
+Created a new atom named: HB1 within residue: .R<GLN 492>
+Created a new atom named: HG1 within residue: .R<GLN 492>
+Joining GLN - VAL
+Joining VAL - ILE
+Created a new atom named: HG11 within residue: .R<ILE 494>
+Created a new atom named: HD1 within residue: .R<ILE 494>
+Created a new atom named: HD2 within residue: .R<ILE 494>
+Created a new atom named: HD3 within residue: .R<ILE 494>
+Joining ILE - VAL
+Joining VAL - ASN
+Created a new atom named: HB1 within residue: .R<ASN 496>
+Joining ASN - ASN
+Created a new atom named: HB1 within residue: .R<ASN 497>
+Joining ASN - LEU
+Created a new atom named: HB1 within residue: .R<LEU 498>
+Joining LEU - ASP
+Created a new atom named: HB1 within residue: .R<ASP 499>
+Joining ASP - LYS
+Created a new atom named: HB1 within residue: .R<LYS 500>
+Created a new atom named: HG1 within residue: .R<LYS 500>
+Created a new atom named: HD1 within residue: .R<LYS 500>
+Created a new atom named: HE1 within residue: .R<LYS 500>
+Joining LYS - SER
+Created a new atom named: HB1 within residue: .R<SER 501>
+Joining SER - ALA
+Joining ALA - GLY
+Created a new atom named: HA1 within residue: .R<GLY 503>
+Joining GLY - PHE
+Created a new atom named: HB1 within residue: .R<PHE 504>
+Joining PHE - PRO
+Created a new atom named: HD1 within residue: .R<PRO 505>
+Created a new atom named: HG1 within residue: .R<PRO 505>
+Created a new atom named: HB1 within residue: .R<PRO 505>
+Joining PRO - PHE
+Created a new atom named: HB1 within residue: .R<PHE 506>
+Joining PHE - ASN
+Created a new atom named: HB1 within residue: .R<ASN 507>
+Joining ASN - LYS
+Created a new atom named: HB1 within residue: .R<LYS 508>
+Created a new atom named: HG1 within residue: .R<LYS 508>
+Created a new atom named: HD1 within residue: .R<LYS 508>
+Created a new atom named: HE1 within residue: .R<LYS 508>
+Joining LYS - TRP
+Created a new atom named: HB1 within residue: .R<TRP 509>
+Joining TRP - GLY
+Created a new atom named: HA1 within residue: .R<GLY 510>
+Joining GLY - LYS
+Created a new atom named: HB1 within residue: .R<LYS 511>
+Created a new atom named: HG1 within residue: .R<LYS 511>
+Created a new atom named: HD1 within residue: .R<LYS 511>
+Created a new atom named: HE1 within residue: .R<LYS 511>
+Joining LYS - ALA
+Joining ALA - ARG
+Created a new atom named: HB1 within residue: .R<ARG 513>
+Created a new atom named: HG1 within residue: .R<ARG 513>
+Created a new atom named: HD1 within residue: .R<ARG 513>
+Joining ARG - LEU
+Created a new atom named: HB1 within residue: .R<LEU 514>
+Joining LEU - TYR
+Created a new atom named: HB1 within residue: .R<TYR 515>
+Joining TYR - TYR
+Created a new atom named: HB1 within residue: .R<TYR 516>
+Joining TYR - ASP
+Created a new atom named: HB1 within residue: .R<ASP 517>
+Joining ASP - SER
+Created a new atom named: HB1 within residue: .R<SER 518>
+Joining SER - MET
+Created a new atom named: HB1 within residue: .R<MET 519>
+Created a new atom named: HG1 within residue: .R<MET 519>
+Joining MET - SER
+Created a new atom named: HB1 within residue: .R<SER 520>
+Joining SER - TYR
+Created a new atom named: HB1 within residue: .R<TYR 521>
+Joining TYR - GLU
+Created a new atom named: HB1 within residue: .R<GLU 522>
+Created a new atom named: HG1 within residue: .R<GLU 522>
+Joining GLU - ASP
+Created a new atom named: HB1 within residue: .R<ASP 523>
+Joining ASP - GLN
+Created a new atom named: HB1 within residue: .R<GLN 524>
+Created a new atom named: HG1 within residue: .R<GLN 524>
+Joining GLN - ASP
+Created a new atom named: HB1 within residue: .R<ASP 525>
+Joining ASP - ALA
+Joining ALA - LEU
+Created a new atom named: HB1 within residue: .R<LEU 527>
+Joining LEU - PHE
+Created a new atom named: HB1 within residue: .R<PHE 528>
+Joining PHE - ALA
+Joining ALA - TYR
+Created a new atom named: HB1 within residue: .R<TYR 530>
+Joining TYR - THR
+Joining THR - LYS
+Created a new atom named: HB1 within residue: .R<LYS 532>
+Created a new atom named: HG1 within residue: .R<LYS 532>
+Created a new atom named: HD1 within residue: .R<LYS 532>
+Created a new atom named: HE1 within residue: .R<LYS 532>
+Joining LYS - ARG
+Created a new atom named: HB1 within residue: .R<ARG 533>
+Created a new atom named: HG1 within residue: .R<ARG 533>
+Created a new atom named: HD1 within residue: .R<ARG 533>
+Joining ARG - ASN
+Created a new atom named: HB1 within residue: .R<ASN 534>
+Joining ASN - VAL
+Joining VAL - ILE
+Created a new atom named: HG11 within residue: .R<ILE 536>
+Created a new atom named: HD1 within residue: .R<ILE 536>
+Created a new atom named: HD2 within residue: .R<ILE 536>
+Created a new atom named: HD3 within residue: .R<ILE 536>
+Joining ILE - PRO
+Created a new atom named: HD1 within residue: .R<PRO 537>
+Created a new atom named: HG1 within residue: .R<PRO 537>
+Created a new atom named: HB1 within residue: .R<PRO 537>
+Joining PRO - THR
+Joining THR - ILE
+Created a new atom named: HG11 within residue: .R<ILE 539>
+Created a new atom named: HD1 within residue: .R<ILE 539>
+Created a new atom named: HD2 within residue: .R<ILE 539>
+Created a new atom named: HD3 within residue: .R<ILE 539>
+Joining ILE - THR
+Joining THR - GLN
+Created a new atom named: HB1 within residue: .R<GLN 541>
+Created a new atom named: HG1 within residue: .R<GLN 541>
+Joining GLN - MET
+Created a new atom named: HB1 within residue: .R<MET 542>
+Created a new atom named: HG1 within residue: .R<MET 542>
+Joining MET - ASN
+Created a new atom named: HB1 within residue: .R<ASN 543>
+Joining ASN - LEU
+Created a new atom named: HB1 within residue: .R<LEU 544>
+Joining LEU - LYS
+Created a new atom named: HB1 within residue: .R<LYS 545>
+Created a new atom named: HG1 within residue: .R<LYS 545>
+Created a new atom named: HD1 within residue: .R<LYS 545>
+Created a new atom named: HE1 within residue: .R<LYS 545>
+Joining LYS - TYR
+Created a new atom named: HB1 within residue: .R<TYR 546>
+Joining TYR - ALA
+Joining ALA - ILE
+Created a new atom named: HG11 within residue: .R<ILE 548>
+Created a new atom named: HD1 within residue: .R<ILE 548>
+Created a new atom named: HD2 within residue: .R<ILE 548>
+Created a new atom named: HD3 within residue: .R<ILE 548>
+Joining ILE - SER
+Created a new atom named: HB1 within residue: .R<SER 549>
+Joining SER - ALA
+Joining ALA - LYS
+Created a new atom named: HB1 within residue: .R<LYS 551>
+Created a new atom named: HG1 within residue: .R<LYS 551>
+Created a new atom named: HD1 within residue: .R<LYS 551>
+Created a new atom named: HE1 within residue: .R<LYS 551>
+Joining LYS - ASN
+Created a new atom named: HB1 within residue: .R<ASN 552>
+Joining ASN - ARG
+Created a new atom named: HB1 within residue: .R<ARG 553>
+Created a new atom named: HG1 within residue: .R<ARG 553>
+Created a new atom named: HD1 within residue: .R<ARG 553>
+Joining ARG - ALA
+Joining ALA - ARG
+Created a new atom named: HB1 within residue: .R<ARG 555>
+Created a new atom named: HG1 within residue: .R<ARG 555>
+Created a new atom named: HD1 within residue: .R<ARG 555>
+Joining ARG - THR
+Joining THR - VAL
+Joining VAL - ALA
+Joining ALA - GLY
+Created a new atom named: HA1 within residue: .R<GLY 559>
+Joining GLY - VAL
+Joining VAL - SER
+Created a new atom named: HB1 within residue: .R<SER 561>
+Joining SER - ILE
+Created a new atom named: HG11 within residue: .R<ILE 562>
+Created a new atom named: HD1 within residue: .R<ILE 562>
+Created a new atom named: HD2 within residue: .R<ILE 562>
+Created a new atom named: HD3 within residue: .R<ILE 562>
+Joining ILE - CYS
+Created a new atom named: HB1 within residue: .R<CYS 563>
+Joining CYS - SER
+Created a new atom named: HB1 within residue: .R<SER 564>
+Joining SER - THR
+Joining THR - MET
+Created a new atom named: HB1 within residue: .R<MET 566>
+Created a new atom named: HG1 within residue: .R<MET 566>
+Joining MET - THR
+Joining THR - ASN
+Created a new atom named: HB1 within residue: .R<ASN 568>
+Joining ASN - ARG
+Created a new atom named: HB1 within residue: .R<ARG 569>
+Created a new atom named: HG1 within residue: .R<ARG 569>
+Created a new atom named: HD1 within residue: .R<ARG 569>
+Joining ARG - GLN
+Created a new atom named: HB1 within residue: .R<GLN 570>
+Created a new atom named: HG1 within residue: .R<GLN 570>
+Joining GLN - PHE
+Created a new atom named: HB1 within residue: .R<PHE 571>
+Joining PHE - HIE
+Created a new atom named: HB1 within residue: .R<HIE 572>
+Joining HIE - GLN
+Created a new atom named: HB1 within residue: .R<GLN 573>
+Created a new atom named: HG1 within residue: .R<GLN 573>
+Joining GLN - LYS
+Created a new atom named: HB1 within residue: .R<LYS 574>
+Created a new atom named: HG1 within residue: .R<LYS 574>
+Created a new atom named: HD1 within residue: .R<LYS 574>
+Created a new atom named: HE1 within residue: .R<LYS 574>
+Joining LYS - LEU
+Created a new atom named: HB1 within residue: .R<LEU 575>
+Joining LEU - LEU
+Created a new atom named: HB1 within residue: .R<LEU 576>
+Joining LEU - LYS
+Created a new atom named: HB1 within residue: .R<LYS 577>
+Created a new atom named: HG1 within residue: .R<LYS 577>
+Created a new atom named: HD1 within residue: .R<LYS 577>
+Created a new atom named: HE1 within residue: .R<LYS 577>
+Joining LYS - SER
+Created a new atom named: HB1 within residue: .R<SER 578>
+Joining SER - ILE
+Created a new atom named: HG11 within residue: .R<ILE 579>
+Created a new atom named: HD1 within residue: .R<ILE 579>
+Created a new atom named: HD2 within residue: .R<ILE 579>
+Created a new atom named: HD3 within residue: .R<ILE 579>
+Joining ILE - ALA
+Joining ALA - ALA
+Joining ALA - THR
+Joining THR - ARG
+Created a new atom named: HB1 within residue: .R<ARG 583>
+Created a new atom named: HG1 within residue: .R<ARG 583>
+Created a new atom named: HD1 within residue: .R<ARG 583>
+Joining ARG - GLY
+Created a new atom named: HA1 within residue: .R<GLY 584>
+Joining GLY - ALA
+Joining ALA - THR
+Joining THR - VAL
+Joining VAL - VAL
+Joining VAL - ILE
+Created a new atom named: HG11 within residue: .R<ILE 589>
+Created a new atom named: HD1 within residue: .R<ILE 589>
+Created a new atom named: HD2 within residue: .R<ILE 589>
+Created a new atom named: HD3 within residue: .R<ILE 589>
+Joining ILE - GLY
+Created a new atom named: HA1 within residue: .R<GLY 590>
+Joining GLY - THR
+Joining THR - SER
+Created a new atom named: HB1 within residue: .R<SER 592>
+Joining SER - LYS
+Created a new atom named: HB1 within residue: .R<LYS 593>
+Created a new atom named: HG1 within residue: .R<LYS 593>
+Created a new atom named: HD1 within residue: .R<LYS 593>
+Created a new atom named: HE1 within residue: .R<LYS 593>
+Joining LYS - PHE
+Created a new atom named: HB1 within residue: .R<PHE 594>
+Joining PHE - TYR
+Created a new atom named: HB1 within residue: .R<TYR 595>
+Joining TYR - GLY
+Created a new atom named: HA1 within residue: .R<GLY 596>
+Joining GLY - GLY
+Created a new atom named: HA1 within residue: .R<GLY 597>
+Joining GLY - TRP
+Created a new atom named: HB1 within residue: .R<TRP 598>
+Joining TRP - HIE
+Created a new atom named: HB1 within residue: .R<HIE 599>
+Joining HIE - ASN
+Created a new atom named: HB1 within residue: .R<ASN 600>
+Joining ASN - MET
+Created a new atom named: HB1 within residue: .R<MET 601>
+Created a new atom named: HG1 within residue: .R<MET 601>
+Joining MET - LEU
+Created a new atom named: HB1 within residue: .R<LEU 602>
+Joining LEU - LYS
+Created a new atom named: HB1 within residue: .R<LYS 603>
+Created a new atom named: HG1 within residue: .R<LYS 603>
+Created a new atom named: HD1 within residue: .R<LYS 603>
+Created a new atom named: HE1 within residue: .R<LYS 603>
+Joining LYS - THR
+Joining THR - VAL
+Joining VAL - TYR
+Created a new atom named: HB1 within residue: .R<TYR 606>
+Joining TYR - SER
+Created a new atom named: HB1 within residue: .R<SER 607>
+Joining SER - ASP
+Created a new atom named: HB1 within residue: .R<ASP 608>
+Joining ASP - VAL
+Joining VAL - GLU
+Created a new atom named: HB1 within residue: .R<GLU 610>
+Created a new atom named: HG1 within residue: .R<GLU 610>
+Joining GLU - ASN
+Created a new atom named: HB1 within residue: .R<ASN 611>
+Joining ASN - PRO
+Created a new atom named: HD1 within residue: .R<PRO 612>
+Created a new atom named: HG1 within residue: .R<PRO 612>
+Created a new atom named: HB1 within residue: .R<PRO 612>
+Joining PRO - HIE
+Created a new atom named: HB1 within residue: .R<HIE 613>
+Joining HIE - LEU
+Created a new atom named: HB1 within residue: .R<LEU 614>
+Joining LEU - MET
+Created a new atom named: HB1 within residue: .R<MET 615>
+Created a new atom named: HG1 within residue: .R<MET 615>
+Joining MET - GLY
+Created a new atom named: HA1 within residue: .R<GLY 616>
+Joining GLY - TRP
+Created a new atom named: HB1 within residue: .R<TRP 617>
+Joining TRP - ASP
+Created a new atom named: HB1 within residue: .R<ASP 618>
+Joining ASP - TYR
+Created a new atom named: HB1 within residue: .R<TYR 619>
+Joining TYR - PRO
+Created a new atom named: HD1 within residue: .R<PRO 620>
+Created a new atom named: HG1 within residue: .R<PRO 620>
+Created a new atom named: HB1 within residue: .R<PRO 620>
+Joining PRO - LYS
+Created a new atom named: HB1 within residue: .R<LYS 621>
+Created a new atom named: HG1 within residue: .R<LYS 621>
+Created a new atom named: HD1 within residue: .R<LYS 621>
+Created a new atom named: HE1 within residue: .R<LYS 621>
+Joining LYS - CYS
+Created a new atom named: HB1 within residue: .R<CYS 622>
+Joining CYS - ASP
+Created a new atom named: HB1 within residue: .R<ASP 623>
+Joining ASP - ARG
+Created a new atom named: HB1 within residue: .R<ARG 624>
+Created a new atom named: HG1 within residue: .R<ARG 624>
+Created a new atom named: HD1 within residue: .R<ARG 624>
+Joining ARG - ALA
+Joining ALA - MET
+Created a new atom named: HB1 within residue: .R<MET 626>
+Created a new atom named: HG1 within residue: .R<MET 626>
+Joining MET - PRO
+Created a new atom named: HD1 within residue: .R<PRO 627>
+Created a new atom named: HG1 within residue: .R<PRO 627>
+Created a new atom named: HB1 within residue: .R<PRO 627>
+Joining PRO - ASN
+Created a new atom named: HB1 within residue: .R<ASN 628>
+Joining ASN - MET
+Created a new atom named: HB1 within residue: .R<MET 629>
+Created a new atom named: HG1 within residue: .R<MET 629>
+Joining MET - LEU
+Created a new atom named: HB1 within residue: .R<LEU 630>
+Joining LEU - ARG
+Created a new atom named: HB1 within residue: .R<ARG 631>
+Created a new atom named: HG1 within residue: .R<ARG 631>
+Created a new atom named: HD1 within residue: .R<ARG 631>
+Joining ARG - ILE
+Created a new atom named: HG11 within residue: .R<ILE 632>
+Created a new atom named: HD1 within residue: .R<ILE 632>
+Created a new atom named: HD2 within residue: .R<ILE 632>
+Created a new atom named: HD3 within residue: .R<ILE 632>
+Joining ILE - MET
+Created a new atom named: HB1 within residue: .R<MET 633>
+Created a new atom named: HG1 within residue: .R<MET 633>
+Joining MET - ALA
+Joining ALA - SER
+Created a new atom named: HB1 within residue: .R<SER 635>
+Joining SER - LEU
+Created a new atom named: HB1 within residue: .R<LEU 636>
+Joining LEU - VAL
+Joining VAL - LEU
+Created a new atom named: HB1 within residue: .R<LEU 638>
+Joining LEU - ALA
+Joining ALA - ARG
+Created a new atom named: HB1 within residue: .R<ARG 640>
+Created a new atom named: HG1 within residue: .R<ARG 640>
+Created a new atom named: HD1 within residue: .R<ARG 640>
+Joining ARG - LYS
+Created a new atom named: HB1 within residue: .R<LYS 641>
+Created a new atom named: HG1 within residue: .R<LYS 641>
+Created a new atom named: HD1 within residue: .R<LYS 641>
+Created a new atom named: HE1 within residue: .R<LYS 641>
+Joining LYS - HIE
+Created a new atom named: HB1 within residue: .R<HIE 642>
+Joining HIE - THR
+Joining THR - THR
+Joining THR - CYS
+Created a new atom named: HB1 within residue: .R<CYS 645>
+Joining CYS - CYS
+Created a new atom named: HB1 within residue: .R<CYS 646>
+Joining CYS - SER
+Created a new atom named: HB1 within residue: .R<SER 647>
+Joining SER - LEU
+Created a new atom named: HB1 within residue: .R<LEU 648>
+Joining LEU - SER
+Created a new atom named: HB1 within residue: .R<SER 649>
+Joining SER - HIE
+Created a new atom named: HB1 within residue: .R<HIE 650>
+Joining HIE - ARG
+Created a new atom named: HB1 within residue: .R<ARG 651>
+Created a new atom named: HG1 within residue: .R<ARG 651>
+Created a new atom named: HD1 within residue: .R<ARG 651>
+Joining ARG - PHE
+Created a new atom named: HB1 within residue: .R<PHE 652>
+Joining PHE - TYR
+Created a new atom named: HB1 within residue: .R<TYR 653>
+Joining TYR - ARG
+Created a new atom named: HB1 within residue: .R<ARG 654>
+Created a new atom named: HG1 within residue: .R<ARG 654>
+Created a new atom named: HD1 within residue: .R<ARG 654>
+Joining ARG - LEU
+Created a new atom named: HB1 within residue: .R<LEU 655>
+Joining LEU - ALA
+Joining ALA - ASN
+Created a new atom named: HB1 within residue: .R<ASN 657>
+Joining ASN - GLU
+Created a new atom named: HB1 within residue: .R<GLU 658>
+Created a new atom named: HG1 within residue: .R<GLU 658>
+Joining GLU - CYS
+Created a new atom named: HB1 within residue: .R<CYS 659>
+Joining CYS - ALA
+Joining ALA - GLN
+Created a new atom named: HB1 within residue: .R<GLN 661>
+Created a new atom named: HG1 within residue: .R<GLN 661>
+Joining GLN - VAL
+Joining VAL - LEU
+Created a new atom named: HB1 within residue: .R<LEU 663>
+Joining LEU - SER
+Created a new atom named: HB1 within residue: .R<SER 664>
+Joining SER - GLU
+Created a new atom named: HB1 within residue: .R<GLU 665>
+Created a new atom named: HG1 within residue: .R<GLU 665>
+Joining GLU - MET
+Created a new atom named: HB1 within residue: .R<MET 666>
+Created a new atom named: HG1 within residue: .R<MET 666>
+Joining MET - VAL
+Joining VAL - MET
+Created a new atom named: HB1 within residue: .R<MET 668>
+Created a new atom named: HG1 within residue: .R<MET 668>
+Joining MET - CYS
+Created a new atom named: HB1 within residue: .R<CYS 669>
+Joining CYS - GLY
+Created a new atom named: HA1 within residue: .R<GLY 670>
+Joining GLY - GLY
+Created a new atom named: HA1 within residue: .R<GLY 671>
+Joining GLY - SER
+Created a new atom named: HB1 within residue: .R<SER 672>
+Joining SER - LEU
+Created a new atom named: HB1 within residue: .R<LEU 673>
+Joining LEU - TYR
+Created a new atom named: HB1 within residue: .R<TYR 674>
+Joining TYR - VAL
+Joining VAL - LYS
+Created a new atom named: HB1 within residue: .R<LYS 676>
+Created a new atom named: HG1 within residue: .R<LYS 676>
+Created a new atom named: HD1 within residue: .R<LYS 676>
+Created a new atom named: HE1 within residue: .R<LYS 676>
+Joining LYS - PRO
+Created a new atom named: HD1 within residue: .R<PRO 677>
+Created a new atom named: HG1 within residue: .R<PRO 677>
+Created a new atom named: HB1 within residue: .R<PRO 677>
+Joining PRO - GLY
+Created a new atom named: HA1 within residue: .R<GLY 678>
+Joining GLY - GLY
+Created a new atom named: HA1 within residue: .R<GLY 679>
+Joining GLY - THR
+Joining THR - SER
+Created a new atom named: HB1 within residue: .R<SER 681>
+Joining SER - SER
+Created a new atom named: HB1 within residue: .R<SER 682>
+Joining SER - GLY
+Created a new atom named: HA1 within residue: .R<GLY 683>
+Joining GLY - ASP
+Created a new atom named: HB1 within residue: .R<ASP 684>
+Joining ASP - ALA
+Joining ALA - THR
+Joining THR - THR
+Joining THR - ALA
+Joining ALA - TYR
+Created a new atom named: HB1 within residue: .R<TYR 689>
+Joining TYR - ALA
+Joining ALA - ASN
+Created a new atom named: HB1 within residue: .R<ASN 691>
+Joining ASN - SER
+Created a new atom named: HB1 within residue: .R<SER 692>
+Joining SER - VAL
+Joining VAL - PHE
+Created a new atom named: HB1 within residue: .R<PHE 694>
+Joining PHE - ASN
+Created a new atom named: HB1 within residue: .R<ASN 695>
+Joining ASN - ILE
+Created a new atom named: HG11 within residue: .R<ILE 696>
+Created a new atom named: HD1 within residue: .R<ILE 696>
+Created a new atom named: HD2 within residue: .R<ILE 696>
+Created a new atom named: HD3 within residue: .R<ILE 696>
+Joining ILE - CYS
+Created a new atom named: HB1 within residue: .R<CYS 697>
+Joining CYS - GLN
+Created a new atom named: HB1 within residue: .R<GLN 698>
+Created a new atom named: HG1 within residue: .R<GLN 698>
+Joining GLN - ALA
+Joining ALA - VAL
+Joining VAL - THR
+Joining THR - ALA
+Joining ALA - ASN
+Created a new atom named: HB1 within residue: .R<ASN 703>
+Joining ASN - VAL
+Joining VAL - ASN
+Created a new atom named: HB1 within residue: .R<ASN 705>
+Joining ASN - ALA
+Joining ALA - LEU
+Created a new atom named: HB1 within residue: .R<LEU 707>
+Joining LEU - LEU
+Created a new atom named: HB1 within residue: .R<LEU 708>
+Joining LEU - SER
+Created a new atom named: HB1 within residue: .R<SER 709>
+Joining SER - THR
+Joining THR - ASP
+Created a new atom named: HB1 within residue: .R<ASP 711>
+Joining ASP - GLY
+Created a new atom named: HA1 within residue: .R<GLY 712>
+Joining GLY - ASN
+Created a new atom named: HB1 within residue: .R<ASN 713>
+Joining ASN - LYS
+Created a new atom named: HB1 within residue: .R<LYS 714>
+Created a new atom named: HG1 within residue: .R<LYS 714>
+Created a new atom named: HD1 within residue: .R<LYS 714>
+Created a new atom named: HE1 within residue: .R<LYS 714>
+Joining LYS - ILE
+Created a new atom named: HG11 within residue: .R<ILE 715>
+Created a new atom named: HD1 within residue: .R<ILE 715>
+Created a new atom named: HD2 within residue: .R<ILE 715>
+Created a new atom named: HD3 within residue: .R<ILE 715>
+Joining ILE - ALA
+Joining ALA - ASP
+Created a new atom named: HB1 within residue: .R<ASP 717>
+Joining ASP - LYS
+Created a new atom named: HB1 within residue: .R<LYS 718>
+Created a new atom named: HG1 within residue: .R<LYS 718>
+Created a new atom named: HD1 within residue: .R<LYS 718>
+Created a new atom named: HE1 within residue: .R<LYS 718>
+Joining LYS - TYR
+Created a new atom named: HB1 within residue: .R<TYR 719>
+Joining TYR - VAL
+Joining VAL - ARG
+Created a new atom named: HB1 within residue: .R<ARG 721>
+Created a new atom named: HG1 within residue: .R<ARG 721>
+Created a new atom named: HD1 within residue: .R<ARG 721>
+Joining ARG - ASN
+Created a new atom named: HB1 within residue: .R<ASN 722>
+Joining ASN - LEU
+Created a new atom named: HB1 within residue: .R<LEU 723>
+Joining LEU - GLN
+Created a new atom named: HB1 within residue: .R<GLN 724>
+Created a new atom named: HG1 within residue: .R<GLN 724>
+Joining GLN - HIE
+Created a new atom named: HB1 within residue: .R<HIE 725>
+Joining HIE - ARG
+Created a new atom named: HB1 within residue: .R<ARG 726>
+Created a new atom named: HG1 within residue: .R<ARG 726>
+Created a new atom named: HD1 within residue: .R<ARG 726>
+Joining ARG - LEU
+Created a new atom named: HB1 within residue: .R<LEU 727>
+Joining LEU - TYR
+Created a new atom named: HB1 within residue: .R<TYR 728>
+Joining TYR - GLU
+Created a new atom named: HB1 within residue: .R<GLU 729>
+Created a new atom named: HG1 within residue: .R<GLU 729>
+Joining GLU - CYS
+Created a new atom named: HB1 within residue: .R<CYS 730>
+Joining CYS - LEU
+Created a new atom named: HB1 within residue: .R<LEU 731>
+Joining LEU - TYR
+Created a new atom named: HB1 within residue: .R<TYR 732>
+Joining TYR - ARG
+Created a new atom named: HB1 within residue: .R<ARG 733>
+Created a new atom named: HG1 within residue: .R<ARG 733>
+Created a new atom named: HD1 within residue: .R<ARG 733>
+Joining ARG - ASN
+Created a new atom named: HB1 within residue: .R<ASN 734>
+Joining ASN - ARG
+Created a new atom named: HB1 within residue: .R<ARG 735>
+Created a new atom named: HG1 within residue: .R<ARG 735>
+Created a new atom named: HD1 within residue: .R<ARG 735>
+Joining ARG - ASP
+Created a new atom named: HB1 within residue: .R<ASP 736>
+Joining ASP - VAL
+Joining VAL - ASP
+Created a new atom named: HB1 within residue: .R<ASP 738>
+Joining ASP - THR
+Joining THR - ASP
+Created a new atom named: HB1 within residue: .R<ASP 740>
+Joining ASP - PHE
+Created a new atom named: HB1 within residue: .R<PHE 741>
+Joining PHE - VAL
+Joining VAL - ASN
+Created a new atom named: HB1 within residue: .R<ASN 743>
+Joining ASN - GLU
+Created a new atom named: HB1 within residue: .R<GLU 744>
+Created a new atom named: HG1 within residue: .R<GLU 744>
+Joining GLU - PHE
+Created a new atom named: HB1 within residue: .R<PHE 745>
+Joining PHE - TYR
+Created a new atom named: HB1 within residue: .R<TYR 746>
+Joining TYR - ALA
+Joining ALA - TYR
+Created a new atom named: HB1 within residue: .R<TYR 748>
+Joining TYR - LEU
+Created a new atom named: HB1 within residue: .R<LEU 749>
+Joining LEU - ARG
+Created a new atom named: HB1 within residue: .R<ARG 750>
+Created a new atom named: HG1 within residue: .R<ARG 750>
+Created a new atom named: HD1 within residue: .R<ARG 750>
+Joining ARG - LYS
+Created a new atom named: HB1 within residue: .R<LYS 751>
+Created a new atom named: HG1 within residue: .R<LYS 751>
+Created a new atom named: HD1 within residue: .R<LYS 751>
+Created a new atom named: HE1 within residue: .R<LYS 751>
+Joining LYS - HIE
+Created a new atom named: HB1 within residue: .R<HIE 752>
+Joining HIE - PHE
+Created a new atom named: HB1 within residue: .R<PHE 753>
+Joining PHE - SER
+Created a new atom named: HB1 within residue: .R<SER 754>
+Joining SER - MET
+Created a new atom named: HB1 within residue: .R<MET 755>
+Created a new atom named: HG1 within residue: .R<MET 755>
+Joining MET - MET
+Created a new atom named: HB1 within residue: .R<MET 756>
+Created a new atom named: HG1 within residue: .R<MET 756>
+Joining MET - ILE
+Created a new atom named: HG11 within residue: .R<ILE 757>
+Created a new atom named: HD1 within residue: .R<ILE 757>
+Created a new atom named: HD2 within residue: .R<ILE 757>
+Created a new atom named: HD3 within residue: .R<ILE 757>
+Joining ILE - LEU
+Created a new atom named: HB1 within residue: .R<LEU 758>
+Joining LEU - SER
+Created a new atom named: HB1 within residue: .R<SER 759>
+Joining SER - ASP
+Created a new atom named: HB1 within residue: .R<ASP 760>
+Joining ASP - ASP
+Created a new atom named: HB1 within residue: .R<ASP 761>
+Joining ASP - ALA
+Joining ALA - VAL
+Joining VAL - VAL
+Joining VAL - CYS
+Created a new atom named: HB1 within residue: .R<CYS 765>
+Joining CYS - PHE
+Created a new atom named: HB1 within residue: .R<PHE 766>
+Joining PHE - ASN
+Created a new atom named: HB1 within residue: .R<ASN 767>
+Joining ASN - SER
+Created a new atom named: HB1 within residue: .R<SER 768>
+Joining SER - THR
+Joining THR - TYR
+Created a new atom named: HB1 within residue: .R<TYR 770>
+Joining TYR - ALA
+Joining ALA - SER
+Created a new atom named: HB1 within residue: .R<SER 772>
+Joining SER - GLN
+Created a new atom named: HB1 within residue: .R<GLN 773>
+Created a new atom named: HG1 within residue: .R<GLN 773>
+Joining GLN - GLY
+Created a new atom named: HA1 within residue: .R<GLY 774>
+Joining GLY - LEU
+Created a new atom named: HB1 within residue: .R<LEU 775>
+Joining LEU - VAL
+Joining VAL - ALA
+Joining ALA - SER
+Created a new atom named: HB1 within residue: .R<SER 778>
+Joining SER - ILE
+Created a new atom named: HG11 within residue: .R<ILE 779>
+Created a new atom named: HD1 within residue: .R<ILE 779>
+Created a new atom named: HD2 within residue: .R<ILE 779>
+Created a new atom named: HD3 within residue: .R<ILE 779>
+Joining ILE - LYS
+Created a new atom named: HB1 within residue: .R<LYS 780>
+Created a new atom named: HG1 within residue: .R<LYS 780>
+Created a new atom named: HD1 within residue: .R<LYS 780>
+Created a new atom named: HE1 within residue: .R<LYS 780>
+Joining LYS - ASN
+Created a new atom named: HB1 within residue: .R<ASN 781>
+Joining ASN - PHE
+Created a new atom named: HB1 within residue: .R<PHE 782>
+Joining PHE - LYS
+Created a new atom named: HB1 within residue: .R<LYS 783>
+Created a new atom named: HG1 within residue: .R<LYS 783>
+Created a new atom named: HD1 within residue: .R<LYS 783>
+Created a new atom named: HE1 within residue: .R<LYS 783>
+Joining LYS - SER
+Created a new atom named: HB1 within residue: .R<SER 784>
+Joining SER - VAL
+Joining VAL - LEU
+Created a new atom named: HB1 within residue: .R<LEU 786>
+Joining LEU - TYR
+Created a new atom named: HB1 within residue: .R<TYR 787>
+Joining TYR - TYR
+Created a new atom named: HB1 within residue: .R<TYR 788>
+Joining TYR - GLN
+Created a new atom named: HB1 within residue: .R<GLN 789>
+Created a new atom named: HG1 within residue: .R<GLN 789>
+Joining GLN - ASN
+Created a new atom named: HB1 within residue: .R<ASN 790>
+Joining ASN - ASN
+Created a new atom named: HB1 within residue: .R<ASN 791>
+Joining ASN - VAL
+Joining VAL - PHE
+Created a new atom named: HB1 within residue: .R<PHE 793>
+Joining PHE - MET
+Created a new atom named: HB1 within residue: .R<MET 794>
+Created a new atom named: HG1 within residue: .R<MET 794>
+Joining MET - SER
+Created a new atom named: HB1 within residue: .R<SER 795>
+Joining SER - GLU
+Created a new atom named: HB1 within residue: .R<GLU 796>
+Created a new atom named: HG1 within residue: .R<GLU 796>
+Joining GLU - ALA
+Joining ALA - LYS
+Created a new atom named: HB1 within residue: .R<LYS 798>
+Created a new atom named: HG1 within residue: .R<LYS 798>
+Created a new atom named: HD1 within residue: .R<LYS 798>
+Created a new atom named: HE1 within residue: .R<LYS 798>
+Joining LYS - CYS
+Created a new atom named: HB1 within residue: .R<CYS 799>
+Joining CYS - TRP
+Created a new atom named: HB1 within residue: .R<TRP 800>
+Joining TRP - THR
+Joining THR - GLU
+Created a new atom named: HB1 within residue: .R<GLU 802>
+Created a new atom named: HG1 within residue: .R<GLU 802>
+Joining GLU - THR
+Joining THR - ASP
+Created a new atom named: HB1 within residue: .R<ASP 804>
+Joining ASP - LEU
+Created a new atom named: HB1 within residue: .R<LEU 805>
+Joining LEU - THR
+Joining THR - LYS
+Created a new atom named: HB1 within residue: .R<LYS 807>
+Created a new atom named: HG1 within residue: .R<LYS 807>
+Created a new atom named: HD1 within residue: .R<LYS 807>
+Created a new atom named: HE1 within residue: .R<LYS 807>
+Joining LYS - GLY
+Created a new atom named: HA1 within residue: .R<GLY 808>
+Joining GLY - PRO
+Created a new atom named: HD1 within residue: .R<PRO 809>
+Created a new atom named: HG1 within residue: .R<PRO 809>
+Created a new atom named: HB1 within residue: .R<PRO 809>
+Joining PRO - HIE
+Created a new atom named: HB1 within residue: .R<HIE 810>
+Joining HIE - GLU
+Created a new atom named: HB1 within residue: .R<GLU 811>
+Created a new atom named: HG1 within residue: .R<GLU 811>
+Joining GLU - PHE
+Created a new atom named: HB1 within residue: .R<PHE 812>
+Joining PHE - CYS
+Created a new atom named: HB1 within residue: .R<CYS 813>
+Joining CYS - SER
+Created a new atom named: HB1 within residue: .R<SER 814>
+Joining SER - GLN
+Created a new atom named: HB1 within residue: .R<GLN 815>
+Created a new atom named: HG1 within residue: .R<GLN 815>
+Joining GLN - HIE
+Created a new atom named: HB1 within residue: .R<HIE 816>
+Joining HIE - THR
+Joining THR - MET
+Created a new atom named: HB1 within residue: .R<MET 818>
+Created a new atom named: HG1 within residue: .R<MET 818>
+Joining MET - LEU
+Created a new atom named: HB1 within residue: .R<LEU 819>
+Joining LEU - VAL
+Joining VAL - LYS
+Created a new atom named: HB1 within residue: .R<LYS 821>
+Created a new atom named: HG1 within residue: .R<LYS 821>
+Created a new atom named: HD1 within residue: .R<LYS 821>
+Created a new atom named: HE1 within residue: .R<LYS 821>
+Joining LYS - GLN
+Created a new atom named: HB1 within residue: .R<GLN 822>
+Created a new atom named: HG1 within residue: .R<GLN 822>
+Joining GLN - GLY
+Created a new atom named: HA1 within residue: .R<GLY 823>
+Joining GLY - ASP
+Created a new atom named: HB1 within residue: .R<ASP 824>
+Joining ASP - ASP
+Created a new atom named: HB1 within residue: .R<ASP 825>
+Joining ASP - TYR
+Created a new atom named: HB1 within residue: .R<TYR 826>
+Joining TYR - VAL
+Joining VAL - TYR
+Created a new atom named: HB1 within residue: .R<TYR 828>
+Joining TYR - LEU
+Created a new atom named: HB1 within residue: .R<LEU 829>
+Joining LEU - PRO
+Created a new atom named: HD1 within residue: .R<PRO 830>
+Created a new atom named: HG1 within residue: .R<PRO 830>
+Created a new atom named: HB1 within residue: .R<PRO 830>
+Joining PRO - TYR
+Created a new atom named: HB1 within residue: .R<TYR 831>
+Joining TYR - PRO
+Created a new atom named: HD1 within residue: .R<PRO 832>
+Created a new atom named: HG1 within residue: .R<PRO 832>
+Created a new atom named: HB1 within residue: .R<PRO 832>
+Joining PRO - ASP
+Created a new atom named: HB1 within residue: .R<ASP 833>
+Joining ASP - PRO
+Created a new atom named: HD1 within residue: .R<PRO 834>
+Created a new atom named: HG1 within residue: .R<PRO 834>
+Created a new atom named: HB1 within residue: .R<PRO 834>
+Joining PRO - SER
+Created a new atom named: HB1 within residue: .R<SER 835>
+Joining SER - ARG
+Created a new atom named: HB1 within residue: .R<ARG 836>
+Created a new atom named: HG1 within residue: .R<ARG 836>
+Created a new atom named: HD1 within residue: .R<ARG 836>
+Joining ARG - ILE
+Created a new atom named: HG11 within residue: .R<ILE 837>
+Created a new atom named: HD1 within residue: .R<ILE 837>
+Created a new atom named: HD2 within residue: .R<ILE 837>
+Created a new atom named: HD3 within residue: .R<ILE 837>
+Joining ILE - LEU
+Created a new atom named: HB1 within residue: .R<LEU 838>
+Joining LEU - GLY
+Created a new atom named: HA1 within residue: .R<GLY 839>
+Joining GLY - ALA
+Joining ALA - GLY
+Created a new atom named: HA1 within residue: .R<GLY 841>
+Joining GLY - CYS
+Created a new atom named: HB1 within residue: .R<CYS 842>
+Joining CYS - PHE
+Created a new atom named: HB1 within residue: .R<PHE 843>
+Joining PHE - VAL
+Joining VAL - ASP
+Created a new atom named: HB1 within residue: .R<ASP 845>
+Joining ASP - ASP
+Created a new atom named: HB1 within residue: .R<ASP 846>
+Joining ASP - ILE
+Created a new atom named: HG11 within residue: .R<ILE 847>
+Created a new atom named: HD1 within residue: .R<ILE 847>
+Created a new atom named: HD2 within residue: .R<ILE 847>
+Created a new atom named: HD3 within residue: .R<ILE 847>
+Joining ILE - VAL
+Joining VAL - LYS
+Created a new atom named: HB1 within residue: .R<LYS 849>
+Created a new atom named: HG1 within residue: .R<LYS 849>
+Created a new atom named: HD1 within residue: .R<LYS 849>
+Created a new atom named: HE1 within residue: .R<LYS 849>
+Joining LYS - THR
+Joining THR - ASP
+Created a new atom named: HB1 within residue: .R<ASP 851>
+Joining ASP - GLY
+Created a new atom named: HA1 within residue: .R<GLY 852>
+Joining GLY - THR
+Joining THR - LEU
+Created a new atom named: HB1 within residue: .R<LEU 854>
+Joining LEU - MET
+Created a new atom named: HB1 within residue: .R<MET 855>
+Created a new atom named: HG1 within residue: .R<MET 855>
+Joining MET - ILE
+Created a new atom named: HG11 within residue: .R<ILE 856>
+Created a new atom named: HD1 within residue: .R<ILE 856>
+Created a new atom named: HD2 within residue: .R<ILE 856>
+Created a new atom named: HD3 within residue: .R<ILE 856>
+Joining ILE - GLU
+Created a new atom named: HB1 within residue: .R<GLU 857>
+Created a new atom named: HG1 within residue: .R<GLU 857>
+Joining GLU - ARG
+Created a new atom named: HB1 within residue: .R<ARG 858>
+Created a new atom named: HG1 within residue: .R<ARG 858>
+Created a new atom named: HD1 within residue: .R<ARG 858>
+Joining ARG - PHE
+Created a new atom named: HB1 within residue: .R<PHE 859>
+Joining PHE - VAL
+Joining VAL - SER
+Created a new atom named: HB1 within residue: .R<SER 861>
+Joining SER - LEU
+Created a new atom named: HB1 within residue: .R<LEU 862>
+Joining LEU - ALA
+Joining ALA - ILE
+Created a new atom named: HG11 within residue: .R<ILE 864>
+Created a new atom named: HD1 within residue: .R<ILE 864>
+Created a new atom named: HD2 within residue: .R<ILE 864>
+Created a new atom named: HD3 within residue: .R<ILE 864>
+Joining ILE - ASP
+Created a new atom named: HB1 within residue: .R<ASP 865>
+Joining ASP - ALA
+Joining ALA - TYR
+Created a new atom named: HB1 within residue: .R<TYR 867>
+Joining TYR - PRO
+Created a new atom named: HD1 within residue: .R<PRO 868>
+Created a new atom named: HG1 within residue: .R<PRO 868>
+Created a new atom named: HB1 within residue: .R<PRO 868>
+Joining PRO - LEU
+Created a new atom named: HB1 within residue: .R<LEU 869>
+Joining LEU - THR
+Joining THR - LYS
+Created a new atom named: HB1 within residue: .R<LYS 871>
+Created a new atom named: HG1 within residue: .R<LYS 871>
+Created a new atom named: HD1 within residue: .R<LYS 871>
+Created a new atom named: HE1 within residue: .R<LYS 871>
+Joining LYS - HIE
+Created a new atom named: HB1 within residue: .R<HIE 872>
+Joining HIE - PRO
+Created a new atom named: HD1 within residue: .R<PRO 873>
+Created a new atom named: HG1 within residue: .R<PRO 873>
+Created a new atom named: HB1 within residue: .R<PRO 873>
+Joining PRO - ASN
+Created a new atom named: HB1 within residue: .R<ASN 874>
+Joining ASN - GLN
+Created a new atom named: HB1 within residue: .R<GLN 875>
+Created a new atom named: HG1 within residue: .R<GLN 875>
+Joining GLN - GLU
+Created a new atom named: HB1 within residue: .R<GLU 876>
+Created a new atom named: HG1 within residue: .R<GLU 876>
+Joining GLU - TYR
+Created a new atom named: HB1 within residue: .R<TYR 877>
+Joining TYR - ALA
+Joining ALA - ASP
+Created a new atom named: HB1 within residue: .R<ASP 879>
+Joining ASP - VAL
+Joining VAL - PHE
+Created a new atom named: HB1 within residue: .R<PHE 881>
+Joining PHE - HIE
+Created a new atom named: HB1 within residue: .R<HIE 882>
+Joining HIE - LEU
+Created a new atom named: HB1 within residue: .R<LEU 883>
+Joining LEU - TYR
+Created a new atom named: HB1 within residue: .R<TYR 884>
+Joining TYR - LEU
+Created a new atom named: HB1 within residue: .R<LEU 885>
+Joining LEU - GLN
+Created a new atom named: HB1 within residue: .R<GLN 886>
+Created a new atom named: HG1 within residue: .R<GLN 886>
+Joining GLN - TYR
+Created a new atom named: HB1 within residue: .R<TYR 887>
+Joining TYR - ILE
+Created a new atom named: HG11 within residue: .R<ILE 888>
+Created a new atom named: HD1 within residue: .R<ILE 888>
+Created a new atom named: HD2 within residue: .R<ILE 888>
+Created a new atom named: HD3 within residue: .R<ILE 888>
+Joining ILE - ARG
+Created a new atom named: HB1 within residue: .R<ARG 889>
+Created a new atom named: HG1 within residue: .R<ARG 889>
+Created a new atom named: HD1 within residue: .R<ARG 889>
+Joining ARG - LYS
+Created a new atom named: HB1 within residue: .R<LYS 890>
+Created a new atom named: HG1 within residue: .R<LYS 890>
+Created a new atom named: HD1 within residue: .R<LYS 890>
+Created a new atom named: HE1 within residue: .R<LYS 890>
+Joining LYS - LEU
+Created a new atom named: HB1 within residue: .R<LEU 891>
+Joining LEU - HIE
+Created a new atom named: HB1 within residue: .R<HIE 892>
+Joining HIE - ASP
+Created a new atom named: HB1 within residue: .R<ASP 893>
+Joining ASP - GLU
+Created a new atom named: HB1 within residue: .R<GLU 894>
+Created a new atom named: HG1 within residue: .R<GLU 894>
+Joining GLU - LEU
+Created a new atom named: HB1 within residue: .R<LEU 895>
+Joining LEU - THR
+Joining THR - GLY
+Created a new atom named: HA1 within residue: .R<GLY 897>
+Joining GLY - HIE
+Created a new atom named: HB1 within residue: .R<HIE 898>
+Joining HIE - MET
+Created a new atom named: HB1 within residue: .R<MET 899>
+Created a new atom named: HG1 within residue: .R<MET 899>
+Joining MET - LEU
+Created a new atom named: HB1 within residue: .R<LEU 900>
+Joining LEU - ASP
+Created a new atom named: HB1 within residue: .R<ASP 901>
+Joining ASP - MET
+Created a new atom named: HB1 within residue: .R<MET 902>
+Created a new atom named: HG1 within residue: .R<MET 902>
+Joining MET - TYR
+Created a new atom named: HB1 within residue: .R<TYR 903>
+Joining TYR - SER
+Created a new atom named: HB1 within residue: .R<SER 904>
+Joining SER - VAL
+Joining VAL - MET
+Created a new atom named: HB1 within residue: .R<MET 906>
+Created a new atom named: HG1 within residue: .R<MET 906>
+Joining MET - LEU
+Created a new atom named: HB1 within residue: .R<LEU 907>
+Joining LEU - THR
+Joining THR - ASN
+Created a new atom named: HB1 within residue: .R<ASN 909>
+Joining ASN - ASP
+Created a new atom named: HB1 within residue: .R<ASP 910>
+Joining ASP - ASN
+Created a new atom named: HB1 within residue: .R<ASN 911>
+Joining ASN - THR
+Joining THR - SER
+Created a new atom named: HB1 within residue: .R<SER 913>
+Joining SER - ARG
+Created a new atom named: HB1 within residue: .R<ARG 914>
+Created a new atom named: HG1 within residue: .R<ARG 914>
+Created a new atom named: HD1 within residue: .R<ARG 914>
+Joining ARG - TYR
+Created a new atom named: HB1 within residue: .R<TYR 915>
+Joining TYR - TRP
+Created a new atom named: HB1 within residue: .R<TRP 916>
+Joining TRP - GLU
+Created a new atom named: HB1 within residue: .R<GLU 917>
+Created a new atom named: HG1 within residue: .R<GLU 917>
+Joining GLU - PRO
+Created a new atom named: HD1 within residue: .R<PRO 918>
+Created a new atom named: HG1 within residue: .R<PRO 918>
+Created a new atom named: HB1 within residue: .R<PRO 918>
+Joining PRO - GLU
+Created a new atom named: HB1 within residue: .R<GLU 919>
+Created a new atom named: HG1 within residue: .R<GLU 919>
+Joining GLU - PHE
+Created a new atom named: HB1 within residue: .R<PHE 920>
+Joining PHE - TYR
+Created a new atom named: HB1 within residue: .R<TYR 921>
+Joining TYR - GLU
+Created a new atom named: HB1 within residue: .R<GLU 922>
+Created a new atom named: HG1 within residue: .R<GLU 922>
+Joining GLU - ALA
+Joining ALA - MET
+Created a new atom named: HB1 within residue: .R<MET 924>
+Created a new atom named: HG1 within residue: .R<MET 924>
+Joining MET - TYR
+Created a new atom named: HB1 within residue: .R<TYR 925>
+Joining TYR - THR
+Joining THR - PRO
+Created a new atom named: HD1 within residue: .R<PRO 927>
+Created a new atom named: HG1 within residue: .R<PRO 927>
+Created a new atom named: HB1 within residue: .R<PRO 927>
+Joining PRO - HIE
+Created a new atom named: HB1 within residue: .R<HIE 928>
+Joining HIE - THR
+Joining THR - VAL
+Joining VAL - LEU
+Created a new atom named: HB1 within residue: .R<LEU 931>
+Joining LEU - CGLN
+Created a new atom named: HB1 within residue: .R<CGLN 932>
+Created a new atom named: HG1 within residue: .R<CGLN 932>
+  Added missing heavy atom: .R<CGLN 932>.A<OXT 18>
+  total atoms in file: 14748
+  Leap added 1225 missing atoms according to residue templates:
+       1 Heavy
+       1224 H / lone pairs
+  The file contained 1214 atoms not in residue templates
+> savepdb  protein   receptor_n.pdb
+Writing pdb file: receptor_n.pdb
+ Converting N-terminal residue name to PDB format: NSER -> SER
+ Converting C-terminal residue name to PDB format: CGLN -> GLN
+> ##saveamberparm dipepide diVAL.prmtop diVAL.inpcrd
+> 
+> quit
+	Quit

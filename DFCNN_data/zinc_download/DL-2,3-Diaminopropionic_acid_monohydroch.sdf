@@ -1,0 +1,50 @@
+DL-2,3-Diaminopropionic acid monohydroch
+ OpenBabel02212023462D
+
+  8  6  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    3.2411    1.5310    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8286    0.8165    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2411    0.1021    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    4.0661    0.1021    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8286   -0.6124    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2411   -1.3269    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0036   -0.6124    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  6  8  2  0  0  0  0
+M  END
+>  <CdId>
+1323
+
+>  <Formula>
+C3H9ClN2O2
+
+>  <ID>
+T4755
+
+>  <Name>
+DL-2,3-Diaminopropionic acid monohydroch
+
+>  <Synonyms>
+3-Amino-DL-alanine monohydrochloride
+
+>  <CAS>
+54897-59-5
+
+>  <MolWt>
+140.57
+
+>  <Pathways>
+Others
+
+>  <Target>
+Others
+
+>  <Receptor>
+Others
+
+$$$$

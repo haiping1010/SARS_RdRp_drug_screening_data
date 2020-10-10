@@ -1,0 +1,56 @@
+4-Aminopyridine
+ OpenBabel02212023462D
+
+  7  7  0  0  0  0  0  0  0  0999 V2000
+    0.7145    2.0625    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    1.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -0.4125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  2  0  0  0  0
+  2  7  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  2  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  2  0  0  0  0
+M  END
+>  <CdId>
+1361
+
+>  <Mol Weight>
+94.1145
+
+>  <Formula>
+C5H6N2
+
+>  <ID>
+T0817
+
+>  <Name>
+4-Aminopyridine
+
+>  <CAS>
+504-24-5
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Nervous system
+
+>  <Indication>
+Multiple Sclerosis
+
+>  <Pathways>
+Membrane Transporter/Ion Channel
+
+>  <Target>
+Potassium Channel inhibitor
+
+>  <Receptor>
+Potassium Channel
+
+$$$$

@@ -1,0 +1,15 @@
+; Azithromycin_lig_n_GMX.top created by acpype (Rev: 0) on Tue Mar 24 16:15:21 2020
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+; Include Azithromycin_lig_n_GMX.itp topology
+#include "Azithromycin_lig_n_GMX.itp"
+
+[ system ]
+ Azithromycin_lig_n
+
+[ molecules ]
+; Compound        nmols
+ Azithromycin_lig_n 1     

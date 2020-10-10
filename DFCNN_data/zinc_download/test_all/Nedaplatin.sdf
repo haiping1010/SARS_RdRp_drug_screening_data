@@ -1,0 +1,55 @@
+Nedaplatin
+ OpenBabel02212023462D
+
+  8  4  0  0  0  0  0  0  0  0999 V2000
+   -0.0000    1.1432    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+    0.4125    0.4287    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -0.2858    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4125   -1.0003    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8250   -0.2858    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+    2.7696    0.0000    0.0000 Pt  0  2  0  0  0 15  0  0  0  0  0  0
+    0.0000   -2.6503    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2393   -2.6503    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  2  0  0  0  0
+  3  5  1  0  0  0  0
+M  CHG  3   1  -1   5  -1   6   2
+M  END
+>  <CdId>
+1948
+
+>  <Mol Weight>
+303.181
+
+>  <Formula>
+C2H8N2O3Pt
+
+>  <ID>
+T2410
+
+>  <Name>
+Nedaplatin
+
+>  <CAS>
+95734-82-0
+
+>  <Approved status>
+PMDA
+
+>  <Disease>
+Cancer
+
+>  <Indication>
+Cancer
+
+>  <Pathways>
+DNA Damage/DNA Repair
+
+>  <Target>
+DNA/RNA Synthesis inhibitor
+
+>  <Receptor>
+DNA synthesis
+
+$$$$

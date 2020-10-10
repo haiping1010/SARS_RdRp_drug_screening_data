@@ -1,0 +1,70 @@
+Amantadine hydrochloride
+ OpenBabel02212023462D
+
+ 12 13  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    2.2393   -0.8213    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9732   -0.4517    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    2.9732    0.2983    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4232    1.0858    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    2.6893    0.7162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6893   -0.0338    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    3.4232   -0.4088    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1571   -0.0338    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    3.7071   -0.8213    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1571    0.7162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9545   -0.2456    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  2  7  1  0  0  0  0
+  3  4  1  0  0  0  0
+  3 10  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  5 11  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+  9 11  1  0  0  0  0
+  9 12  1  0  0  0  0
+M  END
+>  <CdId>
+787
+
+>  <Mol Weight>
+187.71
+
+>  <Formula>
+C10H18ClN
+
+>  <ID>
+T1406
+
+>  <Name>
+Amantadine hydrochloride
+
+>  <Synonyms>
+Symmetrel;1-Aminoadamantane hydrochloride
+
+>  <CAS>
+665-66-7
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Nervous system
+
+>  <Indication>
+Antiviral; Antiparkinsonian
+
+>  <Pathways>
+GPCR/G Protein; Neuroscience
+
+>  <Target>
+Dopamine Receptor inhibitor
+
+>  <Receptor>
+Dopamine
+
+$$$$

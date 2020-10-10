@@ -1,0 +1,15 @@
+Adenosine 1 flase
+Amenamevir 4 flase
+Amoxicillin 1 flase
+Azithromycin 1 flase
+Clofarabine 1 flase
+Fipronil 13 flase
+Gemcitabine 1 flase
+Nitisinone 22 flase
+Pralatrexate 1 flase
+Raltegravir 1 flase
+Romidepsin 10 true
+Sofosbuvir 1 flase
+Teriflunomide 21 true
+Vidarabine 1 flase
+

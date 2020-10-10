@@ -1,0 +1,48 @@
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+WARNING: The search space volume > 27000 Angstrom^3 (See FAQ)
+Detected 80 CPUs
+WARNING: at low exhaustiveness, it may be impossible to utilize all CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 262519244
+Performing search ... done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.5      0.000      0.000
+   2         -5.5      3.124      4.490
+   3         -5.5     17.461     21.904
+   4         -5.4      2.658      6.408
+   5         -5.4      2.239      6.300
+   6         -5.4      3.901      6.540
+   7         -5.3     19.692     22.355
+   8         -5.3      2.334      5.541
+   9         -5.3     15.744     20.017
+  10         -5.3      1.344      1.854
+  11         -5.2      2.940      7.374
+  12         -5.2      2.205      5.923
+  13         -5.2     20.364     22.068
+  14         -5.2      1.909      2.552
+  15         -5.1     11.449     14.300
+  16         -5.1      2.136      6.755
+  17         -5.1      2.321      6.864
+  18         -5.1     16.856     19.941
+  19         -5.1     17.091     20.873
+  20         -4.9     22.509     26.850
+Writing output ... done.

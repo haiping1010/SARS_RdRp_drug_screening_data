@@ -1,0 +1,62 @@
+Foscarnet sodium
+ OpenBabel02212023462D
+
+ 10  6  0  0  0  0  0  0  0  0999 V2000
+    0.0000   -0.4714    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7145   -0.8839    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -0.8839    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.3536    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    1.1786    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    0.3536    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+   -0.8250    0.3536    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+    3.0643    0.0000    0.0000 Na  0  3  0  0  0 15  0  0  0  0  0  0
+    0.0000   -2.5339    0.0000 Na  0  3  0  0  0 15  0  0  0  0  0  0
+    1.0018   -2.5339    0.0000 Na  0  3  0  0  0 15  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  4  5  2  0  0  0  0
+  4  6  1  0  0  0  0
+  4  7  1  0  0  0  0
+M  CHG  6   3  -1   6  -1   7  -1   8   1   9   1  10   1
+M  END
+>  <CdId>
+217
+
+>  <Mol Weight>
+191.9508
+
+>  <Formula>
+CNa3O5P
+
+>  <ID>
+T0220
+
+>  <Name>
+Foscarnet sodium
+
+>  <Synonyms>
+Phosphonoformate
+
+>  <CAS>
+63585-09-1
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Immune system
+
+>  <Indication>
+HIV infections
+
+>  <Pathways>
+Microbiology&Virology
+
+>  <Target>
+Reverse Transcriptase inhibitor
+
+>  <Receptor>
+Reverse Transcriptase; Reverse Transcriptase
+
+$$$$

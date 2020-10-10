@@ -1,0 +1,80 @@
+Proguanil hydrochloride
+ OpenBabel02212023462D
+
+ 18 17  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    2.1214   -0.9706    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    2.8359   -0.5581    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8359    0.2669    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5504    0.6794    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2648    0.2669    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.9793    0.6794    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6938    0.2669    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6938   -0.5581    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4083    0.6794    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1227    0.2669    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.1227   -0.5581    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    7.8372    0.6794    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5517    0.2669    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    9.2661    0.6794    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    8.5517   -0.5581    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.2648   -0.5581    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5504   -0.9706    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  2  0  0  0  0
+  3 18  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  2  0  0  0  0
+  6  7  1  0  0  0  0
+  6 17  1  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  2  0  0  0  0
+  8 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 11 12  2  0  0  0  0
+ 11 13  1  0  0  0  0
+ 13 14  1  0  0  0  0
+ 14 15  1  0  0  0  0
+ 14 16  1  0  0  0  0
+ 17 18  2  0  0  0  0
+M  END
+>  <CdId>
+1209
+
+>  <Mol Weight>
+290.192
+
+>  <Formula>
+C11H17Cl2N5
+
+>  <ID>
+T4382
+
+>  <Name>
+Proguanil hydrochloride
+
+>  <Synonyms>
+Paludrine hydrochloride;Chlorguanide hydrochloride;Chloroquanil
+
+>  <CAS>
+637-32-1
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Inflammation
+
+>  <Indication>
+Malaria
+
+>  <Pathways>
+DNA Damage/DNA Repair;Metabolism
+
+>  <Target>
+DNA/RNA Synthesis inhibitor;Electron transport inhibitor
+
+>  <Receptor>
+dihydrofolate reductase;thymidylate synthase;NADH dehydrogenase
+
+$$$$

@@ -1,0 +1,15 @@
+; Amoxicillin_lig_n_GMX.top created by acpype (Rev: 0) on Sun Mar  8 12:03:45 2020
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+; Include Amoxicillin_lig_n_GMX.itp topology
+#include "Amoxicillin_lig_n_GMX.itp"
+
+[ system ]
+ Amoxicillin_lig_n
+
+[ molecules ]
+; Compound        nmols
+ Amoxicillin_lig_n 1     

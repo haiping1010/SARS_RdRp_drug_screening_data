@@ -1,0 +1,48 @@
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+WARNING: The search space volume > 27000 Angstrom^3 (See FAQ)
+Detected 80 CPUs
+WARNING: at low exhaustiveness, it may be impossible to utilize all CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 1032993488
+Performing search ... done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.7      0.000      0.000
+   2         -4.2     20.505     21.151
+   3         -4.1     19.805     21.292
+   4         -4.0     30.447     31.375
+   5         -3.9     29.669     31.432
+   6         -3.9     20.256     21.395
+   7         -3.9     19.480     20.754
+   8         -3.9     20.718     21.767
+   9         -3.7      1.858      5.465
+  10         -3.6     20.868     22.591
+  11         -3.5     20.180     20.765
+  12         -3.5     20.637     22.274
+  13         -3.4     20.585     21.906
+  14         -3.4     19.614     21.203
+  15         -3.3     26.059     28.260
+  16         -3.3     20.592     22.335
+  17         -3.2     21.042     21.627
+  18         -3.2     22.363     24.059
+  19         -3.2      4.193      5.191
+  20         -3.1     21.119     21.879
+Writing output ... done.

@@ -1,0 +1,52 @@
+2-Aminoethanethiol
+ OpenBabel02212023462D
+
+  4  3  0  0  0  0  0  0  0  0999 V2000
+    2.0625   -0.7145    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2375   -0.7145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+M  END
+>  <CdId>
+1553
+
+>  <Mol Weight>
+77.149
+
+>  <Formula>
+C2H7NS
+
+>  <ID>
+T1080
+
+>  <Name>
+2-Aminoethanethiol
+
+>  <Synonyms>
+¦Â-MEA;¦Â-Mercaptoethylamine
+
+>  <CAS>
+60-23-1
+
+>  <Approved status>
+Other countries
+
+>  <Disease>
+Others
+
+>  <Indication>
+Radiation Sickness
+
+>  <Pathways>
+GPCR/G Protein; Others; Proteases/Proteasome
+
+>  <Target>
+Cysteine Protease; Others; Somatostatin
+
+>  <Receptor>
+Cystine; NPYR2; Somatostatin Receptor
+
+$$$$

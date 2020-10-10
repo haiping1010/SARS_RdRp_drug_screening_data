@@ -1,0 +1,51 @@
+Arsenic oxide (3)
+ OpenBabel02212023462D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+    2.4750   -1.4289    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0625   -0.7145    0.0000 As  0  0  0  0  0  0  0  0  0  0  0  0
+    1.2375   -0.7145    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    0.0000    0.0000 As  0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  2  0  0  0  0
+M  END
+>  <CdId>
+1350
+
+>  <Mol Weight>
+197.8414
+
+>  <Formula>
+As2O3
+
+>  <ID>
+T0046
+
+>  <Name>
+Arsenic oxide (3)
+
+>  <CAS>
+1327-53-3
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Cancer
+
+>  <Indication>
+Acute Promyelocytic Leukemia
+
+>  <Pathways>
+Others
+
+>  <Target>
+Others
+
+>  <Receptor>
+Others
+
+$$$$

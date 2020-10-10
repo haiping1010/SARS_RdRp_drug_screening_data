@@ -1,0 +1,58 @@
+Cyanoacetohydrazide
+ OpenBabel02212023462D
+
+  7  6  0  0  0  0  0  0  0  0999 V2000
+   -0.1914   -0.7145    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5230   -1.1270    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2375   -0.7145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2375    0.1105    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9520   -1.1270    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6664   -0.7145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3809   -0.3020    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  2  0  0  0  0
+  3  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  3  0  0  0  0
+M  END
+>  <CdId>
+1498
+
+>  <Mol Weight>
+99.0913
+
+>  <Formula>
+C3H5N3O
+
+>  <ID>
+T0704
+
+>  <Name>
+Cyanoacetohydrazide
+
+>  <Synonyms>
+Cyanoacetic hydrazide;2-Cyanoacetohydrazide
+
+>  <CAS>
+140-87-4
+
+>  <Approved status>
+Other countries
+
+>  <Disease>
+Nervous system
+
+>  <Indication>
+Head Pain; Sleepiness
+
+>  <Pathways>
+PI3K/Akt/mTOR signaling; Stem Cells
+
+>  <Target>
+GSK-3
+
+>  <Receptor>
+GSK-3
+
+$$$$

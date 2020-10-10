@@ -1,0 +1,1906 @@
+10-Hydroxycamptothecin 1 flase
+17-Beta-Estradiol-3,17-Dipropionate 3 flase
+2-Amino-6-methylheptane 98 flase
+2-Aminobenzenesulfonamide 9 flase
+2-Aminoethanethiol 118 true
+2-Methoxyestradiol 3 flase
+2-Pyridinealdoxime methochloride 117 true
+3,5-Diiodo-L-thyronine 19 flase
+4-Aminoantipyrine 4 flase
+4-Aminobutyric acid 36 flase
+4-Aminopyridine 83 flase
+4-Biphenylacetic acid 90 flase
+4-Hydroxyantipyrine 1 flase
+4-Methylumbelliferone 15 flase
+5,5-Dimethyloxazolidine-2,4-dione 67 flase
+5-Acetylsalicylic acid 15 flase
+5-Chloro-2-methoxyprocainamide 1 flase
+6-Aminocaproic acid 36 flase
+6-Mercaptopurine monohydrate 116 flase
+8-Methoxypsoralen 15 flase
+Abacavir 4 flase
+Abacavir sulfate 2 flase
+Abamectin 3 flase
+Abbolactone 3 flase
+Abemaciclib 4 flase
+Abiraterone Acetate 3 flase
+Abiraterone 11 flase
+ABT-199 1 flase
+Acalabrutinib 4 true
+Acamprosate calcium 57 true
+Acarbose 6 flase
+Acebutolol hydrochloride 1 flase
+Acecainide 1 flase
+Aceclofenac 23 flase
+Aceglutamide 28 flase
+Acemetacin 1 flase
+Acetaminophen 59 flase
+Acetanilide 101 true
+Acetazolamide 9 flase
+Acetohexamide 9 flase
+Acetohydroxamic acid 131 true
+Acetylcholine chloride 37 true
+Acetylcysteine 36 flase
+Acetylleucine 54 true
+Acetylspiramycin 1 flase
+Acexamic Acid 28 flase
+Aciclovir 1 flase
+Acipimox 18 flase
+Acitretin 14 flase
+Aclidinium bromide 1 flase
+Aconitine 1 flase
+Acotiamide hydrochloride 1 flase
+Acrivastine 4 flase
+Actarit 28 flase
+Actidione 1 flase
+Adapalene 15 flase
+Adefovir dipivoxil 1 flase
+Ademine 4 flase
+Adenosine 5'-monophosphate monohydrate 1 flase
+Adenosine 1 flase
+Adiphenine hydrochloride 7 flase
+Adrenalone hydrochloride 19 flase
+Adrenosterone 11 flase
+Afatinib Dimaleate 1 flase
+Afatinib 1 flase
+Agomelatine 29 flase
+AHU-377 7 flase
+AICAR (Acadesine) 1 flase
+Ajmaline 1 flase
+ALA hydrochloride 19 flase
+Alarelin 1 flase
+Albamycinsodium 6 flase
+Alcaftadine 4 flase
+Alendronate sodium hydrate 85 flase
+Alfuzosin hydrochloride 1 flase
+Alibendol 1 flase
+Aliskiren hemifumarate 1 flase
+Alkomide 22 flase
+Allopurinol 45 flase
+Allylestrenol 11 flase
+Alodan 151 true
+Aloe-emodin 15 flase
+Alogliptin Benzoate 1 flase
+Aloin 6 flase
+Alprenolol 19 flase
+Alprostadil 11 flase
+Altrenogest 3 flase
+Altretamine 95 true
+Alverine citrate 7 flase
+Alvimopan 1 flase
+Amantadine hydrochloride 107 flase
+Ambrisentan 51 true
+Ambroxol hydrochloride 28 flase
+Ambroxol 28 flase
+Amcinonide 3 flase
+AMD 3100 octahydrochloride 20 flase
+Amenamevir 1 flase
+Amfenac Sodium Monohydrate 19 flase
+Amifampridine 65 flase
+Amifostine 85 flase
+Amikacin 1 flase
+Amikacin Sulfate Salt 2 flase
+Amiloride hydrochloride dihydrate 23 flase
+Amiloride hydrochloride 23 flase
+Aminacrine 83 true
+Aminoglutethimide 28 flase
+Aminoguanidine hydrochloride 99 flase
+Aminopar 19 flase
+Aminophenazone 4 flase
+Aminophylline 1 flase
+Aminothiazole 112 true
+Amiodarone hydrochloride 1 flase
+Amisulpride 1 flase
+Amitraz 95 flase
+Amitriptyline hydrochloride 10 flase
+Amlexanox 4 flase
+Amlodipine Besylate 2 flase
+Amlodipine 1 flase
+Amodiaquine hydrochloride 1 flase
+Amorolfine hydrochloride 12 flase
+Amoxapine 1 flase
+Amoxicillin 5 flase
+Amoxicillin trihydrate 5 flase
+Amphotericin B 3 flase
+Ampicillin 5 flase
+Ampicillin sodium 5 flase
+Ampicillin Trihydrate 5 flase
+Amprenavir 2 flase
+Amprolium Hydrochloride 4 flase
+Amsacrine 2 flase
+Amstat 36 flase
+Amylmetacresol 49 flase
+Anagrelide 1 flase
+Analgin 2 flase
+Anastrozole 80 true
+Andrographolide 3 flase
+Anestan 150 true
+Anethole trithione 149 true
+Anidulafungin 1 flase
+Aniracetam 1 flase
+Anisodamine 1 flase
+Anisomycin 1 flase
+Anovigam 59 true
+Antazoline hydrochloride 20 flase
+Antepan 86 true
+Anthralin 15 flase
+Antipyrine 27 flase
+Antrapurol 15 flase
+Apalutamide 4 flase
+Apatinib 4 flase
+Apigenin 15 flase
+Apixaban 1 flase
+Apramycin sulfate 2 flase
+Apremilast 1 flase
+Aprepitant 1 flase
+Aquacrine 11 flase
+Arbidol hydrochloride 1 flase
+Arbutin 6 flase
+Arctigenin 8 flase
+Argatroban 2 flase
+Aripiprazole 1 flase
+Aristolochic Acid 22 flase
+Arsenic oxide (3) 148 true
+Artamine 110 flase
+Arteether 3 flase
+Artemether 3 flase
+Artemisinin 3 flase
+Artesunate 3 flase
+Articaine HCl 1 flase
+Asenapine Maleate 10 flase
+Asiatic acid 3 flase
+Aspartame 28 flase
+Aspirin 15 flase
+Astaxanthin 8 flase
+Asunaprevir 1 flase
+Ataluren 27 flase
+Atazanavir 1 flase
+Atazanavir sulfate 2 flase
+Atenolol 1 flase
+Atomoxetine hydrochloride 1 flase
+Atorvastatin Calcium 1 flase
+Atovaquone 14 flase
+Atracurium besylate 1 flase
+Atropine 1 flase
+Atropine sulfate monohydrate 2 flase
+Atropine sulfate 2 flase
+Auranofin 111 true
+Avanafil 1 flase
+Avibactam sodium 2 flase
+Avobenzone 15 flase
+Azasetron hydrochloride 1 flase
+Azatadine Maleate 1 flase
+Azathramycin 1 flase
+Azelaic acid 14 flase
+Azelastine hydrochloride 1 flase
+Azelnidipine 34 true
+Azithromycin dihydrate 1 flase
+Azithromycin 1 flase
+Azlocillin sodium 5 true
+Aztreonam 2 flase
+Baclofen 63 flase
+Baicalein 15 flase
+Balofloxacin 1 flase
+Balsalazide disodium salt dihydrate 1 flase
+Bambuterol hydrochloride 1 flase
+Bardoxolone Methyl 3 flase
+Batyl alcohol 7 flase
+Bazedoxifene acetate 1 flase
+Beclamide 35 flase
+Beclomethasone dipropionate 3 flase
+Bedaquiline 1 flase
+Behenic alcohol 49 flase
+Belinostat 9 flase
+Bemegrid 94 true
+Benactyzine hydrochloride 1 flase
+Benazepril hydrochloride 1 flase
+Bendamustine hydrochloride 1 flase
+Bendazac L-lysine 1 flase
+Bendroflumethiazide 2 flase
+Benfotiamine 1 flase
+Bengenin 6 flase
+Benidipine hydrochloride 1 flase
+Benorilate 15 flase
+Benserazide hydrochloride 1 flase
+Benzbromarone 15 flase
+Benzethonium chloride 1 flase
+Benznidazole 4 flase
+Benzocaine 59 flase
+Benzoic acid 90 true
+Benzoyl peroxide 78 flase
+Benzthiazide 2 flase
+Benztropine mesylate 2 flase
+Benzydamine hydrochloride 1 flase
+Benzyl alcohol 113 flase
+Benzyl benzoate 90 flase
+Bephenium Hydroxynaphthoate 1 flase
+Bepotastine Besilate 1 flase
+Berberine hydrochloride 1 flase
+Berberine 1 flase
+Besifloxacin HCl 1 flase
+Bestatin hydrochloride 28 flase
+Beta-Carotene 24 flase
+Betahistine dihydrochloride 10 flase
+Betahistine mesylate 10 flase
+Betahistine 86 flase
+Betaine hydrochloride 37 flase
+Betaine 37 flase
+Betamethasone 17-valerate 3 flase
+Betamethasone dipropionate 3 flase
+Betamethasone 3 flase
+Betamipron 19 flase
+Betaxolol hydrochloride 1 flase
+Bethanechol chloride 37 flase
+Betulin 3 flase
+Bexarotene 24 flase
+Bezafibrate 1 flase
+Biapenem 5 flase
+Bicalutamide 9 flase
+Bictegravir 1 flase
+(+)-Bicuculline 1 flase
+Bicyclol 8 flase
+Bifendatatum 15 flase
+Bifonazole 80 flase
+Bilastine 1 flase
+Bimatoprost 7 flase
+Binimetinib 1 flase
+Bisacodyl 15 flase
+BISMUTH SUBGALLATE 69 true
+Bismuth subsalicylat 15 flase
+Bithionol 42 flase
+Bitopertin 1 flase
+Blonanserin 4 flase
+BMS-345541 4 flase
+Bortezomib 47 flase
+Bosutinib 1 flase
+Brefeldin A 11 flase
+Brexpiprazole 1 flase
+Brigatinib 1 flase
+Brimonidine Tartrate 2 flase
+Brinzolamide 2 flase
+Brivudine 1 flase
+Bromfenac sodium 23 flase
+Bromhexine hydrochloride 20 flase
+Bromisoval 119 flase
+Bromopride 1 flase
+Brompheniramine hydrogen maleate 10 flase
+Broxyquinoline 66 flase
+Brucin 1 flase
+Bucetin 33 flase
+Budesonide 3 flase
+Bufexamac 49 flase
+Buflomedil hydrochloride 1 flase
+Bumetanide 2 flase
+Bupivacaine hydrochloride 1 flase
+Bupropion hydrochloride 130 true
+Buspirone hydrochloride 1 flase
+Busulfan 50 flase
+Butenafine hydrochloride 41 flase
+Butoconazole nitrate 75 true
+Cabazitaxel 6 flase
+Cabozantinib 1 flase
+Calcifediol 3 flase
+Calcium gluconate 19 flase
+Calcium pantothenate 5 flase
+Camostat mesilate 1 flase
+Camphor 24 flase
+Camylofin 1 flase
+Canagliflozin 6 flase
+Canrenone 3 flase
+Capecitabine 1 flase
+Capitrol 66 flase
+Capsaicin 1 flase
+Captopril 3 flase
+Carbachol 37 flase
+Carbadox 13 flase
+Carbaglu 28 flase
+Carbamazepine 76 flase
+Carbasalate?Calcium 18 flase
+Carbazochrome sodium sulfonate 2 flase
+Carbenicillin disodium 5 flase
+Carbenoxolone disodium 3 flase
+Carbetapentane citrate 7 true
+Carbidopa Hydrate 19 flase
+Carbimazole 39 flase
+Carbinoxamine Maleate Salt 1 flase
+Carboplatin 109 flase
+Carfilzomib 1 flase
+Cariprazine 1 flase
+Carmofur 1 flase
+Carmustine 105 true
+Carteolol hydrochloride 1 flase
+Casanthranol 6 flase
+Cefaclor monohydrate 5 flase
+Cefadroxil 5 flase
+Cefalexine EP IMpurity B 5 flase
+Cefazolin sodium salt 5 flase
+Cefdinir 5 flase
+Cefditoren pivoxil 2 flase
+Cefepime Dihydrochloride Monohydrate 1 flase
+Cefixime 2 flase
+Cefmenoxime hydrochloride 2 flase
+Cefmetazole sodium 5 flase
+Cefminox Sodium 1 flase
+Cefonicid sodium 2 flase
+Cefoperazone sodium 1 flase
+Ceforanide 1 flase
+Cefotaxime sodium 2 flase
+Cefotetan 2 flase
+Cefotiam hydrochloride 1 flase
+Cefoxitin sodium 1 flase
+Cefpiramide acid 2 flase
+Cefprozil hydrate 1 flase
+Cefsulodine sodium 2 flase
+Ceftazidime 2 flase
+Ceftiofur hydrochloride 1 flase
+Ceftizoxime 2 flase
+Ceftriaxone sodium 1 flase
+Cefuroxime sodium 5 flase
+Celecoxib 16 flase
+Cepazine 5 flase
+Cephalexin 5 flase
+Cephalomannine 8 flase
+Cephalothin sodium 1 flase
+Cepharanthine 1 flase
+Cephradine 5 flase
+Cetilistat 29 true
+Cetirizine dihydrochloride 1 flase
+Cetylpyridinium chloride monohydrate 12 flase
+Cevimeline hydrochloride hemihydrate 3 flase
+Chenodeoxycholic acid 3 flase
+Chidamide 4 flase
+Chitosan 6 flase
+chlophenadione 66 flase
+Chloquinan 66 true
+Chloramphenicol 22 flase
+Chlorhexidine Acetate 23 flase
+Chlorhexidine hydrochloride 52 flase
+Chlorhexidine 52 flase
+Chlormadinone acetate 3 flase
+Chlormezanone 25 flase
+Chloroambucil 7 flase
+Chlorobutanol 147 true
+Chlorophos 100 flase
+Chloropyramine hydrochloride 10 flase
+Chloroquine diphosphate 1 flase
+Chlorothiazide 2 flase
+Chlorotrianisene 42 flase
+Chloroxylenol 31 flase
+Chlorphenesin 33 flase
+Chlorpheniramine maleate 1 flase
+Chlorpromazine hydrochloride 10 flase
+Chlorpropamide 9 flase
+Chlorprothixene hydrochloride 10 flase
+Chlorprothixene 41 flase
+Chlortalidone 2 flase
+Chlortetracycline hydrochloride 1 flase
+Cholic Acid 3 flase
+Choline chloride 37 flase
+Choline Fenofibrate 1 flase
+Chromium picolinate 126 true
+Chromocarbe 15 flase
+Chrysophanic Acid 15 flase
+Ciclesonide 3 flase
+Ciclopirox ethanolamine 1 flase
+Ciclopirox 96 flase
+Cidofovir 1 flase
+Cilastatin 36 flase
+Cilnidipine 34 flase
+Cilostazol 1 flase
+Cinacalcet hydrochloride 74 flase
+Cinchonidine 10 flase
+Cinchophen 66 flase
+Cinepazide maleate 1 flase
+Cinoxacin 1 flase
+Ciprofibrate 31 flase
+Ciprofloxacin hydrochloride 1 flase
+cis-Anethol 31 flase
+Cisapride 1 flase
+Cisplatin 146 true
+Citalopram HBr 12 flase
+Citicoline 1 flase
+Citicoline sodium 1 flase
+Citiolone 81 true
+Cladribine 1 flase
+Clarithromycin 3 flase
+Clemastine fumarate 1 flase
+Clevidipine butyrate 8 flase
+Clevudine 1 flase
+Clidinium bromide 1 flase
+Climbazole 1 flase
+Clindamycin HCl 1 flase
+Clindamycin phosphate 1 flase
+Clindamycin 1 flase
+Clinofibrate 7 flase
+Clioquinol 66 flase
+Clobetasol propionate 3 flase
+Clofarabine 1 flase
+Clofazimine 41 flase
+Clofibrate 8 flase
+Clofibric acid 31 flase
+Clofoctol 66 flase
+Clomifene citrate 1 flase
+Clomipramine hydrochloride 10 flase
+Clonidine hydrochloride 52 flase
+Clonixin 23 flase
+Cloperastine hydrochloride 1 flase
+Clorprenaline hydrochloride 19 flase
+Clorpyrifos 125 true
+Clorsulon 9 flase
+Closantel 28 flase
+Clotrimazole 27 flase
+Cloxacillin sodium monohydrate 5 flase
+Clozapine 4 flase
+Cobimetinib 1 flase
+Coenzyme Q10 14 flase
+Colchicine 21 flase
+Colistimethate Sodium 2 flase
+Copanlisib 1 flase
+Cortisone acetate 3 flase
+Cortisone 3 flase
+Corvotone 70 true
+Coumarin 15 flase
+CPI-637 4 flase
+Crenolanib 1 flase
+Cresol 31 flase
+Crisaborole 69 flase
+Crizotinib 1 flase
+Crocin 6 flase
+Crotamiton 44 flase
+Crystal Violet 71 flase
+Cyanoacetohydrazide 47 flase
+Cyanocobalamin 1 flase
+Cyclandelate 31 flase
+Cyclobenzaprine hydrochloride 10 flase
+Cyclocytidine hydrochloride 1 flase
+Cyclophosphamide monohydrate 1 flase
+Cyclosporin A 1 flase
+Cyclosporine 1 flase
+Cyclothiazide 2 flase
+Cyproheptadine hydrochloride 10 flase
+Cyromazine 65 flase
+cysteine 36 flase
+cystine 36 flase
+Cytarabine 1 flase
+Dabigatran etexilate 1 flase
+Dabigatran 1 flase
+Dabrafenib 9 flase
+Dacomitinib 1 flase
+Daidzin 6 flase
+Dalbavancin Impurity 1 flase
+Danazol 11 flase
+Danofloxacin mesylate 2 flase
+Dantrolene sodium hemiheptahydrate 13 flase
+Dantrolene sodium salt 13 flase
+Dapagliflozin ((2S)-1,2-propanediol, hydrate) 8 flase
+Dapagliflozin 8 flase
+Daphnetin 15 flase
+Dapiprazole Hydrochloride 4 flase
+Dapoxetine HCl 12 flase
+Darifenacin HBr 1 flase
+Darunavir?Ethanolate 1 flase
+Darunavir 2 flase
+Dasabuvir 1 flase
+Dasatinib monohydrate 1 flase
+Dasatinib 1 flase
+Daunorubicin hydrochloride 1 flase
+Daurisoline 1 flase
+Davercin 3 flase
+D-Biotin 5 flase
+D-Camphor 24 flase
+D-Cycloserine 72 flase
+Decamethonium bromide 37 flase
+Decitabine 1 flase
+Deferasirox 4 flase
+Deferidone 18 flase
+Deferoxamine Mesylate 2 flase
+Deflazacort 3 flase
+Dehydrocholic acid 3 flase
+Dehydroepiandrosterone 11 flase
+Delafloxacin 1 flase
+Delamanid 1 flase
+Delapril?Hydrochloride 1 flase
+Delta-Gluconolactone 6 flase
+Demeclocycline hydrochloride 1 flase
+Dendrid 1 flase
+Deoxycholic acid 3 flase
+Deoxycorticosterone acetate 3 flase
+Depofemin 3 flase
+Dequalinium chloride 1 flase
+Deracoxib 2 flase
+Dermofongin 66 flase
+Desipramine hydrochloride 12 flase
+Desloratadine 20 flase
+Desonide 3 flase
+Desoximetasone 3 flase
+Desvenlafaxine 7 flase
+Desvenlafaxine succinate hydrate 1 flase
+Dexamethason acetate 3 flase
+Dexamethasone (DHAP) 3 flase
+Dexamethasone Sodium Phosphate 8 flase
+Dexchlorpheniramine Maleate 1 flase
+Dexibuprofen 90 flase
+Dexpanthenol 7 flase
+Dexrazoxane HCl 1 flase
+Dextromethorphan HBr monohydrate 1 flase
+D(+)-Glucose 6 flase
+D-glutamine 28 flase
+Diacerein 15 flase
+Diammonium Glycyrrhizinate 3 flase
+Diatrizoate sodium 28 flase
+Diazoxide 25 flase
+Dibucaine hydrochloride 1 flase
+Dibucaine 1 flase
+Dichlorophen 42 flase
+Dichlorphenamide 9 flase
+Dichlorvos 139 true
+Diclazuril 1 flase
+Diclofenac diethylamine 23 flase
+Diclofenac 28 flase
+Diclofenac sodium 28 flase
+Dicloxacillin sodium 5 flase
+Dicumarol 15 flase
+Dicurone 53 true
+Dicyclomine hydrochloride 7 flase
+Didanosine 1 flase
+Dienestrol 42 flase
+Dienogest 3 flase
+Diethylcarbamazine citrate 1 flase
+Diethylstilbestrol 42 flase
+Diflorasone 8 flase
+Diflunisal 15 flase
+Digitonin 3 flase
+Digitoxin 3 flase
+Digoxin 3 flase
+Dihydralazine sulphate 2 flase
+Dihydroartemisinin 3 flase
+Dihydrostreptomycin sulfate 2 flase
+Diltiazem hydrochloride 1 flase
+Dimenhydrinate 1 flase
+Dimethyl fumarate 138 true
+Dimethyl sulfoxide 145 true
+Dimetridazole 22 flase
+Diminazene Aceturate 23 flase
+Dinaciclib 1 flase
+Dinitolmide 22 flase
+Dinoprost Tromethamine 6 flase
+Diosmin 6 flase
+Diperodon hydrochloride 1 flase
+Diphemanil mesylate 10 flase
+Diphenhydramine hydrochloride 10 flase
+Diphenidol hydrochloride 1 flase
+Diphenylpyraline hydrochloride 1 flase
+Dipivefrin hydrochloride 1 flase
+Diprophylline 1 flase
+Dipyron 2 flase
+Dirithromycin 1 flase
+Disodium clodronate tetrahydrate 85 flase
+Disopyramide 4 flase
+Disulfiram 144 true
+Dithiopropanol 58 flase
+Divalproex Sodium 73 flase
+DL-Adrenaline Hydrochloride 19 flase
+DL-Adrenalin 19 flase
+DL-Carnitine 37 flase
+DL-Glutamine 28 flase
+DL-Menthol 14 flase
+DL-Penicillamine 110 true
+DL-trihexyphenidyl hydrochloride 1 flase
+DL-Xylose 58 true
+D-(+)-Maltose monohydrate 6 flase
+D-Mannitol 58 flase
+Docetaxel 6 flase
+Docusate sodium 50 flase
+Dofetilide 1 flase
+Dolutegravir 1 flase
+Dolutegravir sodium 1 flase
+Domiphen Bromide 7 flase
+Domperidone 1 flase
+Donepezil HCl 1 flase
+Dopamine hydrochloride 19 flase
+Doramectin 3 flase
+Doripenem Hydrate 2 flase
+Dorzolamide hydrochloride 2 flase
+Doxazosin mesylate 1 flase
+Doxepin hydrochloride 10 flase
+Doxifluridine 1 flase
+Doxofylline 1 flase
+Doxorubicin hydrochloride 1 flase
+Doxycycline hyclate 1 flase
+Doxylamine succinate 1 flase
+D-Pantethine 7 flase
+D-Pantothenic acid sodium salt 5 flase
+D-Phenylalanine 36 flase
+Drofenine hydrochloride 7 flase
+Dronedarone hydrochloride 1 flase
+Droperidol 1 flase
+Dropropizine 1 flase
+Drospirenone 3 flase
+Droxidopa 19 flase
+D-Sorbitol 58 flase
+D-Stachyose tetrahydrate 6 flase
+Duloxetine hydrochloride 46 true
+Dutasteride 28 flase
+Dyclonine hydrochloride 1 flase
+Dypyridamole 1 flase
+Ebastine 1 flase
+Eburnalritardo 20 flase
+Ecabet Sodium 40 flase
+Econazole nitrate 13 flase
+Econazole 12 flase
+Edaravone 62 true
+Edetate?Trisodium 7 flase
+Edoxaban 1 flase
+Edoxaban Tosylate Monohydrate 1 flase
+Edoxudine 1 flase
+Efavirenz 93 true
+Efinaconazole 1 flase
+Eflornithine hydrochloride Monohydrate 36 flase
+Efonidipine 1 flase
+Elbasvir 1 flase
+Eliglustat 1 flase
+Eltrombopag 9 flase
+Elvitegravir 1 flase
+Emedastine 1 flase
+Empagliflozin 8 flase
+Emtricitabine 1 flase
+Enalaprilat Dihydrate 1 flase
+Enalapril Maleate 1 flase
+Enasidenib 23 flase
+Encorafenib 2 flase
+Enoxacin 1 flase
+Enoxacin Sesquihydrate 1 flase
+Enoxolone 3 flase
+Enrofloxacin 1 flase
+Entacapone 21 flase
+Entecavir hydrate 1 flase
+Entecavir 1 flase
+Entinostat 23 flase
+Enzalutamide 25 flase
+Enzastaurin 1 flase
+Epalrestat 39 true
+Epinephrine bitartrate 15 flase
+Epirubicin hydrochloride 1 flase
+Eplerenone 3 flase
+Eprazinone dihydrochloride 1 flase
+Eprodisate disodium 57 flase
+Eprosartan Mesylate 2 flase
+Erdosteine 28 flase
+Erlotinib hydrochloride 1 flase
+Erlotinib 1 flase
+Erythromycin ethylsuccinate 1 flase
+Erythromycin 1 flase
+Escin 3 flase
+Escitalopram Oxalate 3 flase
+Eslicarbazepine Acetate 18 flase
+Esmolol hydrochloride 1 flase
+Esomeprazole Magnesium 26 flase
+Esomeprazole Sodium 18 flase
+Estradiol benzoate 3 flase
+Estradiol 11 flase
+Estradiol valerate 3 flase
+Estramustine phosphate sodium 3 flase
+Estriol 11 flase
+Estropipate 2 flase
+Etamsylate 9 flase
+Ethacridine lactate monohydrate 6 flase
+Ethacrynic acid 8 flase
+Ethambutol dihydrochloride 36 flase
+Ethamivan 1 flase
+Ethaverine hydrochloride 1 flase
+Ethinamide 108 flase
+Ethisterone 11 flase
+Ethopabate 21 flase
+Ethosuximide 48 flase
+Ethynodiol diacetate 3 flase
+Ethynyl estradiol 11 flase
+Etidronate 100 true
+Etilefrine hydrochloride 19 flase
+Etofenamate 1 flase
+Etofibrate 8 flase
+Etofylline 1 flase
+Etomidate 18 flase
+Etonogestrel 11 flase
+Etoposide 6 flase
+Etoricoxib 25 flase
+Etravirine 23 flase
+Eupatilin 8 flase
+Euquinine 1 flase
+Evans blue 2 flase
+Everolimus 1 flase
+Exemestane 11 flase
+Ezetimibe 1 flase
+Famciclovir 2 flase
+Famotidine 16 flase
+Famprofazone 1 flase
+Farlutin 3 flase
+Fasudil hydrochloride 2 flase
+Favipiravir 45 true
+Febuxostat 79 true
+Felbamate 23 flase
+Felodipine 8 flase
+Fenbufen 14 flase
+Fendiline hydrochloride 44 flase
+Fenipentol 49 flase
+Fenofibrate 8 flase
+Fenofibric acid 8 flase
+Fenoprofen calcium dihydrate 15 flase
+Fenspiride hydrochloride 1 flase
+Fenticonazole Nitrate 17 flase
+Ferrous Bisglycinate 19 flase
+Ferrous fumarate 106 flase
+Ferulic Acid 15 flase
+Fesoterodine fumarate 1 flase
+Fexofenadine hydrochloride 1 flase
+Fidaxomicin 8 true
+Finasteride 3 flase
+Fingolimod hydrochloride 7 flase
+Fipexide 1 flase
+Fipronil 25 flase
+Flavin mononucleotide 1 flase
+Flavoxate hydrochloride 1 flase
+Fleroxacin 1 flase
+Flibanserin 1 flase
+Flopropione 15 flase
+Florfenicol 9 flase
+Floxuridine 1 flase
+Fluconazole 27 flase
+Fludarabine Phosphate 2 flase
+Fludarabine 1 flase
+Fludrocortisone acetate 3 flase
+Flufenamic acid 61 flase
+Flumazenil 1 flase
+Flumequine 10 flase
+Flumethasone 8 flase
+Flunarizine dihydrochloride 20 true
+Flunixin meglumin 1 flase
+Fluocinolone acetonide 3 flase
+Fluocinonide 3 flase
+Fluorescein 15 flase
+Fluoromethalone 3 flase
+Fluoxetine hydrochloride 33 flase
+Fluoxetine 46 flase
+Flupenthixol dihydrochloride 1 flase
+Fluphenazine hydrochloride 1 flase
+Flupirtine maleate 23 true
+Flurbiprofen Axetil 78 true
+Flurbiprofen 78 flase
+Flutamide 22 flase
+Fluvastatin sodium salt 18 flase
+Fluvoxamine maleate 7 flase
+Fondaparinux sodium 2 flase
+Formestane 3 flase
+Formoterol Hemifumarate 1 flase
+Formoterol 1 flase
+Forsythin 6 flase
+Fosaprepitant dimeglumine 1 flase
+Fosbretabulin Disodium 68 flase
+Foscarnet sodium 100 flase
+Fosfomycin calcium 124 true
+Fosfosal 69 flase
+Fosinopril sodium 1 flase
+Fostamatinib 1 flase
+Fraxetin 8 flase
+Fruquintinib 1 flase
+Ftaxilide 28 flase
+Fudosteine 36 true
+Fulvestrant 40 true
+Furacilin 22 flase
+Furaltadone hydrochloride 1 flase
+Furazolidone 13 flase
+Furosemide 9 flase
+Fursultiamine 1 flase
+Fusidine 3 flase
+Gabapentin 36 flase
+Galanthamine HBr 1 flase
+Gallamine triethiodide 1 flase
+Gallic acid 15 flase
+Gamma-Oryzanol 3 flase
+Ganciclovir 1 flase
+Gastrodenol 109 flase
+Gastrodin 6 flase
+Gatifloxacin 1 flase
+Gefitinib 1 flase
+Gemcitabine 1 flase
+Gemfibrozil 8 flase
+Gemifloxacin?mesylate 2 true
+Genipin 30 true
+Geniposide 6 flase
+Geniposidic Acid 6 flase
+Genistein 15 flase
+Gentamycin sulfate 1 flase
+Gestodene 11 flase
+Ginsenoside Rc 3 flase
+Glafenine Hydrochloride 1 flase
+Glafenine 1 flase
+Gliclazide 16 true
+Glimepiride 2 flase
+Glipizide 2 flase
+Gliquidone 1 flase
+Glucosamine hydrochloride 6 flase
+Glucosamine 19 flase
+glutamic acid 28 flase
+Glutathione 28 flase
+Glyburide 2 flase
+Glycerophosphocholine 7 flase
+glycine 19 flase
+Glycopyrrolate 1 flase
+Glycyrrhetinic acid 3 flase
+Glycyrrhizin 3 flase
+Gramicidin 1 flase
+Granisetron hydrochloride 1 flase
+Grazoprevir 1 flase
+Griseofulvin 8 flase
+Guaiacol 31 flase
+Guaifenesin 8 flase
+Guanabenz Acetate 99 true
+Guanethidine Monosulfate 2 flase
+Guanfacine hydrochloride 74 flase
+Guanidine hydrochloride 74 flase
+Halazone 25 flase
+Halobetasol Propionate 3 flase
+Haloperidol 1 flase
+Heptaminol hydrochloride 98 true
+Hesperetin 8 flase
+Hesperidin 6 flase
+Hexamethonium Bromide 37 flase
+Hexamethylenetetramine 104 true
+Hexetidine 38 true
+Hexylresorcinol 43 flase
+Hexythiazox 4 flase
+Higenamine?Hydrochloride 1 flase
+histidine 72 flase
+Hodostin 9 flase
+Homatropine Bromide 1 flase
+Homatropine Methylbromide 1 flase
+Homoharringtonine 1 flase
+Hydralazine hydrochloride 65 flase
+Hydrochlorothiazide 9 flase
+Hydrocortisone 21-hemisuccinate 3 flase
+Hydrocortisone acetate 3 flase
+Hydrocortisone butyrate 3 flase
+Hydrocortisone 3 flase
+Hydrocortisone Valerate 3 flase
+Hydroquinidine 1 flase
+Hydroquinone 31 flase
+Hydroxy Camptothecine 1 flase
+Hydroxychloroquine sulfate 2 flase
+Hydroxyhexamide 9 flase
+Hydroxyprogesterone 3 flase
+Hydroxyquinoline 66 flase
+Hydroxyurea 119 flase
+Hydroxyzine dihydrochloride 1 flase
+Hydroxyzine Pamoate 1 flase
+Hygromycin B 6 true
+Hyperoside 6 flase
+Ibandronate sodium 7 flase
+Ibrutinib 1 flase
+Ibudilast 27 flase
+Ibuprofen 90 flase
+Ibutilide Fumarate 2 flase
+Icotinib 32 true
+Idarubicin HCl 1 flase
+Idebenone 8 flase
+Ifenprodil Tartrate 1 flase
+Ifosfamide 1 flase
+Ilaprazole sodium 2 flase
+Iloperidone 1 flase
+Imatinib Mesylate 1 flase
+Imatinib 1 flase
+Imazalil 20 flase
+Imipenem 3 flase
+Imiquimod 4 flase
+Imperatorin 8 flase
+Indapamide 9 flase
+Indometacin 1 flase
+Inosine 1 flase
+Inositol nicotinate 15 flase
+Inositol 31 flase
+Iodipamide 28 true
+Iodoquinol 66 flase
+Iohexol 1 flase
+Iopamidol 19 flase
+Iopanoic acid 28 flase
+Iopromide 1 flase
+Ipragliflozin 6 flase
+Ipratropium bromide monohydrate 1 flase
+Ipratropium Bromide 1 flase
+Ipriflavone 15 flase
+Iproniazid Phosphate 97 true
+Irinotecan hydrochloride trihydrate 1 flase
+Irinotecan 1 flase
+Isatin 67 flase
+Isavuconazole 27 flase
+Isavuconazonium sulfate 1 flase
+Isepamicin sulfate 2 flase
+Isocarboxazid 47 flase
+Isoconazole nitrate 13 flase
+Isoferulic acid 15 flase
+isoleucine 54 flase
+Isoliquiritigenin 15 flase
+Isoniazid 47 flase
+Isoprenaline hydrochloride 19 flase
+Isoprinosine 1 flase
+Isosorbide dinitrate 103 true
+Isotretinoin 24 flase
+Isoxicam 2 flase
+Isoxsuprine hydrochloride 33 true
+Isradipine 34 flase
+Istradefylline 1 flase
+Itopride hydrochloride 1 flase
+Itraconazole 1 flase
+Ivabradine hydrochloride 1 flase
+Ivermectin 3 flase
+Ivosidenib 1 flase
+Ixabepilone 3 flase
+Ixazomib Citrate 1 flase
+Ixazomib 44 flase
+Kanamycin sulfate 2 flase
+Kasugamycin hydrochloride 6 flase
+Ketanserin 1 flase
+Ketoconazole 1 flase
+Ketoprofen 42 flase
+Ketotifen fumarate 1 flase
+Khellin 15 flase
+Kitasamycin 1 flase
+Labetalol hydrochloride 1 flase
+Lacidipine 8 flase
+Lactitol monohydrate 6 flase
+Lactulose 6 flase
+L-Adrenaline 19 flase
+Lafutidine 1 flase
+Lamivudine 1 flase
+Lamotrigine 65 true
+Lapatinib ditosylate monohydrate 1 flase
+Lapatinib Ditosylate 1 flase
+Lapatinib 1 flase
+Lappaconitine 1 flase
+Laquinimod 1 flase
+L-arginine monohydrochloride 36 flase
+L-Arginine 36 flase
+L(+)-Ascorbic acid 8 flase
+L-Asparagine 36 flase
+L-Aspartic acid 19 flase
+Latanoprost 7 flase
+Lauroseptol 37 flase
+L-Carnitine hydrochloride 7 flase
+L(-)-Carnitine 37 flase
+L-Cycloserine 72 true
+LCZ696 1 flase
+LDK378 1 flase
+Leflunomide 22 flase
+Lenalidomide 1 flase
+Lenvatinib 1 flase
+Lercanidipine hydrochloride 1 flase
+Lercanidipine 10 flase
+Lesinurad 27 flase
+Letrozole 80 flase
+Leucobasal 31 flase
+Levamisole hydrochloride 20 flase
+Levetiracetam 4 flase
+Levobupivacaine HCl 1 flase
+Levobupivacaine 1 flase
+Levocetirizine 1 flase
+Levodopa 19 flase
+Levodropropizine 1 flase
+Levofloxacin Hemihydrate 1 flase
+Levomilnacipran 70 flase
+Levonorgestrel 11 flase
+Levosimendan 62 flase
+Levosulpiride 1 flase
+L-Glutamic acid monosodium salt 36 flase
+L-Glutamine 28 flase
+L-Hydroxyprolin 6 flase
+L-Hyoscyamine 1 flase
+Lidocaine Hydrochloride hydrate 1 flase
+Lidocaine hydrochloride 1 flase
+Lifitegrast 1 flase
+Ligustrazine hydrochloride 143 true
+Limonin 3 flase
+Linagliptin 1 flase
+Lincomycin hydrochloride monohydrate 1 flase
+Lincomycin hydrochloride 1 flase
+Lindane 115 flase
+Linezolid 1 flase
+Liothyronine sodium 19 flase
+Liranaftate 1 flase
+Lisinopril dihydrate 1 flase
+Lithium citrate tribasic tetrahydrate 109 true
+Lithocholic acid 3 flase
+L-KAWAIN 15 flase
+L-Leucine 36 flase
+L-Menthol 14 flase
+Lobeline hydrochloride 1 flase
+Lodoxamide 23 flase
+Loganin 6 flase
+Lomefloxacin hydrochloride 1 flase
+Lomefloxacin 1 flase
+Lomerizine hydrochloride 1 flase
+Lomitapide 1 flase
+Lomustine 16 flase
+Lonafarnib 1 flase
+Lonidamine 27 true
+Loperamide hydrochloride 1 flase
+Lopinavir 1 flase
+Loratadine 1 flase
+L-Ornithine 36 flase
+Lornoxicam 2 flase
+Losartan potassium 13 flase
+Loteprednol etabonate 3 flase
+Lovastatin 3 flase
+Loxapine succinate salt 1 flase
+Loxeen 2 flase
+Loxoprofen 14 flase
+L-Thyroxine 19 flase
+Lubiprostone 3 flase
+Lucanthone 1 flase
+Luliconazole 92 true
+Lumacaftor 2 flase
+Lumefantrine 12 flase
+Lumiracoxib 28 flase
+Lupetidin 123 true
+Lurasidone hydrochloride 1 flase
+L-Valine 54 flase
+Lyothyronine 19 flase
+lysine 36 flase
+Macitentan 1 flase
+Mafenide hydrochloride 9 flase
+Magnesium glycinate 19 flase
+Magnolol 31 flase
+Malathion 122 true
+Malotilate 102 flase
+Maltose 6 flase
+Mandelic acid 31 flase
+Manidipine dihydrochloride 1 flase
+Manidipine 1 flase
+Maprotiline hydrochloride 46 flase
+Maraviroc 1 flase
+Marbofloxacin 1 flase
+Masitinib 1 flase
+Mebeverine hydrochloride 1 flase
+Mebhydroline 4 flase
+Mebhydrolin napadisylate 2 flase
+Mecamylamine hydrochloride 89 flase
+Mechlorethamine hydrochloride 37 flase
+Meclizine dihydrochloride 1 flase
+Meclocycline sulfosalicylate salt 2 flase
+Meclofenamate Sodium 61 flase
+Meclofenoxate hydrochloride 1 flase
+Medrysone 3 flase
+Mefenamic acid 61 true
+Mefloquine hydrochloride 20 flase
+Megestrol acetate 3 flase
+Meglumine 19 flase
+Meloxicam 2 flase
+Melphalan 7 flase
+ 107 flase
+Menadiol Diacetate 15 flase
+Menadione 82 true
+Menatetrenone 14 flase
+Mepenzolate Bromide 1 flase
+Mephenesin 19 flase
+Mepiroxol 96 flase
+Mepivacaine hydrochloride 1 flase
+Meprednisone 3 flase
+Meptazinol hydrochloride 7 flase
+Mequitazine 20 flase
+Merbromin 15 flase
+Mercaptopurine 116 true
+Meropenem 1 flase
+Mesalamine 19 flase
+Mesna 57 flase
+Mestinon 51 flase
+Mestranol 11 flase
+Metadoxine 1 flase
+Metamizole magnesium 2 flase
+Metaraminol bitartrate 19 flase
+Metaxalone 6 flase
+Metformin hydrochloride 121 true
+Methacholine Chloride 37 flase
+Methacycline hydrochloride 1 flase
+Methazolamide 9 flase
+Methimazole 38 flase
+Methocarbamol 6 flase
+Methotrexate 1 flase
+Methoxamine hydrochloride 19 flase
+Methscopolamine 1 flase
+Methyl Aminolevulinate Hydrochloride 36 flase
+Methylcobalamin 1 flase
+Methylene Blue 41 flase
+Methylene Blue trihydrate 41 flase
+Methyl hesperidin 6 flase
+Methylprednisolone 3 flase
+Methylprodnisolone Sodium Succinate 3 flase
+Methyl salicylate 15 flase
+Meticrane 9 flase
+Metoclopramide hydrochloride 1 flase
+Metolazone 2 flase
+Metoprolol Succinate 1 flase
+Metoprolol tartrate 1 flase
+Metronidazole 13 flase
+Metyrapone 137 true
+Mevastatin 3 flase
+Mexenone 15 flase
+Mexiletine hydrochloride 33 flase
+Mianserin hydrochloride 1 flase
+Micafungin sodium 1 flase
+Miconazole nitrate 13 flase
+Miconazole 12 flase
+Midecamycin 1 flase
+Midodrine hydrochloride 1 flase
+Mifepristone 3 flase
+Miglitol 1 flase
+Milnacipran hydrochloride 44 flase
+Miltefosine 37 flase
+Minaprine dihydrochloride 1 flase
+Minocycline hydrochloride 1 flase
+Minoxidil 2 flase
+Mirabegron 1 flase
+Miriplatin 28 flase
+Mirtazapine 4 flase
+Mitiglinide calcium 1 flase
+Mitomycin C 1 flase
+Mitotan 115 true
+Mitoxantrone hydrochloride 1 flase
+Mitoxantrone 1 flase
+Mizolastine 1 flase
+Mizoribine 1 flase
+Mocetinostat 4 flase
+Moclobemide 1 flase
+Modaline sulfate 2 flase
+Moguisteine 1 flase
+Molsidomine 13 true
+Mometasone furoate 3 flase
+Monensin sodium salt 3 flase
+Monobenzone 31 flase
+Montelukast sodium 3 flase
+Morantel tartrate 3 flase
+Moroxydine hydrochloride 20 flase
+Mosapride Citrate 1 flase
+Moxidectin 3 flase
+Moxifloxacin hydrochloride 1 flase
+Moxisylyte hydrochloride 1 flase
+Moxonidine 1 flase
+Mozavaptan 1 flase
+Mupirocin 7 flase
+Myclobutanil 20 flase
+Mycophenolate mofetil 1 flase
+Mycophenolate Mofetil 1 flase
+Mycophenolic acid 3 flase
+Mylosar 1 flase
+Nabumetone 15 flase
+N-Acetyl-D-Glucosamine 6 flase
+Nadifloxacin 1 flase
+Nadolol 1 flase
+Nafamostat mesylate 2 flase
+nafcillin sodium 1 flase
+Nafronyl oxalate 1 flase
+Naftifine hydrochloride 12 flase
+Naftopidil 1 flase
+Nalfurafine hydrochloride 1 flase
+Nalidixic acid 4 flase
+Nalidixic acid sodium salt 18 true
+Nalmefene hydrochloride 1 flase
+Naloxegol oxalate 1 flase
+Naloxone hydrochloride 1 flase
+Naltrexone hydrochloride 1 flase
+Nandrolone decanoate 3 flase
+Naphazoline hydrochloride 20 flase
+Naproxen 15 flase
+Naproxen sodium 31 flase
+Naringin 6 flase
+Nateglinide 7 flase
+Nebivolol hydrochloride 1 flase
+Nedaplatin 114 true
+Nefazodone hydrochloride 1 flase
+Nefopam hydrochloride 12 true
+Nelfinavir Mesylate 1 flase
+Neomycin sulfate 2 flase
+Neomycin Sulphate B 2 flase
+Neostigmine bromide 55 flase
+Nepafenac 28 flase
+Neratinib 1 flase
+Netilmicin sulfate 2 flase
+Netupitant 1 flase
+Nevirapine 4 flase
+Nialamide 47 true
+Nicaraven 4 flase
+Nicarbazin 22 flase
+Nicardipine hydrochloride 1 flase
+Nicergoline 1 flase
+Niclosamide 22 flase
+Nicorandil 13 flase
+Nicotinamide 45 flase
+Nicotine 4 flase
+Nicotinic acid 90 flase
+Nifedipine 34 flase
+Nifekalant hydrochloride 1 flase
+Nifenazone 1 flase
+Niflumic acid 23 flase
+Nifuratel 13 flase
+Nifuroxazide 22 flase
+Nilotinib 4 flase
+Nilutamide 5 flase
+Nimesulide 9 flase
+Nimodipine 34 flase
+Nimorazole 13 flase
+Nintedanib Ethanesulfonate Salt 1 flase
+Nintedanib 1 flase
+Niraparib 4 flase
+Nisoldipine 34 flase
+Nitarsone 91 true
+Nitazoxanide 13 flase
+Nithiamide 22 flase
+Nitisinone 22 flase
+Nitrendipine 34 flase
+Nitrofurantoin 13 flase
+Nitroxoline 22 flase
+Nizatidine 77 true
+Nonoxynol 49 true
+Noradrenaline bitartrate monohydrate 19 flase
+Noradrenaline bitartrate 19 true
+Norethindrone 11 flase
+Norfloxacin 1 flase
+Norgestrel 11 flase
+Nortriptyline hydrochloride 46 flase
+Noscapine hydrochloride 1 flase
+Nylidrin hydrochloride 33 flase
+Nystatin 3 flase
+O-Acetyl-L-carnitine hydrochloride 7 flase
+Obeticholic Acid 3 flase
+Octenidine Dihydrochloride 1 flase
+Octisalate 24 flase
+Octocrilene 24 flase
+Octopamine hydrochloride 19 flase
+Octyl 4-methoxycinnamate 14 flase
+Odanacatib 9 flase
+Ofloxacin 1 flase
+Olanzapine 4 flase
+Oleic acid 24 flase
+Olodaterol 1 flase
+Olopatadine hydrochloride 1 flase
+Olsalazine disodium 56 true
+Omarigliptin 2 flase
+Ondansetron hydrochloride 1 flase
+Orbifloxacin 1 flase
+Orciprenaline sulfate 9 flase
+Oritavancin diphosphate 1 flase
+Orlistat 29 flase
+Ornidazole 13 flase
+Orphenadrine hydrochloride 1 flase
+Osalmid 21 flase
+Oseltamivir phosphate 9 flase
+Osimertinib mesylate 1 flase
+Osimertinib 1 flase
+Ospemifene 49 flase
+Otilonium bromide 1 flase
+Ouabain octahydrate 3 flase
+Oxacillin sodium 5 flase
+Oxaliplatin 28 flase
+Oxantel Pamoate 1 flase
+Oxaprozin 28 flase
+Oxcarbazepine 76 true
+Oxeladin citrate 1 flase
+Oxethazaine 1 flase
+Oxiniacic Acid 96 true
+Oxiracetam 1 flase
+Oxolamine citrate 1 flase
+Oxolinic acid 1 flase
+Oxybenzone 15 flase
+Oxybuprocaine hydrochloride 1 flase
+Oxybutynin hydrochloride 1 flase
+Oxybutynin 7 flase
+Oxymetazoline hydrochloride 1 flase
+Oxytetracycline 21 true
+Ozagrel hydrochloride 10 flase
+Ozagrel 27 flase
+Paclitaxel 8 flase
+Pacritinib 1 flase
+Paeonol 15 flase
+Palbociclib hydrochloride 1 flase
+Palbociclib Isethionate 1 flase
+Palbociclib 1 flase
+Paliperidone 1 flase
+Palonosetron hydrochloride 1 flase
+palovarotene 3 flase
+Pamabrom 5 flase
+PAMBA 19 flase
+Pamidronate disodium salt 85 true
+Pancuronium bromide 1 flase
+Panthenol 7 flase
+Pantoprazole Sodium Hydrate 2 flase
+Pantoprazole sodium 2 flase
+Parecoxib 9 flase
+Pargyline hydrochloride 71 flase
+Pargyline 71 flase
+Paritaprevir 1 flase
+Paromomycin Sulfate 2 flase
+Paroxetine hydrochloride 1 flase
+Pasiniazid 19 flase
+Patchouli alcohol 11 flase
+Pazopanib 2 flase
+Pazufloxacin Mesylate 2 flase
+Pefloxacin Mesylate Dihydrate 1 flase
+Pefloxacin Mesylate 1 flase
+Pemetrexed acid 4 flase
+Pemetrexed Disodium Hydrate 4 flase
+Pemirolast potassium 4 flase
+Pempidine 38 flase
+Penciclovir 1 flase
+Penfluridol 1 flase
+Penicillin G sodium salt 5 flase
+Penicillin V potassium salt 1 flase
+Pentamidine isethionate 2 flase
+Pentostatin 1 flase
+Pentoxifylline 1 flase
+Peramivir Trihydrate 60 true
+Perindopril erbumine 1 flase
+Permethrin 8 flase
+Perospirone 4 flase
+Perphenazine 1 flase
+Phenacetin 55 flase
+Phenazopyridine hydrochloride 65 flase
+Phenethyl alcohol 113 flase
+Phenformin hydrochloride 74 true
+Pheniramine maleate 10 true
+Phenolphthalein 15 flase
+Phenothiazine 41 flase
+Phenoxybenzamine hydrochloride 1 flase
+Phentolamine mesilate 1 flase
+Phenylbutazone 4 flase
+Phenylephrine hydrochloride 19 flase
+Phenylindione 15 flase
+Phenytoin 67 true
+Phenytoin sodium 67 flase
+Phthalylsulfacetamide 9 flase
+Phthalylsulfathiazole 9 flase
+Physostigmine Salicylate 1 flase
+Piceatannol 15 flase
+Pidotimod 1 flase
+Pikamilone 10 flase
+(+)-Pilocarpine hydrochloride 18 flase
+Pilocarpine nitrate 2 flase
+Pimaricin 6 flase
+Pimavanserin 1 flase
+Pimavanserin tartrate 1 flase
+Pimecrolimus 1 flase
+Pimozide 1 flase
+Pioglitazone hydrochloride 1 flase
+Pioglitazone 1 flase
+Pipemidic acid 1 flase
+Piperacillin sodium salt 1 flase
+Piperine 1 flase
+Piperonyl butoxide 29 flase
+Pipobroman 1 flase
+Piracetam 1 flase
+Pirarubicin 1 flase
+Pirenzepine dihydrochloride 1 flase
+Pirfenidone 62 flase
+Piribedil 1 flase
+Pirinixic Acid 23 flase
+Piroxicam 2 flase
+Pitavastatin calcium 28 flase
+Pixantrone dimaleate 1 flase
+Pizotifen Malate 3 flase
+Pizotifen 12 flase
+Plerixafor 20 flase
+Podophyllotoxin 8 flase
+Polymyxin B sulfate 1 flase
+Pomalidomide 1 flase
+Ponatinib 1 flase
+Posaconazole 1 flase
+Potassium antimonyl tartrate sesquihydrate 53 flase
+Potassium canrenoate 3 flase
+Potassium guaiacolsulfonate 68 true
+Potassium iodide 142 true
+Povidone-iodine 48 true
+Pracinostat 1 flase
+Pralatrexate 4 flase
+Pramipexole 2HCl Monohydrate 52 flase
+Pramipexole 52 flase
+Pramiracetam 1 flase
+Pramoxine hydrochloride 1 flase
+Pranoprofen 15 flase
+Prasugrel 1 flase
+Pravastatin sodium 3 flase
+Praziquantel 1 flase
+Prazosin hydrochloride 1 flase
+Prednisolone-21-acetate 3 flase
+Prednisolone phosphate sodium 3 flase
+Prednisolone 3 flase
+Prednisone 3 flase
+Prilocaine 44 flase
+Primaquine diphosphate 1 flase
+Primidone 47 flase
+Proadifen hydrochloride 7 flase
+Proanthocyanidins 8 flase
+Probenecid 9 flase
+Probucol 84 true
+Procainamide hydrochloride 1 flase
+Procaine hydrochloride 1 flase
+Procaine penicillin G 1 flase
+Procaine 7 flase
+Procarbazine hydrochloride 44 flase
+Procaterol hydrochloride 1 flase
+Prochlorperazine Maleate 1 flase
+Proflavine Hemisulfate 25 flase
+Progesterone 11 flase
+Proglumide 1 flase
+Proguanil hydrochloride 74 flase
+proline 36 flase
+Promazine hydrochloride 10 flase
+Promethazine hydrochloride 12 flase
+Promethazine 41 true
+Propacetamol Hydrochloride 1 flase
+Propafenone 1 flase
+Propantheline bromide 1 flase
+Proparacaine hydrochloride 1 flase
+Propitocaine hydrochloride 44 true
+Propofol 31 flase
+Propoxur 31 flase
+Propranolol hydrochloride 6 flase
+Protionamide 108 true
+Protocatechuic acid 15 flase
+Protriptyline hydrochloride 46 flase
+Prucalopride 1 flase
+Psoralen 15 flase
+Puerarin 6 flase
+Puromycin dihydrochloride 1 flase
+Pyrantel pamoate 1 flase
+Pyrantel tartrate 3 flase
+Pyrazinamide 45 flase
+Pyridoxal phosphate 43 flase
+Pyridoxine hydrochloride 33 flase
+Pyridoxine 43 flase
+Pyrilamine maleate 1 flase
+Pyrimethamine 23 flase
+Pyrithioxin 43 flase
+Quetiapine Fumarate 1 flase
+Quinapril hydrochloride 1 flase
+Quinestrol 11 flase
+Quinidine hydrochloride 1 flase
+Quinine dihydrochloride 1 flase
+Quinine 1 flase
+Racecadotril 64 true
+Radotinib 4 flase
+Raloxifene hydrochloride 1 flase
+Raltegravir 1 flase
+Ramatroban 2 flase
+Ramelteon 35 flase
+Ramipril 1 flase
+Ranitidine Hydrochloride 34 flase
+Ranitidin 34 flase
+Ranolazine dihydrochloride 1 true
+Ranolazine 1 flase
+Rapamycin 1 flase
+Rasagiline Mesylate 2 flase
+Rasagiline 35 flase
+(R)-baclofen 63 true
+Rebeprazole sodium 26 true
+Reboxetine mesylate 1 flase
+Regadenoson 1 flase
+Regorafenib 1 flase
+Repaglinide 1 flase
+Resorcine 31 flase
+Resveratrol 42 true
+Retapamulin 3 true
+Retinol palmitate 24 true
+Retinol 24 flase
+Retinyl acetate 24 flase
+Revaprazan hydrochloride 4 flase
+Ribavirin 6 flase
+Ribociclib 1 flase
+Riboflavin 1 flase
+Ribostamycin sulfate 2 flase
+Rifabutin 1 flase
+Rifampicin 1 flase
+Rifapentine 1 flase
+Rifaximin 1 flase
+Rilmenidine Phosphate 88 true
+Rilpivirine 65 flase
+Riluzole 112 flase
+Rimantadine hydrochloride 107 true
+Rimonabant hydrochloride 1 flase
+Rimonabant 1 flase
+Riociguat 2 flase
+Risedronate Sodium 85 flase
+Risedronic Acid 85 flase
+Risperidal 1 flase
+Ritodrine hydrochloride 19 flase
+Ritonavir 1 flase
+Rivaroxaban 1 flase
+Rivastigmine 55 true
+Rivastigmine tartrate 7 flase
+(R)-Naproxen 15 flase
+Robenidine hydrochloride 65 flase
+Rociletinib 1 flase
+Rocilinostat 1 flase
+Rocuronium bromide 1 flase
+Rofecoxib 25 flase
+Roflumilast N-oxide 1 flase
+Roflumilast 1 flase
+Rolapitant hydrochloride 1 flase
+Romidepsin 5 flase
+Roniacol 113 true
+Ronidazole 13 flase
+Ropinirole hydrochloride 1 flase
+Ropivacaine hydrochloride 1 flase
+Ropivacaine 1 flase
+Rosiglitazone maleate 1 flase
+Rosiglitazone 1 flase
+Rosuvastatin calcium 2 flase
+Rosuvastatin 2 flase
+Rotigotine 3 flase
+Roxarsone 22 flase
+Roxatidine Acetate hydrochloride 1 flase
+Roxithromycin 1 flase
+Rufinamide 4 flase
+Rupatadine Fumarate 1 flase
+Rutin 6 flase
+Safinamide mesylate 2 flase
+Saikosaponin A 3 flase
+Salbutamol 6 flase
+Salicoside 6 flase
+Salicylamide 19 flase
+Salicylanilide 21 flase
+Salicylic acid 15 flase
+Salifungin 28 flase
+Salmeterol Xinafoate 1 flase
+Salvianolic acid B 8 flase
+Sanguinarine chloride 12 flase
+Sarafloxacin hydrochloride 1 flase
+Sasapyrine 15 flase
+Saxagliptin hydrate 1 flase
+(S)-(+)-Clopidogrel hydrogen sulfate 2 flase
+Scoparone 15 flase
+Scopolamine butylbromide 1 flase
+Scopolamine HBr 1 flase
+Scopolamine HBr trihydrate 1 flase
+Scopolamine N-oxide HBr 3 flase
+Scopoletin 15 flase
+Secnidazole 13 flase
+Selamectin 3 flase
+Selenomethionine 36 flase
+Selexipag 1 flase
+Selinexor 4 flase
+Sennoside A 6 flase
+Seratrodast 14 true
+serine 19 flase
+Sertaconazole nitrate 2 flase
+Sertraline hydrochloride 89 true
+Sildenafil citrate 1 flase
+Silibinin 6 flase
+Silodosin 1 flase
+Silver sulfadiazine 25 flase
+Simeprevir 1 flase
+Simvastatin 3 flase
+Sinomenine hydrochloride 1 flase
+Sisomicin Sulfate 2 flase
+Sitagliptin 1 flase
+Sitaxentan sodium 2 flase
+Sivelestat 9 true
+(S)-(+)-Ketoprofen 42 flase
+Sodium 4-aminosalicylate dihydrate 19 flase
+Sodium Aescinate 3 flase
+Sodium ceftiofur 2 flase
+Sodium cromoglycate 15 flase
+Sodium etidronate 85 flase
+Sodium ferulic 31 flase
+Sodium fusidate 3 flase
+Sodium gluconate 58 flase
+Sodium montmorillonite 134 flase
+Sodium nitrite 136 flase
+Sodium Nitroprusside 136 true
+Sodium Phenylbutyrate 106 flase
+Sodium Picosulfate 68 flase
+Sofosbuvir 1 flase
+Solifenacin succinate 1 flase
+Solithromycin 1 flase
+Sonidegib 1 flase
+Sophoricoside 6 flase
+Sorafenib 1 flase
+Sorafenib tosylate 2 flase
+Sotalol hydrochloride 9 flase
+Sparfloxacin 1 flase
+(-)-Sparteine sulfate pentahydrate 2 flase
+Spectinomycin dihydrochloride 6 flase
+Spiculisporic Acid 7 flase
+Spiperone 1 flase
+Spiramycin 1 flase
+Stavudine 1 flase
+Stearic acid 73 true
+Stiripentol 87 true
+Streptomycin sulfate 2 flase
+Streptozocin 6 flase
+Strontium ranelate 120 true
+Strychnine 1 flase
+Stugeron 20 flase
+Succimer 141 true
+Succinylsulfathiazole 9 flase
+Sulbactam 5 flase
+Sulbentine 41 flase
+Sulconazole Nitrate 27 flase
+Sulfabenzamide 9 flase
+Sulfacetamide sodium salt hydrate 9 flase
+Sulfacetamide sodium 9 flase
+Sulfachloropyridazine 16 flase
+Sulfadiazine 9 flase
+Sulfadimethoxine 2 flase
+Sulfadoxine 2 flase
+Sulfaguanidine 16 flase
+Sulfalen 2 flase
+Sulfamerazine 9 flase
+Sulfameter 9 flase
+Sulfamethazine 9 flase
+Sulfamethazine sodium salt 25 flase
+Sulfamethizole 16 flase
+Sulfamethoxazole 9 flase
+Sulfamethoxypyridazine 9 flase
+Sulfamonomethoxine 9 flase
+Sulfanilamide 9 flase
+Sulfanilylurea 9 flase
+Sulfaphenazole 9 flase
+Sulfapyridine 9 flase
+Sulfaquinoxaline sodium 16 flase
+Sulfasalazine 2 flase
+Sulfathiazole 16 flase
+Sulfinpyrazone 9 flase
+Sulfisomidine 9 flase
+Sulfisoxazole 9 flase
+Sulfogaiacol 68 flase
+Sulindac 135 true
+Sulphadione 25 flase
+Sulpiride 1 flase
+Sultamicillin Tosylate 2 flase
+Suplatast tosilate 1 flase
+Suprofen 102 flase
+Swertiamarin 6 flase
+Synephrine 19 flase
+Tacrine hydrochloride hydrate 52 flase
+Tacrolimus 1 flase
+Tafamidis 27 flase
+Talc 134 true
+Talniflumate 18 flase
+Tamibarotene 28 flase
+Tamoxifen Z-isomer citrate 1 flase
+Tamsulosin hydrochloride 1 flase
+Tandutinib 1 flase
+Tannic acid 8 flase
+Tanshinone IIA sulfonate sodium 26 flase
+Tanshinone I 15 flase
+Tasimelteon 35 true
+Taurocholic acid sodium salt hydrate 2 flase
+Tauroursodeoxycholic Acid 2 flase
+Tavaborole 69 flase
+Tazarotene 29 flase
+Tazobactam acid 5 flase
+Tebipenem Pivoxil 3 flase
+Tegafur 1 flase
+Teicoplanin 1 flase
+Telaprevir 1 flase
+Telbivudine 1 flase
+Telmisartan 3 flase
+Temocapril HCl 1 flase
+Temozolomide 4 flase
+Temsirolimus 1 flase
+Teniposide 6 flase
+Tenofovir alafenamide 1 flase
+Tenofovir Disoproxil Fumarate 1 flase
+Tenofovir 17 true
+Tenoxicam 2 flase
+Terazosin hydrochloride 1 flase
+Terbinafine hydrochloride 71 true
+Terbinafine 41 flase
+Terbutaline Sulfate 9 flase
+Terconazole 1 flase
+Terfenadine 1 flase
+Teriflunomide 45 flase
+Terpin Monohydrate 11 flase
+Tetrabenazine 1 flase
+TETRABENAZINE 1 flase
+Tetracaine hydrochloride 1 flase
+Tetracycline hydrochloride 1 flase
+Tetracycline 8 flase
+Tetrahydropalmatine hydrochloride 1 flase
+Tetramisole hydrochloride 20 flase
+Tetrandrine 1 flase
+Tetryzoline 52 flase
+Thalidomide 1 flase
+Theobromine 4 flase
+Theophylline-7-acetic acid 1 flase
+Theophylline monohydrate 4 flase
+Theophylline 4 flase
+Thiamine hydrochloride 1 flase
+Thiamphenicol 9 flase
+Thimerosal 140 true
+Thioctamide 81 flase
+Thioctic acid 133 true
+Thioguanine 65 flase
+Thioisonicotinamide 83 flase
+Thioproline 36 flase
+Thioridazine hydrochloride 12 flase
+Thiostrepton 3 flase
+Thonzylamine 1 flase
+Thymopentin 1 flase
+Tiagabine 3 flase
+Tianeptine sodium 2 flase
+Tiapride hydrochloride 1 flase
+Tiaprofenic acid 102 true
+Tibolone 11 flase
+Ticagrelor 1 flase
+Ticarcillin disodium 5 flase
+Ticlopidine hydrochloride 12 flase
+Tideglusib 4 flase
+Tigecycline 1 flase
+Tilmicosin 1 flase
+Tilorone dihydrochloride 1 flase
+Timolol Maleate 1 flase
+Tinidazole 2 flase
+Tinoridine hydrochloride 1 flase
+Tiopronin 36 flase
+Tiotropium bromide 3 flase
+Tioxolone 15 flase
+Tiratricol 15 flase
+Tirofiban hydrochloride monohydrate 1 flase
+Tivozanib 1 flase
+Tizanidine hydrochloride 52 flase
+Tizoxanide 22 true
+Tobramycin 1 flase
+Tolazamide 16 flase
+Tolazoline hydrochloride 20 flase
+Tolbutamide 9 flase
+Tolcapone 22 flase
+Tolfenamic Acid 28 flase
+Tolmetin 10 flase
+Tolnaftate 129 true
+Tolperisone hydrochloride 10 flase
+Tolterodine tartrate 1 flase
+Toltrazuril 1 flase
+Tolvaptan 1 flase
+Topiramate 50 true
+Topotecan hydrochloride 1 flase
+Toradol 5 flase
+Torasemide 9 flase
+Toremifene citrate 1 flase
+Toremifene 12 flase
+Torezolid 1 flase
+Trametinib 1 flase
+Tranilast 1 flase
+Trans-Anethole 31 flase
+Trans-Tranilast 1 flase
+Tranylcypromine (2-PCPA) hydrochloride 89 flase
+Trapidil 17 flase
+Trazodone hydrochloride 1 flase
+Trelagliptin 1 flase
+Trelagliptin succinate 1 flase
+Tretinoin 24 flase
+Triacetin 111 flase
+Triamcinolone acetonide 3 flase
+Triamcinolone 7 flase
+Trichlormethiazide 9 flase
+Triclocarban 65 flase
+Triclosan 31 flase
+Triethylenethiophosphoramide 132 true
+Trifluoperazine dihydrochloride 12 flase
+Triflupromazine hydrochloride 12 flase
+Trifluridine 1 flase
+Triflusal 15 flase
+Trilostane 11 true
+Trimebutine maleate 1 flase
+Trimebutine 1 flase
+Trimeprazine tartrate 1 flase
+Trimetazidine dihydrochloride 1 flase
+Trimethadione 39 flase
+Trimethoprim 23 flase
+Trimetozine 1 flase
+Trimipramine maleate 1 flase
+Trioxsalen 15 flase
+Tripelennamine hydrochloride 10 flase
+Triprolidine hydrochloride 10 flase
+Troglitazone 1 flase
+Trometamol 36 flase
+Tropicamide 10 flase
+Trospium chloride 1 flase
+Troxerutin 6 flase
+Troxipide 1 flase
+Tubercidin 1 flase
+Tulobuterol hydrochloride 44 flase
+Tylosin 1 flase
+Tylosin tartrate 1 flase
+Tyloxapol 19 flase
+Tyrosine 19 flase
+Ubenimex 21 flase
+Ulipristal acetate 3 flase
+Urapidil hydrochloride 1 flase
+Urapidil 1 flase
+Urea 119 true
+Urethane 59 flase
+Uridine 1 flase
+Ursodeoxycholic acid 3 flase
+Vagistat 27 flase
+Valacyclovir hydrochloride 1 flase
+Valdecoxib 9 flase
+Valethamate bromide 7 flase
+Valganciclovir hydrochloride 1 flase
+Valpramide 128 true
+Valproic acid sodium salt 73 flase
+Vanatone 31 flase
+Vancomycin hydrochloride 1 flase
+Vandetanib 1 flase
+Vanillin 31 true
+Vardenafil hydrochloride trihydrate 1 flase
+Varenicline 20 flase
+Varenicline Tartrate 23 flase
+Venlafaxine hydrochloride 1 flase
+Verapamil hydrochloride 1 flase
+Vesnarinone 1 flase
+Vidarabine 1 flase
+Vigabatrin 36 flase
+Vilazodone 1 flase
+Vildagliptin 1 flase
+Vinblastine sulfate 1 flase
+Vincamine 1 flase
+Vincristine sulfate 1 flase
+Vinpocetine 3 flase
+Vismodegib 25 true
+Visomitin 14 flase
+Vitamin B6 43 true
+Vitamin D2 11 flase
+Vitamin D3 3 flase
+Vitamin E Acetate 3 flase
+Vitamin E 11 flase
+Vitamin K1 14 flase
+Voglibose 6 flase
+Volasertib 1 flase
+Vonoprazan fumarate 2 flase
+Vorapaxar 3 flase
+Vorapaxar sulfate 2 flase
+Voriconazole 27 flase
+Vorinostat 28 flase
+Vortioxetine HBr 1 flase
+Vortioxetine 1 flase
+VX661 1 flase
+Warfarin 15 flase
+Warfarin sodium 15 true
+XL184 1 flase
+Xylazine hydrochloride 52 true
+Xylitol 58 flase
+Xylocaine 1 flase
+Xylometazoline hydrochloride 38 flase
+Yohimbine hydrochloride 1 flase
+Zafirlukast 2 flase
+Zalcitabine 1 flase
+Zaltoprofen 15 flase
+Zanamivir 6 flase
+Zidovudine 1 flase
+Zileuton 127 true
+Zinc pyrithione 96 flase
+Zinc undecylenate 106 true
+Ziprasidone hydrochloride monohydrate 1 flase
+Ziprasidone hydrochloride 1 flase
+Ziprasidone 1 flase
+Zofenopril (calcium) 5 flase
+Zoledronic Acid 17 flase
+Zonisamide 16 flase
+Zotarolimus 1 flase
+Zucapsaicin 1 flase

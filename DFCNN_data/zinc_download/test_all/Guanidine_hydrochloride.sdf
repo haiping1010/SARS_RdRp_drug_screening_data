@@ -1,0 +1,53 @@
+Guanidine hydrochloride
+ OpenBabel02212023462D
+
+  5  3  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    3.3589    0.7145    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9464   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3589   -0.7145    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1214   -0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  3  5  2  0  0  0  0
+M  END
+>  <CdId>
+310
+
+>  <Mol Weight>
+95.531
+
+>  <Formula>
+CH6ClN3
+
+>  <ID>
+T0415
+
+>  <Name>
+Guanidine hydrochloride
+
+>  <Synonyms>
+Aminoformamidine HCl
+
+>  <CAS>
+50-01-1
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Immune system
+
+>  <Indication>
+Malaria
+
+>  <Pathways>
+Autophagy; DNA Damage/DNA Repair; Others
+
+>  <Target>
+Arginase agonist; Autophagy; DNA/RNA Synthesis; Others
+
+>  <Receptor>
+Arginase; Lysozyme; Ribonuclease pancreatic; Argininosuccinate synthase
+
+$$$$

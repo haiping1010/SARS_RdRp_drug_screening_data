@@ -1,0 +1,56 @@
+L-Asparagine
+ OpenBabel02212023462D
+
+  9  8  0  0  0  0  0  0  0  0999 V2000
+    1.9520    1.1270    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2375    0.7145    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    0.5230    1.1270    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1914    0.7145    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5230    1.9520    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2375   -0.1105    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6664    0.7145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3809    1.1270    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6664   -0.1105    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  7  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  4  2  0  0  0  0
+  3  5  1  0  0  0  0
+  7  8  2  0  0  0  0
+  7  9  1  0  0  0  0
+M  END
+>  <CdId>
+2009
+
+>  <Mol Weight>
+132.1179
+
+>  <Formula>
+C4H8N2O3
+
+>  <ID>
+T2O2774
+
+>  <Name>
+L-Asparagine
+
+>  <Synonyms>
+(-)-Asparagine;Agedoite;Altheine
+
+>  <CAS>
+70-47-3
+
+>  <Approved status>
+PMDA
+
+>  <Pathways>
+Metabolic Enzyme/Protease
+
+>  <Target>
+Endogenous Metabolite
+
+>  <Receptor>
+Endogenous Metabolite
+
+$$$$

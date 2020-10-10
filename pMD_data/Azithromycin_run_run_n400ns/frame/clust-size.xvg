@@ -1,0 +1,29 @@
+# This file was created Thu Jun 11 15:13:52 2020
+# Created by:
+#                     :-) GROMACS - gmx cluster, 2019.2 (-:
+# 
+# Executable:   /home/zhanghaiping/program/gromacs_plumed/bin/gmx_mpi
+# Data prefix:  /home/zhanghaiping/program/gromacs_plumed
+# Working dir:  /home/zhanghaiping/work/pMD_run_redo_rdrp_add_meta_n/Azithromycin_run_run_n300ns/frame
+# Command line:
+#   gmx_mpi cluster -f fixed.xtc -s ../em.gro -method linkage -cl -sz -cutoff 0.2 -fit -n ../index_xxx.ndx
+# gmx cluster is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "Cluster Sizes"
+@    xaxis  label "Cluster #"
+@    yaxis  label "# Structures"
+@TYPE xy
+@g0 type bar
+       1      128
+       2        1
+       3       40
+       4       24
+       5        1
+       6        1
+       7        7
+       8       34
+       9       27
+      10        1
+      11        1

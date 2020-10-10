@@ -1,0 +1,91 @@
+Maprotiline hydrochloride
+ OpenBabel02212023462D
+
+ 22 24  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    5.8953   -3.0093    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8994   -2.1843    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1870   -1.7682    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1910   -0.9433    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4786   -0.5272    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4827    0.2978    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    4.6224    1.3364    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3777    1.9423    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3400    1.0462    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    5.0786    0.7139    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6983    1.2585    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.4798    0.9941    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.6416    0.1851    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0219   -0.3595    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2404   -0.0951    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5362    0.6943    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7709    1.0023    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1214    0.4935    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2373   -0.3233    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0027   -0.6314    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6521   -0.1226    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  7 16  1  0  0  0  0
+  7 22  1  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 10 17  1  0  0  0  0
+ 11 12  2  0  0  0  0
+ 11 16  1  0  0  0  0
+ 12 13  1  0  0  0  0
+ 13 14  2  0  0  0  0
+ 14 15  1  0  0  0  0
+ 15 16  2  0  0  0  0
+ 17 18  2  0  0  0  0
+ 17 22  1  0  0  0  0
+ 18 19  1  0  0  0  0
+ 19 20  2  0  0  0  0
+ 20 21  1  0  0  0  0
+ 21 22  2  0  0  0  0
+M  END
+>  <CdId>
+180
+
+>  <Mol Weight>
+313.864
+
+>  <Formula>
+C20H24ClN
+
+>  <ID>
+T0172
+
+>  <Name>
+Maprotiline hydrochloride
+
+>  <Synonyms>
+Ludiomil;Psymion;Deprilept
+
+>  <CAS>
+10347-81-6
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Nervous system
+
+>  <Indication>
+Tetracyclic Antidepressants
+
+>  <Pathways>
+GPCR/G Protein; Neuroscience; Immunology/Inflammation
+
+>  <Target>
+5-HT Receptor antagonist; AChR antagonist; Adrenergic Receptor antagonist; Histamine Receptor antagonist; Norepinephrine inhibitor
+
+>  <Receptor>
+5-HT; mAChR; Adrenergic Receptor; H1 receptor; Noradrenaline transporter (Sodium-dependent)
+
+$$$$

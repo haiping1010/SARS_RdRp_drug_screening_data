@@ -1,0 +1,62 @@
+Selenomethionine
+ OpenBabel02212023462D
+
+  9  8  0  0  0  0  0  0  0  0999 V2000
+    1.7605    1.8414    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.4750    1.4289    0.0000 Se  0  0  0  0  0  0  0  0  0  0  0  0
+    3.1895    1.8414    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.9039    1.4289    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6184    1.8414    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    4.6184    2.6664    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3329    1.4289    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.0474    1.8414    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3329    0.6039    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  5  7  1  0  0  0  0
+  7  8  2  0  0  0  0
+  7  9  1  0  0  0  0
+M  END
+>  <CdId>
+957
+
+>  <Mol Weight>
+196.11
+
+>  <Formula>
+C5H11NO2Se
+
+>  <ID>
+T1658
+
+>  <Name>
+Selenomethionine
+
+>  <Synonyms>
+Seleno-DL-methionine;DL-Selenomethionine
+
+>  <CAS>
+1464-42-2
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Others
+
+>  <Indication>
+Supplement
+
+>  <Pathways>
+Others
+
+>  <Target>
+Amino Acids and Derivatives
+
+>  <Receptor>
+Amino Acids and Derivatives
+
+$$$$

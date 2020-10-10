@@ -1,0 +1,30 @@
+
+
+
+id=xx
+run_folder='/var/www/html/DeepBindBC'
+
+
+rm -rf jobs/pocket_$id
+mkdir jobs/pocket_$id
+cd  jobs/pocket_$id
+
+cp -r  ../../pocket_example/????*.mol2   ../../pocket_example/????.pdb    .
+
+
+for name in ????.pdb
+do
+
+base=${name%.pdb}
+grep  "ATOM\|TER\|END"  $name > $base'_w.pdb'
+
+python $run_folder/extract_pocket.py  $base
+done
+
+mkdir Poc_output
+cp -r  ????*.mol2  ????.pdb  ????_pocket.pdb  Poc_output
+
+zip -q -r  $id'_poc_result.zip'  Poc_output
+
+
+

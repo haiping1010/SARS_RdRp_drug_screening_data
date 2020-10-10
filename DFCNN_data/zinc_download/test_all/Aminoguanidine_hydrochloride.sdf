@@ -1,0 +1,55 @@
+Aminoguanidine hydrochloride
+ OpenBabel02212023462D
+
+  6  4  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    3.8893    0.5716    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.4768   -0.1429    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6518   -0.1429    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2393   -0.8574    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2393    0.5716    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  2  0  0  0  0
+  4  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+M  END
+>  <CdId>
+277
+
+>  <Mol Weight>
+110.546
+
+>  <Formula>
+CH7ClN4
+
+>  <ID>
+T0358
+
+>  <Name>
+Aminoguanidine hydrochloride
+
+>  <Synonyms>
+Pimagedine;Guanyl hydrazine;Hydrazinecarboximidamide
+
+>  <CAS>
+1937-19-5
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Immune system
+
+>  <Indication>
+Malaria
+
+>  <Pathways>
+Immunology/Inflammation
+
+>  <Target>
+NOS inhibitor
+
+>  <Receptor>
+iNOS
+
+$$$$

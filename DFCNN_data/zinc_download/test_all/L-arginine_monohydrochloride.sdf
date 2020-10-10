@@ -1,0 +1,69 @@
+L-arginine monohydrochloride
+ OpenBabel02212023462D
+
+ 13 11  0  0  1  0  0  0  0  0999 V2000
+   -2.0243   -0.1375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.7388    0.2750    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.3099    0.2750    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -1.3099    1.1000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5954   -0.1375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1191    0.2750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8335   -0.1375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5480    0.2750    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2625   -0.1375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9770    0.2750    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2625   -0.9625    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0243   -0.9625    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    5.2162    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  3  1  0  0  0  0
+  1 12  1  0  0  0  0
+  3  4  1  1  0  0  0
+  3  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  2  0  0  0  0
+  9 11  1  0  0  0  0
+M  END
+>  <CdId>
+376
+
+>  <Mol Weight>
+210.662
+
+>  <Formula>
+C6H15ClN4O2
+
+>  <ID>
+T0670
+
+>  <Name>
+L-arginine monohydrochloride
+
+>  <Synonyms>
+(S)-(+)-Arginine hydrochloride
+
+>  <CAS>
+1119-34-2
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Others
+
+>  <Indication>
+Nutritional Supplementation
+
+>  <Pathways>
+Others
+
+>  <Target>
+Amino Acids and Derivatives antagonist
+
+>  <Receptor>
+Amino Acids and Derivatives
+
+$$$$

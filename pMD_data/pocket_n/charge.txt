@@ -1,0 +1,10 @@
+2R4B_w.pdb  0
+3G0E_w.pdb  0  nosure
+3LQ8_w.pdb  0   nosure
+3LZB_w.pdb  0
+3PP0_w.pdb  0
+4AT5_w.pdb  0
+4AUA_w.pdb  0
+4IEH_w.pdb  2
+5EW8_w.pdb  0
+5FTO_w.pdb  0

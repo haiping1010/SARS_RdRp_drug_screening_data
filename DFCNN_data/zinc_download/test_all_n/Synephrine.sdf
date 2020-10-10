@@ -1,0 +1,69 @@
+Synephrine
+ OpenBabel02212023462D
+
+ 12 12  0  0  0  0  0  0  0  0999 V2000
+   -0.7145    3.7125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    3.3000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    2.4750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    2.0625    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    1.4289    2.4750    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    1.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -1.2375    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+  6  7  2  0  0  0  0
+  6 12  1  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  2  0  0  0  0
+  9 10  1  0  0  0  0
+  9 11  1  0  0  0  0
+ 11 12  2  0  0  0  0
+M  END
+>  <CdId>
+1582
+
+>  <Mol Weight>
+167.205
+
+>  <Formula>
+C9H13NO2
+
+>  <ID>
+T1287
+
+>  <Name>
+Synephrine
+
+>  <Synonyms>
+Oxedrine
+
+>  <CAS>
+94-07-5
+
+>  <Approved status>
+Other countries
+
+>  <Disease>
+Cardiovascular system
+
+>  <Indication>
+Shock; Congestive Heart Failure; Hypotension
+
+>  <Pathways>
+Neuroscience; GPCR/G Protein
+
+>  <Target>
+Adrenergic Receptor inhibitor
+
+>  <Receptor>
+Adrenergic Receptor
+
+$$$$

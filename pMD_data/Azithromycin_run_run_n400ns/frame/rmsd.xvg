@@ -1,0 +1,20 @@
+# This file was created Fri Sep 13 13:14:35 2019
+# Created by:
+#                       :-) GROMACS - gmx rms, 2019.2 (-:
+# 
+# Executable:   /home/zhanghaiping/program/gromacs_plumed/bin/gmx_mpi
+# Data prefix:  /home/zhanghaiping/program/gromacs_plumed
+# Working dir:  /home/zhanghaiping/4UT6R_redo/frame
+# Command line:
+#   gmx_mpi rms -f clusters.pdb -s ../solv_ions.gro -n index_monomer_n.ndx -o rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Getting the Right Output Means no Artefacts in Calculating Stuff
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "r_0-394_&_C-alpha after lsq fit to r_0-394_&_C-alpha"
+6400.0000000    0.2509965
+17730.0000000    0.2589565

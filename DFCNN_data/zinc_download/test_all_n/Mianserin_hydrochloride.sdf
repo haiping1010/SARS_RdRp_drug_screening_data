@@ -1,0 +1,89 @@
+Mianserin hydrochloride
+ OpenBabel02212023462D
+
+ 21 23  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    5.2664    2.6360    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8539    1.9215    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0289    1.9215    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6164    1.2070    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.0289    0.4925    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8539    0.4925    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    5.2664    1.2070    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.3683   -0.1525    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.1566    0.0907    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.7614   -0.4704    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5778   -1.2748    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.7895   -1.5179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.1847   -0.9568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.4414   -1.3147    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6981   -0.9568    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.0934   -1.5179    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3050   -1.2748    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1214   -0.4704    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7262    0.0907    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.5145   -0.1525    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  3  8  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  6 21  1  0  0  0  0
+  7  8  1  0  0  0  0
+  7  9  1  0  0  0  0
+  9 10  2  0  0  0  0
+  9 14  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 11 12  2  0  0  0  0
+ 12 13  1  0  0  0  0
+ 13 14  2  0  0  0  0
+ 14 15  1  0  0  0  0
+ 15 16  1  0  0  0  0
+ 16 17  2  0  0  0  0
+ 16 21  1  0  0  0  0
+ 17 18  1  0  0  0  0
+ 18 19  2  0  0  0  0
+ 19 20  1  0  0  0  0
+ 20 21  2  0  0  0  0
+M  END
+>  <CdId>
+1854
+
+>  <Mol Weight>
+300.826
+
+>  <Formula>
+C18H21ClN2
+
+>  <ID>
+T0783
+
+>  <Name>
+Mianserin hydrochloride
+
+>  <Synonyms>
+ORG GB-94 HCl
+
+>  <CAS>
+21535-47-7
+
+>  <Approved status>
+PMDA
+
+>  <Disease>
+Nervous system
+
+>  <Indication>
+Antidepressant; ?Anxiolytic?(Anti-Anxiety); Hypnotic?(Sedating); ?Antiemetic?(Nausea And Vomiting-Attenuating); ?Orexigenic?(Appetite-Stimulating); And?Antihistamine?Effects
+
+>  <Pathways>
+Endocrinology/Hormones; Neuroscience; GPCR/G Protein
+
+>  <Target>
+5-HT Receptor antagonist; Adrenergic Receptor agonist; Dopamine Receptor agonist; Norepinephrine agonist; Opioid Receptor agonist
+
+>  <Receptor>
+5-HT; HT; Sert (Sodium-dependent); Adrenergic Receptor; DA transporter; Dopamine; Noradrenaline transporter (Sodium-dependent)¦Ê-opioid receptor
+
+$$$$

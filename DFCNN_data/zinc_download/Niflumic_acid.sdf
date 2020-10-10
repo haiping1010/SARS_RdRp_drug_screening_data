@@ -1,0 +1,86 @@
+Niflumic acid
+ OpenBabel02212023462D
+
+ 20 21  0  0  0  0  0  0  0  0999 V2000
+   -1.4289   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7145   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7145   -1.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4289   -1.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1434   -1.2375    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8579   -1.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8579   -2.4750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5724   -2.8875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2868   -2.4750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.2868   -1.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -3.5724   -1.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.0013   -1.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.7158   -0.8250    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -4.5888   -0.5230    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -5.4138   -1.9520    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4289   -2.4750    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7145   -2.8875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -2.4750    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -1.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  2  0  0  0  0
+  2  4  1  0  0  0  0
+  4  5  2  0  0  0  0
+  4 20  1  0  0  0  0
+  5  6  1  0  0  0  0
+  5 17  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  2  0  0  0  0
+  7 12  1  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  2  0  0  0  0
+ 10 11  1  0  0  0  0
+ 11 12  2  0  0  0  0
+ 11 13  1  0  0  0  0
+ 13 14  1  0  0  0  0
+ 13 15  1  0  0  0  0
+ 13 16  1  0  0  0  0
+ 17 18  2  0  0  0  0
+ 18 19  1  0  0  0  0
+ 19 20  2  0  0  0  0
+M  END
+>  <CdId>
+1843
+
+>  <Mol Weight>
+282.218
+
+>  <Formula>
+C13H9F3N2O2
+
+>  <ID>
+T0693
+
+>  <Name>
+Niflumic acid
+
+>  <Synonyms>
+Nifluril;Landruma;Forenol
+
+>  <CAS>
+4394-00-7
+
+>  <Approved status>
+PMDA
+
+>  <Disease>
+Immune system
+
+>  <Indication>
+Inflammation
+
+>  <Pathways>
+Immunology/Inflammation; Membrane transporter/Ion channel; Metabolism; Others; Neuroscience
+
+>  <Target>
+COX inhibitor; Monocarboxylate transporter inhibitor; Others inducer; Phospholipase inhibitor; UGT inhibitor
+
+>  <Receptor>
+COX; Monocarboxylate transporter; Chloride channel protein ClC-Ka; PLA2; UGT
+
+$$$$

@@ -1,0 +1,66 @@
+Benzocaine
+ OpenBabel02212023462D
+
+ 12 12  0  0  0  0  0  0  0  0999 V2000
+   -0.7145    3.7125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    3.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    2.4750    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    2.0625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289    2.4750    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    1.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -1.2375    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  2  0  0  0  0
+  4  6  1  0  0  0  0
+  6  7  2  0  0  0  0
+  6 12  1  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  2  0  0  0  0
+  9 10  1  0  0  0  0
+  9 11  1  0  0  0  0
+ 11 12  2  0  0  0  0
+M  END
+>  <CdId>
+1867
+
+>  <Mol Weight>
+165.1891
+
+>  <Formula>
+C9H11NO2
+
+>  <ID>
+T0924
+
+>  <Name>
+Benzocaine
+
+>  <CAS>
+94-09-7
+
+>  <Approved status>
+PMDA
+
+>  <Disease>
+Nervous system
+
+>  <Indication>
+Topical?Pain
+
+>  <Pathways>
+Immunology/Inflammation; Membrane transporter/Ion channel; Others
+
+>  <Target>
+MRP inhibitor; Others; Sodium Channel inhibitor
+
+>  <Receptor>
+MRP1; LCE 1; Sodium Channel
+
+$$$$

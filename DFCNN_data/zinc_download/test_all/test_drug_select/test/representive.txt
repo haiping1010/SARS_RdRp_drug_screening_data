@@ -1,0 +1,35 @@
+Amiloride hydrochloride dihydrate 16 true
+Bortezomib 15 true
+Cetylpyridinium chloride monohydrate 18 true
+Chlorophos 35 true
+Cinacalcet hydrochloride 14 true
+DL-Penicillamine 17 true
+Ferrous Bisglycinate 25 true
+Ferrous fumarate 34 true
+Fluconazole 13 true
+Fluphenazine hydrochloride 6 true
+Guanethidine Monosulfate 33 true
+Heptaminol hydrochloride 20 true
+Isoprenaline hydrochloride 19 true
+Mandelic acid 32 true
+Mesna 31 true
+Milnacipran hydrochloride 24 true
+Nateglinide 3 true
+Oxacillin sodium 5 true
+Oxaliplatin 11 true
+Pramiracetam 4 true
+Propantheline bromide 9 true
+Rebeprazole sodium 23 true
+Riluzole 30 true
+Romidepsin 10 true
+Roxarsone 22 true
+serine 2 true
+Sotalol hydrochloride 27 true
+Temozolomide 7 true
+Teriflunomide 21 true
+Tiaprofenic acid 26 true
+Triflusal 29 true
+Valganciclovir hydrochloride 1 true
+Valproic acid sodium salt 28 true
+Venlafaxine hydrochloride 8 true
+Xylitol 12 true

@@ -1,0 +1,2 @@
+Quinapril_hydrochloride_ 0.29666975 -7.4 Quinapril_hydrochloride_out_ligand_n19
+Sofosbuvir_ 0.9931511999999999 -7.3 Sofosbuvir_out_ligand_n4

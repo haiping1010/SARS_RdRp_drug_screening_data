@@ -1,0 +1,77 @@
+Alendronate sodium hydrate
+ OpenBabel02212023462D
+
+ 18 13  0  0  0  0  0  0  0  0999 V2000
+    0.9664   -0.0845    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2085   -0.4103    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4527    0.0832    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+   -1.1138    0.5766    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0408    0.7443    0.0000 P   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.6203    1.2378    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7019    0.2508    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5343    1.4054    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9462   -0.5780    0.0000 P   0  0  3  0  0  0  0  0  0  0  0  0
+   -1.6073   -0.0845    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2850   -1.0715    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4396   -1.2391    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+    1.6275   -0.5780    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3855   -0.2522    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.6248    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -2.8891    0.0000 Na  0  3  0  0  0 15  0  0  0  0  0  0
+    2.2393   -2.8891    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -4.5391    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1 13  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  3  5  1  0  0  0  0
+  3  9  1  0  0  0  0
+  5  6  2  0  0  0  0
+  5  7  1  0  0  0  0
+  5  8  1  0  0  0  0
+  9 10  2  0  0  0  0
+  9 11  1  0  0  0  0
+  9 12  1  0  0  0  0
+ 13 14  1  0  0  0  0
+M  CHG  2  12  -1  16   1
+M  END
+>  <CdId>
+1254
+
+>  <Mol Weight>
+325.1237
+
+>  <Formula>
+C4H18NNaO10P2
+
+>  <ID>
+T6373
+
+>  <Name>
+Alendronate sodium hydrate
+
+>  <Synonyms>
+Alendronate;MK 217;Fosamax
+
+>  <CAS>
+121268-17-5
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Metabolism
+
+>  <Indication>
+Corticosteroid-induced osteoporosis; Fracture; Male osteoporosis; Malignant hypercalcaemia; Osteitis deformans; Osteoporosis; Postmenopausal osteoporosis
+
+>  <Pathways>
+Metabolism
+
+>  <Target>
+Transferase inhibitor
+
+>  <Receptor>
+Farnesyl diphosphate synthase
+
+$$$$

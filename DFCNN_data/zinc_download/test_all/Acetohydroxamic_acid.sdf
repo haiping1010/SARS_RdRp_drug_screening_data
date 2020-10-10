@@ -1,0 +1,54 @@
+Acetohydroxamic acid
+ OpenBabel02212023462D
+
+  5  4  0  0  0  0  0  0  0  0999 V2000
+    2.0625   -0.7145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2375   -0.7145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250   -1.4289    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  2  0  0  0  0
+  2  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+M  END
+>  <CdId>
+911
+
+>  <Mol Weight>
+75.0666
+
+>  <Formula>
+C2H5NO2
+
+>  <ID>
+T1592
+
+>  <Name>
+Acetohydroxamic acid
+
+>  <Synonyms>
+AHA
+
+>  <CAS>
+546-88-3
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Immune system
+
+>  <Indication>
+Urinary Tract?Infections
+
+>  <Pathways>
+Proteases/Proteasome
+
+>  <Target>
+MMP inhibitor
+
+>  <Receptor>
+MMP
+
+$$$$

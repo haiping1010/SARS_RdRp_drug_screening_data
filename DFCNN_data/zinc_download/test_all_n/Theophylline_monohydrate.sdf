@@ -1,0 +1,73 @@
+Theophylline monohydrate
+ OpenBabel02212023462D
+
+ 14 14  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1054   -1.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1054   -0.8250    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3910   -0.4125    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    3.3910    0.4125    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    2.6064    0.6674    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1214    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6064   -0.6674    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1054    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.1054    1.6500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8199    0.4125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5344    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.8199   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.5344   -0.8250    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  3 13  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  8  1  0  0  0  0
+  5  6  1  0  0  0  0
+  5  9  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  9 10  2  0  0  0  0
+  9 11  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 11 13  1  0  0  0  0
+ 13 14  2  0  0  0  0
+M  END
+>  <CdId>
+626
+
+>  <Mol Weight>
+198.1793
+
+>  <Formula>
+C7H10N4O3
+
+>  <ID>
+T1083L
+
+>  <Name>
+Theophylline monohydrate
+
+>  <Synonyms>
+Quibron
+
+>  <CAS>
+5967-84-0
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Respiratory system
+
+>  <Indication>
+Bronchiectasis
+
+>  <Pathways>
+Chromatin/Epigenetic; Metabolism; Neuroscience; DNA Damage/DNA Repair; NF-¦ªb
+
+>  <Target>
+AChR inhibitor; HDAC activator; PDE inhibitor
+
+>  <Receptor>
+Adenosine receptor; HDAC2; PDE
+
+$$$$

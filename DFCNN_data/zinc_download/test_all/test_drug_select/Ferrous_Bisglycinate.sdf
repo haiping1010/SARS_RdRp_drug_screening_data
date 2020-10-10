@@ -1,0 +1,65 @@
+Ferrous Bisglycinate
+ OpenBabel02212023462D
+
+ 11  8  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 Fe  0  2  0  0  0 15  0  0  0  0  0  0
+    2.8286    1.1432    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2411    0.4287    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8286   -0.2858    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.2411   -1.0003    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+    2.0036   -0.2858    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0000   -2.6503    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4125   -3.3647    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -4.0792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.4125   -4.7937    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+   -0.8250   -4.0792    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  6  2  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+  9 11  2  0  0  0  0
+M  CHG  3   1   2   5  -1  10  -1
+M  END
+>  <CdId>
+1730
+
+>  <Mol Weight>
+203.962
+
+>  <Formula>
+C4H8FeN2O4
+
+>  <ID>
+T4505
+
+>  <Name>
+Ferrous Bisglycinate
+
+>  <Synonyms>
+Bisglycine iron(II) salt;Iron(II) bisglycinate
+
+>  <CAS>
+20150-34-9
+
+>  <Approved status>
+Other countries
+
+>  <Disease>
+Others
+
+>  <Indication>
+Pregnancy
+
+>  <Pathways>
+Endocrinology/Hormones
+
+>  <Target>
+Estrogen/progestogen Receptor
+
+>  <Receptor>
+ER;PR
+
+$$$$

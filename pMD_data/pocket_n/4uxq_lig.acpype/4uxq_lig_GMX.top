@@ -1,0 +1,15 @@
+; 4uxq_lig_GMX.top created by acpype (Rev: 0) on Wed Jan  8 16:28:51 2020
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+; Include 4uxq_lig_GMX.itp topology
+#include "4uxq_lig_GMX.itp"
+
+[ system ]
+ 4uxq_lig
+
+[ molecules ]
+; Compound        nmols
+ 4uxq_lig         1     

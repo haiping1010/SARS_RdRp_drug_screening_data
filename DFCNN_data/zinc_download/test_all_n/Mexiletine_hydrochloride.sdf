@@ -1,0 +1,73 @@
+Mexiletine hydrochloride
+ OpenBabel02212023462D
+
+ 14 13  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 Cl  0  5  0  0  0  0  0  0  0  0  0  0
+    2.2393    2.1577    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9538    1.7452    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    3.6682    2.1577    0.0000 N   0  3  0  0  0  0  0  0  0  0  0  0
+    2.9538    0.9202    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6682    0.5077    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6682   -0.3173    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3827   -0.7298    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0972   -0.3173    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3827   -1.5548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6682   -1.9673    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9538   -1.5548    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9538   -0.7298    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.2393   -0.3173    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  3  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  2  0  0  0  0
+  7 13  1  0  0  0  0
+  8  9  1  0  0  0  0
+  8 10  1  0  0  0  0
+ 10 11  2  0  0  0  0
+ 11 12  1  0  0  0  0
+ 12 13  2  0  0  0  0
+ 13 14  1  0  0  0  0
+M  CHG  2   1  -1   4   1
+M  END
+>  <CdId>
+600
+
+>  <Mol Weight>
+215.72
+
+>  <Formula>
+C11H18ClNO
+
+>  <ID>
+T1046
+
+>  <Name>
+Mexiletine hydrochloride
+
+>  <Synonyms>
+KO1173
+
+>  <CAS>
+5370-01-4
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Cardiovascular system
+
+>  <Indication>
+Arrhythmias; Diabetic Neuropathies
+
+>  <Pathways>
+Membrane transporter/Ion channel; Metabolism
+
+>  <Target>
+AhR agonist; sodium channel inhibitor
+
+>  <Receptor>
+AhR; Voltage-gated sodium channel
+
+$$$$

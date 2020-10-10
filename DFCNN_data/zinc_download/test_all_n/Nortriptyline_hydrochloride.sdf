@@ -1,0 +1,88 @@
+Nortriptyline hydrochloride
+ OpenBabel02212023462D
+
+ 21 22  0  0  0  0  0  0  0  0999 V2000
+    0.2143    0.0464    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2143    0.8714    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5001    1.2839    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5001    2.1089    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2146    2.5214    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.2146    3.3464    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9576   -0.3115    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1412   -1.1159    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6268   -1.7609    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1982   -1.7609    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7125   -1.1159    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.5290   -0.3115    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1337    0.2496    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.9221    0.0064    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1057   -0.7979    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.5009   -1.3590    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9296   -1.3590    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.5343   -0.7979    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.3508    0.0064    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5624    0.2496    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.7736    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0  0  0  0
+  1  7  1  0  0  0  0
+  1 12  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  7  8  2  0  0  0  0
+  7 20  1  0  0  0  0
+  8  9  1  0  0  0  0
+  8 17  1  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 11 12  2  0  0  0  0
+ 11 16  1  0  0  0  0
+ 12 13  1  0  0  0  0
+ 13 14  2  0  0  0  0
+ 14 15  1  0  0  0  0
+ 15 16  2  0  0  0  0
+ 17 18  2  0  0  0  0
+ 18 19  1  0  0  0  0
+ 19 20  2  0  0  0  0
+M  END
+>  <CdId>
+763
+
+>  <Mol Weight>
+299.838
+
+>  <Formula>
+C19H22ClN
+
+>  <ID>
+T1327
+
+>  <Name>
+Nortriptyline hydrochloride
+
+>  <Synonyms>
+Desmethylamitriptyline hydrochloride
+
+>  <CAS>
+894-71-3
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Nervous system
+
+>  <Indication>
+Major Depression
+
+>  <Pathways>
+GPCR/G Protein; Neuroscience; Immunology/Inflammation
+
+>  <Target>
+5-HT Receptor antagonist; AChR antagonist; Adrenergic Receptor antagonist; Dopamine Receptor; Histamine Receptor antagonist; Norepinephrine
+
+>  <Receptor>
+5-HT; Sert (Sodium-dependent); mAChR; Adrenergic Receptor; Dopamine; H1 receptor; Noradrenaline transporter (Sodium-dependent)
+
+$$$$

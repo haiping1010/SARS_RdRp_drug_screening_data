@@ -1,0 +1,80 @@
+Procainamide hydrochloride
+ OpenBabel02212023462D
+
+ 18 17  0  0  0  0  0  0  0  0999 V2000
+    0.0000    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+    2.2393   -0.8007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.9538   -1.2132    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6682   -0.8007    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.6682    0.0243    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3827    0.4368    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    4.3827   -1.2132    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.0972   -0.8007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8116   -1.2132    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5261   -0.8007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2406   -1.2132    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5261    0.0243    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8116    0.4368    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.8116    1.2618    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5261    1.6743    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    6.5261    2.4993    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2406    1.2618    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    7.2406    0.4368    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  7  1  0  0  0  0
+  5  6  1  0  0  0  0
+  7  8  1  0  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+ 10 11  2  0  0  0  0
+ 10 12  1  0  0  0  0
+ 12 13  2  0  0  0  0
+ 12 18  1  0  0  0  0
+ 13 14  1  0  0  0  0
+ 14 15  2  0  0  0  0
+ 15 16  1  0  0  0  0
+ 15 17  1  0  0  0  0
+ 17 18  2  0  0  0  0
+M  END
+>  <CdId>
+88
+
+>  <Mol Weight>
+271.786
+
+>  <Formula>
+C13H22ClN3O
+
+>  <ID>
+T0018
+
+>  <Name>
+Procainamide hydrochloride
+
+>  <Synonyms>
+Pronestyl;Procanbid;Procapan
+
+>  <CAS>
+614-39-1
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Cardiovascular system
+
+>  <Indication>
+Cardiac Arrhythmias
+
+>  <Pathways>
+Chromatin/Epigenetic; Membrane transporter/Ion channel; Neuroscience
+
+>  <Target>
+AChR inhibitor; DNA Methyltransferase inhibitor; Sodium Channel inhibitor
+
+>  <Receptor>
+AChR; DNA (cytosine-5)-methyltransferase 1; Sodium Channel
+
+$$$$

@@ -1,0 +1,67 @@
+Mesalamine
+ OpenBabel02212023462D
+
+ 11 11  0  0  0  0  0  0  0  0999 V2000
+    0.7145    2.0625    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    1.2375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289   -0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1434   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.8579   -0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    2.1434   -1.2375    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -1.2375    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  2  0  0  0  0
+  2 11  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  8  2  0  0  0  0
+  5  6  2  0  0  0  0
+  5  7  1  0  0  0  0
+  8  9  1  0  0  0  0
+  8 10  1  0  0  0  0
+ 10 11  2  0  0  0  0
+M  END
+>  <CdId>
+374
+
+>  <Mol Weight>
+153.1354
+
+>  <Formula>
+C7H7NO3
+
+>  <ID>
+T0646
+
+>  <Name>
+Mesalamine
+
+>  <Synonyms>
+5-ASA;Mesalazine;5-Aminosalicylic acid
+
+>  <CAS>
+89-57-6
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Immune system
+
+>  <Indication>
+Inflammatory Bowel Disease
+
+>  <Pathways>
+Immunology/Inflammation; Metabolism; NF-¦ªb; Neuroscience
+
+>  <Target>
+COX inhibitor; Lipoxygenase inhibitor; MPO inhibitor; NF-¦ÊB inhibitor; PPAR agonist
+
+>  <Receptor>
+COX; ALOX5; MPO; NF-¦ÊB; PPAR¦Ã
+
+$$$$

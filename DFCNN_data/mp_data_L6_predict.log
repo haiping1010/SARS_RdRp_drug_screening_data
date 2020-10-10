@@ -1,0 +1,2055 @@
+Using TensorFlow backend.
+OMP: Info #212: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #210: KMP_AFFINITY: Affinity capable, using global cpuid leaf 11 info
+OMP: Info #154: KMP_AFFINITY: Initial OS proc set respected: 0-79
+OMP: Info #156: KMP_AFFINITY: 80 available OS procs
+OMP: Info #157: KMP_AFFINITY: Uniform topology
+OMP: Info #179: KMP_AFFINITY: 2 packages x 20 cores/pkg x 2 threads/core (40 total cores)
+OMP: Info #214: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #171: KMP_AFFINITY: OS proc 0 maps to package 0 core 0 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 40 maps to package 0 core 0 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 1 maps to package 0 core 1 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 41 maps to package 0 core 1 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 2 maps to package 0 core 2 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 42 maps to package 0 core 2 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 3 maps to package 0 core 3 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 43 maps to package 0 core 3 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 4 maps to package 0 core 4 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 44 maps to package 0 core 4 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 5 maps to package 0 core 8 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 45 maps to package 0 core 8 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 6 maps to package 0 core 9 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 46 maps to package 0 core 9 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 7 maps to package 0 core 10 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 47 maps to package 0 core 10 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 8 maps to package 0 core 11 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 48 maps to package 0 core 11 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 9 maps to package 0 core 12 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 49 maps to package 0 core 12 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 10 maps to package 0 core 16 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 50 maps to package 0 core 16 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 11 maps to package 0 core 17 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 51 maps to package 0 core 17 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 12 maps to package 0 core 18 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 52 maps to package 0 core 18 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 13 maps to package 0 core 19 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 53 maps to package 0 core 19 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 14 maps to package 0 core 20 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 54 maps to package 0 core 20 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 15 maps to package 0 core 24 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 55 maps to package 0 core 24 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 16 maps to package 0 core 25 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 56 maps to package 0 core 25 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 17 maps to package 0 core 26 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 57 maps to package 0 core 26 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 18 maps to package 0 core 27 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 58 maps to package 0 core 27 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 19 maps to package 0 core 28 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 59 maps to package 0 core 28 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 20 maps to package 1 core 0 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 60 maps to package 1 core 0 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 21 maps to package 1 core 1 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 61 maps to package 1 core 1 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 22 maps to package 1 core 2 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 62 maps to package 1 core 2 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 23 maps to package 1 core 3 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 63 maps to package 1 core 3 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 24 maps to package 1 core 4 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 64 maps to package 1 core 4 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 25 maps to package 1 core 8 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 65 maps to package 1 core 8 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 26 maps to package 1 core 9 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 66 maps to package 1 core 9 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 27 maps to package 1 core 10 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 67 maps to package 1 core 10 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 28 maps to package 1 core 11 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 68 maps to package 1 core 11 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 29 maps to package 1 core 12 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 69 maps to package 1 core 12 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 30 maps to package 1 core 16 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 70 maps to package 1 core 16 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 31 maps to package 1 core 17 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 71 maps to package 1 core 17 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 32 maps to package 1 core 18 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 72 maps to package 1 core 18 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 33 maps to package 1 core 19 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 73 maps to package 1 core 19 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 34 maps to package 1 core 20 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 74 maps to package 1 core 20 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 35 maps to package 1 core 24 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 75 maps to package 1 core 24 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 36 maps to package 1 core 25 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 76 maps to package 1 core 25 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 37 maps to package 1 core 26 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 77 maps to package 1 core 26 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 38 maps to package 1 core 27 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 78 maps to package 1 core 27 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 39 maps to package 1 core 28 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 79 maps to package 1 core 28 thread 1 
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43000 thread 0 bound to OS proc set 0
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43074 thread 2 bound to OS proc set 2
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43073 thread 1 bound to OS proc set 1
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43075 thread 3 bound to OS proc set 3
+WARNING: Logging before flag parsing goes to stderr.
+W0212 21:57:58.219392 139922603075392 deprecation_wrapper.py:119] From /home/zhanghaiping/anaconda2/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+W0212 21:57:58.255247 139922603075392 deprecation_wrapper.py:119] From /home/zhanghaiping/anaconda2/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+deep_dense_FC_load.py:110: UserWarning: Update your `Dense` call to the Keras 2 API: `Dense(128, kernel_initializer="glorot_normal", activation="relu", kernel_regularizer=<keras.reg...)`
+  X_prev = Dense(shape, init = 'glorot_normal', activation = 'relu', kernel_regularizer = l2(l2_reg))(X)
+W0212 21:57:58.257312 139922603075392 deprecation_wrapper.py:119] From /home/zhanghaiping/anaconda2/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py:4185: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+W0212 21:57:58.420897 139922603075392 deprecation_wrapper.py:119] From /home/zhanghaiping/anaconda2/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py:133: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+W0212 21:57:58.459394 139922603075392 deprecation.py:506] From /home/zhanghaiping/anaconda2/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+deep_dense_FC_load.py:116: UserWarning: Update your `Dense` call to the Keras 2 API: `Dense(128, kernel_initializer="glorot_normal", activation="relu", kernel_regularizer=<keras.reg...)`
+  X = Dense(shape, init = 'glorot_normal', activation = 'relu', kernel_regularizer = l2(l2_reg))(X_prev)
+deep_dense_FC_load.py:125: UserWarning: Update your `Dense` call to the Keras 2 API: `Dense(600, kernel_initializer="glorot_normal", activation="relu", kernel_regularizer=<keras.reg...)`
+  X = Dense(shape, init = 'glorot_normal', activation = 'relu', kernel_regularizer = l2(l2_reg))(X)
+deep_dense_FC_load.py:142: UserWarning: Update your `Dense` call to the Keras 2 API: `Dense(1, activation="sigmoid", kernel_initializer="glorot_normal")`
+  out = Dense(1, init = 'glorot_normal', activation = 'sigmoid')(X)
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input_1 (InputLayer)            (None, 600)          0                                            
+__________________________________________________________________________________________________
+dense_1 (Dense)                 (None, 128)          76928       input_1[0][0]                    
+__________________________________________________________________________________________________
+batch_normalization_1 (BatchNor (None, 128)          512         dense_1[0][0]                    
+__________________________________________________________________________________________________
+concatenate_1 (Concatenate)     (None, 728)          0           input_1[0][0]                    
+                                                                 batch_normalization_1[0][0]      
+__________________________________________________________________________________________________
+dropout_1 (Dropout)             (None, 728)          0           concatenate_1[0][0]              
+__________________________________________________________________________________________________
+dense_2 (Dense)                 (None, 128)          93312       dropout_1[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_2 (BatchNor (None, 128)          512         dense_2[0][0]                    
+__________________________________________________________________________________________________
+concatenate_2 (Concatenate)     (None, 856)          0           batch_normalization_2[0][0]      
+                                                                 dropout_1[0][0]                  
+__________________________________________________________________________________________________
+dropout_2 (Dropout)             (None, 856)          0           concatenate_2[0][0]              
+__________________________________________________________________________________________________
+dense_3 (Dense)                 (None, 128)          109696      dropout_2[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_3 (BatchNor (None, 128)          512         dense_3[0][0]                    
+__________________________________________________________________________________________________
+concatenate_3 (Concatenate)     (None, 984)          0           batch_normalization_3[0][0]      
+                                                                 dropout_2[0][0]                  
+__________________________________________________________________________________________________
+dropout_3 (Dropout)             (None, 984)          0           concatenate_3[0][0]              
+__________________________________________________________________________________________________
+dense_4 (Dense)                 (None, 128)          126080      dropout_3[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_4 (BatchNor (None, 128)          512         dense_4[0][0]                    
+__________________________________________________________________________________________________
+concatenate_4 (Concatenate)     (None, 1112)         0           batch_normalization_4[0][0]      
+                                                                 dropout_3[0][0]                  
+__________________________________________________________________________________________________
+dropout_4 (Dropout)             (None, 1112)         0           concatenate_4[0][0]              
+__________________________________________________________________________________________________
+dense_5 (Dense)                 (None, 128)          142464      dropout_4[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_5 (BatchNor (None, 128)          512         dense_5[0][0]                    
+__________________________________________________________________________________________________
+concatenate_5 (Concatenate)     (None, 1240)         0           batch_normalization_5[0][0]      
+                                                                 dropout_4[0][0]                  
+__________________________________________________________________________________________________
+dropout_5 (Dropout)             (None, 1240)         0           concatenate_5[0][0]              
+__________________________________________________________________________________________________
+dense_6 (Dense)                 (None, 128)          158848      dropout_5[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_6 (BatchNor (None, 128)          512         dense_6[0][0]                    
+__________________________________________________________________________________________________
+concatenate_6 (Concatenate)     (None, 1368)         0           batch_normalization_6[0][0]      
+                                                                 dropout_5[0][0]                  
+__________________________________________________________________________________________________
+dropout_6 (Dropout)             (None, 1368)         0           concatenate_6[0][0]              
+__________________________________________________________________________________________________
+dense_7 (Dense)                 (None, 128)          175232      dropout_6[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_7 (BatchNor (None, 128)          512         dense_7[0][0]                    
+__________________________________________________________________________________________________
+concatenate_7 (Concatenate)     (None, 1496)         0           batch_normalization_7[0][0]      
+                                                                 dropout_6[0][0]                  
+__________________________________________________________________________________________________
+dropout_7 (Dropout)             (None, 1496)         0           concatenate_7[0][0]              
+__________________________________________________________________________________________________
+dense_8 (Dense)                 (None, 128)          191616      dropout_7[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_8 (BatchNor (None, 128)          512         dense_8[0][0]                    
+__________________________________________________________________________________________________
+concatenate_8 (Concatenate)     (None, 1624)         0           batch_normalization_8[0][0]      
+                                                                 dropout_7[0][0]                  
+__________________________________________________________________________________________________
+dropout_8 (Dropout)             (None, 1624)         0           concatenate_8[0][0]              
+__________________________________________________________________________________________________
+dense_9 (Dense)                 (None, 128)          208000      dropout_8[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_9 (BatchNor (None, 128)          512         dense_9[0][0]                    
+__________________________________________________________________________________________________
+concatenate_9 (Concatenate)     (None, 1752)         0           batch_normalization_9[0][0]      
+                                                                 dropout_8[0][0]                  
+__________________________________________________________________________________________________
+dropout_9 (Dropout)             (None, 1752)         0           concatenate_9[0][0]              
+__________________________________________________________________________________________________
+dense_10 (Dense)                (None, 128)          224384      dropout_9[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_10 (BatchNo (None, 128)          512         dense_10[0][0]                   
+__________________________________________________________________________________________________
+concatenate_10 (Concatenate)    (None, 1880)         0           batch_normalization_10[0][0]     
+                                                                 dropout_9[0][0]                  
+__________________________________________________________________________________________________
+dropout_10 (Dropout)            (None, 1880)         0           concatenate_10[0][0]             
+__________________________________________________________________________________________________
+dense_11 (Dense)                (None, 128)          240768      dropout_10[0][0]                 
+__________________________________________________________________________________________________
+batch_normalization_11 (BatchNo (None, 128)          512         dense_11[0][0]                   
+__________________________________________________________________________________________________
+concatenate_11 (Concatenate)    (None, 2008)         0           batch_normalization_11[0][0]     
+                                                                 dropout_10[0][0]                 
+__________________________________________________________________________________________________
+dropout_11 (Dropout)            (None, 2008)         0           concatenate_11[0][0]             
+__________________________________________________________________________________________________
+dense_12 (Dense)                (None, 128)          257152      dropout_11[0][0]                 
+__________________________________________________________________________________________________
+batch_normalization_12 (BatchNo (None, 128)          512         dense_12[0][0]                   
+__________________________________________________________________________________________________
+concatenate_12 (Concatenate)    (None, 2136)         0           batch_normalization_12[0][0]     
+                                                                 dropout_11[0][0]                 
+__________________________________________________________________________________________________
+dropout_12 (Dropout)            (None, 2136)         0           concatenate_12[0][0]             
+__________________________________________________________________________________________________
+dense_13 (Dense)                (None, 128)          273536      dropout_12[0][0]                 
+__________________________________________________________________________________________________
+batch_normalization_13 (BatchNo (None, 128)          512         dense_13[0][0]                   
+__________________________________________________________________________________________________
+concatenate_13 (Concatenate)    (None, 2264)         0           batch_normalization_13[0][0]     
+                                                                 dropout_12[0][0]                 
+__________________________________________________________________________________________________
+dropout_13 (Dropout)            (None, 2264)         0           concatenate_13[0][0]             
+__________________________________________________________________________________________________
+dense_14 (Dense)                (None, 128)          289920      dropout_13[0][0]                 
+__________________________________________________________________________________________________
+batch_normalW0212 21:58:07.029625 139922603075392 deprecation_wrapper.py:119] From /home/zhanghaiping/anaconda2/lib/python2.7/site-packages/keras/backend/tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+2020-02-12 21:58:07.030548: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-02-12 21:58:07.097888: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2000000000 Hz
+2020-02-12 21:58:07.098023: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55e51e2ee530 executing computations on platform Host. Devices:
+2020-02-12 21:58:07.098036: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-02-12 21:58:07.098118: I tensorflow/core/common_runtime/process_util.cc:115] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2020-02-12 21:58:11.031915: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+W0212 21:58:14.215122 139922603075392 deprecation_wrapper.py:119] From /home/zhanghaiping/anaconda2/lib/python2.7/site-packages/keras/optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W0212 21:58:14.220298 139922603075392 deprecation.py:323] From /home/zhanghaiping/anaconda2/lib/python2.7/site-packages/tensorflow/python/ops/nn_impl.py:180: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43091 thread 4 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43404 thread 6 bound to OS proc set 6
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43403 thread 5 bound to OS proc set 5
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43405 thread 7 bound to OS proc set 7
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43406 thread 8 bound to OS proc set 8
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43407 thread 9 bound to OS proc set 9
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43408 thread 10 bound to OS proc set 10
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43409 thread 11 bound to OS proc set 11
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43410 thread 12 bound to OS proc set 12
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43411 thread 13 bound to OS proc set 13
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43412 thread 14 bound to OS proc set 14
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43413 thread 15 bound to OS proc set 15
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43414 thread 16 bound to OS proc set 16
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43415 thread 17 bound to OS proc set 17
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43417 thread 19 bound to OS proc set 19
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43416 thread 18 bound to OS proc set 18
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43418 thread 20 bound to OS proc set 20
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43419 thread 21 bound to OS proc set 21
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43420 thread 22 bound to OS proc set 22
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43421 thread 23 bound to OS proc set 23
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43422 thread 24 bound to OS proc set 24
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43423 thread 25 bound to OS proc set 25
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43425 thread 27 bound to OS proc set 27
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43424 thread 26 bound to OS proc set 26
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43426 thread 28 bound to OS proc set 28
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43427 thread 29 bound to OS proc set 29
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43428 thread 30 bound to OS proc set 30
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43430 thread 32 bound to OS proc set 32
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43429 thread 31 bound to OS proc set 31
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43431 thread 33 bound to OS proc set 33
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43432 thread 34 bound to OS proc set 34
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43433 thread 35 bound to OS proc set 35
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43434 thread 36 bound to OS proc set 36
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43435 thread 37 bound to OS proc set 37
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43437 thread 39 bound to OS proc set 39
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43436 thread 38 bound to OS proc set 38
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43438 thread 40 bound to OS proc set 40
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43439 thread 41 bound to OS proc set 41
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43440 thread 42 bound to OS proc set 42
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43441 thread 43 bound to OS proc set 43
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43442 thread 44 bound to OS proc set 44
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43443 thread 45 bound to OS proc set 45
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43444 thread 46 bound to OS proc set 46
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43445 thread 47 bound to OS proc set 47
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43446 thread 48 bound to OS proc set 48
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43447 thread 49 bound to OS proc set 49
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43448 thread 50 bound to OS proc set 50
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43449 thread 51 bound to OS proc set 51
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43451 thread 53 bound to OS proc set 53
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43450 thread 52 bound to OS proc set 52
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43452 thread 54 bound to OS proc set 54
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43453 thread 55 bound to OS proc set 55
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43454 thread 56 bound to OS proc set 56
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43455 thread 57 bound to OS proc set 57
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43456 thread 58 bound to OS proc set 58
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43457 thread 59 bound to OS proc set 59
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43459 thread 61 bound to OS proc set 61
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43458 thread 60 bound to OS proc set 60
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43460 thread 62 bound to OS proc set 62
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43461 thread 63 bound to OS proc set 63
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43462 thread 64 bound to OS proc set 64
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43463 thread 65 bound to OS proc set 65
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43464 thread 66 bound to OS proc set 66
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43465 thread 67 bound to OS proc set 67
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43467 thread 69 bound to OS proc set 69
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43466 thread 68 bound to OS proc set 68
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43468 thread 70 bound to OS proc set 70
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43469 thread 71 bound to OS proc set 71
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43470 thread 72 bound to OS proc set 72
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43471 thread 73 bound to OS proc set 73
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43472 thread 74 bound to OS proc set 74
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43474 thread 76 bound to OS proc set 76
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43473 thread 75 bound to OS proc set 75
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43476 thread 78 bound to OS proc set 78
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43475 thread 77 bound to OS proc set 77
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43477 thread 79 bound to OS proc set 79
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43478 thread 80 bound to OS proc set 0
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43092 thread 81 bound to OS proc set 1
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43480 thread 83 bound to OS proc set 3
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43479 thread 82 bound to OS proc set 2
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43481 thread 84 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43482 thread 85 bound to OS proc set 5
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43483 thread 86 bound to OS proc set 6
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43484 thread 87 bound to OS proc set 7
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43485 thread 88 bound to OS proc set 8
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43486 thread 89 bound to OS proc set 9
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43487 thread 90 bound to OS proc set 10
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43489 thread 92 bound to OS proc set 12
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43488 thread 91 bound to OS proc set 11
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43490 thread 93 bound to OS proc set 13
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43491 thread 94 bound to OS proc set 14
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43492 thread 95 bound to OS proc set 15
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43493 thread 96 bound to OS proc set 16
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43494 thread 97 bound to OS proc set 17
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43495 thread 98 bound to OS proc set 18
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43496 thread 99 bound to OS proc set 19
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43497 thread 100 bound to OS proc set 20
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43498 thread 101 bound to OS proc set 21
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43499 thread 102 bound to OS proc set 22
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43500 thread 103 bound to OS proc set 23
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43501 thread 104 bound to OS proc set 24
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43502 thread 105 bound to OS proc set 25
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43503 thread 106 bound to OS proc set 26
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43504 thread 107 bound to OS proc set 27
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43505 thread 108 bound to OS proc set 28
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43506 thread 109 bound to OS proc set 29
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43507 thread 110 bound to OS proc set 30
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43508 thread 111 bound to OS proc set 31
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43509 thread 112 bound to OS proc set 32
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43510 thread 113 bound to OS proc set 33
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43511 thread 114 bound to OS proc set 34
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43512 thread 115 bound to OS proc set 35
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43513 thread 116 bound to OS proc set 36
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43514 thread 117 bound to OS proc set 37
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43516 thread 119 bound to OS proc set 39
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43515 thread 118 bound to OS proc set 38
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43517 thread 120 bound to OS proc set 40
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43518 thread 121 bound to OS proc set 41
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43519 thread 122 bound to OS proc set 42
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43520 thread 123 bound to OS proc set 43
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43521 thread 124 bound to OS proc set 44
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43522 thread 125 bound to OS proc set 45
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43524 thread 127 bound to OS proc set 47
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43523 thread 126 bound to OS proc set 46
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43525 thread 128 bound to OS proc set 48
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43526 thread 129 bound to OS proc set 49
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43527 thread 130 bound to OS proc set 50
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43528 thread 131 bound to OS proc set 51
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43529 thread 132 bound to OS proc set 52
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43530 thread 133 bound to OS proc set 53
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43531 thread 134 bound to OS proc set 54
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43532 thread 135 bound to OS proc set 55
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43533 thread 136 bound to OS proc set 56
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43534 thread 137 bound to OS proc set 57
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43535 thread 138 bound to OS proc set 58
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43536 thread 139 bound to OS proc set 59
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43537 thread 140 bound to OS proc set 60
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43538 thread 141 bound to OS proc set 61
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43540 thread 143 bound to OS proc set 63
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43539 thread 142 bound to OS proc set 62
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43541 thread 144 bound to OS proc set 64
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43542 thread 145 bound to OS proc set 65
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43543 thread 146 bound to OS proc set 66
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43545 thread 148 bound to OS proc set 68
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43544 thread 147 bound to OS proc set 67
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43546 thread 149 bound to OS proc set 69
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43547 thread 150 bound to OS proc set 70
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43548 thread 151 bound to OS proc set 71
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43549 thread 152 bound to OS proc set 72
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43550 thread 153 bound to OS proc set 73
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43551 thread 154 bound to OS proc set 74
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43552 thread 155 bound to OS proc set 75
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43553 thread 156 bound to OS proc set 76
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43554 thread 157 bound to OS proc set 77
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43555 thread 158 bound to OS proc set 78
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43556 thread 159 bound to OS proc set 79
+OMP: Info #250: KMP_AFFINITY: pid 43000 tid 43557 thread 160 bound to OS proc set 0
+ization_14 (BatchNo (None, 128)          512         dense_14[0][0]                   
+__________________________________________________________________________________________________
+concatenate_14 (Concatenate)    (None, 2392)         0           batch_normalization_14[0][0]     
+                                                                 dropout_13[0][0]                 
+__________________________________________________________________________________________________
+dropout_14 (Dropout)            (None, 2392)         0           concatenate_14[0][0]             
+__________________________________________________________________________________________________
+dense_15 (Dense)                (None, 128)          306304      dropout_14[0][0]                 
+__________________________________________________________________________________________________
+batch_normalization_15 (BatchNo (None, 128)          512         dense_15[0][0]                   
+__________________________________________________________________________________________________
+concatenate_15 (Concatenate)    (None, 2520)         0           batch_normalization_15[0][0]     
+                                                                 dropout_14[0][0]                 
+__________________________________________________________________________________________________
+dropout_15 (Dropout)            (None, 2520)         0           concatenate_15[0][0]             
+__________________________________________________________________________________________________
+dense_16 (Dense)                (None, 128)          322688      dropout_15[0][0]                 
+__________________________________________________________________________________________________
+batch_normalization_16 (BatchNo (None, 128)          512         dense_16[0][0]                   
+__________________________________________________________________________________________________
+concatenate_16 (Concatenate)    (None, 2648)         0           batch_normalization_16[0][0]     
+                                                                 dropout_15[0][0]                 
+__________________________________________________________________________________________________
+dropout_16 (Dropout)            (None, 2648)         0           concatenate_16[0][0]             
+__________________________________________________________________________________________________
+dense_17 (Dense)                (None, 600)          1589400     dropout_16[0][0]                 
+__________________________________________________________________________________________________
+batch_normalization_17 (BatchNo (None, 600)          2400        dense_17[0][0]                   
+__________________________________________________________________________________________________
+dropout_17 (Dropout)            (None, 600)          0           batch_normalization_17[0][0]     
+__________________________________________________________________________________________________
+dense_18 (Dense)                (None, 1)            601         dropout_17[0][0]                 
+==================================================================================================
+Total params: 4,797,521
+Trainable params: 4,792,225
+Non-trainable params: 5,296
+__________________________________________________________________________________________________
+('Mannitol', 0.99976206)
+('Dulcitol', 0.99976206)
+('D-Mannitol', 0.99976206)
+('D-Sorbitol', 0.99976206)
+('Allitol', 0.99976194)
+('L-(-)-Arabitol', 0.99956644)
+('Xylitol', 0.99956644)
+('Ribitol', 0.9995664)
+('DL-5-Hydroxylysine_hydrochloride', 0.99884474)
+('2-Deoxy-D-ribose', 0.9987781)
+('D-(-)-Ribose', 0.99850166)
+('DL-Xylose', 0.99850166)
+('Sodium_gluconate', 0.99842846)
+('(4S)-4-Hydroxy-L-isoleucine', 0.9980352)
+('D-(-)-Fructose', 0.9975382)
+('L(-)-sorbose', 0.9975382)
+('Ubenimex', 0.9968045)
+('Erythritol', 0.994764)
+('Artamine', 0.99399793)
+('L-Cysteic_acid_monohydrate', 0.9925175)
+('L-Homocystine', 0.9919666)
+('Bovinocidin', 0.9897737)
+('threonine', 0.9895071)
+('DL-Homocysteine', 0.9882868)
+('L(+)-Ornithine_hydrochloride', 0.98805904)
+('D-Ornithine_monohydrochloride', 0.98805904)
+('Methylmalonic_acid', 0.98735857)
+('D-(-)-Tartaric_acid', 0.98612076)
+('L(+)-Tartaric_acid', 0.9861207)
+('D-Aspartic_acid', 0.98453087)
+('L-Aspartic_acid', 0.98453087)
+('Ampicillin', 0.9834361)
+('L-(-)-Malic_acid', 0.9831902)
+('Malic_acid', 0.9831902)
+('DL-2,3-Diaminopropionic_acid_monohydroch', 0.9821054)
+('D-Pantethine', 0.98158485)
+('L-Homoserine', 0.98123014)
+('2,6-Diaminoheptanedioic_acid', 0.978755)
+('Puromycin_dihydrochloride', 0.9785798)
+('Glucosamine_sulfate', 0.97830915)
+('L-Ornithine', 0.9775189)
+('Actidione', 0.9760095)
+('L-arginine_monohydrochloride', 0.9759852)
+('Taurine', 0.97331524)
+('glutamic_acid', 0.972558)
+('dencichine', 0.9721662)
+('1-Methyl-L-histidine', 0.9701389)
+('lysine', 0.9695895)
+('Abrine', 0.9657978)
+('DL-Mandelic_acid', 0.96521723)
+('Mandelic_acid', 0.96521723)
+('L-Valine', 0.96487176)
+('isoleucine', 0.9642116)
+('\xce\xb1-Hydroxyisobutyric_acid', 0.9635937)
+('DL-Leucine', 0.9599578)
+('L-Leucine', 0.9599578)
+('L-Anserine_nitrate_salt', 0.9568645)
+('L-Arginine', 0.95320415)
+('4-Aminobutyric_acid', 0.95164084)
+('Aminoadipic_acid', 0.9514197)
+('Glutaric_acid', 0.95091784)
+('Thymopentin', 0.95040596)
+('serine', 0.94977367)
+('Succinic_acid', 0.94910693)
+('Mucic_Acid', 0.9489752)
+('O-Acetyl-L-serine_hydrochloride', 0.94795537)
+('Pimelic_acid', 0.9471883)
+('Gamithromycin', 0.94708216)
+('Cordycepin', 0.94308645)
+('DL-3-AMINOISOBUTYRIC_ACID', 0.9419522)
+('Chloramphenicol', 0.9400898)
+('L-Asparagine', 0.9391329)
+('ALA_hydrochloride', 0.93797094)
+("2'-Deoxyadenosine_monohydrate", 0.9339379)
+('Vidarabine', 0.92912894)
+('Adenosine', 0.92912894)
+('Fumaric_acid', 0.9287522)
+('Maleic_acid', 0.9287519)
+('N\xce\xb1-Acetyl-L-lysine', 0.925458)
+('Palonosetron_hydrochloride', 0.92157716)
+('Selenomethionine', 0.92014194)
+('Theophylline-7-acetic_acid', 0.9155619)
+('Hippuric_acid', 0.91533554)
+('L-Glutamine', 0.91202056)
+('D-glutamine', 0.9120205)
+('DL-Glutamine', 0.9120205)
+('N-Acetyl-L-alanine', 0.9116477)
+('Homotaurine', 0.9108503)
+('3-Ureidopropionic_acid', 0.90764105)
+('cystine', 0.89510083)
+('4-ACETAMIDOBUTYRIC_ACID', 0.88904274)
+('Pentoxifylline', 0.8877977)
+('Anisodamine', 0.88527125)
+('Perillyl_alcohol', 0.8814359)
+('5-Aminovaleric_acid', 0.88100064)
+('S-allyl-L-cysteine', 0.8809868)
+('SODIUM_2-HYDROXYBUTYRATE', 0.87747884)
+('Cadaverine_dihydrochloride', 0.87653184)
+('Tyrosine', 0.87548906)
+('Digoxin', 0.8681328)
+('Suberic_acid', 0.86675847)
+('Oxalic_acid_dihydrate', 0.8657789)
+('Ampicillin_Trihydrate', 0.8634)
+('Clindamycin', 0.86276716)
+('Beta-Hydroxyisovaleric_acid', 0.86063397)
+("2'-Deoxyuridine", 0.8598736)
+('Monoethyl_malonic_acid', 0.8560425)
+('Diprophylline', 0.8557226)
+('Itaconic_acid', 0.84806764)
+('N-Acetylglycine', 0.8477899)
+('Panthenol', 0.845808)
+('Dexpanthenol', 0.84580773)
+('D-Saccharic_acid_potassium_salt', 0.8406216)
+('2-Oxoadipic_acid', 0.8383876)
+('Thioctic_acid', 0.8323376)
+('D-Phenylalanine', 0.83232546)
+('phenylalanine', 0.8323252)
+('3-Hydroxybutyric_acid', 0.83146554)
+('Scopolamine_HBr', 0.8261658)
+('Digitoxin', 0.82612056)
+('Octopamine_hydrochloride', 0.8227308)
+('Tuberstemonine', 0.8179909)
+('Neotuberostemonine', 0.8179909)
+('methionine', 0.81784266)
+('L-Methionine', 0.8178425)
+('Calcium_pantothenate', 0.81731236)
+('(+)-Matrine', 0.8156265)
+('Sophoridine', 0.8156263)
+('L-Sophoridine', 0.8156263)
+('4-Methyl-2-oxovaleric_acid', 0.8115865)
+('Arctiin', 0.81055117)
+('10-Hydroxy-2-decenoic_acid', 0.8087723)
+('mono-Methyl_glutarate', 0.8007052)
+('Azithromycin_dihydrate', 0.795032)
+('Atropine_sulfate_monohydrate', 0.79452825)
+('Roxithromycin', 0.7939279)
+('7-Ethylcamptothecin', 0.7938365)
+('DL-O-Tyrosine', 0.79372776)
+('Thiodiglycol', 0.78978634)
+('Dirithromycin', 0.78798044)
+('Decitabine', 0.78382015)
+('L-Norvaline', 0.7833484)
+('Citric_acid', 0.7828369)
+('Perillartine', 0.78024673)
+('Monensin_sodium_salt', 0.7781793)
+('Thiocolchicoside', 0.7771362)
+('(2R,3R)-(-)-2,3-Butanediol', 0.77682483)
+('Thymidine', 0.776465)
+('Spiramycin', 0.7734183)
+('Oxaloacetic_acid', 0.77258575)
+('3-(2-Hydroxyphenyl)propionic_acid', 0.77241486)
+('(S)-(+)-Carvone', 0.76992697)
+('Methyl_hexadecanoate', 0.76817906)
+('Hyoscyamine_sulfate_hydrate', 0.765695)
+('Atropine_sulfate', 0.7656944)
+('Trifolirhizin', 0.76204693)
+('Polyphyllin_B', 0.76086605)
+('O-PHOSPHO-L-SERINE', 0.7556001)
+('Phosphoserine', 0.7555992)
+('D-Biotin', 0.7522659)
+('Phloretic_acid', 0.7522154)
+('Methyl_stearate', 0.7521978)
+('Valeric_acid', 0.74412334)
+('L-(+)-Lactic_acid', 0.7437416)
+('Cinene', 0.7409099)
+('(R)-(+)-Limonene', 0.74090976)
+('3-Methylglutaric_acid', 0.74081016)
+('Tubercidin', 0.7394287)
+('Bis(3-aminopropyl)amine', 0.7369748)
+("2'-Deoxyinosine", 0.73687494)
+('Plantamajoside', 0.73376954)
+('Lincomycin_hydrochloride', 0.73286855)
+('Verbascoside', 0.73208547)
+('Riboflavin', 0.7320298)
+('beta-Alanine', 0.72900546)
+('Colistin_sulfate', 0.7212837)
+('Chonglou_Saponin_VII', 0.71673656)
+('Pyridoxal_hydrochloride', 0.7057639)
+('Teicoplanin', 0.69835186)
+('N\xce\xb1-Acetyl-L-asparagine', 0.69736075)
+('L-Hyoscyamine', 0.69607264)
+('Atropine', 0.69607264)
+('Scopolamine', 0.6937817)
+('Caproic__acid', 0.6934445)
+('D-Alanine', 0.69343984)
+('alanine', 0.6934398)
+('N-Acetyl-DL-methionine', 0.6921742)
+('7-Amino-4-(trifluoromethyl)coumarin', 0.6893715)
+('Rapamycin', 0.68753624)
+('1,4-Diaminobutane', 0.6874522)
+('Neohesperidin_Dihydrochalcone', 0.68545914)
+('Myristic_acid', 0.6823052)
+('DL-Glyceraldehyde', 0.6813166)
+('4-Guanidinobutyric_acid', 0.6758493)
+('Aminophylline', 0.6754643)
+('Palmidrol', 0.6732791)
+('Pyridoxamine_dihydrochloride', 0.6726796)
+('Azelaic_acid', 0.6704327)
+('Lys(Me)3-OH_Chloride', 0.6687735)
+('Eleutheroside_E', 0.66374105)
+('Pilocarpine_nitrate', 0.6626706)
+('(L)-Dehydroascorbic_acid', 0.6604703)
+('Palmitic_acid_ethyl_ester', 0.6590114)
+('Tylosin', 0.65724933)
+('L-Mimosine', 0.64986634)
+('Jujuboside_B', 0.6493722)
+('Diphenhydramine_hydrochloride', 0.6444623)
+('N-Formyl-L-methionine', 0.6424414)
+('10-Hydroxydecanoic_Acid', 0.6420657)
+('6-Hydroxypyridine-3-carboxylic_acid', 0.6289034)
+('Heptadecanoic_acid', 0.62832326)
+('Palmitic_acid', 0.62785524)
+('12-Hydroxydodecanoic_acid', 0.6225213)
+('Troxerutin', 0.61980295)
+('Methyl_protodioscin', 0.6126049)
+('Ascomycin', 0.6109862)
+('Diethanolamine', 0.6088967)
+('Erythromycin', 0.6008774)
+('L-Norleucine', 0.5961141)
+('4-Hydroxyphenylpyruvic_acid', 0.5960566)
+('Oleuropein', 0.59560907)
+('Fusidine', 0.595507)
+('Citrulline', 0.5939601)
+('L-Citrulline', 0.59396005)
+('Spermine', 0.5931995)
+('Inosine', 0.5906532)
+('N6-methyladenosine', 0.5899746)
+('Creatine', 0.5895075)
+('Stearic_acid', 0.5859347)
+('Mupirocin', 0.5843257)
+('Protodioscin', 0.583746)
+('O-Phosphorylethanolamine', 0.58312005)
+('Glyoxylic_acid_monohydrate', 0.5822635)
+('Solasonine', 0.57980025)
+('Embelin', 0.5783437)
+('Quinolinic_acid', 0.5754634)
+('Curculigoside', 0.56739247)
+('Sodium_erythorbate', 0.5622257)
+('Acetylcysteine', 0.5604047)
+('Phenylephrine_hydrochloride', 0.5603948)
+('3-Methylhistamine_dihydrochloride', 0.5563912)
+('Benzyl_isothiocyanate', 0.55541706)
+('Tussilagone', 0.5551318)
+('1-Methylnicotinamide_chloride', 0.5501305)
+('Spermidine', 0.5495858)
+('Danshensu', 0.5407331)
+('Isoacteoside', 0.53959846)
+('Jujuboside_A', 0.5357476)
+('Laurocapram', 0.5306468)
+('(S)-(+)-Camptothecin', 0.5294273)
+('Irinotecan_hydrochloride_trihydrate', 0.5281486)
+('Ononin', 0.52628726)
+('Penicillin_V_potassium_salt', 0.5187967)
+('3,5-Dihydroxybenzoic_acid', 0.5175384)
+('Cyclocytidine_hydrochloride', 0.517387)
+('Hydroumbellic_acid', 0.5133465)
+('Secoisolariciresinol_diglucoside', 0.5111001)
+('Punicalagin', 0.50951296)
+("2'-Deoxyguanosine_monohydrate", 0.5072664)
+('1,2,3,4,6-O-Pentagalloylglucose', 0.5051031)
+('(-)-Sparteine_sulfate_pentahydrate', 0.50469595)
+('Xanthosine', 0.50402194)
+('Phospho(enol)pyruvic_acid_monopotassium', 0.50217146)
+('Brassinolide', 0.5020623)
+('2,4-Dihydroxypyrimidine-5-carboxylic_acid', 0.49463162)
+('Ectoine', 0.48941848)
+('Forsythin', 0.4880755)
+('Naringin_dihydrochalcone', 0.47950697)
+('Sodium_Danshensu', 0.47909775)
+('2-Amino-1-phenylethanol', 0.4768592)
+('Zeatin', 0.472271)
+('Sodium_ferulic', 0.47066435)
+('Heptanoic_acid', 0.4697163)
+('Epinephrine_bitartrate', 0.4677872)
+('Aloperine', 0.46412626)
+('Hydroferulic_acid', 0.46028823)
+('2-Aminoethylphosphonic_acid', 0.4590525)
+('Oxalic_acid', 0.4554932)
+('Sebacic_acid', 0.45472923)
+('Angelic_Acid', 0.45371762)
+('Tubuloside_A', 0.44968066)
+('Digitonin', 0.44870418)
+('Dioscin', 0.44398785)
+('2-Oxobutyric_acid', 0.44365716)
+('\xce\xb2-Pinene', 0.4412877)
+('Gentamycin_sulfate', 0.4378388)
+('N-Acetyl-L-leucine', 0.43270165)
+('Madecassic_acid', 0.4319233)
+('DL-Adrenaline_Hydrochloride', 0.4309278)
+('Poliumoside', 0.42702803)
+('Geraniin', 0.42096102)
+('Hydroquinidine', 0.416957)
+('Nanchangmycin', 0.4157678)
+('p-Hydroxy-cinnamic_acid', 0.41332322)
+('p-Coumaric_acid', 0.41332242)
+('Curdione', 0.4081651)
+('Butyric__acid', 0.40682614)
+('Pyridoxine_hydrochloride', 0.40500534)
+('Curcumol', 0.40490168)
+('Uridine', 0.40463653)
+('Tenacissoside_H', 0.3993269)
+('Liquiritin', 0.39440233)
+('Orsellinic_acid', 0.3941393)
+('Cistanoside_A', 0.3908648)
+('Synephrine_HCl', 0.387461)
+('Pectolinarin', 0.3865628)
+('Guanosine', 0.3837808)
+('Allantoin', 0.38201064)
+('Homogentisic_acid', 0.37965107)
+('Sucralose', 0.3794695)
+("2'-Deoxycytidine_monohydrate", 0.37892944)
+('SN-38', 0.37865788)
+('L(+)-Ascorbic_acid', 0.3780175)
+('Muscone', 0.3777595)
+('Homoharringtonine', 0.3758148)
+('Uric_Acid', 0.37416708)
+('Acetylursolic_acid', 0.37230098)
+('2-Methoxycinnamic_acid', 0.37155396)
+('Tenacissoside_G', 0.36990905)
+('Oxymatrine', 0.36818498)
+('Forsythoside_B', 0.36098212)
+('Valproic_Acid', 0.3568645)
+('Phlorizin_dihydrate', 0.3567254)
+('Asiatic_acid', 0.35526484)
+('Syringin', 0.35352856)
+('Corosolic_acid', 0.3437285)
+('Gentisic_acid', 0.343355)
+('Caprylic_acid', 0.33906466)
+('Vinpocetine', 0.33329397)
+('Phosphonoacetic_acid', 0.33289045)
+('N,N-Bis(2-hydroxyethyl)-p-phenylenediami', 0.33245105)
+('DL-Menthol', 0.33121255)
+('L-Menthol', 0.3312124)
+('Levodopa', 0.32426345)
+('Ginsenoside_Re', 0.32393354)
+('Neodiosmin', 0.3228307)
+('4-Methoxysalicylic_acid', 0.31796655)
+('Beta-Cyclodextrin', 0.31331724)
+('N-Acetyl-L-phenylalanine', 0.3132686)
+('(+)-pinoresinol-\xce\xb2-D-glucoside;_(+)-pinor', 0.31134212)
+('Aztreonam', 0.30981892)
+('Ziyuglycoside_II', 0.3087046)
+('Dihydrolycorine', 0.3018595)
+('Triptophenolide', 0.30053583)
+('Artemisinic_acid', 0.29992908)
+('Glutathione', 0.29966605)
+('Theobromine', 0.298887)
+('Methyl?Dihydrojasmonate', 0.2980134)
+('2-Aminoisobutyric_acid', 0.29573655)
+('Cytidine', 0.29535246)
+('Cytarabine', 0.29535234)
+('2,3-Dihydroxybenzoic_acid', 0.2948463)
+('5Beta-Pregnane-3Alpha,20alpha-Diol', 0.2935835)
+('Morroniside', 0.29172638)
+('Forsythoside_A', 0.29122278)
+('Nicotinamide-N-oxide', 0.29117903)
+('Sweroside', 0.2911616)
+('Platycodin_D', 0.28860265)
+('Polyphyllin_I', 0.28810906)
+('Echinacoside', 0.2865298)
+('Scopolamine_N-oxide_HBr', 0.28330863)
+('Khasianine', 0.28252006)
+('Trans-Zeatin_Riboside', 0.28249454)
+('Glycitin', 0.2814634)
+('3-Hydroxybenzoic_acid', 0.2801841)
+('DihydroarteMisinic_acid', 0.2771931)
+('Pyridoxine', 0.2764691)
+('Vitamin_B6', 0.2764686)
+('Phlorizin', 0.27566254)
+('Kynurenine', 0.27309978)
+('Norepinephrine', 0.27195317)
+('Alpha-Hederin', 0.2716067)
+('Penicillin_G_sodium_salt', 0.2712498)
+('beta-Eudesmol', 0.2708612)
+('Hyaluronic_acid', 0.26994348)
+('Sophocarpine', 0.26864487)
+('Leonurine_hydrochloride', 0.2686013)
+('Polymyxin_B_sulfate', 0.26720536)
+('Agmatine_sulfate_salt', 0.2656436)
+('Etoposide', 0.26256537)
+('L-Theanine', 0.2625267)
+('Trilobatin', 0.2610702)
+('Pseudoprotodioscin', 0.26068953)
+('Isoalantolactone', 0.2571348)
+('Momordin_Ic', 0.25710464)
+('Synephrine', 0.25699154)
+('Gracillin', 0.2552396)
+('Sennoside_B', 0.25313008)
+('Sennoside_A', 0.25312996)
+('2,6-Dimethoxybenzoic_acid', 0.2507872)
+('Rhoifolin', 0.24713555)
+('Atractylenolide_I', 0.24505019)
+('Artemether', 0.24488834)
+('(\xc2\xb1)-Methyl_Jasmonate', 0.24452415)
+('Artesunate', 0.24357355)
+('4-Hydroxybenzoic_acid', 0.2430006)
+('Yohimbine_hydrochloride', 0.24245486)
+('L(-)-Carnitine', 0.2419852)
+('DL-Carnitine', 0.24198508)
+('Tacrolimus', 0.24186498)
+('Calycosin-7-O-beta-D-glucoside', 0.23951292)
+('Albamycinsodium', 0.23865)
+('Ajmaline', 0.2351946)
+('Arachidic_acid', 0.23504677)
+('Angoroside_C', 0.23482335)
+('Liriope_muscari_baily_saponins_C', 0.23401633)
+('Traumatic_Acid', 0.23346895)
+('3-Hydroxyphenylacetic_acid', 0.23165068)
+('Isorhamnetin_3-O-neohesperidin', 0.23149309)
+('Cinnamic_acid', 0.23138416)
+('Neohesperidin', 0.2296336)
+('Coelenterazine', 0.22849375)
+('Cinchonine', 0.22758532)
+('Cinchonidine', 0.22758523)
+('Betaine', 0.22699618)
+('Hydrocaffeic_acid', 0.2262474)
+('Thiamine_hydrochloride', 0.22621837)
+('Isobutyric_acid', 0.22506467)
+('Geldanamycin', 0.22474608)
+('5-Acetylsalicylic_acid', 0.22430706)
+('Doxorubicin_hydrochloride', 0.22180936)
+('Linarin', 0.22122017)
+('Thiamine_monophosphate_chloride_dihydrat', 0.21922281)
+('Gossypol_acetic_acid', 0.21415654)
+('Amygdalin', 0.21411821)
+('Vanillic_Acid', 0.21203923)
+('trans-Aconitic_acid', 0.21184835)
+('Epimedin_C', 0.21140003)
+('Pinoresinol_diglucoside', 0.21102285)
+('Rhodiosin', 0.2103599)
+('Camphene', 0.2089394)
+('4-Hydroxychalcone', 0.20708975)
+('Salicylic_acid', 0.20582297)
+('Citronellol', 0.20565909)
+('Lauric_Acid', 0.20399445)
+('Cepharanthine', 0.20332527)
+('Calceolarioside_B', 0.20298845)
+('Rosmarinic_acid', 0.202894)
+('Wogonoside', 0.20151863)
+('Diosmin', 0.19983941)
+('Spinosin', 0.19880918)
+('Syringic_acid', 0.19877505)
+('Dihydrokavain', 0.19869211)
+('Isovaleramide', 0.19695741)
+("Pyridoxal_5'-phosphate_hydrate", 0.19687799)
+('Isoliquiritin', 0.19669917)
+('Cephalotaxine', 0.19641683)
+('4-hydroxyphenylacetic_acid', 0.19536343)
+('Thymine', 0.19469231)
+('Picfeltarraenin_IA', 0.19386905)
+('Tannic_acid', 0.19361663)
+('Dehydrocostus_Lactone', 0.19079208)
+('1,7-DIMETHYLXANTHINE', 0.18965471)
+('Scopolamine_HBr_trihydrate', 0.18960711)
+('Picfeltarraenin_IB', 0.18817687)
+('Nonanoic_acid', 0.18671119)
+('Anisomycin', 0.18612069)
+('Cinnamylideneacetic_acid', 0.18395233)
+('Fraxin', 0.18251246)
+('L-Adrenaline', 0.18179315)
+('Betaine_hydrochloride', 0.18162218)
+('Alisol_B_23-acetate', 0.18147102)
+('Glycerol', 0.18007368)
+('Veratric_acid', 0.17894417)
+('Rhaponiticin', 0.1777586)
+('Daidzin', 0.17743322)
+('L-Dihydroorotic_acid', 0.17655009)
+('Timosaponin_BII', 0.1762279)
+('Salidroside', 0.17565227)
+('Scopolamine_butylbromide', 0.17548144)
+('3,4-Dimethoxycinnamic_acid', 0.17542884)
+('D-Luciferin', 0.17442027)
+('coniferin', 0.17356205)
+('7-Aminocephalosporanic_acid', 0.1730595)
+('Eugenol', 0.17079097)
+('MRE-269', 0.1705654)
+('Cytisine', 0.17025155)
+('Scopolin', 0.16886353)
+('D-Camphor', 0.16820776)
+('Camphor', 0.16820773)
+('(-)-CAMPHOR', 0.16820773)
+('Vincamine', 0.16594759)
+('Diosmetin-7-O-beta-D-glucopyranoside', 0.16524577)
+('Trigonelline', 0.16402733)
+('Glycyrrhizin', 0.16397)
+('Ursolic_acid', 0.16334584)
+('Cantharidin', 0.16040584)
+('Hydroxy_Camptothecine', 0.15608916)
+('10-Hydroxycampothecin', 0.15608707)
+('10-Hydroxycamptothecin', 0.15608707)
+('Ginsenoside_Rg2', 0.15457168)
+('Salvianolic_acid_B', 0.15415555)
+('(-)-Syringaresnol-4-O-beta-D-apiofuranos', 0.15362525)
+('alpha-Cyperone', 0.15287921)
+('Senegenin', 0.1515353)
+('Ursonic_Acid', 0.15151575)
+('Oroxin_A', 0.15123907)
+('Olivetol', 0.15079728)
+('Delta-Gluconolactone', 0.1500665)
+('Nodakenin', 0.1476421)
+('Arteether', 0.14631623)
+('Homoveratrumic_acid', 0.14601675)
+('Icariin', 0.14520255)
+('Polygalasaponin_V', 0.144865)
+('Maslinic_acid', 0.14388952)
+("6'''-Feruloylspinosin", 0.14303473)
+('Chicoric_acid', 0.14208463)
+('Chicoric_Acid', 0.1420846)
+('lithospermic_acid', 0.14112568)
+('Gossypol', 0.1407333)
+('Oroxin_B', 0.13963965)
+('Chelidonine', 0.13841805)
+('Methyl_eugenol', 0.13801193)
+('Capsaicin', 0.13637269)
+("2''-O-Galloylhyperin", 0.13578367)
+('Scutellarin', 0.13506365)
+('Breviscapin', 0.13506356)
+('Ethyl_coumarin-3-carboxylate', 0.13275549)
+('Feruloyltyramine', 0.13039428)
+('AKBA', 0.12983349)
+('Estriol', 0.12972361)
+('Quinine', 0.12906486)
+('Diacerein', 0.1285812)
+('Madecassoside', 0.12704486)
+('Periplocin', 0.12683114)
+('Bilobalide', 0.12662402)
+('Doxofylline', 0.126553)
+('Skimmin', 0.12080476)
+('Phytolaccagenin', 0.12073061)
+('Homovanillic_acid', 0.1193113)
+('Quillaic_Acid', 0.11879578)
+('Baicalin', 0.118768305)
+('Tectoridin', 0.11870563)
+('Theophylline', 0.11785498)
+('Sitogluside', 0.11772081)
+('Acevaltrate', 0.11761245)
+('Esculin', 0.11725196)
+('Tenuifolin', 0.116095245)
+('Chlorogenic_Acid', 0.11576077)
+('Neochlorogenic_acid', 0.11576006)
+('Ftaxilide', 0.11547032)
+('Plantagoside', 0.115170866)
+('Decanoic_Acid', 0.11324969)
+('Ivermectin', 0.11315364)
+('Kasugamycin_hydrochloride', 0.113135874)
+('Tenacissoside_I', 0.11230245)
+('Tenuifoliside_A', 0.11169928)
+('Hederagenin', 0.110904634)
+('Kaempferitrin', 0.11066428)
+('Naringin', 0.11027378)
+("Vitexin-2''-O-rhamnoside", 0.10987419)
+('Macranthoidin_B', 0.10933858)
+('4-Methoxybenzoic_acid', 0.10915333)
+('Piceid', 0.10872805)
+('Polydatin', 0.10872793)
+('Oxysophocarpine', 0.10862321)
+('Oleanolic_Acid', 0.10808775)
+('Vindoline', 0.107423574)
+('Glycocholic_acid', 0.10719988)
+('Atractylodin', 0.106653094)
+('Ginsenoside_Z-R1', 0.10437682)
+('kauran-16,17-diol', 0.10419971)
+('Bisdemethoxycurcumin', 0.103767216)
+('Cinnamyl_alcohol', 0.10345271)
+('Astragalus_polyphenols', 0.10344422)
+('tetrahydroxyl_diphenylethylene-2-o-gluco', 0.10344413)
+('(+)-Pilocarpine_hydrochloride', 0.10262391)
+('Hordenine', 0.102306604)
+('Cosmosiin', 0.10229081)
+('Dopamine_hydrochloride', 0.10210839)
+('Corilagin', 0.1016694)
+('1-Methylguanidine_hydrochloride', 0.10130513)
+('N-Sulfo-glucosamine_sodium_salt', 0.100238025)
+('alpha-Boswellic_acid', 0.09997982)
+('7-hydroxy-4-methyl-8-nitrocoumarin', 0.09986782)
+('cysteine', 0.09962827)
+('3,4-Dihydroxyphenylacetic_acid', 0.09958601)
+('Protocatechuic_acid', 0.09948531)
+('Methyl_acetoacetate', 0.09945738)
+('Kitasamycin', 0.097397655)
+('Colistimethate_Sodium', 0.09721258)
+('Escin', 0.09720084)
+('Methyl_hesperidin', 0.0966264)
+('Astragaloside_I', 0.09511626)
+('Mevastatin', 0.09486821)
+('Genipin', 0.094016284)
+('5-Hydroxy-1,7-diphenyl-6-hepten-3-one', 0.093494)
+('Typhaneoside', 0.09254646)
+('Oleanonic?Acid', 0.09189367)
+('Chitosan', 0.09188822)
+('Mulberroside_A', 0.09158951)
+('Borneol', 0.09041223)
+('Paromomycin_Sulfate', 0.09028253)
+('Ginsenoside_Rg1', 0.08934039)
+('Strychnine', 0.08826172)
+('Notoginsenoside_R2', 0.08785182)
+('Epimedin_A', 0.087607116)
+('Hygromycin_B', 0.087222844)
+('Ergosterol', 0.084739804)
+('Engeletin', 0.0843527)
+('Bilobetin', 0.08331999)
+('Notoginsenoside_R1', 0.08299443)
+('Verbenalin', 0.082879275)
+('Thymol', 0.0823037)
+('Atractylenolide_III', 0.0822421)
+('O-Acetyl-L-carnitine_hydrochloride', 0.081165284)
+('Orsellinic_acid_ethyl_ester', 0.08098814)
+('Ammonium_Glycyrrhizinate', 0.080497324)
+("Vitexin_-4''-O-glucoside", 0.08046222)
+('glucosylvitexin', 0.08046219)
+('Orcinol_glucoside', 0.08005887)
+('Isoferulic_acid', 0.079974055)
+('Ferulic_Acid', 0.079973996)
+('Loganin', 0.07849684)
+('Rutundic_acid', 0.07773325)
+('3-Methoxytyramine_hydrochloride', 0.07701573)
+('Methyl_Cholate', 0.07561621)
+('Stigmasterol', 0.075385034)
+('1-Naphthaleneacetic_acid', 0.0752182)
+('Eugenol_acetate', 0.07469344)
+('Helenine', 0.07459986)
+('Tubeimoside_I', 0.07450023)
+('Pyruvic_acid', 0.07390651)
+('Diethyl_oxalpropionate', 0.07278088)
+('Nuezhenide', 0.07264802)
+('Bengenin', 0.07206482)
+('Maltopentaose', 0.07205495)
+('Glycerophosphocholine', 0.07106519)
+('Berberine_hydrogen_sulphate', 0.07097852)
+('Senkyunolide_I', 0.0709227)
+('Polyphyllin_VI', 0.0700818)
+('beta,_beta-dimethylacrylshikonin', 0.06988984)
+('Dimethylacrylshikonin', 0.06988984)
+('Epimedin_B', 0.06939602)
+('Astragalin', 0.06905314)
+('Methacycline_hydrochloride', 0.068751335)
+('Gypenoside_XLIX', 0.06870857)
+('Tyramine', 0.068669856)
+('Mangostin', 0.06863585)
+('7-Methylxanthine', 0.06861663)
+('Phenethylamine', 0.06858441)
+('Benzyl_benzoate', 0.06823447)
+('3,4-Dihydroxyphenylethanol', 0.0681774)
+('Hesperidin', 0.06772223)
+('Potassium_sorbate', 0.067417234)
+('CONIFERYL_ALCOHOL', 0.06655592)
+('D-Pyroglutamic_acid', 0.066193074)
+('L-Pyroglutamic_acid', 0.066193014)
+('Peimine', 0.065914065)
+('Estradiol', 0.06580418)
+('17\xce\xb1-Estradiol', 0.065804064)
+('1,3-Diaminopropane', 0.06522998)
+('Tyrosol', 0.065009)
+('Pulsatilla_saponin_D', 0.06499612)
+('Atractylone', 0.06450534)
+('Hederacoside_C', 0.06447685)
+('Timosaponin_AIII', 0.06387097)
+('Arecoline_HBr', 0.06382918)
+('Geniposide', 0.063779205)
+('Helicid', 0.06358236)
+('Isovitexin', 0.06345081)
+('3,5-Diiodotyrosine_Dihydrate', 0.06333497)
+('Trigonelline_hydrochloride', 0.06327748)
+('Luteolin-7-glucuronide', 0.063052565)
+('(-)-Epigallocatechin_Gallate', 0.06259322)
+('(-)-Gallocatechin_gallate', 0.0625931)
+('Notoginsenoside_Fa', 0.062294006)
+('Gramicidin', 0.06186837)
+('N-Benzylpalmitamide', 0.061308414)
+('L-KAWAIN', 0.061011344)
+('6-Hydroxypurine', 0.06100136)
+('Calcium_carbonate', 0.06087792)
+('Neomangiferin', 0.06065342)
+('Nystatin', 0.05986452)
+('Asiaticoside', 0.059619248)
+('Gallic_acid', 0.05870828)
+('Albiflorin', 0.058573514)
+('Astilbin', 0.058488846)
+('Apramycin_sulfate', 0.058125436)
+('Higenamine?Hydrochloride', 0.057713747)
+('Trans-Anethole', 0.057568967)
+('cis-Anethol', 0.05756882)
+("9'''-MethyllithosperMate_B", 0.057457775)
+("9'-Methyl_lithospermate_B", 0.057457715)
+('Phloracetophenone', 0.057192713)
+('Dihydrocapsaicin', 0.057096153)
+('n-Butylidenephthalide', 0.056977034)
+('\xce\xb2-Glycerophosphate_disodium_salt_hydrate', 0.05681029)
+('Resacetophenone', 0.056104124)
+('Acetylhydroquinone', 0.056104124)
+('2-Pentylfuran', 0.055978358)
+('Xanthosine_dihydrate', 0.055974692)
+('Phenylacetic_acid', 0.05571899)
+('Casanthranol', 0.054905325)
+('Pristimerin', 0.05483815)
+('Ginsenoside_C-K', 0.05464065)
+('\xce\xb2-Caryophyllene', 0.053897947)
+('Raspberry_ketone', 0.053786367)
+('Salicoside', 0.053603142)
+('6-Gingerol', 0.053584754)
+('5-O-Methylvisammioside', 0.05348417)
+('Elemicin', 0.05306074)
+('Acetylvanillin', 0.053051144)
+('D-(-)-Pantolactone', 0.052615672)
+('Topotecan_hydrochloride', 0.052524865)
+('Amentoflavone', 0.051998764)
+('Notoginsenoside_Fc', 0.05195415)
+('Ginsenoside_Rb2', 0.051087826)
+('Ginsenoside_Rb3', 0.051087826)
+('Proanthocyanidins', 0.05103275)
+('Trichostatin_A', 0.050046593)
+('Pogostone', 0.049021244)
+('Ginsenoside_F1', 0.04858014)
+('Ginsenoside_F2', 0.04852864)
+('Zigu-glucoside_I', 0.04826489)
+('Coniferyl_aldehyde', 0.0479846)
+('Demethoxycurcumin', 0.047764182)
+('Gastrodin', 0.04775241)
+('Avolin', 0.047621787)
+('nordihydroguaiareticacid', 0.047593832)
+('Linderane', 0.047542095)
+('Deoxyarbutin', 0.047532797)
+('Cryptochlorogenic_acid', 0.047266334)
+('Polygalasaponin_F', 0.04697302)
+('(20R)-Ginsenoside_Rh1', 0.04687655)
+('Ginsenoside_Rh1', 0.04687646)
+('Cucurbitacin_B', 0.046860248)
+('Incensole', 0.046787113)
+('Gallic_acid_trimethyl_ether', 0.046630293)
+('Abietic_Acid', 0.04655078)
+('Salvianolic_Acid_C', 0.046050698)
+('Alnustone', 0.04603198)
+('Cynaroside', 0.04580584)
+('Notoginsenoside_Fe', 0.045471966)
+('Tubeimoside_II', 0.045246184)
+('Alkannin', 0.044614613)
+('(\xc2\xb1)-Shikonin', 0.044614613)
+('(+)-Shikonin', 0.044614613)
+('Caffeic_Acid', 0.044376135)
+('Sucrose', 0.04421258)
+('Genistin', 0.04421109)
+('Sophoricoside', 0.04421103)
+('Kanamycin_sulfate', 0.043836266)
+('Bornyl_acetate', 0.04359734)
+('Didymin', 0.043417007)
+('Myricetrin', 0.043414503)
+('Vitexin', 0.043248773)
+('Monocrotaline', 0.043061763)
+('Glucosamine_hydrochloride', 0.042619288)
+('Quinine_dihydrochloride', 0.04254216)
+('Chikusetsusaponin_IVa', 0.042498857)
+('Linalool', 0.042331398)
+('Astrasieversianin_VII', 0.04232174)
+('Astragaloside_II', 0.042321444)
+('Chikusetsusaponin_IV', 0.042273194)
+('Propyl_gallate', 0.04215312)
+('Aristolochic_Acid', 0.042128146)
+('Diosbulbin_B', 0.04202926)
+('Batyl_alcohol', 0.041995794)
+('Cholic_Acid', 0.04173851)
+('Dracorhodin_perochlorate', 0.041331142)
+('Echinocystic_acid', 0.041308075)
+('Tobramycin', 0.04129091)
+('Gardenoside', 0.041240305)
+('Pyrithioxin', 0.041138113)
+('Isoeugenol', 0.041078)
+('alpha-Arbutin', 0.041068107)
+('Arbutin', 0.041068047)
+('Bardoxolone', 0.04106179)
+('Veratramine', 0.04105532)
+('Thiamine_pyrophosphate', 0.040998608)
+('Artemisinin', 0.040844798)
+('Esculentoside_A', 0.040726155)
+('Acarbose', 0.040562302)
+('Methyl-\xce\xb2-D-galactopyranoside', 0.04033807)
+('Rutin', 0.039850563)
+('Isoorientin', 0.039483994)
+('2-Methoxyestradiol', 0.03858754)
+('Dicurone', 0.038543195)
+('Diammonium_Glycyrrhizinate', 0.038531333)
+('1-Butanol', 0.038398772)
+('Ethylparaben', 0.038339943)
+('Peiminine', 0.03771618)
+('Sipeimine', 0.03771612)
+('Carnosol', 0.037653685)
+('ISOGINKGETIN', 0.03743738)
+('Diosgenin_glucoside', 0.03727311)
+('Phloretin', 0.037195176)
+('Daunorubicin_hydrochloride', 0.037063003)
+('Phenethyl_alcohol', 0.036968082)
+('BENZYLACETONE', 0.036857635)
+('Ruscogenin', 0.036744654)
+('Dihydroartemisinin', 0.036011636)
+('Crocin_II', 0.036005586)
+('yangonin', 0.03594008)
+('Acetaminophen', 0.035917073)
+('Gynostemma_Extract', 0.035908967)
+('Ginsenoside_Rd', 0.035776258)
+('Aloin', 0.035766006)
+('Higenamine', 0.0356448)
+('Nonivamide', 0.03563559)
+('Roburic_acid', 0.035512745)
+('Cinnamaldehyde', 0.035512626)
+('Cinnamic_aldehyde', 0.035512626)
+('Flavanone', 0.035442084)
+('Liquiritigenin', 0.03540966)
+('Lovastatin', 0.03538227)
+('Anemoside_B4', 0.03536111)
+('Palmitoleic_acid', 0.035049856)
+('Eriocitrin', 0.03502828)
+('Tanespimycin', 0.034866482)
+('Cucurbitacin_IIA', 0.03485921)
+('Saikosaponin_D', 0.034475833)
+('Saikosaponin_A', 0.034475833)
+('20(R)-Propanaxadiol', 0.034431547)
+('Ginsenoside_Rg3', 0.034431547)
+('2-Methylbutyraldehyde', 0.03437674)
+('Ethyl_gallate', 0.033688575)
+('Anwuligan', 0.033593267)
+('Vanillylacetone', 0.033489853)
+('Guaiazulene', 0.033406764)
+('D-Trehalose', 0.03324887)
+('Pulegone', 0.032635927)
+('\xce\xb1-D-Glucose', 0.032423496)
+('D(+)-Glucose', 0.032423496)
+('D-(+)-ALLOSE', 0.032423466)
+('D-Mannose', 0.032423466)
+('Alpha-D-galactose', 0.032423466)
+('Mannose', 0.032423407)
+('Gentiopicrin', 0.03213471)
+('TOMATIDINE_HYDROCHLORIDE', 0.032059968)
+('Licochalcone_A', 0.032042116)
+('Mogroside_V', 0.03159228)
+('Saikosaponin_B2', 0.03142479)
+('Ginsenoside_Rc', 0.031332403)
+('Lycorine_chloride', 0.031209767)
+('Vanatone', 0.031166226)
+('Enoxolone', 0.031137764)
+('Glycyrrhetinic_acid', 0.031137675)
+('7-Epitaxol', 0.03101033)
+('Paclitaxel', 0.0310103)
+('Ginsenoside_Rh2', 0.031006306)
+('Ginsenoside_Rh2', 0.031006306)
+('macranthoidin_A', 0.030641466)
+('Acetovanillone', 0.030465215)
+('Betulinic_acid', 0.030195624)
+('Isoquercitrin', 0.029890984)
+('ISOQUERCITRIN', 0.029890984)
+('Hyperoside', 0.029890776)
+('Sinapinic_Acid', 0.02985543)
+('Deoxycholic_acid', 0.029839933)
+('Acetyl_shikonin', 0.029608846)
+('Anethole_trithione', 0.029554456)
+('Glycolaldehyde_dimer', 0.029503018)
+('Xanthoxyline', 0.0294078)
+('Solasodine', 0.029182792)
+('(S)-(-)-1-Phenylethanol', 0.028955221)
+("2'-Hydroxy-5'-methoxyacetophenone", 0.028867006)
+('Paeonol', 0.028867006)
+('Chlortetracycline_hydrochloride', 0.028557748)
+('Raffinose', 0.028492332)
+('Monobenzone', 0.028474063)
+('N-Acetyl-D-mannosamine', 0.02816096)
+('N-Acetyl-D-galactosamine', 0.02816096)
+('(-)-Epicatechin_gallate', 0.02815339)
+('Cimifugin_beta-D-glucopyranoside', 0.027926356)
+('Beta-Sitosterol', 0.027852535)
+('Ginkgolide_A', 0.027656615)
+('Ethyl_Vanillate', 0.02761665)
+('Kirenol', 0.027097046)
+('Picroside_II', 0.027026951)
+('Carvacrol', 0.026798636)
+('Diathesin', 0.026792377)
+('Melezitose', 0.026746362)
+('Quinic_acid', 0.026419282)
+('Doxycycline_hyclate', 0.026374519)
+('Celastrol', 0.025784701)
+('Irinotecan', 0.025660455)
+('Polygalic_acid', 0.025645435)
+('Inositol', 0.025630146)
+('Narirutin', 0.025366098)
+('Sodium_Demethylcantharidate', 0.025183648)
+('Diffractaic_Acid', 0.025099248)
+('Simvastatin', 0.02505374)
+('Nardosinone', 0.024818718)
+('Cabazitaxel', 0.024702072)
+('Dihydrocholesterol', 0.02469498)
+('ALPHA-PINENE', 0.024690986)
+('Schisantherin_B', 0.024576515)
+('Piperine', 0.024497926)
+('Gypenoside_XVII', 0.02438876)
+('Thiostrepton', 0.024267405)
+('D-Glucuronic_acid', 0.024226457)
+('D-(+)-Trehalose_dihydrate', 0.024052382)
+('Atractylenolide_II', 0.02399993)
+('Citral', 0.02387628)
+('trans-Benzylideneacetone', 0.023841262)
+('Aleuritic_Acid', 0.023646593)
+('Guanine', 0.023622572)
+('L-Rhamnose_monohydrate', 0.023597866)
+('Fraxinellone', 0.023415387)
+('Cephalomannine', 0.02323702)
+('Hederasaponin_B', 0.023199469)
+('Maltitol', 0.023138046)
+('Ginsenoside_Rb1', 0.022520065)
+('Cyanocobalamin', 0.022476166)
+('Iridin', 0.022435397)
+('Mesaconitine', 0.02232933)
+('Acetylcimigenol_3-O-alpha-L-arabinopyran', 0.022233099)
+('Pregnenolone', 0.02213192)
+('Valepotriate', 0.022114515)
+('4-Hydroxybenzyl_alcohol', 0.021699786)
+('3-Hydroxybenzyl_alcohol', 0.021438092)
+('Doramectin', 0.021151692)
+('Glucosamine', 0.021107286)
+('alpha-Asarone', 0.021083236)
+('Methylparaben', 0.021074057)
+('Ingenol', 0.021064699)
+('Ligustrazine_hydrochloride', 0.021044195)
+('Methyl_gallate', 0.020962745)
+('Sodium_ascorbate', 0.020918727)
+('Isoliquiritigenin', 0.020871818)
+('Linderene', 0.02084285)
+('Quercitrin', 0.020795882)
+("2'-Hydroxyacetophenone", 0.020768613)
+('Phenylacetaldehyde', 0.020736277)
+('Ketoisophorone', 0.020404845)
+('Chenodeoxycholic_acid', 0.020319104)
+('Ursodeoxycholic_acid', 0.020318985)
+('Costunolide', 0.02030009)
+('Nystose', 0.020268112)
+('Rebaudioside_C', 0.020262688)
+('Ginsenoside_Ro', 0.020242274)
+('Salicylamide', 0.020168692)
+('DL-Arabinose', 0.020127654)
+('Alpinetin', 0.02012688)
+('Lyothyronine', 0.02001965)
+('Norcantharidin', 0.019975394)
+('D-Gulonic_acid_\xce\xb3-lactone', 0.019843519)
+('Lithocholic_acid', 0.01968047)
+('4-aminobenzoic_acid', 0.019679546)
+('Aconitine', 0.01958549)
+('Demeclocycline_hydrochloride', 0.019426167)
+('Mangiferin', 0.019373208)
+('Ligustilide', 0.019343257)
+('Harpagoside', 0.01917836)
+('(-)-Cotinine', 0.019170195)
+('D-Cellobiose', 0.019163817)
+('Lactose', 0.019163817)
+('Maltose', 0.019163817)
+('VASICINE', 0.018921584)
+('Thymoquinon', 0.018895596)
+('Octyl_gallate', 0.018811077)
+('Sinigrin', 0.018491507)
+('syringaldehyde', 0.018268049)
+('nerolidol', 0.0180386)
+('Orientin', 0.017949551)
+('\xce\xb2-thujaplicin', 0.017877817)
+('Isochlorogenic_acid_A', 0.01780063)
+('(-)-3,5-Dicaffeoyl_quinic_acid', 0.01780063)
+('Acetylcholine_chloride', 0.017747462)
+('Spirostan-3-ol', 0.017717808)
+('Sarsasapogenin', 0.017717808)
+('Hederacoside_D', 0.017677754)
+('Dipsacoside_B', 0.017677724)
+('8-O-Acetylshanzhiside_methyl_ester', 0.01756978)
+('3-Methyl-2-buten-1-ol', 0.017548561)
+('Sodium_houttuyfonate', 0.017528534)
+('Diosgenin', 0.017424077)
+('Methyl_protocatechuate', 0.01730746)
+('Ginkgolide_B', 0.017290205)
+('D(+)-Glucuronic_acid_sodium_salt_monohydrate', 0.017198563)
+('Kakuol', 0.017133504)
+('Quinaldic_acid', 0.017118663)
+('Vanillyl_Alcohol', 0.017003834)
+('Coumarin-3-carboxylic_acid', 0.016931504)
+('Stachydrine_Hydrochloride', 0.016886264)
+('Caryophyllene_oxide', 0.016805261)
+('Gomisin_A', 0.01679653)
+('Naringenin', 0.016746461)
+('o-Veratraldehyde', 0.016624838)
+('Schisandrin', 0.016578585)
+('Sesamoside', 0.016577065)
+('Sodium_Aescinate', 0.01655218)
+('Paeoniflorin', 0.016517341)
+('9-Methoxycanthin-6-one', 0.016490936)
+('Loganic_acid', 0.016297042)
+('3-Hydroxyanthranilic_acid', 0.015969872)
+('Tetracycline_hydrochloride', 0.015963823)
+('Methyl_Oleate', 0.015712023)
+('Demethylzeylasteral', 0.015545815)
+('Cycloastragenol', 0.015453607)
+('Curcumenol', 0.015113711)
+('Crocin_I', 0.01501137)
+('Crocin', 0.01501137)
+("2,4'-Dihydroxybenzophenone", 0.014934391)
+('Pipecolinic_acid', 0.014910907)
+('L-Pipecolic_acid', 0.014910877)
+('Magnolol', 0.014711738)
+('Methyl_4-hydroxycinnamate', 0.014673531)
+('Equol', 0.014660299)
+('D-Lactose_monohydrate', 0.014493555)
+('D-(+)-Maltose_monohydrate', 0.014493555)
+('Isochlorogenic_acid_C', 0.014483601)
+('Isochlorogenic_acid_B', 0.014483541)
+('4,5-Dicaffeoylquinic_acid', 0.014483541)
+('Behenic_alcohol', 0.014470041)
+('D-(+)-Galacturonic_acid', 0.01444912)
+('Pinostilbene', 0.014346302)
+('Benzylamine', 0.0143460035)
+('Pseudoginsenoside_F11', 0.014292777)
+('Methyl_syringate', 0.014270991)
+('Dihydromyricetin', 0.014056712)
+('Ethyl_vanillin_acetate', 0.014055818)
+('Tetramethylpyrazine', 0.01404655)
+('Shikimic_Acid', 0.013998717)
+('Voglibose', 0.0139784515)
+('Lactulose', 0.013886869)
+('Pterostilbene', 0.013824314)
+('Rubusoside', 0.013817579)
+('Phenyl_acetate', 0.013802022)
+('Pseudolaric_Acid_C', 0.013785452)
+('Methyl_salicylate', 0.013776034)
+('Honokiol', 0.013769656)
+('Caffeic_Acid_Phenethyl_Ester', 0.0137652755)
+('Schisantherin_A', 0.013748795)
+('Puerarin', 0.0137428045)
+('Shanzhiside_methyl_ester', 0.013628185)
+('Columbin', 0.013577104)
+('Betulonic_acid', 0.013419062)
+('Ethynyl_estradiol', 0.013342798)
+('Cyasterone', 0.013305128)
+('Methyl_Vanillate', 0.013296008)
+('Baohuoside_I', 0.013178676)
+('Esculentoside_H', 0.013085395)
+('Aquacrine', 0.013073415)
+('D-Glucose_6-phosphate_sodium_salt', 0.013069421)
+('Patchouli_alcohol', 0.013049662)
+('Taxifolin', 0.013027698)
+('Astragaloside_A', 0.012879878)
+('Astragaloside_IV', 0.012879878)
+('Echinatin', 0.01287511)
+('Vanitiolide', 0.012769818)
+('Buddlejasaponin_IVb', 0.012600571)
+('D-(-)-Tagatose', 0.012596726)
+('Germacrone', 0.012588948)
+('Ganoderic_acid_D', 0.012536138)
+('Resveratrol', 0.012514681)
+('Asperosaponin_\xe2\x85\xa5', 0.012424201)
+('L-Thyroxine', 0.0123761)
+('Pinocembrin', 0.0122962)
+('Quinidine_hydrochloride', 0.012223512)
+('4-Methoxysalicylaldehyde', 0.012025744)
+('Tetrandrine', 0.011830509)
+('Senkyunolide_A', 0.011830121)
+('(20S)-Protopanaxadiol', 0.011776984)
+('Hydroxysafflor_yellow_A', 0.011752814)
+('Tetrahydro_Curcumin', 0.011604965)
+('Vanillin', 0.011576742)
+('Isovanillin', 0.011576682)
+('orcinol', 0.011492491)
+('Lappaconitine', 0.0112835765)
+('Flavokawain_B', 0.0112736225)
+('Curcumin', 0.011197269)
+('Galanthamine_HBr', 0.01115489)
+('Trimethoxystilbene', 0.011091471)
+('Ethyl_caffeate', 0.0110631585)
+('Ethyl_4-methoxycinnamate', 0.01105386)
+('Praeruptorin_E', 0.011051297)
+('D-(+)-Fucose', 0.011041611)
+('L-(-)-Fucose', 0.011041552)
+('4-Methylcatechol', 0.010957807)
+('Propionic_acid', 0.010931939)
+('Cortisone', 0.010877579)
+('Crassicauline_A', 0.010832757)
+('Swertiamarin', 0.01078853)
+('8-Gingerol', 0.010745466)
+('Silymarin', 0.010720432)
+('Isosilybin', 0.010720432)
+('Silibinin', 0.010720432)
+('Cardamonin', 0.010712206)
+('Rheic_Acid', 0.010582209)
+('Stevioside', 0.010451257)
+('Ribostamycin_sulfate', 0.010403633)
+('Flavone', 0.010297596)
+('Steviol', 0.010271847)
+('(20S)-Protopanaxatriol', 0.010247141)
+('Resibufogenin', 0.010227263)
+('Tauroursodeoxycholic_Acid', 0.010138601)
+('Taurochenodeoxycholic_Acid', 0.010138541)
+('steviolbioside', 0.010018498)
+("Uridine_5'-monophosphate", 0.009918779)
+('Oxypaeoniflorin', 0.009787917)
+('1-Deoxynojirimycin', 0.009753466)
+('Naringenin_chalcone', 0.009751856)
+('5alpha-Cholestan-3-one', 0.009645104)
+('Streptozocin', 0.009623617)
+('(+)-Bicuculline', 0.009580523)
+('Lycorine', 0.009459943)
+('Ethyl_ferulate', 0.009423494)
+('Gnetol', 0.009422898)
+('7-Methoxy-4-methylcoumarin', 0.009402871)
+('Brucin', 0.009281397)
+('Loureirin_A', 0.0092749)
+('Agarotetrol', 0.0092588365)
+('Benzoic_acid', 0.009234786)
+('8-O-Acetylharpagide', 0.009208947)
+('Lappaconite_HBr', 0.009163439)
+('Isoeugenyl_acetate', 0.009058565)
+('Picroside_III', 0.009017587)
+('3,4,5-Trimethoxycinnamic_acid', 0.009001851)
+("Adenosine_5'-monophosphate", 0.008919269)
+('Gibberllin_A7', 0.008906662)
+('Hyodeoxycholic_acid', 0.008881509)
+('Epiandrosterone', 0.008834541)
+('Sclareolide', 0.0087605715)
+('Oxytetracycline', 0.008732438)
+('Emodin-8-glucoside', 0.008721083)
+('2-Picolinic_acid', 0.008686274)
+('Eriodictyol', 0.008652091)
+('Methyl_Isoferulate', 0.008613735)
+('FERULIC_ACID_METHYL_ESTER', 0.008613676)
+('Lapachol', 0.008558124)
+('Bufalin', 0.0085038245)
+('Cortodoxone', 0.00850001)
+('Toddalolactone', 0.008413702)
+('Pyrogallol', 0.008386314)
+('Deoxycorticosterone_acetate', 0.008369476)
+('Amphotericin_B', 0.00834924)
+('ANTHRAQUINONE-2-CARBOXYLIC_ACID', 0.008302927)
+('Betulin', 0.008221835)
+('Spiculisporic_Acid', 0.008200079)
+('Berbamine_dihydrochloride', 0.008197933)
+('Pseudolaric_Acid_B', 0.008173615)
+('5-methoxyflavone', 0.008140832)
+('Nomilin', 0.008089602)
+('Xanthone', 0.008009285)
+('Cholesteryl_Acetate', 0.007983446)
+('Corticosterone', 0.007900864)
+('Pseudolaric_acid_A', 0.007895917)
+('6-Hydroxyflavone', 0.007859647)
+('Obacunone', 0.007834077)
+('Elaidic_acid', 0.0077361166)
+('Oleic_acid', 0.0077361166)
+('Petroselinic_acid', 0.007736057)
+('Rhynchophylline', 0.0077349544)
+('Isorhyncophylline', 0.0077349544)
+('Melibiose', 0.0077349246)
+('Streptomycin_sulfate', 0.007678926)
+('1-Aminocyclopropanecarboxylic_acid', 0.00763759)
+('Limonin', 0.0076098144)
+('Asarylaldehyde', 0.007532358)
+('Nicotinamide', 0.0075308383)
+('Farlutin', 0.007434815)
+('Nicotine', 0.0074308217)
+('alpha-Naphthoflavone', 0.007403195)
+('Isosteviol', 0.0073723793)
+('Pueraria_glycoside', 0.0073612332)
+('Epigoitrin', 0.0073147714)
+('Goitrin', 0.0073147714)
+('D-Stachyose_tetrahydrate', 0.007284194)
+('Formononetin', 0.007224858)
+('Dehydroepiandrosterone', 0.0071720183)
+('Menadiol_Diacetate', 0.0071442723)
+('Deacetyltaxol', 0.00713858)
+("3,6'-Disinapoyl_sucrose", 0.0070565343)
+('Kuromanin_chloride', 0.0070168376)
+('Sinomenine_hydrochloride', 0.006987214)
+('Cinobufagin', 0.006919354)
+('Dicumarol', 0.006864488)
+('Parthenolide', 0.006822318)
+('(+)-Catechin_Hydrate', 0.006754011)
+('glycine', 0.0067496)
+('PHYTOL', 0.006713152)
+('Cedryl_acetate', 0.0065921545)
+('Farrerol', 0.0065811574)
+('Saikosaponin_C', 0.006537348)
+('Licochalcone_B', 0.0065291524)
+("4',7-Dimethoxyisoflavone", 0.0064774156)
+('Progesterone', 0.0064722598)
+('Picroside_I', 0.0064353645)
+('Dehydroandrographolide', 0.006339878)
+('Pimaricin', 0.006337732)
+('Epicatechin', 0.006234944)
+('Cianidanol', 0.0062348843)
+('5-Methyl-7-methoxyisoflavone', 0.006194085)
+('Herniarin', 0.0061725676)
+('cis-4-Hydroxy-D-proline', 0.006133914)
+('L-Hydroxyprolin', 0.006133914)
+('\xce\xb1-D-Glucose_1-phosphate_disodium_salt_hy', 0.00611645)
+('Deoxyshikonin', 0.006106138)
+('Hydrocoumarin', 0.006078005)
+('Epigallocatechin', 0.006034136)
+('Cholesterol', 0.0059883893)
+('Rosavin', 0.005967319)
+('Neryl_acetate', 0.0059634033)
+('Nuciferine', 0.005950421)
+('Daidzein', 0.0059140623)
+('Colchicine', 0.005823165)
+('Protopine', 0.0058141947)
+('Secoxyloganin', 0.00581038)
+('Pyrocatechol', 0.0057867467)
+('Rebaudioside_A', 0.0057615936)
+('Ganoderic_acid_G', 0.0057227314)
+('p-Hydroxybenzaldehyde', 0.005720645)
+("GUANOSINE_3':5'-CYCLIC_MONOPHOSPHATE_SOD", 0.005691588)
+('Geranyl?Tiglate', 0.0056627393)
+('Hesperetin', 0.0056196153)
+('Jervine', 0.0056069195)
+('griffonilide', 0.00560537)
+('\xce\xb2-Elemonic_Acid', 0.0055906773)
+('Oxyresveratrol', 0.0055369735)
+('Aloe-emodin', 0.0055226386)
+('Tetrahydropapaverine_hydrochloride', 0.0054908097)
+('Eucalyptol', 0.005486101)
+('3,4,5-Trimethoxyphenol', 0.0054825842)
+('Myricetin', 0.0054704845)
+('Fangchinoline', 0.0054497123)
+('Fangchinoline', 0.0054497123)
+('Cortisone_acetate', 0.0054096878)
+('Kaempferol', 0.0054010153)
+('Monotropein', 0.005397469)
+('Antrapurol', 0.0053912997)
+('Levonorgestrel', 0.00538525)
+('Hematoxylin', 0.0053839386)
+('Bis(2-ethylhexyl)_phthalate', 0.0053194463)
+('polygalaxanthone_III', 0.005280733)
+('Tanshinone_IIA_sulfonate_sodium', 0.0052670836)
+('Betulinaldehyde', 0.0052573383)
+('Rifampicin', 0.005252987)
+('Isatin', 0.005250305)
+('7-Dehydrocholesterol', 0.005240202)
+('Harpagide', 0.005218774)
+('Protosappanin_B', 0.005217701)
+('Cryptotanshinone', 0.005197525)
+('Abamectin', 0.0051834583)
+('Apigenin', 0.0051552653)
+('Alizarin', 0.0051164627)
+('Ecdysterone', 0.0050780475)
+('Spectinomycin_dihydrochloride', 0.0050242245)
+('Guaiacol', 0.0050095916)
+('Anhydroicaritin', 0.0049555004)
+('Bakuchiol', 0.0049468875)
+('2,5-Dimethylpyrazine', 0.004941225)
+('Brefeldin_A', 0.0049211085)
+('Genkwanin', 0.004892528)
+('Acacetin', 0.004892528)
+('Ginkgolide_C', 0.004886985)
+('Ajugol', 0.0048620105)
+('Phillygenin', 0.0048571527)
+('Flavokawain_A', 0.004822284)
+('Protocatechualdehyde', 0.0047851503)
+('Hydrocortisone', 0.004773408)
+('Damascenone', 0.0047555566)
+('Geniposidic_Acid', 0.0047384202)
+('3-Hydroxyflavone', 0.0047049224)
+('5-Hydroxymethyl-2-furaldehyde', 0.004703641)
+('Citropten', 0.004679829)
+('Vaccarin', 0.004668534)
+('Berbamine', 0.0046681464)
+('Hydroquinone', 0.004651159)
+('Sinomenine', 0.0046435893)
+('Phorbol', 0.004613012)
+('Morin', 0.0045452714)
+('Sciadopitysin', 0.0044570565)
+('Creatine_phosphate_disodium_salt', 0.004452467)
+('Genistein', 0.0044327676)
+('Lupeol', 0.0044308603)
+('Cyclovirobuxin_D', 0.004427612)
+('Cimifugin', 0.004424095)
+('Dihydrotanshinone_I', 0.00436908)
+('Abscisic_acid', 0.0043510795)
+('Quercetin', 0.0043365955)
+('kaempferide', 0.0042997003)
+('Butein', 0.004274875)
+('Bavachin', 0.0042607784)
+('Acetylcorynoline', 0.0042345226)
+('Piceatannol', 0.0042158067)
+('Physostigmine_Salicylate', 0.0042123497)
+('Gibberellic_acid', 0.0041403472)
+('Quercetin_Dihydrate', 0.0040854216)
+('Tectorigenin', 0.004082769)
+('Bergapten', 0.0040698946)
+('magnolin', 0.0040593743)
+('Psoralen', 0.0040480196)
+('Linderalactone', 0.0040453672)
+('Chrysin', 0.0040444434)
+('Wilforlide_A', 0.004021287)
+('Benzyl_alcohol', 0.004006475)
+('Urea', 0.0040014684)
+('Brazilin', 0.0039979815)
+('Noscapine_hydrochloride', 0.0039236844)
+('Isobacachalcone', 0.003911227)
+('Griffonin', 0.0038987398)
+('Scoparone', 0.0038933754)
+('6-Hydroxy-4-methylcoumarin', 0.0038828552)
+('4-Methylumbelliferone', 0.0038827956)
+('Rhapontigenin', 0.0038620234)
+('Isorhapontigenin', 0.003861934)
+('Baicalein', 0.0038538277)
+('Tetrahydroberberine_THB', 0.0038493276)
+('D(+)-Xylose', 0.00384593)
+('D-Arabinose', 0.0038458705)
+('L(+)-Arabinose', 0.0038458705)
+('Fisetin', 0.0038433373)
+('Manninotriose', 0.0038431287)
+('Humantenmine', 0.0038379133)
+('Ethanolamine', 0.003823012)
+('Isopsoralen', 0.0037961602)
+('Cyclosporin_A', 0.0037703812)
+('COLUMBIANETIN_ACETATE', 0.003736645)
+('7,8-Dihydroxyflavone', 0.0037251413)
+('Biochanin_A', 0.0037191212)
+('Isoscopoletin', 0.0037083924)
+('Scopoletin', 0.0037083924)
+('Neomycin_sulfate', 0.003687203)
+('Usnic_Acid', 0.003685236)
+('Anthraquinone', 0.003683716)
+('gamma-Mangostin', 0.0036755502)
+('Neoandrographolide', 0.0036592782)
+('Dihydroactinidiolide', 0.003596872)
+('Epifriedelanol', 0.003584087)
+('Ganoderic_acid_A', 0.0035694242)
+('Scutellarein', 0.0035447776)
+('Tanshinone_IIA', 0.0035360157)
+('Griseofulvin', 0.0034776926)
+('N-Acetylneuraminic_acid', 0.0034727454)
+('2,3-Butanedione', 0.0034212172)
+('Rotenone', 0.0034185052)
+('Asperuloside', 0.0034132302)
+('Gigantol', 0.003394127)
+('3-Methyladenine', 0.0033793747)
+('Galangin', 0.0033700466)
+('Forskolin', 0.003355205)
+("2'-Deoxyuridine_5'-monophosphate_disodium_salt", 0.0033544898)
+('Isorhamnetin', 0.0033053756)
+('Glabridin', 0.0033032)
+('Fraxetin', 0.0032979548)
+('6-Hydroxycoumarin', 0.0032946765)
+('7-Hydroxycoumarin', 0.0032946765)
+('Crocetin', 0.003243357)
+('Adrenosterone', 0.0032378733)
+('Hosenkoside_K', 0.003236562)
+('5-Methyl-2-furaldehyde', 0.00323019)
+('Methyl_EudesMate', 0.0032250285)
+('Fargesin', 0.0032216609)
+('Catalpol', 0.003204137)
+('Dehydroevodiamine', 0.0032038689)
+('1,4-Dicaffeoylquinic_acid', 0.0031909645)
+('Xanthohumol', 0.0031845868)
+('Nicotinic_acid', 0.003177315)
+('Phosphocreatine_disodium_salt_hydrate', 0.0031577349)
+('Cyclopamine', 0.0031231344)
+('proline', 0.0030892193)
+('Calycosin', 0.0030739605)
+('Glycitein', 0.003073901)
+('Rubiadin', 0.003065884)
+('Sesamol', 0.003055513)
+('Isotretinoin', 0.003017962)
+('Tretinoin', 0.003017962)
+("4'-Demethylpodophyllotoxin", 0.0029928982)
+("4'-Demethylepipodophyllotoxin", 0.0029928982)
+('Oroxylin_A', 0.0029917955)
+('Cyclic_AMP', 0.0029806825)
+('Dehydrocholic_acid', 0.0029798448)
+('Quinoline', 0.0029619634)
+('(+)-Usniacin', 0.0029499829)
+('Isobavachin', 0.0029152632)
+('Bergaptol', 0.0028998554)
+('Flavin_Adenine_Dinucleotide_Disodium', 0.0028984249)
+('25-Hydroxycholesterol', 0.0028974414)
+('Diosmetin', 0.0028571188)
+('Chrysophanic_Acid', 0.0028556287)
+('Phellodendrine', 0.0028175712)
+('Bavachinin', 0.0028113425)
+('Shionone', 0.0027792454)
+('Hosenkoside_A', 0.002769947)
+('Coumarin', 0.0027068257)
+('Docetaxel_trihydrate', 0.0026910007)
+('UDP-Glucose_sodium_salt', 0.0026370883)
+('Emodin', 0.002620548)
+('Osthole', 0.002616763)
+('Sodium_L-ascorbyl-2-phosphate', 0.002595365)
+('Loureirin_B', 0.002593428)
+('Tetrahydropalmatine_hydrochloride', 0.0025554001)
+('SMILAGENIN_ACETATE', 0.0025546849)
+('Docetaxel', 0.002550453)
+('Schizandrin_A', 0.002543658)
+('Alismoxide', 0.0025257766)
+('6-Shogaol', 0.0025104582)
+('Andrographolide', 0.0025025904)
+('Sclareol', 0.0024921894)
+('Oridonin', 0.0024617612)
+('12-Epinapelline', 0.0024512112)
+('Luteolin', 0.0024407506)
+('Isoxanthohumol', 0.0023865104)
+('9-dihydro-13-acetylbaccatin_III', 0.0023580194)
+('Isocorynoxeine', 0.0023344457)
+('Mycophenolic_acid', 0.0023332536)
+('Isofraxidin', 0.0023267865)
+('Trimethylamine_hydrochloride', 0.0023218095)
+('Sodium_taurocholate_hydrate', 0.0023119748)
+('Taurocholic_acid_sodium_salt_hydrate', 0.0023119152)
+('Vitamin_E', 0.0022909343)
+('DL-\xce\xb1-Tocopherol', 0.0022908747)
+('Lathyrol', 0.0022864938)
+('Allocryptopine', 0.0022734702)
+('Rotundine', 0.0022630095)
+('Tetrahydropalmatine', 0.0022629201)
+('Aniline', 0.0022440255)
+('4,7-DIHYDROXYCOUMARIN', 0.002230972)
+("2'-Deoxyadenosine_5'-monophosphate", 0.0022167265)
+('Oxypeucedanin_hydrate', 0.0022117794)
+('Magnoflorine_chloride', 0.002210617)
+('Hydroxyprogesterone', 0.0022048652)
+('Rheochrysidin', 0.00219813)
+('7,8-Dihydroxy-4-methylcoumarin', 0.0021828413)
+('Napellonine', 0.0021811128)
+('4-Methyllimetol', 0.0021688938)
+('Phellodendrine_chloride', 0.002161771)
+('Sinapine_thiocyanate', 0.0021460056)
+('Podophyllotoxin', 0.0021374524)
+('Picropodophyllin', 0.0021373928)
+('Picropodophyllotoxin', 0.0021373928)
+('ADP', 0.0021314323)
+('Neobavaisoflavone', 0.00211367)
+("Thymidine_5'-monophosphate_disodium_salt", 0.0021074712)
+('Schizandrin_B', 0.0021069944)
+('Wogonin', 0.002103895)
+('10-Gingerol', 0.0021009743)
+('\xce\xb1-santonin', 0.002092719)
+('Aucubin', 0.0020855665)
+('INOSINIC_ACID', 0.002051115)
+('Tanshinone_I', 0.0020301938)
+('Mollugin', 0.0020119548)
+('Panaxtriol', 0.0020103157)
+('Arctigenin', 0.00199306)
+('Vitamin_K1', 0.0019716918)
+('8-Methoxypsoralen', 0.001958549)
+("2'-Deoxycytidine_5'-monophosphate", 0.0019381642)
+('Corylin', 0.0019212961)
+('Phenol', 0.0019109845)
+('Corydaline', 0.0018471777)
+('Aurantio-obtusin', 0.0018433332)
+('Uridine_5\xe2\x80\xb2-triphosphate_tris_salt', 0.0018378496)
+('Combretastatin_A4', 0.0018053651)
+('Schisandrin_C', 0.0017864406)
+('LANOSTEROL', 0.0017570853)
+('Lawsone', 0.0017513037)
+('Flavin_mononucleotide', 0.0017463863)
+('2-Aminoethanethiol', 0.001726836)
+('Parishin_B', 0.0017251372)
+('Wedelolactone', 0.001707077)
+('Lysionotin', 0.0017035902)
+('Daphnetin', 0.0016749799)
+('Fosbretabulin_Disodium', 0.0016719997)
+('Xanthotoxol', 0.0016711056)
+('Euphorbiasteroid', 0.0016568303)
+('Euphorbia_factor_L1', 0.0016568303)
+('Phosphocholine_chloride_calcium_salt_tet', 0.0016485155)
+('7-beta-Hydroxylathyrol', 0.0016348064)
+('4-Methylesculetin', 0.0016332567)
+('Adenosine_disodium_triphosphate', 0.0016114414)
+('Benzaldehyde', 0.001601845)
+('alpha-Tocopherolquinone', 0.001591146)
+('Dehydrodiisoeugenol', 0.0015892088)
+('DL-Mevalonolactone', 0.001573354)
+('Asarinin', 0.0015620887)
+('Sesamin', 0.0015620291)
+('(+)-Corynoline', 0.001539588)
+('L-Cycloserine', 0.0015315711)
+('D-Cycloserine', 0.0015314519)
+('Retinol', 0.0015036762)
+('Icaritin', 0.0014855564)
+('Staurosporine', 0.0014796257)
+('Anacardic_Acid', 0.0014774203)
+('Tabersonine', 0.0014322996)
+("Adenosine_5'-triphosphate_disodium_salt", 0.001429975)
+('Gefitinib', 0.001419574)
+('Menadione', 0.0013948083)
+('Plumbagin', 0.0013921559)
+('Palmatine', 0.001380086)
+('Daphnoretin', 0.0013794303)
+('2-Methoxynaphthoquinone', 0.0013569295)
+('Dichlorisone_Acetate', 0.001345098)
+('Berberine', 0.0013273656)
+('Epiberberine', 0.001321137)
+('Vitamin_E_Acetate', 0.001314342)
+('Isoimperatorin', 0.0013045967)
+('Esculetin', 0.0012960732)
+('Khellin', 0.0012957454)
+('5,6,7-TRIMETHOXYFLAVONE', 0.0012924075)
+('ISOPIMPINELLIN', 0.001291424)
+('Norisoboldine', 0.0012888312)
+('Sanguinarine', 0.00127846)
+('Erianin', 0.0012370348)
+('Lycobetaine', 0.001237005)
+('Piperlongumine', 0.0012322664)
+('Indigo', 0.0012311637)
+('Psoralidin', 0.001216054)
+("2'-Deoxycytidine-5'-diphosphate_trisodiu", 0.0011881292)
+('Coptisine', 0.0011864901)
+('Mirificin', 0.001177311)
+('Columbianadin', 0.0011771619)
+('D-Pinitol', 0.0011731386)
+('Geneticin_sulfate', 0.0011710525)
+('Eupatilin', 0.001170516)
+('Ouabain_octahydrate', 0.001152426)
+('Gambogic_Acid', 0.001146853)
+('Imperatorin', 0.0011247993)
+('Chelerythrine', 0.0011052489)
+('\xce\xb2-Nicotinamide_mononucleotide', 0.0011051893)
+('Thiourea', 0.0010898709)
+('Deguelin', 0.0010806322)
+('Panaxadiol', 0.0010611117)
+('Gamma-Oryzanol', 0.0010565817)
+('Berberine_hydrochloride', 0.0010147393)
+('Isoliensinine', 0.0010092258)
+('Daurisoline', 0.0010092258)
+("5'-Cytidylic_acid", 0.0009857118)
+('Coptisine_chloride', 0.000978291)
+('Liensinine', 0.0009764731)
+('Jatrorrhizine', 0.00096437335)
+('Triptolide', 0.00095388293)
+('Ellagic_acid', 0.00095307827)
+('Chelerythrine_chloride', 0.00091791153)
+('Cozymase', 0.000905633)
+('Liensinine_diperchlorate', 0.0009020269)
+('UDP_disodium_salt', 0.0008992255)
+('Dauricine', 0.00089743733)
+('Neferine', 0.00089743733)
+('Ethisterone', 0.000895977)
+('Praeruptorin_B', 0.00088116527)
+('Tangeretin', 0.0008791089)
+('Demethyleneberberine', 0.0008700788)
+('Palmatine_chloride', 0.0008636117)
+('Schisanhenol', 0.00085553527)
+('Dihydrothymine', 0.0008404255)
+('2,6-Dimethylbenzoquinone', 0.0008403361)
+('Methyl_Linoleate', 0.0008250475)
+('Sanguinarine_chloride', 0.00081416965)
+('Toosendanin', 0.0008020997)
+('Jatrorrhizine_hydrochloride', 0.0007881224)
+('Decursin', 0.000770092)
+("5'-IMP_disodium_salt", 0.0007507205)
+('Nitidine_chloride', 0.0007303357)
+('Sinensetin', 0.0006926954)
+('(+)-Pteryxin', 0.00067433715)
+('Praeruptorin_A', 0.00067433715)
+('Praeruptorin_A', 0.00067427754)
+('Cyclen', 0.00066652894)
+('Cyclopentanone', 0.0006467402)
+('Nobiletin', 0.00063562393)
+('Phellopterin', 0.0006200373)
+('Eupalinolide_A', 0.000613749)
+("5'-UMP_disodium_salt", 0.0006105602)
+('Dehydroandrographolide_Succinate_Potasium_Salt', 0.00060996413)
+('Retinyl_acetate', 0.0005736053)
+('Calcitriol', 0.0005453825)
+('Citicoline_sodium', 0.0005199015)
+('Linoleic_acid', 0.00051891804)
+('Auraptene', 0.00051394105)
+('Irisflorentin', 0.0005071759)
+('Formamide', 0.00049459934)
+('Vitexicarpin', 0.00049456954)
+('Corylifol_A', 0.0004914999)
+('Dihydrouracil', 0.00047188997)
+("Inosine_5'-triphosphate_trisodium_salt", 0.00046691298)
+('L-\xce\xb1-Phosphatidylcholine', 0.00045621395)
+('Pyrimidine', 0.00045612454)
+("Guanosine_5'-monophosphate_disodium_salt", 0.00044429302)
+('Artemetin', 0.0004260242)
+('Baccatin_III', 0.00040510297)
+('Notopterol', 0.00040102005)
+('Dehydroandrographolide_succinate', 0.0004003346)
+('Creatinine', 0.0003964305)
+('Linolenic_acid', 0.000392586)
+('Citicoline', 0.00039044023)
+('Ginkgolic_acid_C15:1', 0.00037154555)
+('Vitamin_D3', 0.00036421418)
+('Beta-Carotene', 0.0003375411)
+('gamma-Linolenic_acid', 0.00031480193)
+('Tricosanoic_acid', 0.00030842423)
+('10-Deacetylbaccatin_III', 0.00029799342)
+('Dronedarone', 0.00029680133)
+('Vitamin_D2', 0.00026142597)
+('Bergamotine', 0.0002565384)
+('Erucic_acid', 0.00021263957)
+('Melanin', 0.00020542741)
+('Astaxanthin', 0.00018528104)
+('Nervonic_acid', 0.00016239285)
+('Cholesteryl_palmitate', 0.00015997887)
+('Sisomicin_Sulfate', 0.00012534857)
+('1-Octacosanol', 9.778142e-05)
+('Zeaxanthin', 9.23872e-05)
+('Menatetrenone', 8.4370375e-05)
+('Phytic_acid', 4.9859285e-05)
+('Squalene', 4.348159e-05)
+('Miraculan', 3.8713217e-05)
+('Triacontanol', 3.8713217e-05)
+('Dipalmitin', 3.787875e-05)
+('Lutein', 3.7640333e-05)
+('Nonacosane', 3.4451485e-05)
+('Phytic_acid_dipotassium_salt', 2.0623207e-05)
+('Lanolin', 1.5705824e-05)
+('Solanesol', 1.0311604e-05)
+('Coenzyme_Q10', 1.0281801e-05)
+('Glyceryl_trimyristate', 7.122755e-06)
+('Tripalmitin', 4.1127205e-06)
+('Glycerol_trioleate', 3.784895e-06)
+('Castor_oil', 1.5795231e-06)

@@ -1,0 +1,47 @@
+Basibrol
+ OpenBabel02212023462D
+
+  6  5  0  0  0  0  0  0  0  0999 V2000
+    0.1105   -1.2375    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250   -0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    0.8250    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+    1.6500   -0.0000    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  3  5  1  0  0  0  0
+  3  6  1  0  0  0  0
+M  END
+>  <CdId>
+4719
+
+>  <Formula>
+C2H3Br3O
+
+>  <ID>
+T0807
+
+>  <Name>
+Basibrol
+
+>  <Synonyms>
+Basibrol; Tribromoethyl alcohol; TBE; Tribromoethanol; Avertin
+
+>  <CAS>
+75-80-9
+
+>  <MolWt>
+282.76
+
+>  <Pathways>
+Others
+
+>  <Target>
+Others
+
+>  <Receptor>
+Others
+
+$$$$

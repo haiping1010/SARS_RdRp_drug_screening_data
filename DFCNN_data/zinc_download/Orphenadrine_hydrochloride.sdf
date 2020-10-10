@@ -1,0 +1,87 @@
+Orphenadrine hydrochloride
+ OpenBabel02212023462D
+
+ 21 21  0  0  0  0  0  0  0  0999 V2000
+   -0.1786    0.2681    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+   -0.8931    0.6806    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6076    0.2681    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3220    0.6806    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.3220    1.5056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6076    1.9181    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8931    1.5056    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6076   -0.5569    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1786   -0.5569    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5359   -0.9694    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5359   -1.7944    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1786   -2.2069    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8931   -1.7944    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8931   -0.9694    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5359    0.6806    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2503    0.2681    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9648    0.6806    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6793    0.2681    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    3.3937    0.6806    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.6793   -0.5569    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    5.6330    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  9  1  0  0  0  0
+  1 15  1  0  0  0  0
+  2  3  2  0  0  0  0
+  2  7  1  0  0  0  0
+  3  4  1  0  0  0  0
+  3  8  1  0  0  0  0
+  4  5  2  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  2  0  0  0  0
+  9 10  2  0  0  0  0
+  9 14  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 11 12  2  0  0  0  0
+ 12 13  1  0  0  0  0
+ 13 14  2  0  0  0  0
+ 15 16  1  0  0  0  0
+ 16 17  1  0  0  0  0
+ 17 18  1  0  0  0  0
+ 18 19  1  0  0  0  0
+ 18 20  1  0  0  0  0
+M  END
+>  <CdId>
+752
+
+>  <Mol Weight>
+305.842
+
+>  <Formula>
+C18H24ClNO
+
+>  <ID>
+T1308
+
+>  <Name>
+Orphenadrine hydrochloride
+
+>  <Synonyms>
+Mebedrol;Mephenamin
+
+>  <CAS>
+341-69-5
+
+>  <Approved status>
+FDA
+
+>  <Disease>
+Nervous system
+
+>  <Indication>
+Parkinson'S Disease
+
+>  <Pathways>
+GPCR/G Protein; Membrane transporter/Ion channel; Neuroscience; Immunology/Inflammation
+
+>  <Target>
+Histamine Receptor antagonist; NMDAR antagonist; Norepinephrine antagonist; Sodium Channel inhibitor
+
+>  <Receptor>
+H1 receptor; NMDA receptor; Noradrenaline transporter (Sodium-dependent); Sodium Channel
+
+$$$$

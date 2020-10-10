@@ -1,0 +1,139 @@
+2-Amino-6-methylheptane 20 flase
+4-Aminobutyric acid 2 flase
+Actidione 3 flase
+Adenosine 1 flase
+ALA hydrochloride 2 flase
+Amenamevir 4 flase
+Amiloride hydrochloride dihydrate 16 true
+Amoxicillin 1 flase
+Ampicillin 1 flase
+Ampicillin sodium 5 flase
+Artamine 17 flase
+Azithromycin 1 flase
+Azlocillin sodium 1 flase
+Benazepril hydrochloride 1 flase
+Bestatin hydrochloride 1 flase
+Bortezomib 15 true
+Carfilzomib 1 flase
+Cariprazine 4 flase
+Cefepime Dihydrochloride Monohydrate 1 flase
+Ceftazidime 1 flase
+Cephradine 1 flase
+Cetylpyridinium chloride monohydrate 18 true
+Chloramphenicol 22 flase
+Chlorophos 35 true
+Cinacalcet hydrochloride 14 true
+Clofarabine 1 flase
+Clorprenaline hydrochloride 19 flase
+Decamethonium bromide 9 flase
+Dexrazoxane HCl 1 flase
+D-glutamine 2 flase
+Diphenidol hydrochloride 6 flase
+Disopyramide 4 flase
+DL-Glutamine 2 flase
+DL-Penicillamine 17 true
+DL-trihexyphenidyl hydrochloride 6 flase
+DL-Xylose 2 flase
+D-Mannitol 2 flase
+D-Pantethine 3 flase
+D-Sorbitol 2 flase
+Ethambutol dihydrochloride 3 flase
+Etofylline 1 flase
+Ferrous Bisglycinate 25 true
+Ferrous fumarate 34 true
+Fipronil 13 flase
+Fluconazole 13 true
+Flufenamic acid 21 flase
+Fluoxetine hydrochloride 8 flase
+Fluoxetine 8 flase
+Fluphenazine hydrochloride 6 true
+Fudosteine 2 flase
+Furaltadone hydrochloride 1 flase
+Gemcitabine 1 flase
+Glucosamine 2 flase
+glutamic acid 2 flase
+Guanethidine Monosulfate 33 true
+Heptaminol hydrochloride 20 true
+histidine 2 flase
+Homatropine Bromide 9 flase
+Imazalil 13 flase
+isoleucine 2 flase
+Isoprenaline hydrochloride 19 true
+L-arginine monohydrochloride 2 flase
+L-Arginine 2 flase
+L-Asparagine 2 flase
+L-Aspartic acid 2 flase
+Lauroseptol 18 flase
+Levomilnacipran 24 flase
+L-Glutamic acid monosodium salt 2 flase
+L-Glutamine 2 flase
+Lisinopril dihydrate 1 flase
+L-Leucine 2 flase
+L-Ornithine 2 flase
+L-Valine 2 flase
+lysine 2 flase
+Mandelic acid 32 true
+Mebeverine hydrochloride 8 flase
+Mefloquine hydrochloride 6 flase
+Meglumine 2 flase
+Mesna 31 true
+Methotrexate 1 flase
+Milnacipran hydrochloride 24 true
+Moroxydine hydrochloride 1 flase
+Myclobutanil 13 flase
+nafcillin sodium 1 flase
+Nateglinide 3 true
+Nebivolol hydrochloride 6 flase
+Niflumic acid 16 flase
+Nitisinone 22 flase
+Nylidrin hydrochloride 3 flase
+Odanacatib 27 flase
+Ornidazole 13 flase
+Orphenadrine hydrochloride 8 flase
+Oxacillin sodium 5 true
+Oxaliplatin 11 true
+Palonosetron hydrochloride 6 flase
+Pemirolast potassium 5 flase
+Penciclovir 1 flase
+Perindopril erbumine 1 flase
+Piperacillin sodium salt 1 flase
+Pralatrexate 1 flase
+Pramiracetam 4 true
+Proguanil hydrochloride 16 flase
+Propantheline bromide 9 true
+Propranolol hydrochloride 8 flase
+Puromycin dihydrochloride 1 flase
+Quinapril hydrochloride 1 flase
+Raltegravir 1 flase
+Ramipril 1 flase
+Rebeprazole sodium 23 true
+Riluzole 30 true
+Rimantadine hydrochloride 14 flase
+Romidepsin 10 true
+Roxarsone 22 true
+Secnidazole 13 flase
+Selenomethionine 2 flase
+serine 2 true
+Sodium gluconate 2 flase
+Sofosbuvir 1 flase
+Sotalol hydrochloride 27 true
+Suprofen 26 flase
+Temocapril HCl 1 flase
+Temozolomide 7 true
+Teriflunomide 21 true
+Theophylline-7-acetic acid 1 flase
+Thymopentin 1 flase
+Tiaprofenic acid 26 true
+Tiopronin 2 flase
+Trifluoperazine dihydrochloride 6 flase
+Triflupromazine hydrochloride 6 flase
+Triflusal 29 true
+Ubenimex 3 flase
+Valacyclovir hydrochloride 1 flase
+Valganciclovir hydrochloride 1 true
+Valproic acid sodium salt 28 true
+Venlafaxine hydrochloride 8 true
+Vidarabine 1 flase
+Vigabatrin 2 flase
+Vildagliptin 1 flase
+Xylitol 12 true

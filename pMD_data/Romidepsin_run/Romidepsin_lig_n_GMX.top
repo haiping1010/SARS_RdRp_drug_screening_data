@@ -1,0 +1,15 @@
+; Romidepsin_lig_n_GMX.top created by acpype (Rev: 0) on Tue Mar 24 16:32:48 2020
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.8333
+
+; Include Romidepsin_lig_n_GMX.itp topology
+#include "Romidepsin_lig_n_GMX.itp"
+
+[ system ]
+ Romidepsin_lig_n
+
+[ molecules ]
+; Compound        nmols
+ Romidepsin_lig_n 1     

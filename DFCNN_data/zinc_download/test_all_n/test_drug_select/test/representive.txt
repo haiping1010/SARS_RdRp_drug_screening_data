@@ -1,0 +1,151 @@
+2-Aminoethanethiol 118 true
+2-Pyridinealdoxime methochloride 117 true
+Acalabrutinib 4 true
+Acamprosate calcium 57 true
+Acetanilide 101 true
+Acetohydroxamic acid 131 true
+Acetylcholine chloride 37 true
+Acetylleucine 54 true
+Alodan 151 true
+Altretamine 95 true
+Ambrisentan 51 true
+Aminacrine 83 true
+Aminothiazole 112 true
+Anastrozole 80 true
+Anestan 150 true
+Anethole trithione 149 true
+Anovigam 59 true
+Antepan 86 true
+Arsenic oxide (3) 148 true
+Auranofin 111 true
+Azelnidipine 34 true
+Azlocillin sodium 5 true
+Bemegrid 94 true
+Benzoic acid 90 true
+BISMUTH SUBGALLATE 69 true
+Bupropion hydrochloride 130 true
+Butoconazole nitrate 75 true
+Carbetapentane citrate 7 true
+Carmustine 105 true
+Cetilistat 29 true
+Chloquinan 66 true
+Chlorobutanol 147 true
+Chromium picolinate 126 true
+Cisplatin 146 true
+Citiolone 81 true
+Clorpyrifos 125 true
+Corvotone 70 true
+Dichlorvos 139 true
+Dicurone 53 true
+Dimethyl fumarate 138 true
+Dimethyl sulfoxide 145 true
+Disulfiram 144 true
+DL-Penicillamine 110 true
+DL-Xylose 58 true
+Duloxetine hydrochloride 46 true
+Edaravone 62 true
+Efavirenz 93 true
+Epalrestat 39 true
+Etidronate 100 true
+Favipiravir 45 true
+Febuxostat 79 true
+Fidaxomicin 8 true
+Flunarizine dihydrochloride 20 true
+Flupirtine maleate 23 true
+Flurbiprofen Axetil 78 true
+Fosfomycin calcium 124 true
+Fudosteine 36 true
+Fulvestrant 40 true
+Gemifloxacin?mesylate 2 true
+Genipin 30 true
+Gliclazide 16 true
+Guanabenz Acetate 99 true
+Heptaminol hydrochloride 98 true
+Hexamethylenetetramine 104 true
+Hexetidine 38 true
+Hygromycin B 6 true
+Icotinib 32 true
+Iodipamide 28 true
+Iproniazid Phosphate 97 true
+Isosorbide dinitrate 103 true
+Isoxsuprine hydrochloride 33 true
+Lamotrigine 65 true
+L-Cycloserine 72 true
+Ligustrazine hydrochloride 143 true
+Lithium citrate tribasic tetrahydrate 109 true
+Lonidamine 27 true
+Luliconazole 92 true
+Lupetidin 123 true
+Malathion 122 true
+Mefenamic acid 61 true
+Menadione 82 true
+Mercaptopurine 116 true
+Metformin hydrochloride 121 true
+Metyrapone 137 true
+Mitotan 115 true
+Molsidomine 13 true
+Nalidixic acid sodium salt 18 true
+Nedaplatin 114 true
+Nefopam hydrochloride 12 true
+Nialamide 47 true
+Nitarsone 91 true
+Nizatidine 77 true
+Nonoxynol 49 true
+Noradrenaline bitartrate 19 true
+Olsalazine disodium 56 true
+Oxcarbazepine 76 true
+Oxiniacic Acid 96 true
+Oxytetracycline 21 true
+Pamidronate disodium salt 85 true
+Peramivir Trihydrate 60 true
+Phenformin hydrochloride 74 true
+Pheniramine maleate 10 true
+Phenytoin 67 true
+Potassium guaiacolsulfonate 68 true
+Potassium iodide 142 true
+Povidone-iodine 48 true
+Probucol 84 true
+Promethazine 41 true
+Propitocaine hydrochloride 44 true
+Protionamide 108 true
+Racecadotril 64 true
+Ranolazine dihydrochloride 1 true
+(R)-baclofen 63 true
+Rebeprazole sodium 26 true
+Resveratrol 42 true
+Retapamulin 3 true
+Retinol palmitate 24 true
+Rilmenidine Phosphate 88 true
+Rimantadine hydrochloride 107 true
+Rivastigmine 55 true
+Roniacol 113 true
+Seratrodast 14 true
+Sertraline hydrochloride 89 true
+Sivelestat 9 true
+Sodium Nitroprusside 136 true
+Stearic acid 73 true
+Stiripentol 87 true
+Strontium ranelate 120 true
+Succimer 141 true
+Sulindac 135 true
+Talc 134 true
+Tasimelteon 35 true
+Tenofovir 17 true
+Terbinafine hydrochloride 71 true
+Thimerosal 140 true
+Thioctic acid 133 true
+Tiaprofenic acid 102 true
+Tizoxanide 22 true
+Tolnaftate 129 true
+Topiramate 50 true
+Triethylenethiophosphoramide 132 true
+Trilostane 11 true
+Urea 119 true
+Valpramide 128 true
+Vanillin 31 true
+Vismodegib 25 true
+Vitamin B6 43 true
+Warfarin sodium 15 true
+Xylazine hydrochloride 52 true
+Zileuton 127 true
+Zinc undecylenate 106 true

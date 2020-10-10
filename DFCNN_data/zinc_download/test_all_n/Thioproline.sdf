@@ -1,0 +1,61 @@
+Thioproline
+ OpenBabel02212023462D
+
+  8  8  0  0  0  0  0  0  0  0999 V2000
+   -0.1467    2.3518    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5678    1.9393    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2822    2.3518    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5678    1.1143    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    1.2352    0.6294    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9803   -0.1553    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0
+    0.1553   -0.1553    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0997    0.6294    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  2  0  0  0  0
+  2  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  8  1  0  0  0  0
+  5  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+M  END
+>  <CdId>
+1420
+
+>  <Mol Weight>
+133.169
+
+>  <Formula>
+C4H7NO2S
+
+>  <ID>
+T0221
+
+>  <Name>
+Thioproline
+
+>  <Synonyms>
+Timonacic;1,3-Thiazolidine-4-carboxylic acid
+
+>  <CAS>
+444-27-9
+
+>  <Approved status>
+Other countries
+
+>  <Disease>
+Cancer
+
+>  <Indication>
+Cancer
+
+>  <Pathways>
+GPCR/G Protein
+
+>  <Target>
+Annexin A antagonist
+
+>  <Receptor>
+Annexin A5
+
+$$$$
